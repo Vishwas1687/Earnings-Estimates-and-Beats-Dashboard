@@ -1,0 +1,162 @@
+/* App.css */
+.App {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.App h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+/* Custom scrollbar for better UX */
+.mantine-ScrollArea-scrollbar {
+  background-color: #f8f9fa;
+}
+
+.mantine-ScrollArea-thumb {
+  background-color: #ced4da;
+  border-radius: 4px;
+}
+
+.mantine-ScrollArea-viewport {
+  padding-bottom: 0 !important;
+}
+
+/* Table styling improvements */
+.mantine-Table-table {
+  background-color: white;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.mantine-Table-th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  transition: all 0.2s ease;
+}
+
+.mantine-Table-th:hover {
+  background-color: #e9ecef;
+}
+
+.mantine-Table-th[draggable="true"] {
+  border: 2px dashed transparent;
+  transition: all 0.2s ease;
+}
+
+.mantine-Table-th[draggable="true"]:hover {
+  border-color: #228be6;
+  background-color: #f0f8ff;
+}
+
+/* Sortable column styling */
+.mantine-Table-th[style*="pointer"] {
+  background-color: #f8f9fa;
+  transition: background-color 0.2s ease;
+}
+
+.mantine-Table-th[style*="pointer"]:hover {
+  background-color: #e3f2fd;
+  border-bottom-color: #2196f3;
+}
+
+/* Active sort styling */
+.mantine-Table-th.sorted {
+  background-color: #e3f2fd;
+  border-bottom-color: #2196f3;
+}
+
+/* Drag and drop indicators */
+.mantine-Table-th.dragging {
+  opacity: 0.5;
+  transform: rotate(2deg);
+  z-index: 1000;
+}
+
+.mantine-Table-th.drag-over {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+  border-style: dashed;
+}
+
+/* Drag handle styling */
+.drag-handle {
+  color: #868e96;
+  cursor: move;
+  margin-right: 8px;
+  font-size: 12px;
+  transition: color 0.2s ease;
+}
+
+.mantine-Table-th:hover .drag-handle {
+  color: #495057;
+}
+
+/* Sort indicator styling */
+.sort-indicator {
+  font-size: 12px;
+  font-weight: bold;
+  color: #868e96;
+  transition: color 0.2s ease;
+  margin-left: 4px;
+}
+
+.sort-indicator.active {
+  color: #228be6;
+}
+
+.sort-indicator:hover {
+  color: #1971c2;
+}
+
+.mantine-Table-td {
+  border-bottom: 1px solid #f1f3f4;
+  vertical-align: top;
+  padding: 8px 12px;
+}
+
+.mantine-Table-tr:hover .mantine-Table-td {
+  background-color: #f8f9fa;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+  
+  .mantine-Group-root {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/* Loading states */
+.loading-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+}
+
+/* Analyst toggle styling */
+.analyst-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.analyst-count {
+  font-size: 0.75rem;
+  color: #6c757d;
+  font-style: italic;
+}

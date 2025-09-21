@@ -1,0 +1,191 @@
+[
+  {
+    "country": "INDIA",
+    "ticker": "GRSE.NS",
+    "name": "Garden Reach Shipbuilders",
+    "price": 2605.3,
+    "industry": "aerospace-defense",
+    "sector": "industrials",
+    "TTM_EPS": "48.98",
+    "TTM_PE": "53.19",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "53.19",
+        "peg": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "53.19",
+        "peg": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 63.2,
+        "year_ago_eps": 46.04,
+        "eps_growth": "37.27",
+        "pe": "41.22",
+        "peg": "1.11",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 87.5,
+        "year_ago_eps": 63.2,
+        "eps_growth": "38.45",
+        "pe": "29.77",
+        "peg": "0.77",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "37.78",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "31.97",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1758464614178
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MAZDOCK.NS",
+    "name": "Mazagon Dock Shipbuilders",
+    "price": 2985,
+    "industry": "aerospace-defense",
+    "sector": "industrials",
+    "TTM_EPS": "53.73",
+    "TTM_PE": "55.56",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "55.56",
+        "peg": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "55.56",
+        "peg": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 71.17875,
+        "year_ago_eps": 59.83,
+        "eps_growth": "18.97",
+        "pe": "41.94",
+        "peg": "2.21",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 84.58413,
+        "year_ago_eps": 71.17875,
+        "eps_growth": "18.83",
+        "pe": "35.29",
+        "peg": "1.87",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "19.73",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "12.95",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1758464629289
+  },
+  {
+    "country": "INDIA",
+    "ticker": "COCHINSHIP.NS",
+    "name": "Cochin Shipyard",
+    "price": 1900.8,
+    "industry": "aerospace-defense",
+    "sector": "industrials",
+    "TTM_EPS": "31.93",
+    "TTM_PE": "59.53",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "59.53",
+        "peg": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "59.53",
+        "peg": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 31.97518,
+        "year_ago_eps": 32.04,
+        "eps_growth": "-0.20",
+        "pe": "59.45",
+        "peg": "-293.84",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 38.51253,
+        "year_ago_eps": 31.97518,
+        "eps_growth": "20.45",
+        "pe": "49.36",
+        "peg": "2.41",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "8.79",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "25.26",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1758464788739
+  }
+]
