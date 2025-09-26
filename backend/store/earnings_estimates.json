@@ -1,45 +1,231 @@
 [
   {
     "country": "INDIA",
-    "ticker": "GRSE.NS",
-    "name": "Garden Reach Shipbuilders",
-    "price": 2605.3,
-    "industry": "aerospace-defense",
-    "sector": "industrials",
-    "TTM_EPS": "48.98",
-    "TTM_PE": "53.19",
+    "ticker": "BAJFINANCE.NS",
+    "name": "Bajaj Finance",
+    "mostRecentQuarter": "2025-06-30",
+    "lastFiscalYear": "2025-03-31",
+    "price": 985.1,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "28.05",
+    "TTM_PE": "35.12",
+    "PB": "6.32",
+    "ROE": "16.46",
+    "ROA": "N/A",
+    "EBITDAMargins": "N/A",
+    "OPM": "60.70",
+    "NPM": "44.94",
     "earningsTrend": {
       "Current Quarter": {
-        "eps_estimate": null,
-        "year_ago_eps": null,
-        "eps_growth": "NaN",
-        "pe": "53.19",
-        "peg": "NaN",
-        "analystCount": null
+        "eps_estimate": 7.91,
+        "year_ago_eps": 5.85,
+        "eps_growth": "35.21",
+        "pe": "32.72",
+        "peg": "0.93",
+        "roe_earnings": "6.48",
+        "pb_fwd": "6.02",
+        "pb_valuation": "0.93",
+        "analystCount": 1
       },
       "Next Quarter": {
         "eps_estimate": null,
         "year_ago_eps": null,
         "eps_growth": "NaN",
-        "pe": "53.19",
+        "pe": "32.72",
         "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "6.02",
+        "pb_valuation": "NaN",
         "analystCount": null
       },
       "Current Year": {
-        "eps_estimate": 63.2,
-        "year_ago_eps": 46.04,
-        "eps_growth": "37.27",
-        "pe": "41.22",
-        "peg": "1.11",
-        "analystCount": 2
+        "eps_estimate": 33.47419,
+        "year_ago_eps": 26.82,
+        "eps_growth": "24.81",
+        "pe": "29.43",
+        "peg": "1.19",
+        "roe_earnings": "4.39",
+        "pb_fwd": "5.21",
+        "pb_valuation": "1.19",
+        "analystCount": 28
       },
       "Next Year": {
-        "eps_estimate": 87.5,
-        "year_ago_eps": 63.2,
-        "eps_growth": "38.45",
-        "pe": "29.77",
+        "eps_estimate": 41.97325,
+        "year_ago_eps": 33.47419,
+        "eps_growth": "25.39",
+        "pe": "23.47",
+        "peg": "0.92",
+        "roe_earnings": "4.61",
+        "pb_fwd": "4.26",
+        "pb_valuation": "0.92",
+        "analystCount": 29
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "19.63",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "19.14",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "22.19",
+        "analystCount": 27
+      },
+      "Next Year": {
+        "revenue_growth": "22.50",
+        "analystCount": 27
+      }
+    },
+    "timestamp": 1758903206140
+  },
+  {
+    "country": "INDIA",
+    "ticker": "CHOLAFIN.NS",
+    "name": "Cholamandalam",
+    "mostRecentQuarter": "2025-06-30",
+    "lastFiscalYear": "2025-03-31",
+    "price": 1569.9,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "52.88",
+    "TTM_PE": "29.69",
+    "PB": "5.58",
+    "ROE": "17.09",
+    "ROA": "N/A",
+    "EBITDAMargins": "N/A",
+    "OPM": "52.51",
+    "NPM": "39.21",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 14.26,
+        "year_ago_eps": 11.43,
+        "eps_growth": "24.76",
+        "pe": "28.18",
+        "peg": "1.14",
+        "roe_earnings": "4.67",
+        "pb_fwd": "5.31",
+        "pb_valuation": "1.14",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 15.62,
+        "year_ago_eps": 12.89,
+        "eps_growth": "21.18",
+        "pe": "26.86",
+        "peg": "1.27",
+        "roe_earnings": "3.98",
+        "pb_fwd": "5.04",
+        "pb_valuation": "1.27",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 62.39968,
+        "year_ago_eps": 50.6,
+        "eps_growth": "23.32",
+        "pe": "25.16",
+        "peg": "1.08",
+        "roe_earnings": "4.23",
+        "pb_fwd": "4.57",
+        "pb_valuation": "1.08",
+        "analystCount": 32
+      },
+      "Next Year": {
+        "eps_estimate": 79.62962,
+        "year_ago_eps": 62.39968,
+        "eps_growth": "27.61",
+        "pe": "19.72",
+        "peg": "0.71",
+        "roe_earnings": "5.19",
+        "pb_fwd": "3.71",
+        "pb_valuation": "0.71",
+        "analystCount": 31
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "25.70",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "23.05",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "23.86",
+        "analystCount": 27
+      },
+      "Next Year": {
+        "revenue_growth": "21.54",
+        "analystCount": 27
+      }
+    },
+    "timestamp": 1758903280503
+  },
+  {
+    "country": "INDIA",
+    "ticker": "APTUS.NS",
+    "name": "Aptus Value Housing",
+    "mostRecentQuarter": "2025-06-30",
+    "lastFiscalYear": "2025-03-31",
+    "price": 311.85,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "15.96",
+    "TTM_PE": "19.54",
+    "PB": "3.61",
+    "ROE": "16.84",
+    "ROA": "N/A",
+    "EBITDAMargins": "N/A",
+    "OPM": "79.51",
+    "NPM": "61.10",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.4,
+        "year_ago_eps": 3.63,
+        "eps_growth": "21.21",
+        "pe": "18.64",
+        "peg": "0.88",
+        "roe_earnings": "3.92",
+        "pb_fwd": "3.46",
+        "pb_valuation": "0.88",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.6,
+        "year_ago_eps": 3.81,
+        "eps_growth": "20.73",
+        "pe": "17.80",
+        "peg": "0.86",
+        "roe_earnings": "3.82",
+        "pb_fwd": "3.29",
+        "pb_valuation": "0.86",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 18.32289,
+        "year_ago_eps": 15.01,
+        "eps_growth": "22.07",
+        "pe": "17.02",
         "peg": "0.77",
-        "analystCount": 2
+        "roe_earnings": "3.87",
+        "pb_fwd": "3.00",
+        "pb_valuation": "0.77",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 22.19635,
+        "year_ago_eps": 18.32289,
+        "eps_growth": "21.14",
+        "pe": "14.05",
+        "peg": "0.66",
+        "roe_earnings": "3.70",
+        "pb_fwd": "2.47",
+        "pb_valuation": "0.67",
+        "analystCount": 15
       }
     },
     "revenueTrend": {
@@ -52,56 +238,159 @@
         "analystCount": 0
       },
       "Current Year": {
-        "revenue_growth": "37.78",
-        "analystCount": 2
+        "revenue_growth": "26.60",
+        "analystCount": 14
       },
       "Next Year": {
-        "revenue_growth": "31.97",
-        "analystCount": 2
+        "revenue_growth": "22.26",
+        "analystCount": 14
       }
     },
-    "timestamp": 1758464614178
+    "timestamp": 1758904293752
   },
   {
     "country": "INDIA",
-    "ticker": "MAZDOCK.NS",
-    "name": "Mazagon Dock Shipbuilders",
-    "price": 2985,
-    "industry": "aerospace-defense",
-    "sector": "industrials",
-    "TTM_EPS": "53.73",
-    "TTM_PE": "55.56",
+    "ticker": "AAVAS.NS",
+    "name": "Aavas Financiers",
+    "mostRecentQuarter": "2025-06-30",
+    "lastFiscalYear": "2025-03-31",
+    "price": 1574.8,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "73.45",
+    "TTM_PE": "21.44",
+    "PB": "2.86",
+    "ROE": "12.62",
+    "ROA": "N/A",
+    "EBITDAMargins": "N/A",
+    "OPM": "51.87",
+    "NPM": "42.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 19.89,
+        "year_ago_eps": 18.67,
+        "eps_growth": "6.53",
+        "pe": "21.09",
+        "peg": "3.23",
+        "roe_earnings": "0.85",
+        "pb_fwd": "2.76",
+        "pb_valuation": "3.23",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 20.21,
+        "year_ago_eps": 18.45,
+        "eps_growth": "9.54",
+        "pe": "20.60",
+        "peg": "2.16",
+        "roe_earnings": "1.23",
+        "pb_fwd": "2.66",
+        "pb_valuation": "2.16",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 83.93197,
+        "year_ago_eps": 71.97,
+        "eps_growth": "16.62",
+        "pe": "18.76",
+        "peg": "1.13",
+        "roe_earnings": "2.20",
+        "pb_fwd": "2.48",
+        "pb_valuation": "1.13",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 102.86152,
+        "year_ago_eps": 83.93197,
+        "eps_growth": "22.55",
+        "pe": "15.31",
+        "peg": "0.68",
+        "roe_earnings": "3.14",
+        "pb_fwd": "2.13",
+        "pb_valuation": "0.68",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "13.75",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "14.91",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "16.62",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "19.86",
+        "analystCount": 12
+      }
+    },
+    "timestamp": 1758904811114
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INDIASHLTR.NS",
+    "name": "India Shelter Finance",
+    "mostRecentQuarter": "2025-06-30",
+    "lastFiscalYear": "2025-03-31",
+    "price": 868.25,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "37.10",
+    "TTM_PE": "23.40",
+    "PB": "3.46",
+    "ROE": "14.09",
+    "ROA": "N/A",
+    "EBITDAMargins": "N/A",
+    "OPM": "63.46",
+    "NPM": "47.96",
     "earningsTrend": {
       "Current Quarter": {
         "eps_estimate": null,
         "year_ago_eps": null,
         "eps_growth": "NaN",
-        "pe": "55.56",
+        "pe": "23.40",
         "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.48",
+        "pb_valuation": "NaN",
         "analystCount": null
       },
       "Next Quarter": {
         "eps_estimate": null,
         "year_ago_eps": null,
         "eps_growth": "NaN",
-        "pe": "55.56",
+        "pe": "23.40",
         "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.48",
+        "pb_valuation": "NaN",
         "analystCount": null
       },
       "Current Year": {
-        "eps_estimate": 71.17875,
-        "year_ago_eps": 59.83,
-        "eps_growth": "18.97",
-        "pe": "41.94",
-        "peg": "2.21",
-        "analystCount": 4
+        "eps_estimate": 44.86,
+        "year_ago_eps": 33.93,
+        "eps_growth": "32.21",
+        "pe": "19.35",
+        "peg": "0.60",
+        "roe_earnings": "4.90",
+        "pb_fwd": "2.95",
+        "pb_valuation": "0.60",
+        "analystCount": 5
       },
       "Next Year": {
-        "eps_estimate": 84.58413,
-        "year_ago_eps": 71.17875,
-        "eps_growth": "18.83",
-        "pe": "35.29",
-        "peg": "1.87",
+        "eps_estimate": 55.29991,
+        "year_ago_eps": 44.33448,
+        "eps_growth": "23.27",
+        "pe": "15.70",
+        "peg": "0.67",
+        "roe_earnings": "3.68",
+        "pb_fwd": "2.48",
+        "pb_valuation": "0.68",
         "analystCount": 4
       }
     },
@@ -115,56 +404,76 @@
         "analystCount": 0
       },
       "Current Year": {
-        "revenue_growth": "19.73",
+        "revenue_growth": "29.75",
         "analystCount": 5
       },
       "Next Year": {
-        "revenue_growth": "12.95",
+        "revenue_growth": "24.64",
         "analystCount": 5
       }
     },
-    "timestamp": 1758464629289
+    "timestamp": 1758904899636
   },
   {
     "country": "INDIA",
-    "ticker": "COCHINSHIP.NS",
-    "name": "Cochin Shipyard",
-    "price": 1900.8,
-    "industry": "aerospace-defense",
-    "sector": "industrials",
-    "TTM_EPS": "31.93",
-    "TTM_PE": "59.53",
+    "ticker": "NORTHARC.NS",
+    "name": "Northern Arc Capital",
+    "mostRecentQuarter": "2025-06-30",
+    "lastFiscalYear": "2025-03-31",
+    "price": 262.31,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "18.10",
+    "TTM_PE": "14.49",
+    "PB": "1.23",
+    "ROE": "8.22",
+    "ROA": "N/A",
+    "EBITDAMargins": "N/A",
+    "OPM": "36.19",
+    "NPM": "26.85",
     "earningsTrend": {
       "Current Quarter": {
         "eps_estimate": null,
         "year_ago_eps": null,
         "eps_growth": "NaN",
-        "pe": "59.53",
+        "pe": "14.49",
         "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.23",
+        "pb_valuation": "NaN",
         "analystCount": null
       },
       "Next Quarter": {
         "eps_estimate": null,
         "year_ago_eps": null,
         "eps_growth": "NaN",
-        "pe": "59.53",
+        "pe": "14.49",
         "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.23",
+        "pb_valuation": "NaN",
         "analystCount": null
       },
       "Current Year": {
-        "eps_estimate": 31.97518,
-        "year_ago_eps": 32.04,
-        "eps_growth": "-0.20",
-        "pe": "59.45",
-        "peg": "-293.84",
+        "eps_estimate": 24.55,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "10.68",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "1.11",
+        "pb_valuation": "0.00",
         "analystCount": 2
       },
       "Next Year": {
-        "eps_estimate": 38.51253,
-        "year_ago_eps": 31.97518,
-        "eps_growth": "20.45",
-        "pe": "49.36",
-        "peg": "2.41",
+        "eps_estimate": 35.6,
+        "year_ago_eps": 24.55,
+        "eps_growth": "45.01",
+        "pe": "7.37",
+        "peg": "0.16",
+        "roe_earnings": "5.88",
+        "pb_fwd": "0.96",
+        "pb_valuation": "0.16",
         "analystCount": 2
       }
     },
@@ -178,14 +487,14 @@
         "analystCount": 0
       },
       "Current Year": {
-        "revenue_growth": "8.79",
+        "revenue_growth": "Infinity",
         "analystCount": 2
       },
       "Next Year": {
-        "revenue_growth": "25.26",
+        "revenue_growth": "24.38",
         "analystCount": 2
       }
     },
-    "timestamp": 1758464788739
+    "timestamp": 1758904968141
   }
 ]

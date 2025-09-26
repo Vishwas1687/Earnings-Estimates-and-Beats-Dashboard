@@ -151,6 +151,57 @@ const TableControls = ({
               >
                 Revenue Growth ({getVisibleCount(fieldCategories.revenueGrowth)}/{fieldCategories.revenueGrowth.length})
               </Button>
+              <Button
+                variant={isGroupVisible(fieldCategories.pb_fwd) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldCategories.pb_fwd)}
+              >
+                Forward PB ({getVisibleCount(fieldCategories.pb_fwd)}/{fieldCategories.pb_fwd.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldCategories.roe_earnings) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldCategories.roe_earnings)}
+              >
+                ROE_Earnings ({getVisibleCount(fieldCategories.roe_earnings)}/{fieldCategories.roe_earnings.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldCategories.pb_valuation) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldCategories.pb_valuation)}
+              >
+                PB Valuation ({getVisibleCount(fieldCategories.pb_valuation)}/{fieldCategories.pb_valuation.length})
+              </Button>
+            </Group>
+          </div>
+
+          <Divider />
+
+          {/* TTM Metrics */}
+          <div>
+            <Text size="sm" weight={500} mb="xs">TTM Metrics</Text>
+            <Group>
+              <Button
+                variant={isGroupVisible(fieldGroups.valuations) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldGroups.valuations)}
+              >
+                Valuations ({getVisibleCount(fieldGroups.valuations)}/{fieldGroups.valuations.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldGroups.margins) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldGroups.margins)}
+              >
+                Margins ({getVisibleCount(fieldGroups.margins)}/{fieldGroups.margins.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldGroups.return_ratios) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldGroups.return_ratios)}
+              >
+                Return Ratios ({getVisibleCount(fieldGroups.return_ratios)}/{fieldGroups.return_ratios.length})
+              </Button>
             </Group>
           </div>
 
@@ -166,13 +217,6 @@ const TableControls = ({
                 onClick={() => toggleGroup(fieldGroups.company)}
               >
                 Company Details ({getVisibleCount(fieldGroups.company)}/{fieldGroups.company.length})
-              </Button>
-              <Button
-                variant={isGroupVisible(fieldGroups.ttm) ? "filled" : "light"}
-                size="xs"
-                onClick={() => toggleGroup(fieldGroups.ttm)}
-              >
-                TTM Metrics ({getVisibleCount(fieldGroups.ttm)}/{fieldGroups.ttm.length})
               </Button>
             </Group>
           </div>

@@ -1,14 +1,26 @@
 [
   {
-    "ticker": "GRSE.NS",
-    "name": "Garden Reach Shipbuilders"
+    "ticker": "BAJFINANCE.NS",
+    "name": "Bajaj Finance"
   },
   {
-    "ticker": "MAZDOCK.NS",
-    "name": "Mazagon Dock Shipbuilders"
+    "ticker": "CHOLAFIN.NS",
+    "name": "Cholamandalam"
   },
   {
-    "ticker": "COCHINSHIP.NS",
-    "name": "Cochin Shipyard"
+    "ticker": "APTUS.NS",
+    "name": "Aptus Value Housing"
+  },
+  {
+    "ticker": "AAVAS.NS",
+    "name": "Aavas Financiers"
+  },
+  {
+    "ticker": "INDIASHLTR.NS",
+    "name": "India Shelter Finance"
+  },
+  {
+    "ticker": "NORTHARC.NS",
+    "name": "Northern Arc Capital"
   }
 ]
