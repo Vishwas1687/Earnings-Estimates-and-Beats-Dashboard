@@ -37,3 +37,20 @@ export const fetchTickers = async() => {
     throw new Error(`Failed to fetch data: ${error.message}`);
   }
 }
+
+export const deleteStock = async(ticker) => {
+  try {
+    const response = await fetch(
+      `${API_BASE_URL}/api/delete-company?ticker=${encodeURIComponent(ticker)}`
+    );
+
+    if(!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`)
+    }
+    const data = await response.json();
+    return data;
+  } catch(error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+}

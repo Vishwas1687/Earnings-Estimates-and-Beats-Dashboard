@@ -4,7 +4,7 @@ import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import EarningsTable from "./components/EarningsTable/EarningsTable";
 import AddCompanyForm from "./components/AddCompanyForm/AddCompanyForm";
-import { fetchEarningsData, fetchTickers } from "./utils/api";
+import { fetchEarningsData, fetchTickers, deleteStock } from "./utils/api";
 import "./App.css";
 
 function App() {
@@ -34,7 +34,7 @@ function App() {
       if (data) {
         const newCompany = {
           ...data,
-          id: Date.now(), // Simple ID generation
+          id: ticker,
           ticker,
           name,
         };
@@ -47,8 +47,13 @@ function App() {
     }
   };
 
-  const deleteCompany = (id) => {
-    setCompanies((prev) => prev.filter((company) => company.id !== id));
+  const deleteCompany = async(id) => {
+    try{
+      const result = await deleteStock(id);
+      setCompanies((prev) => prev.filter((company) => company.id !== id));
+    } catch(error) {
+      console.log(error)
+    }
   };
 
   useEffect(() => {

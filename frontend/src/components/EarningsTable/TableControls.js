@@ -179,8 +179,15 @@ const TableControls = ({
 
           {/* TTM Metrics */}
           <div>
-            <Text size="sm" weight={500} mb="xs">TTM Metrics</Text>
+            <Text size="sm" weight={500} mb="xs">Basic Metrics</Text>
             <Group>
+              <Button
+                variant={isGroupVisible(fieldGroups.company) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldGroups.company)}
+              >
+                Company Details ({getVisibleCount(fieldGroups.company)}/{fieldGroups.company.length})
+            </Button>
               <Button
                 variant={isGroupVisible(fieldGroups.valuations) ? "filled" : "light"}
                 size="xs"
@@ -207,16 +214,36 @@ const TableControls = ({
 
           <Divider />
 
-          {/* Company Info */}
           <div>
-            <Text size="sm" weight={500} mb="xs">Company Information</Text>
+            <Text size="sm" weight={500} mb="xs"> Price Targets</Text>
             <Group>
-              <Button
-                variant={isGroupVisible(fieldGroups.company) ? "filled" : "light"}
+                <Button
+                variant={isGroupVisible(fieldCategories.currentYearPETargets) ? "filled" : "light"}
                 size="xs"
-                onClick={() => toggleGroup(fieldGroups.company)}
+                onClick={() => toggleGroup(fieldCategories.currentYearPETargets)}
               >
-                Company Details ({getVisibleCount(fieldGroups.company)}/{fieldGroups.company.length})
+                Current Year PE Targets ({getVisibleCount(fieldCategories.currentYearPETargets)}/{fieldCategories.currentYearPETargets.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldCategories.currentYearPBFwdTargets) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldCategories.currentYearPBFwdTargets)}
+              >
+                Current Year PB Fwd Targets ({getVisibleCount(fieldCategories.currentYearPBFwdTargets)}/{fieldCategories.currentYearPBFwdTargets.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldCategories.nextYearPETargets) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldCategories.nextYearPETargets)}
+              >
+                Next Year PE Targets ({getVisibleCount(fieldCategories.nextYearPETargets)}/{fieldCategories.nextYearPETargets.length})
+              </Button>
+              <Button
+                variant={isGroupVisible(fieldCategories.nextYearPBFwdTargets) ? "filled" : "light"}
+                size="xs"
+                onClick={() => toggleGroup(fieldCategories.nextYearPBFwdTargets)}
+              >
+                Next Year Pb Fwd Targets ({getVisibleCount(fieldCategories.nextYearPBFwdTargets)}/{fieldCategories.nextYearPBFwdTargets.length})
               </Button>
             </Group>
           </div>

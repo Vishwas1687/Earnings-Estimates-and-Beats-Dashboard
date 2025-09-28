@@ -4,7 +4,7 @@ export const fieldGroups = {
   basic: ["name", "price"],
   company: ["country", "industry", "sector"],
   return_ratios: ["ROE", "ROA"],
-  margins: ["NPM", "OPM", "EBITDA_margin"],
+  margins: ["NPM", "OPM"],
   valuations: ["TTM_PE", "PB", "TTM_EPS"],
   yearAgo: ["year_ago_eps"],
   quarters: [
@@ -100,6 +100,19 @@ export const fieldCategories = {
     "current_year_revenue_growth",
     "next_year_revenue_growth",
   ],
+  currentYearPETargets: [
+    "current_year_pe_price_target",
+    "current_year_pe_target",
+  ],
+  currentYearPBFwdTargets: [
+    "current_year_pb_fwd_price_target",
+    "current_year_pb_fwd_target",
+  ],
+  nextYearPETargets: ["next_year_pe_price_target", "next_year_pe_target"],
+  nextYearPBFwdTargets: [
+    "next_year_pb_fwd_price_target",
+    "next_year_pb_fwd_target",
+  ],
 };
 
 export const columnDefinitions = {
@@ -107,7 +120,7 @@ export const columnDefinitions = {
   toggleAnalysts: { header: "Analysts", width: 100, sortable: false },
   resetOrder: { header: "Reset Order", width: 120, sortable: false },
   name: { header: "Company Name", width: 200, sortable: false },
-  price: { header: "Price ($)", width: 100, sortable: false, type: "currency" },
+  price: { header: "Price", width: 100, sortable: false, type: "currency" },
   country: { header: "Country", width: 120, sortable: false },
   industry: { header: "Industry", width: 150, sortable: false },
   sector: { header: "Sector", width: 150, sortable: false },
@@ -116,9 +129,13 @@ export const columnDefinitions = {
   PB: { header: "PB", width: 100, sortable: true, type: "number" },
   NPM: { header: "NPM", width: 100, sortable: true, type: "percentage" },
   OPM: { header: "OPM", width: 100, sortable: true, type: "percentage" },
-  EBITDA_margin : { header: "EBIDTA_margin", width: 100, sortable: true, type: "percentage" }, 
   ROA: { header: "ROA", width: 100, sortable: true, type: "percentage" },
   ROE: { header: "ROE", width: 100, sortable: true, type: "percentage" },
+  mostRecentQuarter: {
+    header: "Previous Quarter",
+    width: 100,
+    sortable: false,
+  },
   year_ago_eps: {
     header: "Year Ago EPS",
     width: 120,
@@ -321,6 +338,54 @@ export const columnDefinitions = {
     sortable: true,
     type: "percentage",
   },
+  current_year_pe_price_target: {
+    header: "Current Year PE Price Target",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
+  current_year_pe_target: {
+    header: "Current Year PE Target",
+    width: 180,
+    sortable: true,
+    type: "number",
+  },
+  current_year_pb_fwd_price_target: {
+    header: "Current Year PB Fwd Price Target",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
+  current_year_pb_fwd_target: {
+    header: "Current Year Pb Fwd Target",
+    width: 180,
+    sortable: true,
+    type: "number",
+  },
+  next_year_pe_price_target: {
+    header: "Next Year PE Price Target",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
+  next_year_pe_target: {
+    header: "Next Year PE Target",
+    width: 180,
+    sortable: true,
+    type: "number",
+  },
+  next_year_pb_fwd_price_target: {
+    header: "Next Year PB Fwd Price Target",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
+  next_year_pb_fwd_target: {
+    header: "Next Year Pb Fwd Target",
+    width: 180,
+    sortable: true,
+    type: "number",
+  },
 };
 
 // Default visible columns (logical ordering)
@@ -328,8 +393,7 @@ export const defaultVisibleColumns = [
   "name",
   "price",
   "country",
-  "industry",
-  "sector",
+  "mostRecentQuarter",
   "TTM_PE",
   "TTM_EPS",
   "OPM",
@@ -340,21 +404,31 @@ export const defaultVisibleColumns = [
   "next_year_eps_growth",
 ];
 
-export const formatValue = (value, type, country) => {
+// Alternative more compact version if you prefer fewer functions:
+export const formatValue = (value, type, country, columnKey, company) => {
   if (value === null || value === undefined || value === "") {
     return "N/A";
   }
 
-  switch (type) {
-    case "currency":
-      return country === "US"
-        ? "$" + Number(value).toFixed(2)
-        : "\u20B9" + Number(value).toFixed(2);
-    case "percentage":
-      return `${Number(value).toFixed(2)}%`;
-    case "number":
-      return Number(value).toFixed(2);
-    default:
-      return value;
+  // Price target formatting
+  if (columnKey.includes("target") && columnKey.includes("price")) {
+    const price = company.filtered_data?.price;
+    const priceTarget = Number(price) * (1 + Number(value) / 100);
+    const currency = country === "US" ? "$" : "\u20B9";
+    if(value == 0){
+      return 0;
+    }
+    return `${currency}${priceTarget.toFixed(2)} ( ${value}% )`;
   }
+
+  // Standard formatting
+  const formatters = {
+    currency: (val, ctry) =>
+      `${ctry === "US" ? "$" : "\u20B9"}${Number(val).toFixed(2)}`,
+    percentage: (val) => `${Number(val).toFixed(2)}%`,
+    number: (val) => Number(val).toFixed(2),
+    default: (val) => val,
+  };
+
+  return (formatters[type] || formatters.default)(value, country);
 };

@@ -1,26 +1,26 @@
 [
   {
+    "ticker": "INFY.NS",
+    "name": "Infosys"
+  },
+  {
+    "ticker": "TCS.NS",
+    "name": "TCS"
+  },
+  {
+    "ticker": "HCLTECH.NS",
+    "name": "HCL Technologies"
+  },
+  {
+    "ticker": "WIPRO.NS",
+    "name": "Wipro"
+  },
+  {
+    "ticker": "TECHM.NS",
+    "name": "Tech Mahindra"
+  },
+  {
     "ticker": "BAJFINANCE.NS",
     "name": "Bajaj Finance"
-  },
-  {
-    "ticker": "CHOLAFIN.NS",
-    "name": "Cholamandalam"
-  },
-  {
-    "ticker": "APTUS.NS",
-    "name": "Aptus Value Housing"
-  },
-  {
-    "ticker": "AAVAS.NS",
-    "name": "Aavas Financiers"
-  },
-  {
-    "ticker": "INDIASHLTR.NS",
-    "name": "India Shelter Finance"
-  },
-  {
-    "ticker": "NORTHARC.NS",
-    "name": "Northern Arc Capital"
   }
 ]

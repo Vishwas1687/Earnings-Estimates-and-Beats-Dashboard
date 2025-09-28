@@ -38,3 +38,16 @@ export const getQuarterDifference = (date1, date2) => {
 
   return Math.abs(totalQuarters1 - totalQuarters2);
 }
+
+export const getParsedData = (dateStr) => {
+  if (!dateStr) return "";
+
+  // Convert to Date object
+  const date = new Date(dateStr);
+
+  // Get month name (short form) and year
+  const month = date.toLocaleString("en-US", { month: "short" }); // "Jun"
+  const year = date.getFullYear(); // 2025
+
+  return `${month} ${year}`;
+}

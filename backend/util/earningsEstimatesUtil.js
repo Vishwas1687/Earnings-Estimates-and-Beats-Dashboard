@@ -1,5 +1,5 @@
 import YahooFinance from "yahoo-finance2";
-import {extractDate, getQuarterDate, getQuarterDifference} from './dateUtils.js';
+import {extractDate, getParsedData, getQuarterDate, getQuarterDifference} from './dateUtils.js';
 import fs from "fs";
 
 export const getEPSEstimatesData = async (ticker) => {
@@ -134,7 +134,6 @@ const calculateEpsGrowthFields = (
     eps_growth =
       ((next_year_eps - current_year_eps) / Math.abs(current_year_eps)) * 100;
     reserves_estimates = lastFiscalReserves + shares * (safeValue(current_year_eps) + safeValue(next_year_eps));
-
   }
   peg = pe / eps_growth;
   TTM_profit = eps * shares;
@@ -232,9 +231,6 @@ export const cleanEarningsEstimatesData = (ticker, name, data) => {
   const ROA = data.financialData?.returnOnAssets
     ? (data.financialData.returnOnAssets * 100).toFixed(2)
     : "N/A";
-  const ebitdaMargins = data.financialData?.ebitdaMargins
-    ? (data.financialData.ebitdaMargins * 100).toFixed(2)
-    : "N/A";
   const operatingMargins = data.financialData?.operatingMargins
     ? (data.financialData.operatingMargins * 100).toFixed(2)
     : "N/A";
@@ -259,8 +255,10 @@ export const cleanEarningsEstimatesData = (ticker, name, data) => {
     country: country,
     ticker: ticker,
     name: name,
-    mostRecentQuarter: data.mostRecentQuarter,
-    lastFiscalYear: data.lastFiscalYear,
+    mostRecentQuarter: getParsedData(data.mostRecentQuarter),
+    lastFiscalYear: getParsedData(data.lastFiscalYear),
+    shares: data?.shares,
+    lastFiscalReserves: data?.lastFiscalReserves,
     price: price,
     industry: industry,
     sector: sector,
@@ -269,7 +267,6 @@ export const cleanEarningsEstimatesData = (ticker, name, data) => {
     PB: PriceToBook,
     ROE: ROE,
     ROA: ROA,
-    EBITDAMargins: ebitdaMargins,
     OPM: operatingMargins,
     NPM: profitMargins,
     earningsTrend: earningsTrend,

@@ -1,3 +1,28 @@
+
+const handlePriceTargetFields = (company, field) => {
+  // Single configuration object instead of 3 separate maps
+  const fieldConfig = {
+    current_year_pe_price_target: { period: "Current Year", metric: "pe", target: "priceChange" },
+    current_year_pb_fwd_price_target: { period: "Current Year", metric: "pb_fwd", target: "priceChange" },
+    next_year_pe_price_target: { period: "Next Year", metric: "pe", target: "priceChange" },
+    next_year_pb_fwd_price_target: { period: "Next Year", metric: "pb_fwd", target: "priceChange" },
+    current_year_pe_target: { period: "Current Year", metric: "pe", target: "Value" },
+    current_year_pb_fwd_target: { period: "Current Year", metric: "pb_fwd", target: "Value" },
+    next_year_pe_target: { period: "Next Year", metric: "pe", target: "Value" },
+    next_year_pb_fwd_target: { period: "Next Year", metric: "pb_fwd", target: "Value" },
+  };
+
+  const config = fieldConfig[field];
+  if (!config) return null;
+
+  const metricObj = company.filtered_data?.priceTarget?.[config.period]?.[config.metric];
+  
+  return {
+    value: metricObj?.[config.target],
+    analystCount: 0
+  };
+};
+
 const handleRevenueFields = (company, field) => {
     // Define field mappings
   const fieldMap = {
@@ -74,6 +99,8 @@ const handleEarningsFields = (company, field) => {
 export const handleFetchComplexFields = (company, field) => {
   if (field.includes("revenue")) {
     return handleRevenueFields(company, field);
+  } else if(field.includes("target")){
+    return handlePriceTargetFields(company, field);
   } else {
     return handleEarningsFields(company, field);
   } 

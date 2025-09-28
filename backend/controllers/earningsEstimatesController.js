@@ -21,7 +21,9 @@ export const earningsEstimatesController = async (req, res) => {
       filtered_data = cleanEarningsEstimatesData(ticker, name, result);
       filtered_data.timestamp = Date.now();
       earningsEstimates.push(filtered_data);
-      tickers.push({ ticker: ticker, name: name });
+      if(!tickers.some((item)=>item.ticker === ticker)) {
+        tickers.push({ ticker: ticker, name: name });
+      } 
       saveTickers(tickers);
       saveEarningsEstimates(earningsEstimates);
     } else if (

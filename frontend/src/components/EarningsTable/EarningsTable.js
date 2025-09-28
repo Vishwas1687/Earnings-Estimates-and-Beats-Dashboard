@@ -144,11 +144,11 @@ const EarningsTable = ({ companies, onDeleteCompany }) => {
     "country",
     "industry",
     "sector",
+    "mostRecentQuarter",
     "TTM_PE",
     "TTM_EPS",
     "OPM",
     "NPM",
-    "EBITDA_margin",
     "ROA",
     "ROE",
     "PB",
@@ -192,7 +192,7 @@ const EarningsTable = ({ companies, onDeleteCompany }) => {
       analystCount = result?.analystCount ?? 0;
     }
     const country = company.filtered_data["country"];
-    const formattedValue = formatValue(value, columnDef?.type, country);
+    const formattedValue = formatValue(value, columnDef?.type, country, columnKey, company);
 
     if (
       shouldShowAnalysts(companyId) &&
