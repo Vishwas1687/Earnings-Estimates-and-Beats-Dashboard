@@ -12,6 +12,7 @@ import {
   Paper,
   Box,
   Tooltip,
+  Container,
 } from "@mantine/core";
 import {
   IconSearch,
@@ -26,22 +27,57 @@ import {
   formatValue,
   defaultVisibleColumns,
 } from "../../utils/tableConfig";
-import {
-  handleFetchComplexFields
-} from '../../utils/field_manipulation.js'
-import {
-  sortFields
-} from '../../utils/earnings_table_util_functions.js'
+import { handleFetchComplexFields } from "../../utils/field_manipulation.js";
+import { sortFields } from "../../utils/earnings_table_util_functions.js";
+import Dropdown from "../Dropdown.js";
+import { handleSaveFields } from "../../utils/api.js";
 
-const EarningsTable = ({ companies, onDeleteCompany }) => {
+const EarningsTable = ({
+  companies,
+  onDeleteCompany,
+  categoryList,
+  setCategoryList,
+  watchlistList,
+  setWatchlistList,
+  categories,
+  setCategories,
+  setCurrentWatchlist,
+  setCurrentCategory,
+  setFields,
+  currentCategory,
+  currentWatchlist,
+  setCompanies,
+  loading,
+}) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [visibleColumns, setVisibleColumns] = useState(defaultVisibleColumns);
+  const [visibleColumns, setVisibleColumns] = useState(
+    categoryList.length === 0 ? defaultVisibleColumns : categoryList
+  );
   const [showAnalysts, setShowAnalysts] = useState(false);
   const [rowAnalystState, setRowAnalystState] = useState({});
-  const [columnOrder, setColumnOrder] = useState([...defaultVisibleColumns]);
+  const [columnOrder, setColumnOrder] = useState(
+    categoryList.length === 0 ? defaultVisibleColumns : categoryList
+  );
   const [draggedColumn, setDraggedColumn] = useState(null);
   const [sortOrder, setOrder] = useState(null); // 'asc', 'desc', or null
   const [sortColumn, setSortColumn] = useState(null); // column key
+
+  const categoryChange = (newCategory) => {
+    console.log(newCategory, "handleSelect");
+    const category = categories.find((cat) => cat.name === newCategory);
+    if (category) {
+      setCurrentCategory(category.name);
+      if (category.watchlists.length > 0) {
+        setCurrentWatchlist(category.watchlists[0].name);
+        setWatchlistList(category.watchlists.map((wl) => wl.name));
+        setFields(category.watchlists[0].fields);
+      } else {
+        setCurrentWatchlist(null);
+        setWatchlistList([]);
+        setFields([]);
+      }
+    }
+  };
 
   // Handle sorting logic
   const handleSort = (e, columnKey) => {
@@ -165,7 +201,13 @@ const EarningsTable = ({ companies, onDeleteCompany }) => {
         )
       );
     }
-    result = sortFields(result, sortOrder, sortColumn, plainColumns, columnDefinitions);
+    result = sortFields(
+      result,
+      sortOrder,
+      sortColumn,
+      plainColumns,
+      columnDefinitions
+    );
     return result;
   }, [companies, searchTerm, sortColumn, sortOrder]);
 
@@ -192,7 +234,13 @@ const EarningsTable = ({ companies, onDeleteCompany }) => {
       analystCount = result?.analystCount ?? 0;
     }
     const country = company.filtered_data["country"];
-    const formattedValue = formatValue(value, columnDef?.type, country, columnKey, company);
+    const formattedValue = formatValue(
+      value,
+      columnDef?.type,
+      country,
+      columnKey,
+      company
+    );
 
     if (
       shouldShowAnalysts(companyId) &&
@@ -213,18 +261,18 @@ const EarningsTable = ({ companies, onDeleteCompany }) => {
     return formattedValue;
   };
 
-  if (companies.length === 0) {
-    return (
-      <Paper shadow="xs" p="xl" ta="center">
-        <Text size="lg" c="dimmed">
-          No companies added yet
-        </Text>
-        <Text size="sm" c="dimmed">
-          Add a company using the form above to get started
-        </Text>
-      </Paper>
-    );
-  }
+  // if (companies.length === 0) {
+  //   return (
+  //     <Paper shadow="xs" p="xl" ta="center">
+  //       <Text size="lg" c="dimmed">
+  //         No companies added yet
+  //       </Text>
+  //       <Text size="sm" c="dimmed">
+  //         Add a company using the form above to get started
+  //       </Text>
+  //     </Paper>
+  //   );
+  // }
 
   const displayColumns = columnOrder.filter(
     (col) => visibleColumns.includes(col) && columnDefinitions[col]
@@ -242,6 +290,102 @@ const EarningsTable = ({ companies, onDeleteCompany }) => {
       />
 
       <Paper shadow="xs">
+        <Group
+          p="md"
+          style={{
+            display: "flex",
+            justifyContent: "left",
+            gap: "20px",
+            alignItems: "center",
+          }}
+        > 
+          <Dropdown
+            dropdownType="Category" // label above dropdown
+            items={categoryList}
+            placeholder={currentCategory}
+            setCompanies={setCompanies}
+            watchlistItems={watchlistList}
+            categoryChange={(currentCategory) =>
+              categoryChange(currentCategory)
+            }
+            onSelect={(item) => {
+              categoryChange(item);
+            }}
+            onAdd={(newItem) => {
+              setCategoryList((s) => [...s, newItem]);
+              setCategories((prevCategories) => [
+                ...prevCategories,
+                { name: newItem, watchlists: [] },
+              ]);
+            }}
+            onRemove={(item) => {
+              setCategoryList((s) => s.filter((it) => it !== item));
+              setCategories((prevCategories) => {
+                const updatedCategories = prevCategories.filter(
+                  (cat) => cat.name !== item
+                );
+                return updatedCategories;
+              });
+            }}
+          />
+          <Dropdown
+            dropdownType="Watchlist"
+            items={watchlistList}
+            setCompanies={setCompanies}
+            placeholder={currentWatchlist}
+            onSelect={(item) => setCurrentWatchlist(item)}
+            onAdd={(newItem) => {
+              setWatchlistList((s) => [...s, newItem]);
+              setCategories((prevCategories) => {
+                const updatedCategories = prevCategories.map((cat) => {
+                  if (cat.name === currentCategory) {
+                    return {
+                      ...cat,
+                      watchlists: [
+                        ...cat.watchlists,
+                        { name: newItem, companies: [], fields: [] },
+                      ],
+                    };
+                  }
+                  return cat;
+                });
+                return updatedCategories;
+              });
+            }}
+            onRemove={(item) => {
+              setWatchlistList((s) => s.filter((it) => it !== item));
+              setCategories((prevCategories) => {
+                const updatedCategories = prevCategories.map((cat) => {
+                  if (cat.name === currentCategory) {
+                    return {
+                      ...cat,
+                      watchlists: cat.watchlists.filter(
+                        (wl) => wl.name !== item
+                      ),
+                    };
+                  }
+                  return cat;
+                });
+                return updatedCategories;
+              });
+            }}
+            setCurrentWatchlist={setCurrentWatchlist}
+            currentCategory={currentCategory}
+          />
+          <Button
+            variant="outline"
+            onClick={() =>
+              handleSaveFields(
+                currentCategory,
+                currentWatchlist,
+                displayColumns
+              )
+            }
+            style={{ marginTop: "2.2rem" }}
+          >
+            Save Column Configuration
+          </Button>
+        </Group>
         <Group p="md" justify="space-between">
           <TextInput
             placeholder="Search companies..."

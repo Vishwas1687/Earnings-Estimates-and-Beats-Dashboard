@@ -1,0 +1,143 @@
+[
+  {
+    "name": "Financials",
+    "watchlists": [
+      {
+        "name": "Affordable Housing",
+        "companies": [
+          {
+            "ticker": "AAVAS.NS",
+            "name": "Aavas Financiers"
+          },
+          {
+            "ticker": "APTUS.NS",
+            "name": "Aptus Value Housing"
+          }
+        ],
+        "fields": [
+          "current_year_eps",
+          "next_year_eps"
+        ]
+      },
+      {
+        "name": "Traditional Housing",
+        "companies": [
+          {
+            "ticker": "LICHSGFIN.NS",
+            "name": "LIC HOUSING FINANCE"
+          }
+        ],
+        "fields": []
+      },
+      {
+        "name": "Small Finance Bank",
+        "companies": [],
+        "fields": []
+      },
+      {
+        "name": "Vehicle Finance",
+        "companies": [],
+        "fields": []
+      },
+      {
+        "name": "Gold Finance",
+        "companies": [],
+        "fields": []
+      },
+      {
+        "name": "NBFC",
+        "companies": [],
+        "fields": []
+      },
+      {
+        "name": "Private Bank",
+        "companies": [],
+        "fields": []
+      },
+      {
+        "name": "PSU Bank",
+        "companies": [],
+        "fields": []
+      }
+    ]
+  },
+  {
+    "name": "Healthcare",
+    "watchlists": [
+      {
+        "name": "Hospitals",
+        "companies": [
+          {
+            "ticker": "APOLLOHOSP.NS",
+            "name": "APOLLO HOSPITALS"
+          }
+        ],
+        "fields": []
+      },
+      {
+        "name": "CDMO",
+        "companies": [],
+        "fields": []
+      }
+    ]
+  },
+  {
+    "name": "IT",
+    "watchlists": [
+      {
+        "name": "Large",
+        "companies": [
+          {
+            "ticker": "INFY.NS",
+            "name": "INFOSYS"
+          },
+          {
+            "ticker": "TCS.NS",
+            "name": "TCS"
+          }
+        ],
+        "fields": []
+      },
+      {
+        "name": "Mid",
+        "companies": [
+          {
+            "ticker": "PERSISTENT.NS",
+            "name": "PERSISTENT SYSTEMS"
+          }
+        ],
+        "fields": []
+      },
+      {
+        "name": "Small",
+        "companies": [],
+        "fields": []
+      }
+    ]
+  },
+  {
+    "name": "Auto",
+    "watchlists": []
+  },
+  {
+    "name": "Renewables",
+    "watchlists": [
+      {
+        "name": "Solar",
+        "companies": [
+          {
+            "ticker": "SWSOLAR.NS",
+            "name": "SW SOLAR"
+          }
+        ],
+        "fields": []
+      },
+      {
+        "name": "Wind",
+        "companies": [],
+        "fields": [],
+        "tickers": []
+      }
+    ]
+  }
+]

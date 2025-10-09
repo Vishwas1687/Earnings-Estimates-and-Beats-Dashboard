@@ -1,26 +1,58 @@
 [
   {
-    "ticker": "INFY.NS",
-    "name": "Infosys"
+    "ticker": "APOLLOHOSP.NS",
+    "name": "APOLLO HOSPITALS"
   },
   {
-    "ticker": "TCS.NS",
-    "name": "TCS"
+    "ticker": "MAXHEALTH.NS",
+    "name": "MAX HEALTHCARE"
   },
   {
-    "ticker": "HCLTECH.NS",
-    "name": "HCL Technologies"
+    "ticker": "FORTIS.NS",
+    "name": "FORTIS HEALTHCARE"
   },
   {
-    "ticker": "WIPRO.NS",
-    "name": "Wipro"
+    "ticker": "NH.NS",
+    "name": "NARAYANA HRUDALAYA"
   },
   {
-    "ticker": "TECHM.NS",
-    "name": "Tech Mahindra"
+    "ticker": "MEDANTA.NS",
+    "name": "GLOBAL HEALTHCARE"
   },
   {
-    "ticker": "BAJFINANCE.NS",
-    "name": "Bajaj Finance"
+    "ticker": "ASTERDM.NS",
+    "name": "ASTER DM HEALTHCARE"
+  },
+  {
+    "ticker": "KIMS.NS",
+    "name": "KIMS"
+  },
+  {
+    "ticker": "AGARWALEYE.NS",
+    "name": "DR AGARWALS HEALTHCARE"
+  },
+  {
+    "ticker": "RAINBOW.NS",
+    "name": "RAINBOW"
+  },
+  {
+    "ticker": "JLHL.NS",
+    "name": "JUPITER LIFE LINE HOSPITALS"
+  },
+  {
+    "ticker": "HCG.NS",
+    "name": "HEALTHCARE GLOBAL"
+  },
+  {
+    "ticker": "KOVAI.NS",
+    "name": "KOVAI MEDICAL CENTER"
+  },
+  {
+    "ticker": "INDIASHLTR.NS",
+    "name": "INDIA SHELTER FINANCE"
+  },
+  {
+    "ticker": "LICHSGFIN.NS",
+    "name": "LIC HOUSING FINANCE"
   }
 ]

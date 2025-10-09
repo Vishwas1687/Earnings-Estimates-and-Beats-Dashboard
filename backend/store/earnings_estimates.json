@@ -1,437 +1,2439 @@
 [
   {
     "country": "INDIA",
+    "ticker": "AAVAS.NS",
+    "name": "AAVAS FINANCIERS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 79161353,
+    "lastFiscalReserves": 43608323000,
+    "price": 1638.9,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "73.54",
+    "TTM_PE": "22.29",
+    "PB": "2.97",
+    "ROE": "12.62",
+    "ROA": "N/A",
+    "OPM": "51.87",
+    "NPM": "42.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 19.89,
+        "year_ago_eps": 18.67,
+        "eps_growth": "6.53",
+        "pe": "21.92",
+        "peg": "3.35",
+        "roe_earnings": "0.86",
+        "pb_fwd": "2.87",
+        "pb_valuation": "3.36",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 20.21,
+        "year_ago_eps": 18.45,
+        "eps_growth": "9.54",
+        "pe": "21.42",
+        "peg": "2.25",
+        "roe_earnings": "1.24",
+        "pb_fwd": "2.77",
+        "pb_valuation": "2.25",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 83.93197,
+        "year_ago_eps": 71.97,
+        "eps_growth": "16.62",
+        "pe": "19.53",
+        "peg": "1.17",
+        "roe_earnings": "2.20",
+        "pb_fwd": "2.58",
+        "pb_valuation": "1.17",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 102.86152,
+        "year_ago_eps": 83.93197,
+        "eps_growth": "22.55",
+        "pe": "15.93",
+        "peg": "0.71",
+        "roe_earnings": "3.14",
+        "pb_fwd": "2.22",
+        "pb_valuation": "0.71",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "13.75",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "14.91",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "16.62",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "19.86",
+        "analystCount": 12
+      }
+    },
+    "timestamp": 1759405944584
+  },
+  {
+    "country": "INDIA",
+    "ticker": "APTUS.NS",
+    "name": "APTUS VALUE HOUSING",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 500660236,
+    "lastFiscalReserves": 43166518000,
+    "price": 325.45,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "15.97",
+    "TTM_PE": "20.38",
+    "PB": "3.77",
+    "ROE": "16.84",
+    "ROA": "N/A",
+    "OPM": "79.51",
+    "NPM": "61.10",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.4,
+        "year_ago_eps": 3.63,
+        "eps_growth": "21.21",
+        "pe": "19.44",
+        "peg": "0.92",
+        "roe_earnings": "3.92",
+        "pb_fwd": "3.62",
+        "pb_valuation": "0.92",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.6,
+        "year_ago_eps": 3.81,
+        "eps_growth": "20.73",
+        "pe": "18.57",
+        "peg": "0.90",
+        "roe_earnings": "3.82",
+        "pb_fwd": "3.44",
+        "pb_valuation": "0.90",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 18.32289,
+        "year_ago_eps": 15.01,
+        "eps_growth": "22.07",
+        "pe": "17.76",
+        "peg": "0.80",
+        "roe_earnings": "3.87",
+        "pb_fwd": "3.14",
+        "pb_valuation": "0.81",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 22.19635,
+        "year_ago_eps": 18.32289,
+        "eps_growth": "21.14",
+        "pe": "14.66",
+        "peg": "0.69",
+        "roe_earnings": "3.70",
+        "pb_fwd": "2.59",
+        "pb_valuation": "0.70",
+        "analystCount": 15
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "26.60",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "revenue_growth": "22.26",
+        "analystCount": 14
+      }
+    },
+    "timestamp": 1759405949136
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AADHARHFC.NS",
+    "name": "AADHAR HOUSING FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 433092732,
+    "lastFiscalReserves": 63722900000,
+    "price": 509.9,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "21.55",
+    "TTM_PE": "23.66",
+    "PB": "3.45",
+    "ROE": "13.84",
+    "ROA": "N/A",
+    "OPM": "61.94",
+    "NPM": "48.20",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "23.66",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.47",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "23.66",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.47",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 25.66857,
+        "year_ago_eps": 20.85,
+        "eps_growth": "23.11",
+        "pe": "19.86",
+        "peg": "0.86",
+        "roe_earnings": "3.43",
+        "pb_fwd": "2.95",
+        "pb_valuation": "0.86",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "eps_estimate": 31.07259,
+        "year_ago_eps": 25.5222,
+        "eps_growth": "21.05",
+        "pe": "16.41",
+        "peg": "0.78",
+        "roe_earnings": "3.21",
+        "pb_fwd": "2.50",
+        "pb_valuation": "0.78",
+        "analystCount": 9
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "32.47",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "20.22",
+        "analystCount": 9
+      }
+    },
+    "timestamp": 1759405963788
+  },
+  {
+    "country": "INDIA",
+    "ticker": "LTF.NS",
+    "name": "LT FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 2499869941,
+    "lastFiscalReserves": 255640600000,
+    "price": 258.55,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "11.02",
+    "TTM_PE": "23.46",
+    "PB": "2.51",
+    "ROE": "9.89",
+    "ROA": "N/A",
+    "OPM": "45.31",
+    "NPM": "34.14",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.82,
+        "year_ago_eps": 2.78,
+        "eps_growth": "1.44",
+        "pe": "23.38",
+        "peg": "16.25",
+        "roe_earnings": "0.15",
+        "pb_fwd": "2.46",
+        "pb_valuation": "16.25",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.83,
+        "year_ago_eps": 2.5,
+        "eps_growth": "13.20",
+        "pe": "22.70",
+        "peg": "1.72",
+        "roe_earnings": "1.39",
+        "pb_fwd": "2.40",
+        "pb_valuation": "1.72",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 12.28048,
+        "year_ago_eps": 10.57,
+        "eps_growth": "16.18",
+        "pe": "21.05",
+        "peg": "1.30",
+        "roe_earnings": "1.73",
+        "pb_fwd": "2.26",
+        "pb_valuation": "1.30",
+        "analystCount": 18
+      },
+      "Next Year": {
+        "eps_estimate": 15.32193,
+        "year_ago_eps": 12.28048,
+        "eps_growth": "24.77",
+        "pe": "16.87",
+        "peg": "0.68",
+        "roe_earnings": "2.92",
+        "pb_fwd": "1.99",
+        "pb_valuation": "0.68",
+        "analystCount": 18
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.83",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.13",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "13.88",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "18.68",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1759405984541
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SUNDARMFIN.NS",
+    "name": "SUNDARAM FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 110213031,
+    "lastFiscalReserves": 131968300000,
+    "price": 4398,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "173.22",
+    "TTM_PE": "25.39",
+    "PB": "3.70",
+    "ROE": "13.50",
+    "ROA": "N/A",
+    "OPM": "57.16",
+    "NPM": "47.13",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "25.39",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.76",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "25.39",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.76",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 159.54443,
+        "year_ago_eps": 138.85,
+        "eps_growth": "14.90",
+        "pe": "27.57",
+        "peg": "1.85",
+        "roe_earnings": "1.75",
+        "pb_fwd": "3.32",
+        "pb_valuation": "1.89",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "eps_estimate": 185.47778,
+        "year_ago_eps": 159.54443,
+        "eps_growth": "16.25",
+        "pe": "23.71",
+        "peg": "1.46",
+        "roe_earnings": "1.95",
+        "pb_fwd": "2.92",
+        "pb_valuation": "1.49",
+        "analystCount": 9
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "17.50",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "14.86",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1759405989330
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MUTHOOTFIN.NS",
+    "name": "MUTHOOT FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 401468476,
+    "lastFiscalReserves": 293646270000,
+    "price": 3139,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "157.54",
+    "TTM_PE": "19.93",
+    "PB": "4.15",
+    "ROE": "18.73",
+    "ROA": "4.84",
+    "OPM": "70.50",
+    "NPM": "47.05",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 46.81,
+        "year_ago_eps": 31.16,
+        "eps_growth": "50.22",
+        "pe": "18.12",
+        "peg": "0.36",
+        "roe_earnings": "11.18",
+        "pb_fwd": "4.03",
+        "pb_valuation": "0.36",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 47.76,
+        "year_ago_eps": 33.95,
+        "eps_growth": "40.68",
+        "pe": "16.79",
+        "peg": "0.41",
+        "roe_earnings": "9.21",
+        "pb_fwd": "3.80",
+        "pb_valuation": "0.41",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 187.88538,
+        "year_ago_eps": 132.83,
+        "eps_growth": "41.45",
+        "pe": "16.71",
+        "peg": "0.40",
+        "roe_earnings": "8.47",
+        "pb_fwd": "3.41",
+        "pb_valuation": "0.40",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "eps_estimate": 223.95,
+        "year_ago_eps": 187.88538,
+        "eps_growth": "19.20",
+        "pe": "14.02",
+        "peg": "0.73",
+        "roe_earnings": "3.76",
+        "pb_fwd": "2.75",
+        "pb_valuation": "0.73",
+        "analystCount": 17
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.47",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.65",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "-16.90",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "revenue_growth": "13.62",
+        "analystCount": 9
+      }
+    },
+    "timestamp": 1759405993035
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SHRIRAMFIN.NS",
+    "name": "SHRIRAM FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1881007883,
+    "lastFiscalReserves": 564698200000,
+    "price": 647.9,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "53.78",
+    "TTM_PE": "12.05",
+    "PB": "2.16",
+    "ROE": "15.95",
+    "ROA": "N/A",
+    "OPM": "61.47",
+    "NPM": "52.58",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 11.31,
+        "year_ago_eps": 11.002,
+        "eps_growth": "2.80",
+        "pe": "11.98",
+        "peg": "4.28",
+        "roe_earnings": "0.49",
+        "pb_fwd": "2.08",
+        "pb_valuation": "4.28",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 12.24,
+        "year_ago_eps": 11.8466,
+        "eps_growth": "3.32",
+        "pe": "11.89",
+        "peg": "3.58",
+        "roe_earnings": "0.56",
+        "pb_fwd": "2.00",
+        "pb_valuation": "3.58",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 50.44963,
+        "year_ago_eps": 43.9384,
+        "eps_growth": "14.82",
+        "pe": "12.84",
+        "peg": "0.87",
+        "roe_earnings": "2.13",
+        "pb_fwd": "1.85",
+        "pb_valuation": "0.87",
+        "analystCount": 28
+      },
+      "Next Year": {
+        "eps_estimate": 60.02956,
+        "year_ago_eps": 50.44963,
+        "eps_growth": "18.99",
+        "pe": "10.79",
+        "peg": "0.57",
+        "roe_earnings": "2.78",
+        "pb_fwd": "1.58",
+        "pb_valuation": "0.57",
+        "analystCount": 28
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "14.55",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "16.55",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "14.43",
+        "analystCount": 27
+      },
+      "Next Year": {
+        "revenue_growth": "21.66",
+        "analystCount": 27
+      }
+    },
+    "timestamp": 1759405997028
+  },
+  {
+    "country": "INDIA",
+    "ticker": "UJJIVANSFB.NS",
+    "name": "UJJIVAN",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1937152798,
+    "lastFiscalReserves": 60834069000,
+    "price": 48.21,
+    "industry": "banks-regional",
+    "sector": "financial-services",
+    "TTM_EPS": "2.82",
+    "TTM_PE": "17.10",
+    "PB": "1.53",
+    "ROE": "8.42",
+    "ROA": "N/A",
+    "OPM": "15.40",
+    "NPM": "14.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "17.10",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.54",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "17.10",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.54",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 3.50807,
+        "year_ago_eps": 3.71,
+        "eps_growth": "-5.44",
+        "pe": "13.74",
+        "peg": "-2.52",
+        "roe_earnings": "-0.55",
+        "pb_fwd": "1.38",
+        "pb_valuation": "-2.52",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 5.31853,
+        "year_ago_eps": 3.50807,
+        "eps_growth": "51.61",
+        "pe": "9.06",
+        "peg": "0.18",
+        "roe_earnings": "6.82",
+        "pb_fwd": "1.20",
+        "pb_valuation": "0.18",
+        "analystCount": 15
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "6.86",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "25.63",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "7.45",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "19.20",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1759406691515
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SBICARD.NS",
+    "name": "SBI CARD",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 951547504,
+    "lastFiscalReserves": 137817200000,
+    "price": 875.8,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "19.51",
+    "TTM_PE": "44.89",
+    "PB": "6.04",
+    "ROE": "12.63",
+    "ROA": "N/A",
+    "OPM": "27.59",
+    "NPM": "18.33",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.29,
+        "year_ago_eps": 4.25,
+        "eps_growth": "24.47",
+        "pe": "42.62",
+        "peg": "1.74",
+        "roe_earnings": "3.35",
+        "pb_fwd": "5.90",
+        "pb_valuation": "1.76",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 6.07,
+        "year_ago_eps": 4.03,
+        "eps_growth": "50.62",
+        "pe": "38.77",
+        "peg": "0.77",
+        "roe_earnings": "7.32",
+        "pb_fwd": "5.68",
+        "pb_valuation": "0.78",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 26.6189,
+        "year_ago_eps": 20.14,
+        "eps_growth": "32.17",
+        "pe": "32.90",
+        "peg": "1.02",
+        "roe_earnings": "4.99",
+        "pb_fwd": "5.17",
+        "pb_valuation": "1.04",
+        "analystCount": 20
+      },
+      "Next Year": {
+        "eps_estimate": 35.98872,
+        "year_ago_eps": 26.6189,
+        "eps_growth": "35.20",
+        "pe": "24.34",
+        "peg": "0.69",
+        "roe_earnings": "6.11",
+        "pb_fwd": "4.27",
+        "pb_valuation": "0.70",
+        "analystCount": 22
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.30",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.25",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "14.90",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "revenue_growth": "14.39",
+        "analystCount": 18
+      }
+    },
+    "timestamp": 1759407177316
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NORTHARC.NS",
+    "name": "NORTHERN ARC",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 161566375,
+    "lastFiscalReserves": 34342487000,
+    "price": 278.45,
+    "industry": "credit-services",
+    "sector": "financial-services",
+    "TTM_EPS": "18.10",
+    "TTM_PE": "15.38",
+    "PB": "1.31",
+    "ROE": "8.22",
+    "ROA": "N/A",
+    "OPM": "36.19",
+    "NPM": "26.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "15.38",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.31",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "15.38",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.31",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 24.55,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "11.34",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "1.17",
+        "pb_valuation": "0.00",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 35.6,
+        "year_ago_eps": 24.55,
+        "eps_growth": "45.01",
+        "pe": "7.82",
+        "peg": "0.17",
+        "roe_earnings": "5.88",
+        "pb_fwd": "1.02",
+        "pb_valuation": "0.17",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "24.38",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1759407440367
+  },
+  {
+    "country": "INDIA",
+    "ticker": "APOLLOHOSP.NS",
+    "name": "APOLLO HOSPITALS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 143784657,
+    "lastFiscalReserves": 82123000000,
+    "price": 7460,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "108.68",
+    "TTM_PE": "68.64",
+    "PB": "13.06",
+    "ROE": "17.42",
+    "ROA": "N/A",
+    "OPM": "10.91",
+    "NPM": "6.98",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 34.59972,
+        "year_ago_eps": 26.34,
+        "eps_growth": "31.36",
+        "pe": "63.79",
+        "peg": "2.03",
+        "roe_earnings": "6.05",
+        "pb_fwd": "12.42",
+        "pb_valuation": "2.05",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 35.35736,
+        "year_ago_eps": 25.89,
+        "eps_growth": "36.57",
+        "pe": "59.02",
+        "peg": "1.61",
+        "roe_earnings": "7.21",
+        "pb_fwd": "11.74",
+        "pb_valuation": "1.63",
+        "analystCount": 4
+      },
+      "Current Year": {
+        "eps_estimate": 132.08704,
+        "year_ago_eps": 100.56,
+        "eps_growth": "31.35",
+        "pe": "56.48",
+        "peg": "1.80",
+        "roe_earnings": "5.89",
+        "pb_fwd": "10.70",
+        "pb_valuation": "1.82",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "eps_estimate": 173.84177,
+        "year_ago_eps": 132.08704,
+        "eps_growth": "31.61",
+        "pe": "42.91",
+        "peg": "1.36",
+        "roe_earnings": "6.27",
+        "pb_fwd": "8.58",
+        "pb_valuation": "1.37",
+        "analystCount": 27
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "12.92",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.19",
+        "analystCount": 4
+      },
+      "Current Year": {
+        "revenue_growth": "16.32",
+        "analystCount": 26
+      },
+      "Next Year": {
+        "revenue_growth": "21.03",
+        "analystCount": 27
+      }
+    },
+    "timestamp": 1759408650486
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MAXHEALTH.NS",
+    "name": "MAX HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 972236431,
+    "lastFiscalReserves": 93808700000,
+    "price": 1111.9,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "11.68",
+    "TTM_PE": "95.20",
+    "PB": "11.52",
+    "ROE": "11.47",
+    "ROA": "N/A",
+    "OPM": "20.65",
+    "NPM": "15.27",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.68124,
+        "year_ago_eps": 2.88,
+        "eps_growth": "62.54",
+        "pe": "82.48",
+        "peg": "1.32",
+        "roe_earnings": "8.33",
+        "pb_fwd": "11.10",
+        "pb_valuation": "1.33",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 5.17685,
+        "year_ago_eps": 3.02166,
+        "eps_growth": "71.32",
+        "pe": "71.11",
+        "peg": "1.00",
+        "roe_earnings": "10.49",
+        "pb_fwd": "10.56",
+        "pb_valuation": "1.01",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 18.17839,
+        "year_ago_eps": 11.5864,
+        "eps_growth": "56.89",
+        "pe": "61.17",
+        "peg": "1.08",
+        "roe_earnings": "9.02",
+        "pb_fwd": "9.79",
+        "pb_valuation": "1.09",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "eps_estimate": 23.17047,
+        "year_ago_eps": 18.17839,
+        "eps_growth": "27.46",
+        "pe": "47.99",
+        "peg": "1.75",
+        "roe_earnings": "4.62",
+        "pb_fwd": "8.15",
+        "pb_valuation": "1.77",
+        "analystCount": 23
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "58.84",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "50.70",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "52.28",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "revenue_growth": "20.15",
+        "analystCount": 24
+      }
+    },
+    "timestamp": 1759408670749
+  },
+  {
+    "country": "INDIA",
+    "ticker": "FORTIS.NS",
+    "name": "FORTIS HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 754958148,
+    "lastFiscalReserves": 89165154000,
+    "price": 989,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "11.78",
+    "TTM_PE": "83.96",
+    "PB": "8.37",
+    "ROE": "9.28",
+    "ROA": "N/A",
+    "OPM": "17.96",
+    "NPM": "10.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.56644,
+        "year_ago_eps": 2.9229,
+        "eps_growth": "22.02",
+        "pe": "79.61",
+        "peg": "3.62",
+        "roe_earnings": "2.25",
+        "pb_fwd": "8.13",
+        "pb_valuation": "3.62",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.52815,
+        "year_ago_eps": 2.9934,
+        "eps_growth": "17.86",
+        "pe": "76.32",
+        "peg": "4.27",
+        "roe_earnings": "1.85",
+        "pb_fwd": "7.90",
+        "pb_valuation": "4.27",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 14.634,
+        "year_ago_eps": 11.2116,
+        "eps_growth": "30.53",
+        "pe": "67.58",
+        "peg": "2.21",
+        "roe_earnings": "3.37",
+        "pb_fwd": "7.45",
+        "pb_valuation": "2.21",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "eps_estimate": 19.25292,
+        "year_ago_eps": 14.634,
+        "eps_growth": "31.56",
+        "pe": "51.37",
+        "peg": "1.63",
+        "roe_earnings": "4.00",
+        "pb_fwd": "6.51",
+        "pb_valuation": "1.63",
+        "analystCount": 14
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "16.47",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.58",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "18.48",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "16.27",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1759408686894
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NH.NS",
+    "name": "NARAYANA HRUDALAYA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 203099835,
+    "lastFiscalReserves": 36263550000,
+    "price": 1733,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "38.64",
+    "TTM_PE": "44.85",
+    "PB": "9.71",
+    "ROE": "19.54",
+    "ROA": "N/A",
+    "OPM": "16.76",
+    "NPM": "13.82",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "44.85",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.71",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "44.85",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.71",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 46.26164,
+        "year_ago_eps": 39.2474,
+        "eps_growth": "17.87",
+        "pe": "37.46",
+        "peg": "2.10",
+        "roe_earnings": "3.68",
+        "pb_fwd": "7.71",
+        "pb_valuation": "2.10",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 54.79709,
+        "year_ago_eps": 46.26164,
+        "eps_growth": "18.45",
+        "pe": "31.63",
+        "peg": "1.71",
+        "roe_earnings": "3.62",
+        "pb_fwd": "6.20",
+        "pb_valuation": "1.71",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "13.46",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "12.60",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1759408706033
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MEDANTA.NS",
+    "name": "GLOBAL HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 268717382,
+    "lastFiscalReserves": 33864100000,
+    "price": 1309,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "20.11",
+    "TTM_PE": "65.09",
+    "PB": "10.40",
+    "ROE": "14.65",
+    "ROA": "N/A",
+    "OPM": "17.64",
+    "NPM": "13.83",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "65.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.39",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "65.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.39",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 23.85278,
+        "year_ago_eps": 19.3011,
+        "eps_growth": "23.58",
+        "pe": "54.88",
+        "peg": "2.33",
+        "roe_earnings": "3.75",
+        "pb_fwd": "8.73",
+        "pb_valuation": "2.33",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "eps_estimate": 29.17798,
+        "year_ago_eps": 23.85278,
+        "eps_growth": "22.33",
+        "pe": "44.86",
+        "peg": "2.01",
+        "roe_earnings": "3.64",
+        "pb_fwd": "7.31",
+        "pb_valuation": "2.01",
+        "analystCount": 14
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "5.38",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "10.65",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "18.61",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "15.79",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1759408722182
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ASTERDM.NS",
+    "name": "ASTER DM HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 516817460,
+    "lastFiscalReserves": 34280700000,
+    "price": 631.7,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "6.33",
+    "TTM_PE": "99.79",
+    "PB": "9.16",
+    "ROE": "8.86",
+    "ROA": "N/A",
+    "OPM": "13.37",
+    "NPM": "7.55",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "99.79",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.52",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "99.79",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.52",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 8.874,
+        "year_ago_eps": 7.47088,
+        "eps_growth": "18.78",
+        "pe": "71.19",
+        "peg": "3.79",
+        "roe_earnings": "2.22",
+        "pb_fwd": "8.40",
+        "pb_valuation": "3.79",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 13.09833,
+        "year_ago_eps": 8.874,
+        "eps_growth": "47.60",
+        "pe": "48.23",
+        "peg": "1.01",
+        "roe_earnings": "7.06",
+        "pb_fwd": "7.15",
+        "pb_valuation": "1.01",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "38.57",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "52.04",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1759408735310
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KIMS.NS",
+    "name": "KIMS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 400138935,
+    "lastFiscalReserves": 21378000000,
+    "price": 689.9,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "9.37",
+    "TTM_PE": "73.63",
+    "PB": "12.93",
+    "ROE": "16.24",
+    "ROA": "N/A",
+    "OPM": "15.97",
+    "NPM": "11.70",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.4,
+        "year_ago_eps": 2.68,
+        "eps_growth": "-47.76",
+        "pe": "85.28",
+        "peg": "-1.79",
+        "roe_earnings": "-7.05",
+        "pb_fwd": "12.58",
+        "pb_valuation": "-1.79",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.2,
+        "year_ago_eps": 2.22,
+        "eps_growth": "-45.95",
+        "pe": "97.58",
+        "peg": "-2.12",
+        "roe_earnings": "-5.80",
+        "pb_fwd": "12.31",
+        "pb_valuation": "-2.12",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 10.52424,
+        "year_ago_eps": 9.409,
+        "eps_growth": "11.85",
+        "pe": "65.55",
+        "peg": "5.53",
+        "roe_earnings": "1.95",
+        "pb_fwd": "10.79",
+        "pb_valuation": "5.53",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "eps_estimate": 15.28781,
+        "year_ago_eps": 10.52424,
+        "eps_growth": "45.26",
+        "pe": "45.13",
+        "peg": "1.00",
+        "roe_earnings": "8.73",
+        "pb_fwd": "8.71",
+        "pb_valuation": "1.00",
+        "analystCount": 15
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "3.31",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.24",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "29.20",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "25.52",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1759408750125
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AGARWALEYE.NS",
+    "name": "DR AGARWALS HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 316158357,
+    "lastFiscalReserves": 18665900000,
+    "price": 510,
+    "industry": "medical-instruments-supplies",
+    "sector": "healthcare",
+    "TTM_EPS": "3.29",
+    "TTM_PE": "155.02",
+    "PB": "8.63",
+    "ROE": "NaN",
+    "ROA": "N/A",
+    "OPM": "13.32",
+    "NPM": "5.66",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.9,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "121.72",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "8.51",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.9,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "100.20",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "8.38",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 4.00799,
+        "year_ago_eps": 2.8494,
+        "eps_growth": "40.66",
+        "pe": "127.25",
+        "peg": "3.13",
+        "roe_earnings": "2.58",
+        "pb_fwd": "8.09",
+        "pb_valuation": "3.13",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 5.56158,
+        "year_ago_eps": 4.00799,
+        "eps_growth": "38.76",
+        "pe": "91.70",
+        "peg": "2.37",
+        "roe_earnings": "3.14",
+        "pb_fwd": "7.43",
+        "pb_valuation": "2.37",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "21.41",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "19.24",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1759408775651
+  },
+  {
+    "country": "INDIA",
+    "ticker": "RAINBOW.NS",
+    "name": "RAINBOW",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 101559156,
+    "lastFiscalReserves": 14681930000,
+    "price": 1342.3,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "25.19",
+    "TTM_PE": "53.29",
+    "PB": "9.28",
+    "ROE": "16.31",
+    "ROA": "N/A",
+    "OPM": "19.67",
+    "NPM": "16.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "53.29",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.29",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "53.29",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.29",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 29.84587,
+        "year_ago_eps": 23.84,
+        "eps_growth": "25.19",
+        "pe": "44.97",
+        "peg": "1.79",
+        "roe_earnings": "4.31",
+        "pb_fwd": "7.70",
+        "pb_valuation": "1.79",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "eps_estimate": 36.74455,
+        "year_ago_eps": 29.84587,
+        "eps_growth": "23.11",
+        "pe": "36.53",
+        "peg": "1.58",
+        "roe_earnings": "4.02",
+        "pb_fwd": "6.36",
+        "pb_valuation": "1.58",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "17.51",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "17.67",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1759408787359
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JLHL.NS",
+    "name": "JUPITER LIFE LINE HOSPITALS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 65566022,
+    "lastFiscalReserves": 13562420000,
+    "price": 1508,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "29.30",
+    "TTM_PE": "51.47",
+    "PB": "7.29",
+    "ROE": "13.34",
+    "ROA": "N/A",
+    "OPM": "16.37",
+    "NPM": "14.60",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.47",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.29",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.47",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.29",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 32.5,
+        "year_ago_eps": 29.47,
+        "eps_growth": "10.28",
+        "pe": "46.40",
+        "peg": "4.51",
+        "roe_earnings": "1.40",
+        "pb_fwd": "6.30",
+        "pb_valuation": "4.51",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 38.08,
+        "year_ago_eps": 32.5,
+        "eps_growth": "17.17",
+        "pe": "39.60",
+        "peg": "2.31",
+        "roe_earnings": "2.36",
+        "pb_fwd": "5.44",
+        "pb_valuation": "2.31",
+        "analystCount": 5
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "15.97",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "20.22",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1759408806037
+  },
+  {
+    "country": "INDIA",
+    "ticker": "HCG.NS",
+    "name": "HEALTHCARE GLOBAL",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 141000100,
+    "lastFiscalReserves": 9224440000,
+    "price": 645.8,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "2.59",
+    "TTM_PE": "249.34",
+    "PB": "9.72",
+    "ROE": "3.97",
+    "ROA": "N/A",
+    "OPM": "8.13",
+    "NPM": "1.60",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.48,
+        "year_ago_eps": 1.28,
+        "eps_growth": "15.62",
+        "pe": "231.47",
+        "peg": "14.81",
+        "roe_earnings": "0.65",
+        "pb_fwd": "9.65",
+        "pb_valuation": "14.81",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.98,
+        "year_ago_eps": 0.49,
+        "eps_growth": "100.00",
+        "pe": "196.89",
+        "peg": "1.97",
+        "roe_earnings": "4.83",
+        "pb_fwd": "9.51",
+        "pb_valuation": "1.97",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 5.65,
+        "year_ago_eps": 3.14,
+        "eps_growth": "79.94",
+        "pe": "114.30",
+        "peg": "1.43",
+        "roe_earnings": "6.35",
+        "pb_fwd": "9.09",
+        "pb_valuation": "1.43",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 10.58333,
+        "year_ago_eps": 5.65,
+        "eps_growth": "87.32",
+        "pe": "61.02",
+        "peg": "0.70",
+        "roe_earnings": "11.32",
+        "pb_fwd": "7.91",
+        "pb_valuation": "0.70",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "21.33",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.26",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "14.90",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "14.68",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1759408833184
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KOVAI.NS",
+    "name": "KOVAI MEDICAL CENTER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 10942300,
+    "lastFiscalReserves": 10861623000,
+    "price": 2581,
+    "industry": "N/A",
+    "sector": "N/A",
+    "TTM_EPS": "124.45",
+    "TTM_PE": "20.74",
+    "PB": "2.60",
+    "ROE": "18.40",
+    "ROA": "N/A",
+    "OPM": "21.36",
+    "NPM": "15.42",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "20.74",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "20.74",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1759408855531
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INDIASHLTR.NS",
+    "name": "INDIA SHELTER FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 108356822,
+    "lastFiscalReserves": 27087354000,
+    "price": 876.65,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "37.07",
+    "TTM_PE": "23.65",
+    "PB": "3.49",
+    "ROE": "14.09",
+    "ROA": "N/A",
+    "OPM": "63.46",
+    "NPM": "47.96",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "23.65",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.51",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "23.65",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.51",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 44.86,
+        "year_ago_eps": 33.93,
+        "eps_growth": "32.21",
+        "pe": "19.54",
+        "peg": "0.61",
+        "roe_earnings": "4.90",
+        "pb_fwd": "2.97",
+        "pb_valuation": "0.61",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 55.29991,
+        "year_ago_eps": 44.33448,
+        "eps_growth": "23.27",
+        "pe": "15.85",
+        "peg": "0.68",
+        "roe_earnings": "3.68",
+        "pb_fwd": "2.50",
+        "pb_valuation": "0.68",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "29.75",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "24.64",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1759761528338
+  },
+  {
+    "country": "INDIA",
+    "ticker": "LICHSGFIN.NS",
+    "name": "LIC HOUSING FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 550063000,
+    "lastFiscalReserves": 363518000000,
+    "price": 576.85,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "100.01",
+    "TTM_PE": "5.77",
+    "PB": "0.87",
+    "ROE": "14.07",
+    "ROA": "N/A",
+    "OPM": "84.74",
+    "NPM": "65.45",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 25.16,
+        "year_ago_eps": 24.16,
+        "eps_growth": "4.14",
+        "pe": "5.71",
+        "peg": "1.38",
+        "roe_earnings": "0.61",
+        "pb_fwd": "0.84",
+        "pb_valuation": "1.38",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 24.33,
+        "year_ago_eps": 26.03,
+        "eps_growth": "-6.53",
+        "pe": "5.81",
+        "peg": "-0.89",
+        "roe_earnings": "-0.91",
+        "pb_fwd": "0.81",
+        "pb_valuation": "-0.89",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 96.60819,
+        "year_ago_eps": 98.7,
+        "eps_growth": "-2.12",
+        "pe": "5.97",
+        "peg": "-2.82",
+        "roe_earnings": "-0.27",
+        "pb_fwd": "0.76",
+        "pb_valuation": "-2.82",
+        "analystCount": 26
+      },
+      "Next Year": {
+        "eps_estimate": 102.34773,
+        "year_ago_eps": 96.60819,
+        "eps_growth": "5.94",
+        "pe": "5.64",
+        "peg": "0.95",
+        "roe_earnings": "0.71",
+        "pb_fwd": "0.67",
+        "pb_valuation": "0.95",
+        "analystCount": 26
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "5.22",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "2.12",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "3.31",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "revenue_growth": "7.40",
+        "analystCount": 23
+      }
+    },
+    "timestamp": 1759761565940
+  },
+  {
+    "country": "INDIA",
+    "ticker": "BAJAJHFL.NS",
+    "name": "BAJAJ HOUSING FINANCE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 8332334619,
+    "lastFiscalReserves": 199468000000,
+    "price": 111.77,
+    "industry": "mortgage-finance",
+    "sector": "financial-services",
+    "TTM_EPS": "2.72",
+    "TTM_PE": "41.09",
+    "PB": "4.67",
+    "ROE": "10.72",
+    "ROA": "N/A",
+    "OPM": "78.58",
+    "NPM": "65.11",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "41.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.67",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "41.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.67",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 2.99208,
+        "year_ago_eps": 2.67,
+        "eps_growth": "12.06",
+        "pe": "37.36",
+        "peg": "3.10",
+        "roe_earnings": "1.34",
+        "pb_fwd": "4.15",
+        "pb_valuation": "3.10",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "eps_estimate": 3.64127,
+        "year_ago_eps": 2.99208,
+        "eps_growth": "21.70",
+        "pe": "30.70",
+        "peg": "1.41",
+        "roe_earnings": "2.58",
+        "pb_fwd": "3.66",
+        "pb_valuation": "1.41",
+        "analystCount": 8
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "19.35",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "20.55",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "22.77",
+        "analystCount": 6
+      }
+    },
+    "timestamp": 1759763206636
+  },
+  {
+    "country": "INDIA",
     "ticker": "INFY.NS",
-    "name": "Infosys",
+    "name": "INFOSYS",
     "mostRecentQuarter": "Jun 2025",
     "lastFiscalYear": "Mar 2025",
     "shares": 4145302940,
     "lastFiscalReserves": 11205000000,
-    "price": 1448.9,
+    "price": 1495,
     "industry": "information-technology-services",
     "sector": "technology",
-    "TTM_EPS": "68.39",
-    "TTM_PE": "21.19",
-    "PB": "542.66",
+    "TTM_EPS": "68.26",
+    "TTM_PE": "21.90",
+    "PB": "559.93",
     "ROE": "24.97",
     "ROA": "14.86",
     "OPM": "20.89",
     "NPM": "16.43",
     "earningsTrend": {
       "Current Quarter": {
-        "eps_estimate": 17.2385,
+        "eps_estimate": 17.38052,
         "year_ago_eps": 15.68,
-        "eps_growth": "9.94",
-        "pe": "20.71",
-        "peg": "2.08",
-        "roe_earnings": "34.86",
-        "pb_fwd": "72.66",
-        "pb_valuation": "2.08",
+        "eps_growth": "10.85",
+        "pe": "21.37",
+        "peg": "1.97",
+        "roe_earnings": "37.78",
+        "pb_fwd": "74.44",
+        "pb_valuation": "1.97",
+        "analystCount": 22
+      },
+      "Next Quarter": {
+        "eps_estimate": 18.06542,
+        "year_ago_eps": 16.39,
+        "eps_growth": "10.22",
+        "pe": "20.87",
+        "peg": "2.04",
+        "roe_earnings": "19.20",
+        "pb_fwd": "39.19",
+        "pb_valuation": "2.04",
+        "analystCount": 6
+      },
+      "Current Year": {
+        "eps_estimate": 69.06446,
+        "year_ago_eps": 64.34,
+        "eps_growth": "7.34",
+        "pe": "21.65",
+        "peg": "2.95",
+        "roe_earnings": "7.07",
+        "pb_fwd": "20.83",
+        "pb_valuation": "2.95",
+        "analystCount": 45
+      },
+      "Next Year": {
+        "eps_estimate": 74.60948,
+        "year_ago_eps": 69.06446,
+        "eps_growth": "8.03",
+        "pe": "20.04",
+        "peg": "2.50",
+        "roe_earnings": "4.09",
+        "pb_fwd": "10.21",
+        "pb_valuation": "2.50",
+        "analystCount": 45
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.84",
+        "analystCount": 29
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.67",
         "analystCount": 9
       },
-      "Next Quarter": {
-        "eps_estimate": 17.85766,
-        "year_ago_eps": 16.39,
-        "eps_growth": "8.95",
-        "pe": "20.29",
-        "peg": "2.27",
-        "roe_earnings": "16.92",
-        "pb_fwd": "38.33",
-        "pb_valuation": "2.27",
-        "analystCount": 7
-      },
       "Current Year": {
-        "eps_estimate": 68.67954,
-        "year_ago_eps": 64.34,
-        "eps_growth": "6.74",
-        "pe": "21.10",
-        "peg": "3.13",
-        "roe_earnings": "6.49",
-        "pb_fwd": "20.30",
-        "pb_valuation": "3.13",
-        "analystCount": 44
+        "revenue_growth": "6.64",
+        "analystCount": 49
       },
       "Next Year": {
-        "eps_estimate": 74.39244,
-        "year_ago_eps": 68.67954,
-        "eps_growth": "8.32",
-        "pe": "19.48",
-        "peg": "2.34",
-        "roe_earnings": "4.24",
-        "pb_fwd": "9.94",
-        "pb_valuation": "2.34",
-        "analystCount": 44
+        "revenue_growth": "6.61",
+        "analystCount": 48
       }
     },
-    "revenueTrend": {
-      "Current Quarter": {
-        "revenue_growth": "6.19",
-        "analystCount": 13
-      },
-      "Next Quarter": {
-        "revenue_growth": "4.85",
-        "analystCount": 10
-      },
-      "Current Year": {
-        "revenue_growth": "5.86",
-        "analystCount": 52
-      },
-      "Next Year": {
-        "revenue_growth": "7.05",
-        "analystCount": 52
-      }
-    },
-    "timestamp": 1759055468705
+    "timestamp": 1759943729714
   },
   {
     "country": "INDIA",
-    "ticker": "HCLTECH.NS",
-    "name": "HCL Technologies",
+    "ticker": "PERSISTENT.NS",
+    "name": "PERSISTENT SYSTEMS",
     "mostRecentQuarter": "Jun 2025",
     "lastFiscalYear": "Mar 2025",
-    "shares": 2709305474,
-    "lastFiscalReserves": 696550000000,
-    "price": 1395.3,
+    "shares": 155468942,
+    "lastFiscalReserves": 63190650000,
+    "price": 5263.6,
     "industry": "information-technology-services",
     "sector": "technology",
-    "TTM_EPS": "62.51",
-    "TTM_PE": "22.32",
-    "PB": "463.55",
-    "ROE": "21.82",
-    "ROA": "13.25",
-    "OPM": "16.30",
-    "NPM": "14.23",
+    "TTM_EPS": "97.52",
+    "TTM_PE": "53.97",
+    "PB": "11.91",
+    "ROE": "21.27",
+    "ROA": "13.42",
+    "OPM": "15.53",
+    "NPM": "12.11",
     "earningsTrend": {
       "Current Quarter": {
-        "eps_estimate": 15.61435,
-        "year_ago_eps": 15.61,
-        "eps_growth": "0.03",
-        "pe": "22.32",
-        "peg": "800.94",
-        "roe_earnings": "0.01",
-        "pb_fwd": "5.12",
-        "pb_valuation": "800.94",
-        "analystCount": 8
+        "eps_estimate": 28.76129,
+        "year_ago_eps": 20.98,
+        "eps_growth": "37.09",
+        "pe": "49.99",
+        "peg": "1.35",
+        "roe_earnings": "8.97",
+        "pb_fwd": "12.09",
+        "pb_valuation": "1.35",
+        "analystCount": 19
       },
       "Next Quarter": {
-        "eps_estimate": 17.66191,
-        "year_ago_eps": 16.93,
-        "eps_growth": "4.32",
-        "pe": "22.06",
-        "peg": "5.10",
-        "roe_earnings": "0.94",
-        "pb_fwd": "4.81",
-        "pb_valuation": "5.10",
-        "analystCount": 7
+        "eps_estimate": 27.94117,
+        "year_ago_eps": 23.93,
+        "eps_growth": "16.76",
+        "pe": "48.15",
+        "peg": "2.87",
+        "roe_earnings": "3.96",
+        "pb_fwd": "11.36",
+        "pb_valuation": "2.87",
+        "analystCount": 4
       },
       "Current Year": {
-        "eps_estimate": 64.16391,
-        "year_ago_eps": 64.09,
-        "eps_growth": "0.12",
-        "pe": "21.75",
-        "peg": "188.57",
-        "roe_earnings": "0.02",
-        "pb_fwd": "4.34",
-        "pb_valuation": "188.57",
-        "analystCount": 43
+        "eps_estimate": 113.50149,
+        "year_ago_eps": 90.24,
+        "eps_growth": "25.78",
+        "pe": "46.37",
+        "peg": "1.80",
+        "roe_earnings": "5.63",
+        "pb_fwd": "10.12",
+        "pb_valuation": "1.80",
+        "analystCount": 35
       },
       "Next Year": {
-        "eps_estimate": 72.10363,
-        "year_ago_eps": 64.16391,
-        "eps_growth": "12.37",
-        "pe": "19.35",
-        "peg": "1.56",
-        "roe_earnings": "2.27",
-        "pb_fwd": "3.55",
-        "pb_valuation": "1.56",
-        "analystCount": 44
+        "eps_estimate": 137.1989,
+        "year_ago_eps": 113.50149,
+        "eps_growth": "20.88",
+        "pe": "38.36",
+        "peg": "1.84",
+        "roe_earnings": "4.36",
+        "pb_fwd": "8.01",
+        "pb_valuation": "1.84",
+        "analystCount": 35
       }
     },
     "revenueTrend": {
       "Current Quarter": {
-        "revenue_growth": "7.89",
-        "analystCount": 6
+        "revenue_growth": "22.01",
+        "analystCount": 22
       },
       "Next Quarter": {
-        "revenue_growth": "8.31",
-        "analystCount": 5
+        "revenue_growth": "20.03",
+        "analystCount": 3
       },
       "Current Year": {
-        "revenue_growth": "7.20",
-        "analystCount": 43
+        "revenue_growth": "19.38",
+        "analystCount": 32
       },
       "Next Year": {
-        "revenue_growth": "7.58",
-        "analystCount": 44
+        "revenue_growth": "17.26",
+        "analystCount": 32
       }
     },
-    "timestamp": 1759055472036
+    "timestamp": 1759943808825
   },
   {
     "country": "INDIA",
-    "ticker": "WIPRO.NS",
-    "name": "Wipro",
+    "ticker": "SWSOLAR.NS",
+    "name": "SWSOLAR",
     "mostRecentQuarter": "Jun 2025",
     "lastFiscalYear": "Mar 2025",
-    "shares": 10471866920,
-    "lastFiscalReserves": 828309000000,
-    "price": 235.75,
-    "industry": "information-technology-services",
+    "shares": 233531720,
+    "lastFiscalReserves": 10070600000,
+    "price": 241.61,
+    "industry": "solar",
     "sector": "technology",
-    "TTM_EPS": "12.82",
-    "TTM_PE": "18.39",
-    "PB": "2.84",
-    "ROE": "15.00",
-    "ROA": "7.53",
-    "OPM": "16.06",
-    "NPM": "15.08",
-    "earningsTrend": {
-      "Current Quarter": {
-        "eps_estimate": 3.10971,
-        "year_ago_eps": 3.06,
-        "eps_growth": "1.62",
-        "pe": "18.32",
-        "peg": "11.28",
-        "roe_earnings": "0.25",
-        "pb_fwd": "2.87",
-        "pb_valuation": "11.28",
-        "analystCount": 8
-      },
-      "Next Quarter": {
-        "eps_estimate": 3.166,
-        "year_ago_eps": 3.2,
-        "eps_growth": "-1.06",
-        "pe": "18.37",
-        "peg": "-17.29",
-        "roe_earnings": "-0.16",
-        "pb_fwd": "2.76",
-        "pb_valuation": "-17.29",
-        "analystCount": 8
-      },
-      "Current Year": {
-        "eps_estimate": 12.68588,
-        "year_ago_eps": 12.52,
-        "eps_growth": "1.32",
-        "pe": "18.58",
-        "peg": "14.03",
-        "roe_earnings": "0.18",
-        "pb_fwd": "2.57",
-        "pb_valuation": "14.03",
-        "analystCount": 44
-      },
-      "Next Year": {
-        "eps_estimate": 13.38932,
-        "year_ago_eps": 12.68588,
-        "eps_growth": "5.55",
-        "pe": "17.61",
-        "peg": "3.18",
-        "roe_earnings": "0.71",
-        "pb_fwd": "2.24",
-        "pb_valuation": "3.18",
-        "analystCount": 44
-      }
-    },
-    "revenueTrend": {
-      "Current Quarter": {
-        "revenue_growth": "0.65",
-        "analystCount": 7
-      },
-      "Next Quarter": {
-        "revenue_growth": "1.99",
-        "analystCount": 7
-      },
-      "Current Year": {
-        "revenue_growth": "1.26",
-        "analystCount": 42
-      },
-      "Next Year": {
-        "revenue_growth": "5.54",
-        "analystCount": 42
-      }
-    },
-    "timestamp": 1759055475493
-  },
-  {
-    "country": "INDIA",
-    "ticker": "TECHM.NS",
-    "name": "Tech Mahindra",
-    "mostRecentQuarter": "Jun 2025",
-    "lastFiscalYear": "Mar 2025",
-    "shares": 885326674,
-    "lastFiscalReserves": 273615000000,
-    "price": 1407.7,
-    "industry": "information-technology-services",
-    "sector": "technology",
-    "TTM_EPS": "51.24",
-    "TTM_PE": "27.47",
-    "PB": "4.55",
-    "ROE": "15.30",
+    "TTM_EPS": "4.67",
+    "TTM_PE": "51.74",
+    "PB": "5.61",
+    "ROE": "9.98",
     "ROA": "N/A",
-    "OPM": "11.06",
-    "NPM": "8.51",
+    "OPM": "4.69",
+    "NPM": "1.53",
     "earningsTrend": {
       "Current Quarter": {
-        "eps_estimate": 14.32618,
-        "year_ago_eps": 14.1,
-        "eps_growth": "1.60",
-        "pe": "27.35",
-        "peg": "17.05",
-        "roe_earnings": "0.26",
-        "pb_fwd": "4.35",
-        "pb_valuation": "17.05",
-        "analystCount": 8
-      },
-      "Next Quarter": {
-        "eps_estimate": 15.46235,
-        "year_ago_eps": 11.08,
-        "eps_growth": "39.55",
-        "pe": "25.21",
-        "peg": "0.64",
-        "roe_earnings": "6.52",
-        "pb_fwd": "4.15",
-        "pb_valuation": "0.64",
-        "analystCount": 7
-      },
-      "Current Year": {
-        "eps_estimate": 59.3632,
-        "year_ago_eps": 47.91,
-        "eps_growth": "23.91",
-        "pe": "23.71",
-        "peg": "0.99",
-        "roe_earnings": "3.85",
-        "pb_fwd": "3.82",
-        "pb_valuation": "0.99",
-        "analystCount": 42
-      },
-      "Next Year": {
-        "eps_estimate": 73.74129,
-        "year_ago_eps": 59.3632,
-        "eps_growth": "24.22",
-        "pe": "19.09",
-        "peg": "0.79",
-        "roe_earnings": "4.04",
-        "pb_fwd": "3.18",
-        "pb_valuation": "0.79",
-        "analystCount": 42
-      }
-    },
-    "revenueTrend": {
-      "Current Quarter": {
-        "revenue_growth": "2.73",
-        "analystCount": 6
-      },
-      "Next Quarter": {
-        "revenue_growth": "4.60",
-        "analystCount": 5
-      },
-      "Current Year": {
-        "revenue_growth": "3.87",
-        "analystCount": 43
-      },
-      "Next Year": {
-        "revenue_growth": "7.31",
-        "analystCount": 43
-      }
-    },
-    "timestamp": 1759055478545
-  },
-  {
-    "country": "INDIA",
-    "ticker": "BAJFINANCE.NS",
-    "name": "Bajaj Finance",
-    "mostRecentQuarter": "Jun 2025",
-    "lastFiscalYear": "Mar 2025",
-    "shares": 6212388900,
-    "lastFiscalReserves": 966928700000,
-    "price": 985.1,
-    "industry": "credit-services",
-    "sector": "financial-services",
-    "TTM_EPS": "28.08",
-    "TTM_PE": "35.08",
-    "PB": "6.32",
-    "ROE": "16.46",
-    "ROA": "N/A",
-    "OPM": "60.70",
-    "NPM": "44.94",
-    "earningsTrend": {
-      "Current Quarter": {
-        "eps_estimate": 7.91,
-        "year_ago_eps": 5.85,
-        "eps_growth": "35.21",
-        "pe": "32.68",
-        "peg": "0.93",
-        "roe_earnings": "6.49",
-        "pb_fwd": "6.02",
-        "pb_valuation": "0.93",
-        "analystCount": 1
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.74",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
       },
       "Next Quarter": {
         "eps_estimate": null,
         "year_ago_eps": null,
         "eps_growth": "NaN",
-        "pe": "32.68",
+        "pe": "51.74",
         "peg": "NaN",
         "roe_earnings": "NaN",
-        "pb_fwd": "6.02",
+        "pb_fwd": "5.60",
         "pb_valuation": "NaN",
         "analystCount": null
       },
       "Current Year": {
-        "eps_estimate": 33.47419,
-        "year_ago_eps": 26.82,
-        "eps_growth": "24.81",
-        "pe": "29.43",
-        "peg": "1.19",
-        "roe_earnings": "4.39",
-        "pb_fwd": "5.21",
-        "pb_valuation": "1.19",
-        "analystCount": 28
+        "eps_estimate": 12.4,
+        "year_ago_eps": 3.49,
+        "eps_growth": "255.30",
+        "pe": "19.48",
+        "peg": "0.08",
+        "roe_earnings": "57.02",
+        "pb_fwd": "4.35",
+        "pb_valuation": "0.08",
+        "analystCount": 2
       },
       "Next Year": {
-        "eps_estimate": 41.97325,
-        "year_ago_eps": 33.47419,
-        "eps_growth": "25.39",
-        "pe": "23.47",
-        "peg": "0.92",
-        "roe_earnings": "4.61",
-        "pb_fwd": "4.26",
-        "pb_valuation": "0.92",
-        "analystCount": 29
+        "eps_estimate": 17.9,
+        "year_ago_eps": 12.4,
+        "eps_growth": "44.35",
+        "pe": "13.50",
+        "peg": "0.30",
+        "roe_earnings": "10.81",
+        "pb_fwd": "3.29",
+        "pb_valuation": "0.30",
+        "analystCount": 2
       }
     },
     "revenueTrend": {
       "Current Quarter": {
-        "revenue_growth": "19.63",
-        "analystCount": 1
+        "revenue_growth": "NaN",
+        "analystCount": 0
       },
       "Next Quarter": {
-        "revenue_growth": "19.14",
-        "analystCount": 1
+        "revenue_growth": "NaN",
+        "analystCount": 0
       },
       "Current Year": {
-        "revenue_growth": "22.19",
-        "analystCount": 27
+        "revenue_growth": "22.39",
+        "analystCount": 2
       },
       "Next Year": {
-        "revenue_growth": "22.50",
-        "analystCount": 27
+        "revenue_growth": "21.63",
+        "analystCount": 2
       }
     },
-    "timestamp": 1759055481793,
-    "priceTarget": {
+    "timestamp": 1759943909044
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INOXWIND.NS",
+    "name": "INOX WIND",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1728237822,
+    "lastFiscalReserves": 50467440000,
+    "price": 141.41,
+    "industry": "specialty-industrial-machinery",
+    "sector": "industrials",
+    "TTM_EPS": "3.25",
+    "TTM_PE": "43.51",
+    "PB": "4.55",
+    "ROE": "9.41",
+    "ROA": "N/A",
+    "OPM": "16.34",
+    "NPM": "14.52",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.51",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.84",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.51",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.84",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
       "Current Year": {
-        "pe": {
-          "Value": 30,
-          "priceTarget": "1004.23",
-          "priceChange": "1.94"
-        },
-        "pb_fwd": {
-          "Value": 4.39,
-          "priceTarget": "830.23",
-          "priceChange": "-15.72"
-        }
+        "eps_estimate": 5.3,
+        "year_ago_eps": 2.8168,
+        "eps_growth": "88.16",
+        "pe": "26.68",
+        "peg": "0.30",
+        "roe_earnings": "13.54",
+        "pb_fwd": "4.10",
+        "pb_valuation": "0.30",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 7.88333,
+        "year_ago_eps": 5.3,
+        "eps_growth": "48.74",
+        "pe": "17.94",
+        "peg": "0.37",
+        "roe_earnings": "9.07",
+        "pb_fwd": "3.34",
+        "pb_valuation": "0.37",
+        "analystCount": 6
       }
-    }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "86.62",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "43.96",
+        "analystCount": 6
+      }
+    },
+    "timestamp": 1759944068812
   },
   {
     "country": "INDIA",
@@ -441,96 +2443,80 @@
     "lastFiscalYear": "Mar 2025",
     "shares": 3618087518,
     "lastFiscalReserves": 947560000000,
-    "price": 2899.1,
+    "price": 3061.7,
     "industry": "information-technology-services",
     "sector": "technology",
-    "TTM_EPS": "136.26",
-    "TTM_PE": "21.28",
-    "PB": "10.71",
+    "TTM_EPS": "136.22",
+    "TTM_PE": "22.48",
+    "PB": "11.31",
     "ROE": "41.15",
     "ROA": "24.60",
     "OPM": "24.46",
     "NPM": "19.24",
     "earningsTrend": {
       "Current Quarter": {
-        "eps_estimate": 34.47021,
-        "year_ago_eps": 32.92,
-        "eps_growth": "4.71",
-        "pe": "21.04",
-        "peg": "4.47",
-        "roe_earnings": "2.19",
-        "pb_fwd": "9.78",
-        "pb_valuation": "4.47",
-        "analystCount": 9
+        "eps_estimate": 34.86876,
+        "year_ago_eps": 34.21,
+        "eps_growth": "1.93",
+        "pe": "22.37",
+        "peg": "11.62",
+        "roe_earnings": "0.89",
+        "pb_fwd": "10.32",
+        "pb_valuation": "11.62",
+        "analystCount": 7
       },
       "Next Quarter": {
-        "eps_estimate": 34.6304,
-        "year_ago_eps": 34.21,
-        "eps_growth": "1.23",
-        "pe": "20.97",
-        "peg": "17.07",
-        "roe_earnings": "0.51",
-        "pb_fwd": "8.76",
-        "pb_valuation": "17.07",
-        "analystCount": 8
+        "eps_estimate": 35.9956,
+        "year_ago_eps": 33.79,
+        "eps_growth": "6.53",
+        "pe": "22.01",
+        "peg": "3.37",
+        "roe_earnings": "2.73",
+        "pb_fwd": "9.20",
+        "pb_valuation": "3.37",
+        "analystCount": 7
       },
       "Current Year": {
-        "eps_estimate": 141.44609,
+        "eps_estimate": 141.48132,
         "year_ago_eps": 134.19,
-        "eps_growth": "5.41",
-        "pe": "20.50",
-        "peg": "3.79",
-        "roe_earnings": "1.90",
-        "pb_fwd": "7.19",
-        "pb_valuation": "3.79",
+        "eps_growth": "5.43",
+        "pe": "21.64",
+        "peg": "3.98",
+        "roe_earnings": "1.91",
+        "pb_fwd": "7.59",
+        "pb_valuation": "3.98",
         "analystCount": 42
       },
       "Next Year": {
-        "eps_estimate": 152.40479,
-        "year_ago_eps": 141.44609,
-        "eps_growth": "7.75",
-        "pe": "19.02",
-        "peg": "2.46",
-        "roe_earnings": "2.12",
-        "pb_fwd": "5.22",
-        "pb_valuation": "2.46",
+        "eps_estimate": 151.6961,
+        "year_ago_eps": 141.48132,
+        "eps_growth": "7.22",
+        "pe": "20.18",
+        "peg": "2.80",
+        "roe_earnings": "1.97",
+        "pb_fwd": "5.52",
+        "pb_valuation": "2.80",
         "analystCount": 42
       }
     },
     "revenueTrend": {
       "Current Quarter": {
-        "revenue_growth": "0.99",
-        "analystCount": 8
+        "revenue_growth": "4.38",
+        "analystCount": 6
       },
       "Next Quarter": {
-        "revenue_growth": "3.94",
-        "analystCount": 7
+        "revenue_growth": "5.64",
+        "analystCount": 6
       },
       "Current Year": {
-        "revenue_growth": "2.70",
-        "analystCount": 45
+        "revenue_growth": "2.97",
+        "analystCount": 41
       },
       "Next Year": {
-        "revenue_growth": "7.27",
-        "analystCount": 45
+        "revenue_growth": "6.84",
+        "analystCount": 40
       }
     },
-    "timestamp": 1759055469390,
-    "priceTarget": {
-      "Current Year": {
-        "pe": {
-          "Value": 22,
-          "priceTarget": "3111.81",
-          "priceChange": "7.34"
-        }
-      },
-      "Next Year": {
-        "pe": {
-          "Value": 25,
-          "priceTarget": "3810.12",
-          "priceChange": "31.42"
-        }
-      }
-    }
+    "timestamp": 1760020101625
   }
 ]

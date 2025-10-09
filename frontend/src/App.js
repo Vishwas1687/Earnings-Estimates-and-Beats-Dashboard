@@ -4,14 +4,23 @@ import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import EarningsTable from "./components/EarningsTable/EarningsTable";
 import AddCompanyForm from "./components/AddCompanyForm/AddCompanyForm";
-import { fetchEarningsData, fetchTickers, deleteStock } from "./utils/api";
+import {
+  fetchEarningsData,
+  deleteStock,
+  fetchCategories,
+} from "./utils/api";
 import "./App.css";
 
 function App() {
+  const [categories, setCategories] = useState([]);
+  const [categoryList, setCategoryList] = useState([]);
+  const [watchlistList, setWatchlistList] = useState([]);
+  const [currentCategory, setCurrentCategory] = useState(null);
+  const [currentWatchlist, setCurrentWatchlist] = useState(null);
+  const [fields, setFields] = useState([]);
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [tickersLoaded, setTickersLoaded] = useState(false);
 
   const addCompany = async (ticker, name) => {
     setLoading(true);
@@ -29,8 +38,12 @@ function App() {
         return;
       }
 
-      const data = await fetchEarningsData(ticker, name);
-
+      const data = await fetchEarningsData(
+        ticker,
+        name,
+        currentCategory,
+        currentWatchlist
+      );
       if (data) {
         const newCompany = {
           ...data,
@@ -47,31 +60,60 @@ function App() {
     }
   };
 
-  const deleteCompany = async(id) => {
-    try{
-      const result = await deleteStock(id);
+  const deleteCompany = async (id) => {
+    try {
+      const result = await deleteStock(id, currentCategory, currentWatchlist);
       setCompanies((prev) => prev.filter((company) => company.id !== id));
-    } catch(error) {
-      console.log(error)
+    } catch (error) {
+      console.log(error);
     }
   };
 
   useEffect(() => {
-    if (tickersLoaded) return;
-
-    const fetchTickerData = async () => {
+    const fetchCategoriesData = async () => {
       try {
-        const tickers = await fetchTickers();
-        for (const ticker of tickers) {
-          await addCompany(ticker.ticker, ticker.name);
+        const response = await fetchCategories();
+        setWatchlistList([]);
+        setCategoryList([]);
+        setCategories(response);
+        setCurrentCategory(response[0].name);
+        setCurrentWatchlist(response[0].watchlists[0].name);
+        setFields(response[0].watchlists[0].fields);
+        for (const category of response) {
+          setCategoryList((prev) => [...prev, category.name]);
         }
-        setTickersLoaded(true);
+        for (const watchlist of response[0].watchlists) {
+          setWatchlistList((prev) => [...prev, watchlist.name]);
+        }
+        console.log(response);
       } catch (err) {
         console.log(err);
       }
     };
-    fetchTickerData();
-  }, [tickersLoaded]);
+
+    fetchCategoriesData();
+  }, []);
+
+  useEffect(() => {
+    const fetchCompanies = async (companyList) => {
+      for (const company of companyList) {
+        try {
+          await addCompany(company.ticker, company.name);
+        } catch (err) {
+          console.log(err);
+        }
+      }
+    };
+    if (!currentCategory || !currentWatchlist) return;
+    const category = categories.find((cat) => cat.name === currentCategory);
+    if (!category) return;
+    const watchlist = category.watchlists.find(
+      (wl) => wl.name === currentWatchlist
+    );
+    if (!watchlist) return;
+    setFields(watchlist.fields);
+    fetchCompanies(watchlist.companies);
+  }, [currentCategory, currentWatchlist]);
 
   return (
     <MantineProvider>
@@ -84,7 +126,24 @@ function App() {
           error={error}
         />
 
-        <EarningsTable companies={companies} onDeleteCompany={deleteCompany} />
+        <EarningsTable
+          loading={loading}
+          companies={companies}
+          onDeleteCompany={deleteCompany}
+          categories={categories}
+          setCategories={setCategories}
+          categoryList={categoryList}
+          setCategoryList={setCategoryList}
+          watchlistList={watchlistList}
+          setWatchlistList={setWatchlistList}
+          setCurrentWatchlist={setCurrentWatchlist}
+          setCurrentCategory={setCurrentCategory}
+          setFields={setFields}
+          setCompanies={setCompanies}
+          currentCategory={currentCategory}
+          currentWatchlist={currentWatchlist}
+          fields={fields}
+        />
       </div>
     </MantineProvider>
   );
