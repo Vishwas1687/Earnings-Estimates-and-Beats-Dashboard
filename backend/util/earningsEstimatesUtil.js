@@ -1,5 +1,10 @@
 import YahooFinance from "yahoo-finance2";
-import {extractDate, getParsedData, getQuarterDate, getQuarterDifference} from './dateUtils.js';
+import {
+  extractDate,
+  getParsedData,
+  getQuarterDate,
+  getQuarterDifference,
+} from "./dateUtils.js";
 import fs from "fs";
 
 export const getEPSEstimatesData = async (ticker) => {
@@ -12,8 +17,12 @@ export const getEPSEstimatesData = async (ticker) => {
       "financialData",
     ],
   });
-  const mostRecentQuarter = extractDate(result.defaultKeyStatistics?.mostRecentQuarter);
-  const lastFiscalYear = extractDate(result.defaultKeyStatistics?.lastFiscalYearEnd);
+  const mostRecentQuarter = extractDate(
+    result.defaultKeyStatistics?.mostRecentQuarter
+  );
+  const lastFiscalYear = extractDate(
+    result.defaultKeyStatistics?.lastFiscalYearEnd
+  );
   const balance_sheet = await YahooFinance.fundamentalsTimeSeries(ticker, {
     period1: lastFiscalYear,
     period2: mostRecentQuarter,
@@ -26,16 +35,24 @@ export const getEPSEstimatesData = async (ticker) => {
     type: "quarterly",
     module: "financials",
   });
-  const quarter_difference = getQuarterDifference(mostRecentQuarter, lastFiscalYear);
+  const quarter_difference = getQuarterDifference(
+    mostRecentQuarter,
+    lastFiscalYear
+  );
   var reserves = balance_sheet[0]?.stockholdersEquity;
   const length = financials.length;
-  for(var i = length - 1; i >= length - 1 -quarter_difference ; i--)
-  {
+  for (var i = length - 1; i >= length - 1 - quarter_difference; i--) {
     reserves += financials[i]?.netIncome;
   }
-  const roe = ( financials[0]?.netIncome + financials[1]?.netIncome + financials[2]?.netIncome + financials[3]?.netIncome ) /
-               reserves;
+  const TTM_profit =
+    financials[0]?.netIncome +
+    financials[1]?.netIncome +
+    financials[2]?.netIncome +
+    financials[3]?.netIncome;
+  const roe = TTM_profit / reserves;
   result.roe = (roe * 100).toFixed(2);
+  result.roa = (TTM_profit / balance_sheet[0]?.totalAssets) * 100;
+
   result.mostRecentQuarter = mostRecentQuarter;
   result.lastFiscalYear = lastFiscalYear;
   result.reserves = reserves;
@@ -97,8 +114,9 @@ const calculateEpsGrowthFields = (
 
   var eps, eps_growth, pe, peg, roe_earnings, pb_fwd, pb_valuation, roe;
   var TTM_profit, reserves_estimates;
-  const safeValue = (val) => ( (isNaN(val) || val === undefined || val == null ) ? 0 : val);
-  if(safeValue(lastFiscalReserves) == 0){
+  const safeValue = (val) =>
+    isNaN(val) || val === undefined || val == null ? 0 : val;
+  if (safeValue(lastFiscalReserves) == 0) {
     lastFiscalReserves = reserves;
   }
   if (period_name === "Current Quarter") {
@@ -120,20 +138,25 @@ const calculateEpsGrowthFields = (
     eps_growth =
       ((next_quarter_eps - next_quarter_year_ago_eps) /
         Math.abs(next_quarter_year_ago_eps)) *
-      100; 
-    reserves_estimates = reserves + shares * (safeValue(current_quarter_eps) + safeValue(next_quarter_eps));
+      100;
+    reserves_estimates =
+      reserves +
+      shares * (safeValue(current_quarter_eps) + safeValue(next_quarter_eps));
   } else if (period_name === "Current Year") {
     eps = current_year_eps;
     pe = price / current_year_eps;
     eps_growth =
       ((current_year_eps - year_ago_eps) / Math.abs(year_ago_eps)) * 100;
-    reserves_estimates = lastFiscalReserves + safeValue(current_year_eps) * shares;
+    reserves_estimates =
+      lastFiscalReserves + safeValue(current_year_eps) * shares;
   } else if (period_name === "Next Year") {
     eps = next_year_eps;
     pe = price / eps;
     eps_growth =
       ((next_year_eps - current_year_eps) / Math.abs(current_year_eps)) * 100;
-    reserves_estimates = lastFiscalReserves + shares * (safeValue(current_year_eps) + safeValue(next_year_eps));
+    reserves_estimates =
+      lastFiscalReserves +
+      shares * (safeValue(current_year_eps) + safeValue(next_year_eps));
   }
   peg = pe / eps_growth;
   TTM_profit = eps * shares;
@@ -151,7 +174,15 @@ const calculateEpsGrowthFields = (
   };
 };
 
-const handleEarningsTrend = (earningsTrend, price, TTM_EPS, market_cap, shares, reserves, lastFiscalReserves) => {
+const handleEarningsTrend = (
+  earningsTrend,
+  price,
+  TTM_EPS,
+  market_cap,
+  shares,
+  reserves,
+  lastFiscalReserves
+) => {
   const quartersMap = {
     "0q": "Current Quarter",
     "+1q": "Next Quarter",
@@ -228,9 +259,7 @@ export const cleanEarningsEstimatesData = (ticker, name, data) => {
   const PriceToBook =
     data.defaultKeyStatistics?.priceToBook?.toFixed(2) || "N/A";
   const ROE = data.roe;
-  const ROA = data.financialData?.returnOnAssets
-    ? (data.financialData.returnOnAssets * 100).toFixed(2)
-    : "N/A";
+  const ROA = data.roa;
   const operatingMargins = data.financialData?.operatingMargins
     ? (data.financialData.operatingMargins * 100).toFixed(2)
     : "N/A";
@@ -247,7 +276,6 @@ export const cleanEarningsEstimatesData = (ticker, name, data) => {
     data?.shares,
     data?.reserves,
     data?.lastFiscalReserves
-
   );
   const revenueTrend = handleRevenueTrend(data?.earningsTrend?.trend);
   const country = currency === "USD" ? "US" : "INDIA";

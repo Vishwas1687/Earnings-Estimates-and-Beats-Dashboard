@@ -47,7 +47,11 @@ export const deleteStock = async (
   try {
     console.log(currentCategory, currentWatchlist);
     const response = await fetch(
-      `${API_BASE_URL}/api/delete-company?ticker=${encodeURIComponent(ticker)}&category=${encodeURIComponent(currentCategory)}&watchlist=${encodeURIComponent(currentWatchlist)}`
+      `${API_BASE_URL}/api/delete-company?ticker=${encodeURIComponent(
+        ticker
+      )}&category=${encodeURIComponent(
+        currentCategory
+      )}&watchlist=${encodeURIComponent(currentWatchlist)}`
     );
 
     if (!response.ok) {
@@ -85,8 +89,8 @@ export const handleSaveFields = async (category, watchlist, fields) => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          category: category.name,
-          watchlist: watchlist.name,
+          category: category,
+          watchlistName: watchlist,
           fields: fields,
         }),
       }

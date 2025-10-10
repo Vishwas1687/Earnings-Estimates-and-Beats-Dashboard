@@ -1,14 +1,11 @@
 // App.js
-import { useState, useEffect, use } from "react";
+import { useState, useEffect } from "react";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
+import { Toaster } from "react-hot-toast";
 import EarningsTable from "./components/EarningsTable/EarningsTable";
 import AddCompanyForm from "./components/AddCompanyForm/AddCompanyForm";
-import {
-  fetchEarningsData,
-  deleteStock,
-  fetchCategories,
-} from "./utils/api";
+import { fetchEarningsData, deleteStock, fetchCategories } from "./utils/api";
 import "./App.css";
 
 function App() {
@@ -85,7 +82,6 @@ function App() {
         for (const watchlist of response[0].watchlists) {
           setWatchlistList((prev) => [...prev, watchlist.name]);
         }
-        console.log(response);
       } catch (err) {
         console.log(err);
       }
@@ -145,6 +141,32 @@ function App() {
           fields={fields}
         />
       </div>
+
+      {/* Toast notifications */}
+      <Toaster
+        position="top-right"
+        reverseOrder={false}
+        gutter={8}
+        containerClassName=""
+        containerStyle={{}}
+        toastOptions={{
+          // Define default options
+          className: "",
+          duration: 4000,
+          style: {
+            background: "#363636",
+            color: "#fff",
+          },
+          // Default options for specific types
+          success: {
+            duration: 3000,
+            theme: {
+              primary: "green",
+              secondary: "black",
+            },
+          },
+        }}
+      />
     </MantineProvider>
   );
 }

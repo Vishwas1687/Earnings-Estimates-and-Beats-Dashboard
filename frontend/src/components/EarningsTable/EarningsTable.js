@@ -1,5 +1,5 @@
 // components/EarningsTable/EarningsTable.js
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import {
   Table,
   ScrollArea,
@@ -21,6 +21,7 @@ import {
   IconArrowDown,
   IconAnalyze,
 } from "@tabler/icons-react";
+import toast from "react-hot-toast";
 import TableControls from "./TableControls";
 import {
   columnDefinitions,
@@ -47,20 +48,22 @@ const EarningsTable = ({
   currentCategory,
   currentWatchlist,
   setCompanies,
+  fields,
   loading,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [visibleColumns, setVisibleColumns] = useState(
-    categoryList.length === 0 ? defaultVisibleColumns : categoryList
-  );
+  const [visibleColumns, setVisibleColumns] = useState([]);
   const [showAnalysts, setShowAnalysts] = useState(false);
   const [rowAnalystState, setRowAnalystState] = useState({});
-  const [columnOrder, setColumnOrder] = useState(
-    categoryList.length === 0 ? defaultVisibleColumns : categoryList
-  );
+  const [columnOrder, setColumnOrder] = useState([]);
   const [draggedColumn, setDraggedColumn] = useState(null);
   const [sortOrder, setOrder] = useState(null); // 'asc', 'desc', or null
   const [sortColumn, setSortColumn] = useState(null); // column key
+
+  useEffect(() => {
+    setVisibleColumns(fields.length === 0 ? defaultVisibleColumns : fields);
+    setColumnOrder(fields.length === 0 ? defaultVisibleColumns : fields);
+  }, [fields]);
 
   const categoryChange = (newCategory) => {
     console.log(newCategory, "handleSelect");
@@ -298,7 +301,7 @@ const EarningsTable = ({
             gap: "20px",
             alignItems: "center",
           }}
-        > 
+        >
           <Dropdown
             dropdownType="Category" // label above dropdown
             items={categoryList}
@@ -374,13 +377,33 @@ const EarningsTable = ({
           />
           <Button
             variant="outline"
-            onClick={() =>
-              handleSaveFields(
-                currentCategory,
-                currentWatchlist,
-                displayColumns
-              )
-            }
+            onClick={async () => {
+              try {
+                // Show loading toast
+                const loadingToast = toast.loading(
+                  "Saving column configuration..."
+                );
+
+                await handleSaveFields(
+                  currentCategory,
+                  currentWatchlist,
+                  columnOrder
+                );
+
+                // Dismiss loading toast and show success
+                toast.dismiss(loadingToast);
+                toast.success("Column configuration saved successfully!");
+              } catch (error) {
+                // Dismiss loading toast and show error
+                toast.dismiss();
+                toast.error(
+                  `Failed to save configuration: ${
+                    error.message || "Unknown error"
+                  }`
+                );
+                console.error("Error saving fields:", error);
+              }
+            }}
             style={{ marginTop: "2.2rem" }}
           >
             Save Column Configuration

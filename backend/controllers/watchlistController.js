@@ -150,27 +150,50 @@ export const removeCompanyFromWatchlistController = (req, res) => {
 export const updateWatchlistFieldsController = (req, res) => {
   try {
     const { category, watchlistName, fields } = req.body;
+
+    // Validate input parameters
+    if (!category || !watchlistName || !fields) {
+      console.log("Missing required parameters:", {
+        category,
+        watchlistName,
+        fields,
+      });
+      return res.status(400).json({
+        error:
+          "Missing required parameters: category, watchlistName, and fields are required",
+      });
+    }
+
     const categories = loadCategories();
     const categoryObj = categories.find((cat) => cat.name === category);
     if (!categoryObj) {
+      console.log("Category not found:", category);
       return res.status(404).json({ error: "Category not found" });
-    } else {
-      const watchlist = categoryObj.watchlists.find(
-        (wl) => wl.name === watchlistName
-      );
-      if (!watchlist) {
-        return res
-          .status(404)
-          .json({ error: "Watchlist not found in this category" });
-      } else {
-        watchlist.fields = fields;
-        saveCategories(categories);
-        return res.json(watchlist);
-      }
     }
+
+    const watchlist = categoryObj.watchlists.find(
+      (wl) => wl.name === watchlistName
+    );
+    if (!watchlist) {
+      return res
+        .status(404)
+        .json({ error: "Watchlist not found in this category" });
+    }
+    // Update the fields
+    watchlist.fields = fields;
+
+    // Save the updated categories
+    saveCategories(categories);
+    return res.json({
+      success: true,
+      watchlist: watchlist,
+      message: "Watchlist fields updated successfully",
+    });
   } catch (error) {
     console.error("Error updating watchlist fields:", error);
-    res.status(500).json({ error: "Internal server error" });
+    res
+      .status(500)
+      .json({ error: "Internal server error", details: error.message });
   }
 };
 

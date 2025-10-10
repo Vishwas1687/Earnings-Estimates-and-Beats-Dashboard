@@ -12,11 +12,23 @@
           {
             "ticker": "APTUS.NS",
             "name": "Aptus Value Housing"
+          },
+          {
+            "ticker": "INDIASHLTR.NS",
+            "name": "INDIA SHELTER FINANCE"
           }
         ],
         "fields": [
-          "current_year_eps",
-          "next_year_eps"
+          "name",
+          "price",
+          "mostRecentQuarter",
+          "ROE",
+          "PB",
+          "current_year_pb_fwd",
+          "current_year_roe_earnings",
+          "next_year_pb_fwd",
+          "next_year_roe_earnings",
+          "ROA"
         ]
       },
       {
@@ -25,9 +37,24 @@
           {
             "ticker": "LICHSGFIN.NS",
             "name": "LIC HOUSING FINANCE"
+          },
+          {
+            "ticker": "BAJAJHFL.NS",
+            "name": "BAJAJ HOUSING FINANCE"
           }
         ],
-        "fields": []
+        "fields": [
+          "name",
+          "price",
+          "mostRecentQuarter",
+          "ROA",
+          "ROE",
+          "PB",
+          "current_year_pb_fwd",
+          "current_year_roe_earnings",
+          "next_year_roe_earnings",
+          "next_year_pb_fwd"
+        ]
       },
       {
         "name": "Small Finance Bank",
@@ -72,7 +99,22 @@
             "name": "APOLLO HOSPITALS"
           }
         ],
-        "fields": []
+        "fields": [
+          "name",
+          "price",
+          "mostRecentQuarter",
+          "OPM",
+          "NPM",
+          "TTM_PE",
+          "current_year_eps_growth",
+          "next_year_eps_growth",
+          "current_year_pe",
+          "current_year_peg",
+          "next_year_pe",
+          "next_year_peg",
+          "current_year_revenue_growth",
+          "next_year_revenue_growth"
+        ]
       },
       {
         "name": "CDMO",
@@ -96,7 +138,20 @@
             "name": "TCS"
           }
         ],
-        "fields": []
+        "fields": [
+          "name",
+          "price",
+          "mostRecentQuarter",
+          "TTM_PE",
+          "OPM",
+          "NPM",
+          "current_year_eps_growth",
+          "next_year_eps_growth",
+          "current_year_pe",
+          "current_year_peg",
+          "next_year_pe",
+          "next_year_peg"
+        ]
       },
       {
         "name": "Mid",
