@@ -31,6 +31,8 @@ import {
 import { handleFetchComplexFields } from "../../utils/field_manipulation.js";
 import { sortFields } from "../../utils/earnings_table_util_functions.js";
 import Dropdown from "../Dropdown.js";
+import { fieldCategories, fieldGroups } from "../../utils/tableConfig";
+import { TemplateDropdown } from "../Template/TemplateDropdown.js";
 import { handleSaveFields } from "../../utils/api.js";
 
 const EarningsTable = ({
@@ -59,6 +61,22 @@ const EarningsTable = ({
   const [draggedColumn, setDraggedColumn] = useState(null);
   const [sortOrder, setOrder] = useState(null); // 'asc', 'desc', or null
   const [sortColumn, setSortColumn] = useState(null); // column key
+
+  const [currentTemplate, setCurrentTemplate] = useState("Template1");
+  const [templateList, setTemplateList] = useState([
+    {
+      name: "Template1",
+      fields: ["name", "price", "country", "industry", "sector"],
+    },
+    {
+      name: "Template2",
+      fields: ["name", "price", "country", "industry", "sector"],
+    },
+    {
+      name: "Template3",
+      fields: ["name", "price", "country", "industry", "sector"],
+    },
+  ]);
 
   useEffect(() => {
     setVisibleColumns(fields.length === 0 ? defaultVisibleColumns : fields);
@@ -406,8 +424,17 @@ const EarningsTable = ({
             }}
             style={{ marginTop: "2.2rem" }}
           >
-            Save Column Configuration
+            Save Columns
           </Button>
+          <TemplateDropdown
+            currentTemplate={currentTemplate}
+            setCurrentTemplate={setCurrentTemplate}
+            templateList={templateList}
+            columnOrder={columnOrder}
+            fieldGroups={fieldGroups}
+            fieldCategories={fieldCategories}
+          />
+          {/* <CreateTemplate fieldsGroups={fieldGroups} fieldCategories={fieldCategories} /> */}
         </Group>
         <Group p="md" justify="space-between">
           <TextInput
