@@ -1,15 +1,22 @@
 // App.js
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
 import { Toaster } from "react-hot-toast";
 import EarningsTable from "./components/EarningsTable/EarningsTable";
 import AddCompanyForm from "./components/AddCompanyForm/AddCompanyForm";
-import { fetchEarningsData, deleteStock, fetchCategories } from "./utils/api";
+import {
+  fetchEarningsData,
+  deleteStock,
+  fetchCategories,
+  fetchTemplates,
+} from "./utils/api";
 import "./App.css";
 
 function App() {
   const [categories, setCategories] = useState([]);
+  const [templates, setTemplates] = useState([]);
+  const [currentTemplate, setCurrentTemplate] = useState(null);
   const [categoryList, setCategoryList] = useState([]);
   const [watchlistList, setWatchlistList] = useState([]);
   const [currentCategory, setCurrentCategory] = useState(null);
@@ -76,6 +83,7 @@ function App() {
         setCurrentCategory(response[0].name);
         setCurrentWatchlist(response[0].watchlists[0].name);
         setFields(response[0].watchlists[0].fields);
+        setCurrentTemplate(response[0].watchlists[0].templateName || null);
         for (const category of response) {
           setCategoryList((prev) => [...prev, category.name]);
         }
@@ -87,7 +95,17 @@ function App() {
       }
     };
 
+    const fetchTemplatesData = async () => {
+      try {
+        const templates = await fetchTemplates();
+        setTemplates(templates);
+      } catch (err) {
+        console.log(err);
+      }
+    };
+
     fetchCategoriesData();
+    fetchTemplatesData();
   }, []);
 
   useEffect(() => {
@@ -107,7 +125,12 @@ function App() {
       (wl) => wl.name === currentWatchlist
     );
     if (!watchlist) return;
-    setFields(watchlist.fields);
+    if (currentTemplate !== null) {
+      const template = templates.find((t) => t.name === currentTemplate);
+      setFields(template.fields);
+    } else {
+      setFields(watchlist.fields);
+    }
     fetchCompanies(watchlist.companies);
   }, [currentCategory, currentWatchlist]);
 
@@ -138,6 +161,9 @@ function App() {
           setCompanies={setCompanies}
           currentCategory={currentCategory}
           currentWatchlist={currentWatchlist}
+          templates={templates}
+          currentTemplate={currentTemplate}
+          setCurrentTemplate={setCurrentTemplate}
           fields={fields}
         />
       </div>

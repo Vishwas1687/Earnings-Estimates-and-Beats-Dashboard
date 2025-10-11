@@ -1,0 +1,6 @@
+[
+  {
+    "name": "Template 1",
+    "fields": ["name", "price", "country"]
+  }
+]

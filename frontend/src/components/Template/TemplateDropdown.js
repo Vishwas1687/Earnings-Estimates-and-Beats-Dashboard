@@ -1,16 +1,20 @@
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from "react";
 import { ChevronDown, Eye, Edit, Trash2 } from "react-feather";
 import { ViewModal } from "./ViewModal.js";
 import { EditModal } from "./EditModal.js";
 import { organizeFields } from "../../utils/field_manipulation.js";
+import { applyTemplate, deleteTemplate } from "../../utils/api.js";
 import { Menu, Button, Box, Text, Group, ActionIcon } from "@mantine/core";
 
 // Main Dropdown Component
 export const TemplateDropdown = ({
+  currentCategory,
+  currentWatchlist,
   currentTemplate,
   setCurrentTemplate,
   templateList,
   columnOrder,
+  setColumnOrder,
   fieldGroups,
   fieldCategories,
 }) => {
@@ -18,15 +22,20 @@ export const TemplateDropdown = ({
   const [viewModal, setViewModal] = useState({ isOpen: false, template: null });
   const [editModal, setEditModal] = useState({ isOpen: false, template: null });
 
-  const [templates, setTemplates] = useState(() => {
+  const [templates, setTemplates] = useState([]);
+
+  useEffect(() => {
     if (Array.isArray(templateList)) {
-      return templateList;
+      setTemplates(templateList);
+    } else {
+      setTemplates(
+        Object.entries(templateList).map(([name, fields]) => ({
+          name,
+          fields,
+        }))
+      );
     }
-    return Object.entries(templateList).map(([name, fields]) => ({
-      name,
-      fields,
-    }));
-  });
+  }, [templateList]);
 
   const organizedFields = useMemo(
     () => organizeFields(templates, fieldGroups, fieldCategories),
@@ -34,7 +43,13 @@ export const TemplateDropdown = ({
   );
 
   const handleSelect = (templateName) => {
-    setCurrentTemplate(templateName);
+    if (templateName === currentTemplate) {
+      applyTemplate(null, currentCategory, currentWatchlist);
+      setCurrentTemplate(null);
+    } else {
+      applyTemplate(templateName, currentCategory, currentWatchlist);
+      setCurrentTemplate(templateName);
+    }
   };
 
   const handleView = (templateName) => {
@@ -170,6 +185,7 @@ export const TemplateDropdown = ({
           templateName={editModal.template}
           initialFields={getTemplateFields(editModal.template)}
           organizedFields={organizedFields}
+          setColumnOrder={setColumnOrder}
           onSave={(newFields) => handleSave(editModal.template, newFields)}
         />
       )}

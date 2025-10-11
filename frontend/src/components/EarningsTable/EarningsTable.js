@@ -51,6 +51,9 @@ const EarningsTable = ({
   currentWatchlist,
   setCompanies,
   fields,
+  templates,
+  currentTemplate,
+  setCurrentTemplate,
   loading,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -61,22 +64,6 @@ const EarningsTable = ({
   const [draggedColumn, setDraggedColumn] = useState(null);
   const [sortOrder, setOrder] = useState(null); // 'asc', 'desc', or null
   const [sortColumn, setSortColumn] = useState(null); // column key
-
-  const [currentTemplate, setCurrentTemplate] = useState("Template1");
-  const [templateList, setTemplateList] = useState([
-    {
-      name: "Template1",
-      fields: ["name", "price", "country", "industry", "sector"],
-    },
-    {
-      name: "Template2",
-      fields: ["name", "price", "country", "industry", "sector"],
-    },
-    {
-      name: "Template3",
-      fields: ["name", "price", "country", "industry", "sector"],
-    },
-  ]);
 
   useEffect(() => {
     setVisibleColumns(fields.length === 0 ? defaultVisibleColumns : fields);
@@ -427,10 +414,13 @@ const EarningsTable = ({
             Save Columns
           </Button>
           <TemplateDropdown
+            currentCategory={currentCategory}
+            currentWatchlist={currentWatchlist}
             currentTemplate={currentTemplate}
             setCurrentTemplate={setCurrentTemplate}
-            templateList={templateList}
+            templateList={templates}
             columnOrder={columnOrder}
+            setColumnOrder={setColumnOrder}
             fieldGroups={fieldGroups}
             fieldCategories={fieldCategories}
           />

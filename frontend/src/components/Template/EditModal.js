@@ -14,6 +14,8 @@ import {
   Modal
 } from "@mantine/core";
 
+import { editTemplate } from "../../utils/api.js";
+
 // Edit Modal Component
 export const EditModal = ({
   isOpen,
@@ -21,6 +23,7 @@ export const EditModal = ({
   templateName,
   initialFields,
   organizedFields,
+  setColumnOrder,
   onSave,
 }) => {
   const [selectedFields, setSelectedFields] = useState(initialFields);
@@ -62,6 +65,8 @@ export const EditModal = ({
   };
 
   const handleSave = () => {
+    editTemplate(templateName, fieldOrder);
+    setColumnOrder(fieldOrder);
     onSave(fieldOrder);
     onClose();
   };

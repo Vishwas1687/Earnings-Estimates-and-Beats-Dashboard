@@ -32,7 +32,12 @@ export const addWatchlistController = (req, res) => {
           .status(400)
           .json({ error: "Watchlist already exists in this category" });
       } else {
-        const newWatchlist = { name: watchlistName, companies: [], fields: [] };
+        const newWatchlist = {
+          name: watchlistName,
+          companies: [],
+          fields: [],
+          templateName: null,
+        };
         categoryObj.watchlists.push(newWatchlist);
         saveCategories(categories);
         return res.json(newWatchlist);

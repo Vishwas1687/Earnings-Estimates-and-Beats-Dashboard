@@ -204,3 +204,97 @@ export const removeWatchlist = async (category, watchlistName) => {
     throw new Error(`Failed to fetch data: ${error.message}`);
   }
 };
+
+export const createTemplate = async (templateName, fields) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/create-template`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ templateName, fields }),
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+};
+
+export const fetchTemplates = async () => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/fetch-templates`);
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+};
+
+export const editTemplate = async (templateName, fields) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/edit-template`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ templateName, fields }),
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+};
+
+export const deleteTemplate = async (templateName) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/delete-template`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ templateName }),
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+};
+
+export const applyTemplate = async (templateName, categoryName, watchlistName) => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/apply-template`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ templateName, categoryName, watchlistName }),
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+};

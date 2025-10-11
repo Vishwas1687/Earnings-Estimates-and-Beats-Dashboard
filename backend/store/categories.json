@@ -29,7 +29,8 @@
           "current_year_roe_earnings",
           "next_year_pb_fwd",
           "next_year_roe_earnings"
-        ]
+        ],
+        "templateName": null
       },
       {
         "name": "Traditional Housing",
@@ -54,37 +55,44 @@
           "current_year_roe_earnings",
           "next_year_roe_earnings",
           "next_year_pb_fwd"
-        ]
+        ],
+        "templateName": null
       },
       {
         "name": "Small Finance Bank",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "Vehicle Finance",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "Gold Finance",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "NBFC",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "Private Bank",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "PSU Bank",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       }
     ]
   },
@@ -119,7 +127,8 @@
       {
         "name": "CDMO",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       }
     ]
   },
@@ -151,7 +160,8 @@
           "current_year_peg",
           "next_year_pe",
           "next_year_peg"
-        ]
+        ],
+        "templateName": null
       },
       {
         "name": "Mid",
@@ -161,12 +171,14 @@
             "name": "PERSISTENT SYSTEMS"
           }
         ],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "Small",
         "companies": [],
-        "fields": []
+        "fields": [],
+        "templateName": null
       }
     ]
   },
@@ -185,13 +197,15 @@
             "name": "SW SOLAR"
           }
         ],
-        "fields": []
+        "fields": [],
+        "templateName": null
       },
       {
         "name": "Wind",
         "companies": [],
         "fields": [],
-        "tickers": []
+        "tickers": [],
+        "templateName": null
       }
     ]
   }
