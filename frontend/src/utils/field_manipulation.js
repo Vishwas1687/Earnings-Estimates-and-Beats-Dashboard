@@ -139,7 +139,10 @@ export const handleFetchComplexFields = (company, field) => {
 };
 
 // Utility function to organize fields by categories/groups
-export const organizeFields = (templateList, fieldGroups, fieldCategories) => {
+export const organizeFields = (
+  fieldGroups,
+  fieldCategories
+) => {
   const allFields = new Set();
 
   // Handle templateList as array or object
@@ -173,8 +176,6 @@ export const organizeFields = (templateList, fieldGroups, fieldCategories) => {
       availableFields.forEach((f) => usedFields.add(f));
     }
   });
-
-  console.log(organized);
   return organized;
 };
 

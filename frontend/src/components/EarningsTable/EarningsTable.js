@@ -31,6 +31,7 @@ import {
 import { handleFetchComplexFields } from "../../utils/field_manipulation.js";
 import { sortFields } from "../../utils/earnings_table_util_functions.js";
 import Dropdown from "../Dropdown.js";
+import { CreateTemplate } from "../Template/CreateTemplate.js";
 import { fieldCategories, fieldGroups } from "../../utils/tableConfig";
 import { TemplateDropdown } from "../Template/TemplateDropdown.js";
 import { handleSaveFields } from "../../utils/api.js";
@@ -52,6 +53,7 @@ const EarningsTable = ({
   setCompanies,
   fields,
   templates,
+  setTemplates,
   currentTemplate,
   setCurrentTemplate,
   loading,
@@ -288,14 +290,14 @@ const EarningsTable = ({
 
   return (
     <div>
-      <TableControls
+      {/* <TableControls
         visibleColumns={visibleColumns}
         onToggleColumn={toggleColumn}
         showAnalysts={showAnalysts}
         onToggleAnalysts={setShowAnalysts}
         columnOrder={columnOrder}
         onResetOrder={resetColumnOrder}
-      />
+      /> */}
 
       <Paper shadow="xs">
         <Group
@@ -380,7 +382,7 @@ const EarningsTable = ({
             setCurrentWatchlist={setCurrentWatchlist}
             currentCategory={currentCategory}
           />
-          <Button
+          {/* <Button
             variant="outline"
             onClick={async () => {
               try {
@@ -412,7 +414,7 @@ const EarningsTable = ({
             style={{ marginTop: "2.2rem" }}
           >
             Save Columns
-          </Button>
+          </Button> */}
           <TemplateDropdown
             currentCategory={currentCategory}
             currentWatchlist={currentWatchlist}
@@ -423,8 +425,16 @@ const EarningsTable = ({
             setColumnOrder={setColumnOrder}
             fieldGroups={fieldGroups}
             fieldCategories={fieldCategories}
+            fields={fields}
+            setFields={setFields}
+            categories={categories}
           />
-          {/* <CreateTemplate fieldsGroups={fieldGroups} fieldCategories={fieldCategories} /> */}
+          <CreateTemplate
+            templates={templates}
+            setTemplates={setTemplates}
+            fieldGroups={fieldGroups}
+            fieldCategories={fieldCategories}
+          />
         </Group>
         <Group p="md" justify="space-between">
           <TextInput

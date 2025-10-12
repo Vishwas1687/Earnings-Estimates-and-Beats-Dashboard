@@ -1,6 +1,36 @@
 [
   {
-    "name": "Template 1",
-    "fields": ["name", "price", "country"]
+    "name": "Financial Services",
+    "fields": [
+      "name",
+      "price",
+      "country",
+      "ROE",
+      "ROA",
+      "PB",
+      "current_year_pb_fwd",
+      "current_year_roe_earnings",
+      "current_year_pb_valuation",
+      "next_year_pb_fwd",
+      "next_year_roe_earnings",
+      "next_year_pb_valuation"
+    ]
+  },
+  {
+    "name": "IT",
+    "fields": [
+      "name",
+      "price",
+      "country",
+      "TTM_PE",
+      "current_year_eps_growth",
+      "next_year_eps_growth",
+      "current_year_pe",
+      "next_year_pe",
+      "current_year_peg",
+      "next_year_peg",
+      "current_year_revenue_growth",
+      "next_year_revenue_growth"
+    ]
   }
 ]

@@ -17,11 +17,13 @@ export const TemplateDropdown = ({
   setColumnOrder,
   fieldGroups,
   fieldCategories,
+  fields,
+  setFields,
+  categories,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [viewModal, setViewModal] = useState({ isOpen: false, template: null });
   const [editModal, setEditModal] = useState({ isOpen: false, template: null });
-
   const [templates, setTemplates] = useState([]);
 
   useEffect(() => {
@@ -38,16 +40,22 @@ export const TemplateDropdown = ({
   }, [templateList]);
 
   const organizedFields = useMemo(
-    () => organizeFields(templates, fieldGroups, fieldCategories),
-    [templates, fieldGroups, fieldCategories]
+    () => organizeFields(fieldGroups, fieldCategories),
+    [fieldGroups, fieldCategories]
   );
 
   const handleSelect = (templateName) => {
     if (templateName === currentTemplate) {
       applyTemplate(null, currentCategory, currentWatchlist);
+      const category = categories.find((cat) => cat.name === currentCategory);
+      const watchlist = category
+        ? category.watchlists.find((wl) => wl.name === currentWatchlist)
+        : null;
+      setFields(["name", "price", "country"]);
       setCurrentTemplate(null);
     } else {
       applyTemplate(templateName, currentCategory, currentWatchlist);
+      setFields(getTemplateFields(templateName));
       setCurrentTemplate(templateName);
     }
   };
@@ -63,12 +71,11 @@ export const TemplateDropdown = ({
   };
 
   const handleDelete = (templateName) => {
-    if (
-      window.confirm(
-        `Are you sure you want to delete template "${templateName}"?`
-      )
-    ) {
-      setTemplates((prev) => prev.filter((t) => t.name !== templateName));
+    setTemplates((prev) => prev.filter((t) => t.name !== templateName));
+    deleteTemplate(templateName);
+    if (templateName === currentTemplate) {
+      setCurrentTemplate(null);
+      setFields([]);
     }
   };
 
@@ -113,57 +120,71 @@ export const TemplateDropdown = ({
         </Menu.Target>
 
         <Menu.Dropdown>
-          {templates.map((template) => (
-            <Box key={template.name}>
-              <Group
-                position="apart"
-                p="xs"
-                style={{ borderBottom: "1px solid #e9ecef" }}
-              >
-                <Text size="sm" weight={500} style={{ flex: 1 }}>
-                  {template.name}
-                </Text>
-                <Group spacing="xs">
-                  <Button
-                    size="xs"
-                    compact
-                    variant={
-                      template.name === currentTemplate ? "filled" : "outline"
-                    }
-                    color={template.name === currentTemplate ? "blue" : "gray"}
-                    onClick={() => handleSelect(template.name)}
-                  >
-                    {template.name === currentTemplate ? "Selected" : "Select"}
-                  </Button>
-                  <ActionIcon
-                    color="blue"
-                    variant="subtle"
-                    onClick={() => handleView(template.name)}
-                    title="View"
-                  >
-                    <Eye size={18} />
-                  </ActionIcon>
-                  <ActionIcon
-                    color="green"
-                    variant="subtle"
-                    onClick={() => handleEdit(template.name)}
-                    title="Edit"
-                  >
-                    <Edit size={18} />
-                  </ActionIcon>
-                  <ActionIcon
-                    color="red"
-                    variant="subtle"
-                    onClick={() => handleDelete(template.name)}
-                    title="Delete"
-                  >
-                    <Trash2 size={18} />
-                  </ActionIcon>
+          {templates.length !== 0 &&
+            templates.map((template) => (
+              <Box key={template.name}>
+                <Group
+                  position="apart"
+                  p="xs"
+                  style={{ borderBottom: "1px solid #e9ecef" }}
+                >
+                  <Text size="sm" weight={500} style={{ flex: 1 }}>
+                    {template.name}
+                  </Text>
+                  <Group spacing="xs">
+                    <Button
+                      size="xs"
+                      compact
+                      variant={
+                        template.name === currentTemplate ? "filled" : "outline"
+                      }
+                      color={
+                        template.name === currentTemplate ? "blue" : "gray"
+                      }
+                      onClick={() => handleSelect(template.name)}
+                    >
+                      {template.name === currentTemplate
+                        ? "Selected"
+                        : "Select"}
+                    </Button>
+                    <ActionIcon
+                      color="blue"
+                      variant="subtle"
+                      onClick={() => handleView(template.name)}
+                      title="View"
+                    >
+                      <Eye size={18} />
+                    </ActionIcon>
+                    <ActionIcon
+                      color="green"
+                      variant="subtle"
+                      onClick={() => handleEdit(template.name)}
+                      title="Edit"
+                    >
+                      <Edit size={18} />
+                    </ActionIcon>
+                    <ActionIcon
+                      color="red"
+                      variant="subtle"
+                      onClick={() => handleDelete(template.name)}
+                      title="Delete"
+                    >
+                      <Trash2 size={18} />
+                    </ActionIcon>
+                  </Group>
                 </Group>
-              </Group>
-            </Box>
-          ))}
+              </Box>
+            ))}
         </Menu.Dropdown>
+        {templates.length === 0 && (
+          <Menu.Dropdown>
+            <Box p="sm">
+              <Text size="sm" color="dimmed">
+                No templates available
+              </Text>
+            </Box>
+          </Menu.Dropdown>
+        )}
       </Menu>
 
       {/* View Modal */}
@@ -185,7 +206,7 @@ export const TemplateDropdown = ({
           templateName={editModal.template}
           initialFields={getTemplateFields(editModal.template)}
           organizedFields={organizedFields}
-          setColumnOrder={setColumnOrder}
+          setFields={setFields}
           onSave={(newFields) => handleSave(editModal.template, newFields)}
         />
       )}

@@ -25,6 +25,11 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [initialFields, setInitialFields] = useState([
+    "name",
+    "price",
+    "country",
+  ]);
 
   const addCompany = async (ticker, name) => {
     setLoading(true);
@@ -120,16 +125,25 @@ function App() {
     };
     if (!currentCategory || !currentWatchlist) return;
     const category = categories.find((cat) => cat.name === currentCategory);
-    if (!category) return;
+    if (!category) {
+      setFields(initialFields);
+      setCurrentTemplate(null);
+    }
     const watchlist = category.watchlists.find(
       (wl) => wl.name === currentWatchlist
     );
     if (!watchlist) return;
-    if (currentTemplate !== null) {
-      const template = templates.find((t) => t.name === currentTemplate);
+    setCurrentTemplate(watchlist.templateName || null);
+    if (
+      watchlist.templateName !== null &&
+      watchlist.templateName !== undefined
+    ) {
+      const template = templates.find((t) => t.name === watchlist.templateName);
+      console.log("Template found:", template);
+      console.log("Current Watchlist:", currentWatchlist);
       setFields(template.fields);
     } else {
-      setFields(watchlist.fields);
+      setFields(initialFields);
     }
     fetchCompanies(watchlist.companies);
   }, [currentCategory, currentWatchlist]);
@@ -162,6 +176,7 @@ function App() {
           currentCategory={currentCategory}
           currentWatchlist={currentWatchlist}
           templates={templates}
+          setTemplates={setTemplates}
           currentTemplate={currentTemplate}
           setCurrentTemplate={setCurrentTemplate}
           fields={fields}

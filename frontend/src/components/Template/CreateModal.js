@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GripVertical } from "lucide-react";
+import { GripVertical, Scroll } from "lucide-react";
 import { formatFieldName } from "../../utils/field_manipulation.js";
 import {
   ScrollArea,
@@ -12,22 +12,25 @@ import {
   Button,
   Badge,
   Modal,
+  TextInput,
 } from "@mantine/core";
 
-import { editTemplate } from "../../utils/api.js";
+import { createTemplate } from "../../utils/api.js";
 
-// Edit Modal Component
-export const EditModal = ({
+// Create Modal Component
+export const CreateModal = ({
   isOpen,
   onClose,
   templateName,
   initialFields,
+  setTemplateName,
   organizedFields,
+  templates,
+  setTemplates,
   setFields,
   onSave,
 }) => {
   const [selectedFields, setSelectedFields] = useState(initialFields);
-  const [isTemporaryView, setIsTemporaryView] = useState(false);
   const [fieldOrder, setFieldOrder] = useState(initialFields);
   const [draggedItem, setDraggedItem] = useState(null);
 
@@ -66,11 +69,8 @@ export const EditModal = ({
   };
 
   const handleSave = () => {
-    if (!isTemporaryView) {
-      editTemplate(templateName, fieldOrder);
-    }
-    setFields(fieldOrder);
-    onSave(fieldOrder);
+    createTemplate(templateName, fieldOrder);
+    setTemplates([...templates, { name: templateName, fields: fieldOrder }]);
     onClose();
   };
 
@@ -84,25 +84,42 @@ export const EditModal = ({
     <Modal
       opened={isOpen}
       onClose={handleCancel}
-      title={`Edit Template: ${templateName}`}
+      title="Create Template"
       size="xl"
       padding="lg"
+      scrollAreaComponent={ScrollArea.Autosize}
     >
       <div
         style={{
           display: "grid",
-          gridTemplateRows: "1fr auto",
+          gridTemplateRows: "auto 1fr auto",
+          height: "70vh",
         }}
       >
+        {/* Template Name Input */}
+        <TextInput
+          label="Template Name"
+          placeholder="Enter template name"
+          value={templateName}
+          onChange={(event) => setTemplateName(event.currentTarget.value)}
+          required
+          size="sm"
+          style={{ marginBottom: "16px" }}
+        />
+
         <div
           style={{
             display: "grid",
             gridTemplateColumns: "2fr 1fr",
             gap: "24px",
+            marginBottom: "8px",
           }}
         >
           {/* Field Selection */}
-          <ScrollArea style={{ height: "500px" }} type="auto">
+          <ScrollArea
+            style={{ height: "100%", maxHeight: "400px" }}
+            type="auto"
+          >
             <Stack spacing="md">
               <Text size="sm" weight={600} color="dimmed" transform="uppercase">
                 Select Fields
@@ -128,59 +145,63 @@ export const EditModal = ({
           </ScrollArea>
 
           {/* Field Order */}
-          <div>
-            <Group position="apart" mb="sm">
-              <Text size="sm" weight={600} color="dimmed" transform="uppercase">
-                Field Order
-              </Text>
-              <Badge>{fieldOrder.length}</Badge>
-            </Group>
-            <Paper
-              p="sm"
-              withBorder
-              style={{ height: "500px", overflow: "auto" }}
-            >
-              {fieldOrder.length === 0 ? (
+          <ScrollArea
+            style={{ height: "100%", maxHeight: "400px" }}
+            type="auto"
+          >
+            <Stack spacing="md">
+              <Group position="apart" mb="sm">
                 <Text
                   size="sm"
+                  weight={600}
                   color="dimmed"
-                  align="center"
-                  style={{ paddingTop: "40px" }}
+                  transform="uppercase"
                 >
-                  No fields selected
+                  Field Order
                 </Text>
-              ) : (
-                <Stack spacing="xs">
-                  {fieldOrder.map((field, index) => (
-                    <Paper
-                      key={field}
-                      p="xs"
-                      withBorder
-                      draggable
-                      onDragStart={(e) => handleDragStart(e, index)}
-                      onDragOver={(e) => handleDragOver(e, index)}
-                      onDragEnd={handleDragEnd}
-                      style={{
-                        cursor: "move",
-                        opacity: draggedItem === index ? 0.5 : 1,
-                        transition: "opacity 0.2s",
-                      }}
-                    >
-                      <Group spacing="xs">
-                        <GripVertical size={16} color="gray" />
-                        <Text size="sm" style={{ flex: 1 }}>
-                          {formatFieldName(field)}
-                        </Text>
-                      </Group>
-                    </Paper>
-                  ))}
-                </Stack>
-              )}
-            </Paper>
-          </div>
+                <Badge>{fieldOrder.length}</Badge>
+              </Group>
+              <Paper p="sm" withBorder>
+                {fieldOrder.length === 0 ? (
+                  <Text
+                    size="sm"
+                    color="dimmed"
+                    align="center"
+                    style={{ paddingTop: "40px" }}
+                  >
+                    No fields selected
+                  </Text>
+                ) : (
+                  <Stack spacing="xs">
+                    {fieldOrder.map((field, index) => (
+                      <Paper
+                        key={field}
+                        p="xs"
+                        withBorder
+                        draggable
+                        onDragStart={(e) => handleDragStart(e, index)}
+                        onDragOver={(e) => handleDragOver(e, index)}
+                        onDragEnd={handleDragEnd}
+                        style={{
+                          cursor: "move",
+                          opacity: draggedItem === index ? 0.5 : 1,
+                          transition: "opacity 0.2s",
+                        }}
+                      >
+                        <Group spacing="xs">
+                          <GripVertical size={16} color="gray" />
+                          <Text size="sm" style={{ flex: 1 }}>
+                            {formatFieldName(field)}
+                          </Text>
+                        </Group>
+                      </Paper>
+                    ))}
+                  </Stack>
+                )}
+              </Paper>
+            </Stack>
+          </ScrollArea>
         </div>
-
-        {/* <Divider my="lg" /> */}
 
         {/* Actions */}
         <Group
@@ -188,24 +209,14 @@ export const EditModal = ({
           spacing="sm"
           style={{
             flexDirection: "row",
-            justifyContent: "space-between",
+            justifyContent: "left",
             alignItems: "center",
-            marginTop: "16px",
           }}
         >
-          <Checkbox
-            label="Temporary View (Don't Save template configuration)"
-            checked={isTemporaryView}
-            onChange={(event) =>
-              setIsTemporaryView(event.currentTarget.checked)
-            }
-          />
-          <Group>
-            <Button variant="default" onClick={handleCancel}>
-              Cancel
-            </Button>
-            <Button onClick={handleSave}>Save</Button>
-          </Group>
+          <Button variant="default" onClick={handleCancel}>
+            Cancel
+          </Button>
+          <Button onClick={handleSave}>Save</Button>
         </Group>
       </div>
     </Modal>

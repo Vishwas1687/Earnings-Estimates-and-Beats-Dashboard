@@ -30,7 +30,7 @@
           "next_year_pb_fwd",
           "next_year_roe_earnings"
         ],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "Traditional Housing",
@@ -56,13 +56,18 @@
           "next_year_roe_earnings",
           "next_year_pb_fwd"
         ],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "Small Finance Bank",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "UJJIVANSFB.NS",
+            "name": "UJJIVAN SMALL"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "Vehicle Finance",
@@ -122,7 +127,8 @@
           "next_year_peg",
           "current_year_revenue_growth",
           "next_year_revenue_growth"
-        ]
+        ],
+        "templateName": null
       },
       {
         "name": "CDMO",
@@ -161,7 +167,7 @@
           "next_year_pe",
           "next_year_peg"
         ],
-        "templateName": null
+        "templateName": "IT"
       },
       {
         "name": "Mid",
@@ -184,27 +190,62 @@
   },
   {
     "name": "Auto",
-    "watchlists": []
+    "watchlists": [
+      {
+        "name": "Passenger Vehicles",
+        "companies": [
+          {
+            "ticker": "MARUTI.NS",
+            "name": "MARUTI SUZUKI"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Consumption",
+    "watchlists": [
+      {
+        "name": "FMCG",
+        "companies": [
+          {
+            "ticker": "ZYDUSWELL.NS",
+            "name": "ZYDUS WELLNESS"
+          },
+          {
+            "ticker": "HINDUNILVR.NS",
+            "name": "HINDUSTAN UNILEVER"
+          },
+          {
+            "ticker": "NESTLEIND.NS",
+            "name": "NESTLE"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Consumer Durables B2B",
+        "companies": [
+          {
+            "ticker": "PGEL.NS",
+            "name": "PG ELECTROPLAST"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
   },
   {
     "name": "Renewables",
     "watchlists": [
       {
         "name": "Solar",
-        "companies": [
-          {
-            "ticker": "SWSOLAR.NS",
-            "name": "SW SOLAR"
-          }
-        ],
-        "fields": [],
-        "templateName": null
-      },
-      {
-        "name": "Wind",
         "companies": [],
         "fields": [],
-        "tickers": [],
         "templateName": null
       }
     ]
