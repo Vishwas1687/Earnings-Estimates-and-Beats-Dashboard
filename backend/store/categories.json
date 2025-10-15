@@ -185,6 +185,33 @@
         "companies": [],
         "fields": [],
         "templateName": null
+      },
+      {
+        "name": "BPO",
+        "companies": [
+          {
+            "ticker": "NAUKRI.NS",
+            "name": "INFO EDGE"
+          },
+          {
+            "ticker": "AFFLE.NS",
+            "name": "AFFLE"
+          },
+          {
+            "ticker": "IKS.NS",
+            "name": "INVENTURUS KNOWLEDGE SOLUTIONS"
+          },
+          {
+            "ticker": "FSL.NS",
+            "name": "FIRST SOURCE SOLUTIONS"
+          },
+          {
+            "ticker": "ECLERX.NS",
+            "name": "ECLERX SERVICES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
       }
     ]
   },
@@ -197,6 +224,219 @@
           {
             "ticker": "MARUTI.NS",
             "name": "MARUTI SUZUKI"
+          },
+          {
+            "ticker": "HYUNDAI.NS",
+            "name": "HYUNDAI MOTOR"
+          },
+          {
+            "ticker": "TATAMOTORS.NS",
+            "name": "TATA MOTORS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Auto Ancillary",
+        "companies": [
+          {
+            "ticker": "BOSCHLTD.NS",
+            "name": "BOSCH"
+          },
+          {
+            "ticker": "MOTHERSON.NS",
+            "name": "SAMVARDHANA MOTHERSON"
+          },
+          {
+            "ticker": "UNOMINDA.NS",
+            "name": "UNOMINDA"
+          },
+          {
+            "ticker": "TIINDIA.NS",
+            "name": "TUBE INVESTMENTS"
+          },
+          {
+            "ticker": "ENDURANCE.NS",
+            "name": "ENDURANCE TECHNOLOGIES"
+          },
+          {
+            "ticker": "MSUMI.NS",
+            "name": "MOTHERSON SUMI WIRING"
+          },
+          {
+            "ticker": "SONACOMS.NS",
+            "name": "SONA BLW"
+          },
+          {
+            "ticker": "ZFCVINDIA.NS",
+            "name": "ZF COMMERCIAL VEHICLE"
+          },
+          {
+            "ticker": "GABRIEL.NS",
+            "name": "GABRIEL INDIA"
+          },
+          {
+            "ticker": "CIEINDIA.NS",
+            "name": "CIE AUTOMOTIVE INDIA"
+          },
+          {
+            "ticker": "CRAFTSMAN.NS",
+            "name": "CRAFTSMAN AUTOMATION"
+          },
+          {
+            "ticker": "MINDACORP.NS",
+            "name": "MINDA CORPORATION"
+          },
+          {
+            "ticker": "BELRISE.NS",
+            "name": "BELRISE INDUSTRIES"
+          },
+          {
+            "ticker": "SHRIPISTON.NS",
+            "name": "SHIRAM PISTONS"
+          },
+          {
+            "ticker": "ASKAUTOLTD.NS",
+            "name": "ASK AUTOMOTIVE"
+          },
+          {
+            "ticker": "LUMAXIND.NS",
+            "name": "LUMAX INDUSTRIES"
+          },
+          {
+            "ticker": "VARROC.NS",
+            "name": "VARROC ENGINEERING"
+          },
+          {
+            "ticker": "SANSERA.NS",
+            "name": "SANSERA ENGINEERING"
+          },
+          {
+            "ticker": "SUBROS.NS",
+            "name": "SUBROS"
+          },
+          {
+            "ticker": "PRICOLLTD.NS",
+            "name": "PRICOL"
+          },
+          {
+            "ticker": "SUPRAJIT.NS",
+            "name": "SUPRAJIT ENGINEERING"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "2 and 3 wheeler",
+        "companies": [
+          {
+            "ticker": "BAJAJ-AUTO.NS",
+            "name": "BAJAJ AUTO"
+          },
+          {
+            "ticker": "EICHERMOT.NS",
+            "name": "EICHER MOTORS"
+          },
+          {
+            "ticker": "TVSMOTOR.NS",
+            "name": "TVS MOTOR COMPANY"
+          },
+          {
+            "ticker": "HEROMOTOCO.NS",
+            "name": "HERO MOTOCORP"
+          },
+          {
+            "ticker": "ATULAUTO.NS",
+            "name": "ATUL AUTO"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Dealers and Distributors",
+        "companies": [
+          {
+            "ticker": "LANDMARK.NS",
+            "name": "LANDMARK CARS"
+          },
+          {
+            "ticker": "CARTRADE.NS",
+            "name": "CARTRADE TECH"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Tractors",
+        "companies": [
+          {
+            "ticker": "ESCORTS.NS",
+            "name": "ESCORTS KUBOTA"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Trucks",
+        "companies": [
+          {
+            "ticker": "ASHOKLEY.NS",
+            "name": "ASHOK LEYLAND"
+          },
+          {
+            "ticker": "OLECTRA.NS",
+            "name": "OLECTRA GREENTECH"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Bearings",
+        "companies": [
+          {
+            "ticker": "SCHAEFFLER.NS",
+            "name": "SCHAEFFLER INDIA"
+          },
+          {
+            "ticker": "SKFINDIA.NS",
+            "name": "SKF INDIA"
+          },
+          {
+            "ticker": "TIMKEN.NS",
+            "name": "TIMKEN INDIA"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Tyres",
+        "companies": [
+          {
+            "ticker": "MRF.NS",
+            "name": "MRF"
+          },
+          {
+            "ticker": "BALKRISIND.NS",
+            "name": "BALKRISHNA INDUSTRIES"
+          },
+          {
+            "ticker": "APOLLOTYRE.NS",
+            "name": "APOLLO TYRES"
+          },
+          {
+            "ticker": "CEATLTD.NS",
+            "name": "CEAT"
+          },
+          {
+            "ticker": "JKTYRE.NS",
+            "name": "JK TYRES"
           }
         ],
         "fields": [],
@@ -221,17 +461,89 @@
           {
             "ticker": "NESTLEIND.NS",
             "name": "NESTLE"
+          },
+          {
+            "ticker": "GODREJCP.NS",
+            "name": "GODREJ CONSUMER"
+          },
+          {
+            "ticker": "DABUR.NS",
+            "name": "DABUR INDIA"
+          },
+          {
+            "ticker": "COLPAL.NS",
+            "name": "COLGATE PALMOLIVE"
+          },
+          {
+            "ticker": "PGHH.NS",
+            "name": "P G HYGIENE"
+          },
+          {
+            "ticker": "EMAMILTD.NS",
+            "name": "EMAMI"
+          },
+          {
+            "ticker": "HONASA.NS",
+            "name": "HONASA CONSUMER"
+          },
+          {
+            "ticker": "ITC.NS",
+            "name": "ITC"
+          },
+          {
+            "ticker": "VBL.NS",
+            "name": "VARUN BEVERAGES"
+          },
+          {
+            "ticker": "BRITANNIA.NS",
+            "name": "BRITANNIA"
+          },
+          {
+            "ticker": "TATACONSUM.NS",
+            "name": "TATA CONSUMER"
+          },
+          {
+            "ticker": "MARICO.NS",
+            "name": "MARICO"
+          },
+          {
+            "ticker": "HATSUN.NS",
+            "name": "HATSUN AGRO"
+          },
+          {
+            "ticker": "BIKAJI.NS",
+            "name": "BIKAJI FOODS"
+          },
+          {
+            "ticker": "CCL.NS",
+            "name": "CCL PRODUCTS"
           }
         ],
         "fields": [],
         "templateName": "IT"
       },
       {
-        "name": "Consumer Durables B2B",
+        "name": "AC",
         "companies": [
           {
-            "ticker": "PGEL.NS",
-            "name": "PG ELECTROPLAST"
+            "ticker": "VOLTAS.NS",
+            "name": "VOLTAS"
+          },
+          {
+            "ticker": "BLUESTARCO.NS",
+            "name": "BLUESTAR"
+          },
+          {
+            "ticker": "AMBER.NS",
+            "name": "AMBER ENTERPRISES"
+          },
+          {
+            "ticker": "EPACK.NS",
+            "name": "EPACK DURABLE"
+          },
+          {
+            "ticker": "JCHAC.NS",
+            "name": "JOHNSON HITACHI"
           }
         ],
         "fields": [],
@@ -240,13 +552,38 @@
     ]
   },
   {
-    "name": "Renewables",
+    "name": "Energy",
     "watchlists": [
       {
-        "name": "Solar",
-        "companies": [],
+        "name": "Batteries",
+        "companies": [
+          {
+            "ticker": "EXIDEIND.NS",
+            "name": "EXIDE INDUSTRIES"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Entertainment",
+    "watchlists": [
+      {
+        "name": "TV Broadcasting",
+        "companies": [
+          {
+            "ticker": "SUNTV.NS",
+            "name": "SUNTV NETWORK"
+          },
+          {
+            "ticker": "ZEEL.NS",
+            "name": "ZEE ENTERTAINMENTS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
       }
     ]
   }
