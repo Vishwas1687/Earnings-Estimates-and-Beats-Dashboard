@@ -12428,5 +12428,5632 @@
       }
     },
     "timestamp": 1760711731870
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KPRMILL.NS",
+    "name": "KPR MILL",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 341814000,
+    "lastFiscalReserves": 50020000000,
+    "price": 1037.7,
+    "industry": "textile-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "24.15",
+    "TTM_PE": "42.97",
+    "PB": "7.09",
+    "ROE": "15.21",
+    "ROA": 13.83036541016385,
+    "OPM": "14.55",
+    "NPM": "12.60",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.44333,
+        "year_ago_eps": 6,
+        "eps_growth": "-9.28",
+        "pe": "43.98",
+        "peg": "-4.74",
+        "roe_earnings": "-1.44",
+        "pb_fwd": "6.84",
+        "pb_valuation": "-4.74",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.98",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "6.84",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 31.12875,
+        "year_ago_eps": 23.85,
+        "eps_growth": "30.52",
+        "pe": "33.34",
+        "peg": "1.09",
+        "roe_earnings": "5.35",
+        "pb_fwd": "5.85",
+        "pb_valuation": "1.09",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "eps_estimate": 36.18571,
+        "year_ago_eps": 31.12875,
+        "eps_growth": "16.25",
+        "pe": "28.68",
+        "peg": "1.77",
+        "roe_earnings": "2.75",
+        "pb_fwd": "4.86",
+        "pb_valuation": "1.77",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.36",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "13.49",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "11.43",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760711835494
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MANYAVAR.NS",
+    "name": "VEDANT FASHIONS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 242957104,
+    "lastFiscalReserves": 17863100000,
+    "price": 691.35,
+    "industry": "apparel-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "16.28",
+    "TTM_PE": "42.47",
+    "PB": "9.41",
+    "ROE": "20.24",
+    "ROA": 14.426695065672702,
+    "OPM": "28.74",
+    "NPM": "27.75",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.92333,
+        "year_ago_eps": 2.75,
+        "eps_growth": "6.30",
+        "pe": "42.02",
+        "peg": "6.67",
+        "roe_earnings": "1.36",
+        "pb_fwd": "9.05",
+        "pb_valuation": "6.67",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.65,
+        "year_ago_eps": 6.5,
+        "eps_growth": "-28.46",
+        "pe": "47.34",
+        "peg": "-1.66",
+        "roe_earnings": "-5.13",
+        "pb_fwd": "8.53",
+        "pb_valuation": "-1.67",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 17.221,
+        "year_ago_eps": 15.98,
+        "eps_growth": "7.77",
+        "pe": "40.15",
+        "peg": "5.17",
+        "roe_earnings": "1.47",
+        "pb_fwd": "7.63",
+        "pb_valuation": "5.17",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "eps_estimate": 19.517,
+        "year_ago_eps": 17.221,
+        "eps_growth": "13.33",
+        "pe": "35.42",
+        "peg": "2.66",
+        "roe_earnings": "2.36",
+        "pb_fwd": "6.28",
+        "pb_valuation": "2.66",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-3.45",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.32",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "8.74",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "revenue_growth": "10.97",
+        "analystCount": 9
+      }
+    },
+    "timestamp": 1760712023925
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SWANCORP.NS",
+    "name": "SWAN CORP",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 313456886,
+    "lastFiscalReserves": 73427287000,
+    "price": 427.1,
+    "industry": "conglomerates",
+    "sector": "industrials",
+    "TTM_EPS": "20.26",
+    "TTM_PE": "21.08",
+    "PB": "1.38",
+    "ROE": "8.65",
+    "ROA": 4.671537540655531,
+    "OPM": "-0.28",
+    "NPM": "12.69",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "21.08",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.82",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "21.08",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.82",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.82",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.82",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760712053843
+  },
+  {
+    "country": "INDIA",
+    "ticker": "VTL.NS",
+    "name": "VARDHMAN TEXTILES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 289226800,
+    "lastFiscalReserves": 98960200000,
+    "price": 404.55,
+    "industry": "textile-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "29.97",
+    "TTM_PE": "13.50",
+    "PB": "1.16",
+    "ROE": "8.24",
+    "ROA": 6.852744105983703,
+    "OPM": "9.07",
+    "NPM": "8.64",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 7.2,
+        "year_ago_eps": 6.92,
+        "eps_growth": "4.05",
+        "pe": "13.37",
+        "peg": "3.31",
+        "roe_earnings": "0.35",
+        "pb_fwd": "1.16",
+        "pb_valuation": "3.31",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "13.37",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.16",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 30.975,
+        "year_ago_eps": 31.05,
+        "eps_growth": "-0.24",
+        "pe": "13.06",
+        "peg": "-54.07",
+        "roe_earnings": "-0.02",
+        "pb_fwd": "1.08",
+        "pb_valuation": "-54.10",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 39.18,
+        "year_ago_eps": 30.975,
+        "eps_growth": "26.49",
+        "pe": "10.33",
+        "peg": "0.39",
+        "roe_earnings": "2.52",
+        "pb_fwd": "0.98",
+        "pb_valuation": "0.39",
+        "analystCount": 5
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-4.45",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "6.80",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "9.47",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760712092460
+  },
+  {
+    "country": "INDIA",
+    "ticker": "WELSPUNLIV.NS",
+    "name": "WELSPUN LIVING",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 955652514,
+    "lastFiscalReserves": 48210900000,
+    "price": 121.67,
+    "industry": "textile-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "5.67",
+    "TTM_PE": "21.46",
+    "PB": "2.38",
+    "ROE": "10.74",
+    "ROA": 5.250764766320593,
+    "OPM": "6.08",
+    "NPM": "5.27",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": -0.44,
+        "year_ago_eps": 2.09,
+        "eps_growth": "-121.05",
+        "pe": "38.75",
+        "peg": "-0.32",
+        "roe_earnings": "-7.60",
+        "pb_fwd": "2.43",
+        "pb_valuation": "-0.32",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "38.75",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.43",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 6.52857,
+        "year_ago_eps": 6.68,
+        "eps_growth": "-2.27",
+        "pe": "18.64",
+        "peg": "-8.22",
+        "roe_earnings": "-0.26",
+        "pb_fwd": "2.14",
+        "pb_valuation": "-8.22",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "eps_estimate": 9.16889,
+        "year_ago_eps": 6.52857,
+        "eps_growth": "40.44",
+        "pe": "13.27",
+        "peg": "0.33",
+        "roe_earnings": "5.61",
+        "pb_fwd": "1.84",
+        "pb_valuation": "0.33",
+        "analystCount": 9
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-15.06",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "0.63",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "15.99",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760712138610
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ARVIND.NS",
+    "name": "ARVIND",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 261951307,
+    "lastFiscalReserves": 37861000000,
+    "price": 307.5,
+    "industry": "textile-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "14.01",
+    "TTM_PE": "21.95",
+    "PB": "2.13",
+    "ROE": "9.21",
+    "ROA": 4.536637465350447,
+    "OPM": "5.40",
+    "NPM": "4.32",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.43,
+        "year_ago_eps": 2.28,
+        "eps_growth": "50.44",
+        "pe": "20.28",
+        "peg": "0.40",
+        "roe_earnings": "5.17",
+        "pb_fwd": "2.08",
+        "pb_valuation": "0.40",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.1,
+        "year_ago_eps": 3.95,
+        "eps_growth": "3.80",
+        "pe": "20.08",
+        "peg": "5.29",
+        "roe_earnings": "0.38",
+        "pb_fwd": "2.02",
+        "pb_valuation": "5.29",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 14.96,
+        "year_ago_eps": 13.49,
+        "eps_growth": "10.90",
+        "pe": "20.55",
+        "peg": "1.89",
+        "roe_earnings": "1.02",
+        "pb_fwd": "1.93",
+        "pb_valuation": "1.89",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 21.04,
+        "year_ago_eps": 14.96,
+        "eps_growth": "40.64",
+        "pe": "14.62",
+        "peg": "0.36",
+        "roe_earnings": "4.74",
+        "pb_fwd": "1.70",
+        "pb_valuation": "0.36",
+        "analystCount": 5
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.19",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "10.45",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "8.37",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "12.87",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760712184949
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GARFIBRES.NS",
+    "name": "GARWARE TECHNICAL FIBRES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 99265845,
+    "lastFiscalReserves": 12415676000,
+    "price": 763.1,
+    "industry": "textile-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "23.93",
+    "TTM_PE": "31.89",
+    "PB": "6.10",
+    "ROE": "17.42",
+    "ROA": 13.544572762466936,
+    "OPM": "16.53",
+    "NPM": "15.14",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 6.1,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "25.41",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "5.82",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "25.41",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.82",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 25.65,
+        "year_ago_eps": 23.32,
+        "eps_growth": "9.99",
+        "pe": "29.75",
+        "peg": "2.98",
+        "roe_earnings": "1.70",
+        "pb_fwd": "5.06",
+        "pb_valuation": "2.98",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 29.95,
+        "year_ago_eps": 25.65,
+        "eps_growth": "16.76",
+        "pe": "25.48",
+        "peg": "1.52",
+        "roe_earnings": "2.78",
+        "pb_fwd": "4.22",
+        "pb_valuation": "1.52",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "10.75",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "12.08",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760712234656
+  },
+  {
+    "country": "INDIA",
+    "ticker": "RAYMONDLSL.NS",
+    "name": "RAYMOND LIFESTYLE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 60905789,
+    "lastFiscalReserves": 95876500000,
+    "price": 1183.4,
+    "industry": "apparel-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "6.79",
+    "TTM_PE": "174.29",
+    "PB": "0.75",
+    "ROE": "0.44",
+    "ROA": 0.300520381613183,
+    "OPM": "-0.83",
+    "NPM": "0.65",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "174.29",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "0.75",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "174.29",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "0.75",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 41.1,
+        "year_ago_eps": 12.7772,
+        "eps_growth": "221.67",
+        "pe": "28.79",
+        "peg": "0.13",
+        "roe_earnings": "5.64",
+        "pb_fwd": "0.73",
+        "pb_valuation": "0.13",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 62.8,
+        "year_ago_eps": 41.1,
+        "eps_growth": "52.80",
+        "pe": "18.84",
+        "peg": "0.36",
+        "roe_earnings": "1.98",
+        "pb_fwd": "0.71",
+        "pb_valuation": "0.36",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "8.74",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "11.24",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "10.03",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760712286547
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PGIL.NS",
+    "name": "PEARL GLOBAL INDUSTRIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 45978717,
+    "lastFiscalReserves": 11556995000,
+    "price": 1348.3,
+    "industry": "apparel-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "52.62",
+    "TTM_PE": "25.62",
+    "PB": "5.36",
+    "ROE": "19.42",
+    "ROA": 9.661960383454915,
+    "OPM": "7.55",
+    "NPM": "5.36",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 14,
+        "year_ago_eps": 12.77,
+        "eps_growth": "9.63",
+        "pe": "25.04",
+        "peg": "2.60",
+        "roe_earnings": "1.95",
+        "pb_fwd": "5.09",
+        "pb_valuation": "2.60",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "25.04",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.09",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 55.4,
+        "year_ago_eps": 51.8985,
+        "eps_growth": "6.75",
+        "pe": "24.34",
+        "peg": "3.61",
+        "roe_earnings": "1.22",
+        "pb_fwd": "4.40",
+        "pb_valuation": "3.61",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 86,
+        "year_ago_eps": 55.4,
+        "eps_growth": "55.23",
+        "pe": "15.68",
+        "peg": "0.28",
+        "roe_earnings": "12.09",
+        "pb_fwd": "3.44",
+        "pb_valuation": "0.28",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "8.58",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "14.57",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "16.91",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760712604826
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GOKEX.NS",
+    "name": "GOKALDAS EXPORTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 73239878,
+    "lastFiscalReserves": 20806791000,
+    "price": 814.95,
+    "industry": "apparel-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "23.27",
+    "TTM_PE": "35.02",
+    "PB": "2.80",
+    "ROE": "7.95",
+    "ROA": 4.886243358495733,
+    "OPM": "5.99",
+    "NPM": "4.45",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.3,
+        "year_ago_eps": 3.78,
+        "eps_growth": "40.21",
+        "pe": "32.87",
+        "peg": "0.82",
+        "roe_earnings": "3.44",
+        "pb_fwd": "2.82",
+        "pb_valuation": "0.82",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "32.87",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.82",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 24.9,
+        "year_ago_eps": 21.45,
+        "eps_growth": "16.08",
+        "pe": "32.73",
+        "peg": "2.03",
+        "roe_earnings": "1.30",
+        "pb_fwd": "2.64",
+        "pb_valuation": "2.03",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 40.95,
+        "year_ago_eps": 24.9,
+        "eps_growth": "64.46",
+        "pe": "19.90",
+        "peg": "0.31",
+        "roe_earnings": "7.54",
+        "pb_fwd": "2.33",
+        "pb_valuation": "0.31",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-0.20",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "7.44",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "20.70",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760712860742
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ICIL.NS",
+    "name": "INDO COUNT INDUSTRIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 198054340,
+    "lastFiscalReserves": 22775749000,
+    "price": 266.9,
+    "industry": "textile-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "10.41",
+    "TTM_PE": "25.64",
+    "PB": "2.32",
+    "ROE": "8.85",
+    "ROA": 4.836144023028539,
+    "OPM": "7.49",
+    "NPM": "4.94",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.8,
+        "year_ago_eps": 4.19,
+        "eps_growth": "-57.04",
+        "pe": "33.28",
+        "peg": "-0.58",
+        "roe_earnings": "-3.92",
+        "pb_fwd": "2.29",
+        "pb_valuation": "-0.59",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "33.28",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.29",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 9.85,
+        "year_ago_eps": 12.42,
+        "eps_growth": "-20.69",
+        "pe": "27.10",
+        "peg": "-1.31",
+        "roe_earnings": "-1.63",
+        "pb_fwd": "2.15",
+        "pb_valuation": "-1.32",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 15,
+        "year_ago_eps": 9.85,
+        "eps_growth": "52.28",
+        "pe": "17.79",
+        "peg": "0.34",
+        "roe_earnings": "5.61",
+        "pb_fwd": "1.92",
+        "pb_valuation": "0.34",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-3.09",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "3.46",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "15.43",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760712896584
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KALAMANDIR.NS",
+    "name": "KALAMANDIR",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 147349967,
+    "lastFiscalReserves": 11317700000,
+    "price": 174.76,
+    "industry": "apparel-retail",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "7.70",
+    "TTM_PE": "22.70",
+    "PB": "2.27",
+    "ROE": "9.64",
+    "ROA": 6.909456617803919,
+    "OPM": "11.32",
+    "NPM": "7.20",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.70",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.28",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.70",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.28",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 10.2,
+        "year_ago_eps": 5.8,
+        "eps_growth": "75.86",
+        "pe": "17.13",
+        "peg": "0.23",
+        "roe_earnings": "8.89",
+        "pb_fwd": "2.01",
+        "pb_valuation": "0.23",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 12.1,
+        "year_ago_eps": 10.2,
+        "eps_growth": "18.63",
+        "pe": "14.44",
+        "peg": "0.78",
+        "roe_earnings": "2.27",
+        "pb_fwd": "1.76",
+        "pb_valuation": "0.78",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "14.88",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "10.34",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760712966661
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SUNPHARMA.NS",
+    "name": "SUN PHARMACEUTICALS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 2399334970,
+    "lastFiscalReserves": 722180200000,
+    "price": 1679.1,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "43.30",
+    "TTM_PE": "38.78",
+    "PB": "5.58",
+    "ROE": "13.53",
+    "ROA": 11.261655464058967,
+    "OPM": "24.34",
+    "NPM": "19.29",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 11.96722,
+        "year_ago_eps": 12.7,
+        "eps_growth": "-5.77",
+        "pe": "39.45",
+        "peg": "-6.84",
+        "roe_earnings": "-0.78",
+        "pb_fwd": "5.37",
+        "pb_valuation": "-6.84",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "eps_estimate": 12.54769,
+        "year_ago_eps": 13.2069,
+        "eps_growth": "-4.99",
+        "pe": "40.07",
+        "peg": "-8.03",
+        "roe_earnings": "-0.64",
+        "pb_fwd": "5.16",
+        "pb_valuation": "-8.03",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "eps_estimate": 48.76235,
+        "year_ago_eps": 47.8581,
+        "eps_growth": "1.89",
+        "pe": "34.43",
+        "peg": "18.22",
+        "roe_earnings": "0.26",
+        "pb_fwd": "4.80",
+        "pb_valuation": "18.22",
+        "analystCount": 34
+      },
+      "Next Year": {
+        "eps_estimate": 56.4297,
+        "year_ago_eps": 48.76235,
+        "eps_growth": "15.72",
+        "pe": "29.76",
+        "peg": "1.89",
+        "roe_earnings": "2.18",
+        "pb_fwd": "4.13",
+        "pb_valuation": "1.89",
+        "analystCount": 35
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.01",
+        "analystCount": 21
+      },
+      "Next Quarter": {
+        "revenue_growth": "5.37",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "8.95",
+        "analystCount": 37
+      },
+      "Next Year": {
+        "revenue_growth": "10.20",
+        "analystCount": 36
+      }
+    },
+    "timestamp": 1760715813017
+  },
+  {
+    "country": "INDIA",
+    "ticker": "DIVISLAB.NS",
+    "name": "DIVIS LABORATORIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 265468580,
+    "lastFiscalReserves": 149690000000,
+    "price": 6621.5,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "87.13",
+    "TTM_PE": "76.00",
+    "PB": "11.74",
+    "ROE": "14.26",
+    "ROA": 13.619182612804156,
+    "OPM": "25.60",
+    "NPM": "23.89",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 22.211,
+        "year_ago_eps": 19.2,
+        "eps_growth": "15.68",
+        "pe": "73.46",
+        "peg": "4.68",
+        "roe_earnings": "2.41",
+        "pb_fwd": "11.30",
+        "pb_valuation": "4.68",
+        "analystCount": 10
+      },
+      "Next Quarter": {
+        "eps_estimate": 22.9,
+        "year_ago_eps": 22.39,
+        "eps_growth": "2.28",
+        "pe": "73.04",
+        "peg": "32.07",
+        "roe_earnings": "0.34",
+        "pb_fwd": "10.87",
+        "pb_valuation": "32.07",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "eps_estimate": 95.47294,
+        "year_ago_eps": 82.53,
+        "eps_growth": "15.68",
+        "pe": "69.35",
+        "peg": "4.42",
+        "roe_earnings": "2.27",
+        "pb_fwd": "10.04",
+        "pb_valuation": "4.42",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "eps_estimate": 119.31196,
+        "year_ago_eps": 95.47294,
+        "eps_growth": "24.97",
+        "pe": "55.50",
+        "peg": "2.22",
+        "roe_earnings": "3.83",
+        "pb_fwd": "8.50",
+        "pb_valuation": "2.22",
+        "analystCount": 29
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.76",
+        "analystCount": 16
+      },
+      "Next Quarter": {
+        "revenue_growth": "16.25",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "13.92",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "revenue_growth": "17.86",
+        "analystCount": 27
+      }
+    },
+    "timestamp": 1760715858782
+  },
+  {
+    "country": "INDIA",
+    "ticker": "CIPLA.NS",
+    "name": "CIPLA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 807765695,
+    "lastFiscalReserves": 311934500000,
+    "price": 1577.6,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "66.70",
+    "TTM_PE": "23.65",
+    "PB": "4.08",
+    "ROE": "16.00",
+    "ROA": 14.423447269428122,
+    "OPM": "22.31",
+    "NPM": "19.62",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 16.34085,
+        "year_ago_eps": 16.12,
+        "eps_growth": "1.37",
+        "pe": "23.57",
+        "peg": "17.21",
+        "roe_earnings": "0.23",
+        "pb_fwd": "3.92",
+        "pb_valuation": "17.21",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "eps_estimate": 16.14043,
+        "year_ago_eps": 19.43,
+        "eps_growth": "-16.93",
+        "pe": "24.79",
+        "peg": "-1.46",
+        "roe_earnings": "-2.57",
+        "pb_fwd": "3.77",
+        "pb_valuation": "-1.46",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "eps_estimate": 61.93705,
+        "year_ago_eps": 65.24,
+        "eps_growth": "-5.06",
+        "pe": "25.47",
+        "peg": "-5.03",
+        "roe_earnings": "-0.70",
+        "pb_fwd": "3.52",
+        "pb_valuation": "-5.03",
+        "analystCount": 36
+      },
+      "Next Year": {
+        "eps_estimate": 65.4577,
+        "year_ago_eps": 61.93705,
+        "eps_growth": "5.68",
+        "pe": "24.10",
+        "peg": "4.24",
+        "roe_earnings": "0.72",
+        "pb_fwd": "3.07",
+        "pb_valuation": "4.24",
+        "analystCount": 36
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "5.18",
+        "analystCount": 21
+      },
+      "Next Quarter": {
+        "revenue_growth": "4.04",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "revenue_growth": "6.39",
+        "analystCount": 35
+      },
+      "Next Year": {
+        "revenue_growth": "7.98",
+        "analystCount": 34
+      }
+    },
+    "timestamp": 1760715961832
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TORNTPHARM.NS",
+    "name": "TORRENT PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 338445440,
+    "lastFiscalReserves": 75906900000,
+    "price": 3584.3,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "59.01",
+    "TTM_PE": "60.74",
+    "PB": "15.98",
+    "ROE": "23.18",
+    "ROA": 13.357469842705743,
+    "OPM": "26.15",
+    "NPM": "16.92",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 17.474,
+        "year_ago_eps": 13.37,
+        "eps_growth": "30.70",
+        "pe": "56.79",
+        "peg": "1.85",
+        "roe_earnings": "8.01",
+        "pb_fwd": "14.83",
+        "pb_valuation": "1.85",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 18.78,
+        "year_ago_eps": 14.88,
+        "eps_growth": "26.21",
+        "pe": "53.49",
+        "peg": "2.04",
+        "roe_earnings": "6.74",
+        "pb_fwd": "13.76",
+        "pb_valuation": "2.04",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 72.90348,
+        "year_ago_eps": 56.977,
+        "eps_growth": "27.95",
+        "pe": "49.17",
+        "peg": "1.76",
+        "roe_earnings": "6.86",
+        "pb_fwd": "12.06",
+        "pb_valuation": "1.76",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "eps_estimate": 89.42526,
+        "year_ago_eps": 72.90348,
+        "eps_growth": "22.66",
+        "pe": "40.08",
+        "peg": "1.77",
+        "roe_earnings": "5.24",
+        "pb_fwd": "9.27",
+        "pb_valuation": "1.77",
+        "analystCount": 27
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.26",
+        "analystCount": 16
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.28",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "12.60",
+        "analystCount": 27
+      },
+      "Next Year": {
+        "revenue_growth": "12.83",
+        "analystCount": 28
+      }
+    },
+    "timestamp": 1760715998184
+  },
+  {
+    "country": "INDIA",
+    "ticker": "DRREDDY.NS",
+    "name": "DR REDDY LABORATORIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 832370850,
+    "lastFiscalReserves": 333388000000,
+    "price": 1255.9,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "68.09",
+    "TTM_PE": "18.44",
+    "PB": "2.99",
+    "ROE": "15.86",
+    "ROA": 11.696812707788611,
+    "OPM": "20.50",
+    "NPM": "16.99",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 17.19663,
+        "year_ago_eps": 15.8253,
+        "eps_growth": "8.67",
+        "pe": "18.08",
+        "peg": "2.09",
+        "roe_earnings": "1.44",
+        "pb_fwd": "3.01",
+        "pb_valuation": "2.09",
+        "analystCount": 11
+      },
+      "Next Quarter": {
+        "eps_estimate": 14.15721,
+        "year_ago_eps": 16.9364,
+        "eps_growth": "-16.41",
+        "pe": "18.83",
+        "peg": "-1.15",
+        "roe_earnings": "-2.53",
+        "pb_fwd": "2.91",
+        "pb_valuation": "-1.15",
+        "analystCount": 5
+      },
+      "Current Year": {
+        "eps_estimate": 64.49336,
+        "year_ago_eps": 69.293,
+        "eps_growth": "-6.93",
+        "pe": "19.47",
+        "peg": "-2.81",
+        "roe_earnings": "-0.96",
+        "pb_fwd": "2.70",
+        "pb_valuation": "-2.81",
+        "analystCount": 36
+      },
+      "Next Year": {
+        "eps_estimate": 56.65045,
+        "year_ago_eps": 64.49336,
+        "eps_growth": "-12.16",
+        "pe": "22.17",
+        "peg": "-1.82",
+        "roe_earnings": "-1.32",
+        "pb_fwd": "2.41",
+        "pb_valuation": "-1.82",
+        "analystCount": 35
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "8.23",
+        "analystCount": 22
+      },
+      "Next Quarter": {
+        "revenue_growth": "1.46",
+        "analystCount": 4
+      },
+      "Current Year": {
+        "revenue_growth": "5.69",
+        "analystCount": 36
+      },
+      "Next Year": {
+        "revenue_growth": "1.54",
+        "analystCount": 35
+      }
+    },
+    "timestamp": 1760717204205
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MANKIND.NS",
+    "name": "MANDKIND PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 412758490,
+    "lastFiscalReserves": 143323900000,
+    "price": 2476.6,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "46.41",
+    "TTM_PE": "53.36",
+    "PB": "7.13",
+    "ROE": "12.46",
+    "ROA": 6.8185232242764915,
+    "OPM": "17.59",
+    "NPM": "14.66",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 12.43333,
+        "year_ago_eps": 16.28,
+        "eps_growth": "-23.63",
+        "pe": "58.19",
+        "peg": "-2.46",
+        "roe_earnings": "-2.80",
+        "pb_fwd": "6.89",
+        "pb_valuation": "-2.46",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "eps_estimate": 12.4,
+        "year_ago_eps": 9.44,
+        "eps_growth": "31.36",
+        "pe": "54.40",
+        "peg": "1.74",
+        "roe_earnings": "3.84",
+        "pb_fwd": "6.66",
+        "pb_valuation": "1.74",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 50.62867,
+        "year_ago_eps": 49.08,
+        "eps_growth": "3.16",
+        "pe": "48.92",
+        "peg": "15.50",
+        "roe_earnings": "0.40",
+        "pb_fwd": "6.22",
+        "pb_valuation": "15.50",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "eps_estimate": 65.66985,
+        "year_ago_eps": 50.62867,
+        "eps_growth": "29.71",
+        "pe": "37.71",
+        "peg": "1.27",
+        "roe_earnings": "4.21",
+        "pb_fwd": "5.34",
+        "pb_valuation": "1.27",
+        "analystCount": 17
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "20.89",
+        "analystCount": 11
+      },
+      "Next Quarter": {
+        "revenue_growth": "13.19",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "20.79",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "revenue_growth": "12.57",
+        "analystCount": 16
+      }
+    },
+    "timestamp": 1760717243464
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ZYDUSLIFE.NS",
+    "name": "ZYDUS LIFESCIENCES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1006233990,
+    "lastFiscalReserves": 239531000000,
+    "price": 987.65,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "45.49",
+    "TTM_PE": "21.71",
+    "PB": "4.15",
+    "ROE": "17.20",
+    "ROA": 12.290836171465283,
+    "OPM": "27.28",
+    "NPM": "19.37",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 12.01332,
+        "year_ago_eps": 9.05,
+        "eps_growth": "32.74",
+        "pe": "20.38",
+        "peg": "0.62",
+        "roe_earnings": "6.34",
+        "pb_fwd": "3.95",
+        "pb_valuation": "0.62",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "eps_estimate": 9.55454,
+        "year_ago_eps": 10.18,
+        "eps_growth": "-6.14",
+        "pe": "20.65",
+        "peg": "-3.36",
+        "roe_earnings": "-1.13",
+        "pb_fwd": "3.80",
+        "pb_valuation": "-3.36",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 45.00966,
+        "year_ago_eps": 46.65659,
+        "eps_growth": "-3.53",
+        "pe": "21.94",
+        "peg": "-6.22",
+        "roe_earnings": "-0.56",
+        "pb_fwd": "3.49",
+        "pb_valuation": "-6.22",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "eps_estimate": 41.24048,
+        "year_ago_eps": 45.00966,
+        "eps_growth": "-8.37",
+        "pe": "23.95",
+        "peg": "-2.86",
+        "roe_earnings": "-1.06",
+        "pb_fwd": "3.05",
+        "pb_valuation": "-2.86",
+        "analystCount": 29
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "14.29",
+        "analystCount": 15
+      },
+      "Next Quarter": {
+        "revenue_growth": "17.05",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "8.49",
+        "analystCount": 27
+      },
+      "Next Year": {
+        "revenue_growth": "4.10",
+        "analystCount": 28
+      }
+    },
+    "timestamp": 1760717286715
+  },
+  {
+    "country": "INDIA",
+    "ticker": "LUPIN.NS",
+    "name": "LUPIN",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 456757868,
+    "lastFiscalReserves": 172035000000,
+    "price": 1940,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "80.78",
+    "TTM_PE": "24.02",
+    "PB": "5.15",
+    "ROE": "19.27",
+    "ROA": 12.666855676174665,
+    "OPM": "23.23",
+    "NPM": "15.82",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 26.01349,
+        "year_ago_eps": 18.64,
+        "eps_growth": "39.56",
+        "pe": "22.01",
+        "peg": "0.56",
+        "roe_earnings": "8.66",
+        "pb_fwd": "4.82",
+        "pb_valuation": "0.56",
+        "analystCount": 10
+      },
+      "Next Quarter": {
+        "eps_estimate": 23.89678,
+        "year_ago_eps": 18.69,
+        "eps_growth": "27.86",
+        "pe": "20.78",
+        "peg": "0.75",
+        "roe_earnings": "6.10",
+        "pb_fwd": "4.55",
+        "pb_valuation": "0.75",
+        "analystCount": 4
+      },
+      "Current Year": {
+        "eps_estimate": 91.18679,
+        "year_ago_eps": 71.69,
+        "eps_growth": "27.20",
+        "pe": "21.28",
+        "peg": "0.78",
+        "roe_earnings": "5.30",
+        "pb_fwd": "4.15",
+        "pb_valuation": "0.78",
+        "analystCount": 36
+      },
+      "Next Year": {
+        "eps_estimate": 88.68073,
+        "year_ago_eps": 91.18679,
+        "eps_growth": "-2.75",
+        "pe": "21.88",
+        "peg": "-7.96",
+        "roe_earnings": "-0.44",
+        "pb_fwd": "3.49",
+        "pb_valuation": "-7.96",
+        "analystCount": 36
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.72",
+        "analystCount": 21
+      },
+      "Next Quarter": {
+        "revenue_growth": "11.33",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "revenue_growth": "12.08",
+        "analystCount": 35
+      },
+      "Next Year": {
+        "revenue_growth": "5.15",
+        "analystCount": 36
+      }
+    },
+    "timestamp": 1760717344301
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ALKEM.NS",
+    "name": "ALKEM LABORATORIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 119565000,
+    "lastFiscalReserves": 119848700000,
+    "price": 5581.5,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "191.13",
+    "TTM_PE": "29.20",
+    "PB": "5.57",
+    "ROE": "17.63",
+    "ROA": 12.913724980357355,
+    "OPM": "19.32",
+    "NPM": "17.17",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 59.776,
+        "year_ago_eps": 58.72,
+        "eps_growth": "1.80",
+        "pe": "29.04",
+        "peg": "16.15",
+        "roe_earnings": "0.33",
+        "pb_fwd": "5.25",
+        "pb_valuation": "16.15",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 54.45,
+        "year_ago_eps": 52.34,
+        "eps_growth": "4.03",
+        "pe": "28.73",
+        "peg": "7.13",
+        "roe_earnings": "0.70",
+        "pb_fwd": "5.00",
+        "pb_valuation": "7.13",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 200.73541,
+        "year_ago_eps": 181.11,
+        "eps_growth": "10.84",
+        "pe": "27.81",
+        "peg": "2.57",
+        "roe_earnings": "1.81",
+        "pb_fwd": "4.64",
+        "pb_valuation": "2.57",
+        "analystCount": 21
+      },
+      "Next Year": {
+        "eps_estimate": 191.14223,
+        "year_ago_eps": 200.73541,
+        "eps_growth": "-4.78",
+        "pe": "29.20",
+        "peg": "-6.11",
+        "roe_earnings": "-0.66",
+        "pb_fwd": "4.00",
+        "pb_valuation": "-6.11",
+        "analystCount": 21
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.59",
+        "analystCount": 12
+      },
+      "Next Quarter": {
+        "revenue_growth": "7.57",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "9.93",
+        "analystCount": 20
+      },
+      "Next Year": {
+        "revenue_growth": "9.65",
+        "analystCount": 21
+      }
+    },
+    "timestamp": 1760717378410
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AUROPHARMA.NS",
+    "name": "AUROBINDO PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 580801623,
+    "lastFiscalReserves": 326533200000,
+    "price": 1101,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "58.30",
+    "TTM_PE": "18.89",
+    "PB": "1.96",
+    "ROE": "9.86",
+    "ROA": 6.812116186873267,
+    "OPM": "15.22",
+    "NPM": "10.59",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 15.24155,
+        "year_ago_eps": 14,
+        "eps_growth": "8.87",
+        "pe": "18.49",
+        "peg": "2.09",
+        "roe_earnings": "0.91",
+        "pb_fwd": "1.91",
+        "pb_valuation": "2.09",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "eps_estimate": 16.40637,
+        "year_ago_eps": 14.56,
+        "eps_growth": "12.68",
+        "pe": "17.94",
+        "peg": "1.41",
+        "roe_earnings": "1.31",
+        "pb_fwd": "1.85",
+        "pb_valuation": "1.41",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 64.51737,
+        "year_ago_eps": 59.81,
+        "eps_growth": "7.87",
+        "pe": "17.07",
+        "peg": "2.17",
+        "roe_earnings": "0.81",
+        "pb_fwd": "1.76",
+        "pb_valuation": "2.17",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "eps_estimate": 75.39044,
+        "year_ago_eps": 64.51737,
+        "eps_growth": "16.85",
+        "pe": "14.60",
+        "peg": "0.87",
+        "roe_earnings": "1.81",
+        "pb_fwd": "1.57",
+        "pb_valuation": "0.87",
+        "analystCount": 25
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "4.44",
+        "analystCount": 15
+      },
+      "Next Quarter": {
+        "revenue_growth": "3.13",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "4.78",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "revenue_growth": "10.20",
+        "analystCount": 24
+      }
+    },
+    "timestamp": 1760717403799
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ABBOTINDIA.NS",
+    "name": "ABBOTT INDIA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 21249302,
+    "lastFiscalReserves": 42331500000,
+    "price": 29805,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "683.22",
+    "TTM_PE": "43.62",
+    "PB": "14.96",
+    "ROE": "29.24",
+    "ROA": 24.543077851253354,
+    "OPM": "24.51",
+    "NPM": "22.04",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.62",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "14.96",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.62",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "14.96",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 741.1218,
+        "year_ago_eps": 665.62,
+        "eps_growth": "11.34",
+        "pe": "40.22",
+        "peg": "3.55",
+        "roe_earnings": "3.08",
+        "pb_fwd": "10.90",
+        "pb_valuation": "3.55",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "eps_estimate": 845.35236,
+        "year_ago_eps": 741.1218,
+        "eps_growth": "14.06",
+        "pe": "35.26",
+        "peg": "2.51",
+        "roe_earnings": "3.32",
+        "pb_fwd": "8.33",
+        "pb_valuation": "2.51",
+        "analystCount": 8
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "9.75",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "11.24",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "9.50",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760717499433
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GLENMARK.NS",
+    "name": "GLENMARK PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 282200809,
+    "lastFiscalReserves": 88494410000,
+    "price": 1861.9,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "26.66",
+    "TTM_PE": "69.84",
+    "PB": "6.11",
+    "ROE": "8.47",
+    "ROA": 4.696061959104907,
+    "OPM": "13.80",
+    "NPM": "5.60",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "69.84",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.94",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "69.84",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.94",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 88.27628,
+        "year_ago_eps": 46.9984,
+        "eps_growth": "87.83",
+        "pe": "21.09",
+        "peg": "0.24",
+        "roe_earnings": "19.29",
+        "pb_fwd": "4.64",
+        "pb_valuation": "0.24",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 83.18403,
+        "year_ago_eps": 88.27628,
+        "eps_growth": "-5.77",
+        "pe": "22.38",
+        "peg": "-3.88",
+        "roe_earnings": "-0.99",
+        "pb_fwd": "3.84",
+        "pb_valuation": "-3.88",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "41.57",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.13",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "14.47",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "9.13",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760717534784
+  },
+  {
+    "country": "INDIA",
+    "ticker": "LAURUSLABS.NS",
+    "name": "LAURUS LABS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 539824899,
+    "lastFiscalReserves": 44725600000,
+    "price": 900.05,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "9.43",
+    "TTM_PE": "95.45",
+    "PB": "10.85",
+    "ROE": "10.45",
+    "ROA": 5.45044384006547,
+    "OPM": "16.90",
+    "NPM": "8.58",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.5675,
+        "year_ago_eps": 0.37,
+        "eps_growth": "593.92",
+        "pe": "77.41",
+        "peg": "0.13",
+        "roe_earnings": "80.85",
+        "pb_fwd": "10.54",
+        "pb_valuation": "0.13",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.02,
+        "year_ago_eps": 1.71,
+        "eps_growth": "76.61",
+        "pe": "69.57",
+        "peg": "0.91",
+        "roe_earnings": "11.21",
+        "pb_fwd": "10.18",
+        "pb_valuation": "0.91",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 11.79596,
+        "year_ago_eps": 6.64,
+        "eps_growth": "77.65",
+        "pe": "76.30",
+        "peg": "0.98",
+        "roe_earnings": "9.68",
+        "pb_fwd": "9.51",
+        "pb_valuation": "0.98",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "eps_estimate": 16.24045,
+        "year_ago_eps": 11.79596,
+        "eps_growth": "37.68",
+        "pe": "55.42",
+        "peg": "1.47",
+        "roe_earnings": "5.52",
+        "pb_fwd": "8.12",
+        "pb_valuation": "1.47",
+        "analystCount": 12
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "25.40",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "revenue_growth": "16.80",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "17.30",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "15.39",
+        "analystCount": 13
+      }
+    },
+    "timestamp": 1760718313854
+  },
+  {
+    "country": "INDIA",
+    "ticker": "BIOCON.NS",
+    "name": "BIOCON",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1334565342,
+    "lastFiscalReserves": 216440000000,
+    "price": 356.15,
+    "industry": "biotechnology",
+    "sector": "healthcare",
+    "TTM_EPS": "3.22",
+    "TTM_PE": "110.61",
+    "PB": "1.97",
+    "ROE": "1.75",
+    "ROA": 0.654791971740199,
+    "OPM": "7.46",
+    "NPM": "2.44",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.96667,
+        "year_ago_eps": -0.1882,
+        "eps_growth": "613.64",
+        "pe": "81.41",
+        "peg": "0.13",
+        "roe_earnings": "16.46",
+        "pb_fwd": "2.18",
+        "pb_valuation": "0.13",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.39,
+        "year_ago_eps": 0.21,
+        "eps_growth": "85.71",
+        "pe": "78.19",
+        "peg": "0.91",
+        "roe_earnings": "2.39",
+        "pb_fwd": "2.18",
+        "pb_valuation": "0.91",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 5.26342,
+        "year_ago_eps": 7.8496,
+        "eps_growth": "-32.95",
+        "pe": "67.67",
+        "peg": "-2.05",
+        "roe_earnings": "-1.04",
+        "pb_fwd": "2.13",
+        "pb_valuation": "-2.05",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 10.46216,
+        "year_ago_eps": 5.26342,
+        "eps_growth": "98.77",
+        "pe": "34.04",
+        "peg": "0.34",
+        "roe_earnings": "5.81",
+        "pb_fwd": "2.00",
+        "pb_valuation": "0.34",
+        "analystCount": 16
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "16.94",
+        "analystCount": 12
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.76",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "14.18",
+        "analystCount": 18
+      },
+      "Next Year": {
+        "revenue_growth": "17.62",
+        "analystCount": 18
+      }
+    },
+    "timestamp": 1760718378851
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GLAXO.NS",
+    "name": "GLAXOSMITHKLINE PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 169406034,
+    "lastFiscalReserves": 19513107000,
+    "price": 2742.9,
+    "industry": "drug-manufacturers-general",
+    "sector": "healthcare",
+    "TTM_EPS": "56.11",
+    "TTM_PE": "48.88",
+    "PB": "23.81",
+    "ROE": "39.28",
+    "ROA": 23.131639454142103,
+    "OPM": "29.27",
+    "NPM": "25.41",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "48.88",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "23.85",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "48.88",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "23.85",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 60.425,
+        "year_ago_eps": 54.52,
+        "eps_growth": "10.83",
+        "pe": "45.39",
+        "peg": "4.19",
+        "roe_earnings": "3.73",
+        "pb_fwd": "15.65",
+        "pb_valuation": "4.20",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 68.5,
+        "year_ago_eps": 60.425,
+        "eps_growth": "13.36",
+        "pe": "40.04",
+        "peg": "3.00",
+        "roe_earnings": "3.75",
+        "pb_fwd": "11.26",
+        "pb_valuation": "3.00",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "4.87",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "14.02",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "8.22",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "10.64",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760718442469
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ANTHEM.NS",
+    "name": "ANTHEM BIOSCIENCES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 561610051,
+    "lastFiscalReserves": 24098640000,
+    "price": 757.6,
+    "industry": "biotechnology",
+    "sector": "healthcare",
+    "TTM_EPS": "8.03",
+    "TTM_PE": "94.35",
+    "PB": "17.58",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "30.55",
+    "NPM": "24.59",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "94.35",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "17.66",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "94.35",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "17.66",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 10.33257,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "73.32",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "14.23",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 13.34966,
+        "year_ago_eps": 10.33257,
+        "eps_growth": "29.20",
+        "pe": "56.75",
+        "peg": "1.94",
+        "roe_earnings": "5.85",
+        "pb_fwd": "11.38",
+        "pb_valuation": "1.94",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "23.99",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760718548190
+  },
+  {
+    "country": "INDIA",
+    "ticker": "COHANCE.NS",
+    "name": "COHANCE LIFESCIENCES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 382567140,
+    "lastFiscalReserves": 16965800000,
+    "price": 889.95,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "9.79",
+    "TTM_PE": "90.90",
+    "PB": "13.36",
+    "ROE": "14.31",
+    "ROA": 8.43374288777109,
+    "OPM": "12.17",
+    "NPM": "19.17",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.55,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "78.48",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "19.39",
+        "pb_valuation": "0.00",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.41,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "56.50",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "17.69",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 14.63503,
+        "year_ago_eps": 10.45,
+        "eps_growth": "40.05",
+        "pe": "60.81",
+        "peg": "1.52",
+        "roe_earnings": "9.94",
+        "pb_fwd": "15.09",
+        "pb_valuation": "1.52",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "eps_estimate": 20.41937,
+        "year_ago_eps": 14.63503,
+        "eps_growth": "39.52",
+        "pe": "43.58",
+        "peg": "1.10",
+        "roe_earnings": "10.16",
+        "pb_fwd": "11.21",
+        "pb_valuation": "1.10",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "119.47",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "revenue_growth": "156.37",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "17.35",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "22.99",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760718578947
+  },
+  {
+    "country": "INDIA",
+    "ticker": "IPCALAB.NS",
+    "name": "IPCA LABORATORIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 253704218,
+    "lastFiscalReserves": 69484500000,
+    "price": 1286.3,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "30.66",
+    "TTM_PE": "41.95",
+    "PB": "4.70",
+    "ROE": "10.74",
+    "ROA": 6.620863820144467,
+    "OPM": "13.70",
+    "NPM": "8.50",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 10.72,
+        "year_ago_eps": 9.05,
+        "eps_growth": "18.45",
+        "pe": "39.79",
+        "peg": "2.16",
+        "roe_earnings": "2.10",
+        "pb_fwd": "4.52",
+        "pb_valuation": "2.16",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 10.3,
+        "year_ago_eps": 9.78,
+        "eps_growth": "5.32",
+        "pe": "39.16",
+        "peg": "7.36",
+        "roe_earnings": "0.59",
+        "pb_fwd": "4.36",
+        "pb_valuation": "7.36",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 43.01674,
+        "year_ago_eps": 35.14,
+        "eps_growth": "22.42",
+        "pe": "29.90",
+        "peg": "1.33",
+        "roe_earnings": "3.04",
+        "pb_fwd": "4.06",
+        "pb_valuation": "1.33",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 53.8886,
+        "year_ago_eps": 43.01674,
+        "eps_growth": "25.27",
+        "pe": "23.87",
+        "peg": "0.94",
+        "roe_earnings": "3.67",
+        "pb_fwd": "3.47",
+        "pb_valuation": "0.94",
+        "analystCount": 16
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.28",
+        "analystCount": 10
+      },
+      "Next Quarter": {
+        "revenue_growth": "10.49",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "10.11",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "revenue_growth": "11.65",
+        "analystCount": 14
+      }
+    },
+    "timestamp": 1760718686047
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GLAND.NS",
+    "name": "GLAND PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 164756423,
+    "lastFiscalReserves": 91507410000,
+    "price": 1937.8,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "46.79",
+    "TTM_PE": "41.41",
+    "PB": "3.49",
+    "ROE": "8.06",
+    "ROA": 6.861937546102778,
+    "OPM": "17.71",
+    "NPM": "13.46",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 12.965,
+        "year_ago_eps": 9.93,
+        "eps_growth": "30.56",
+        "pe": "38.89",
+        "peg": "1.27",
+        "roe_earnings": "2.68",
+        "pb_fwd": "3.41",
+        "pb_valuation": "1.27",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 15.145,
+        "year_ago_eps": 12.42,
+        "eps_growth": "21.94",
+        "pe": "36.88",
+        "peg": "1.68",
+        "roe_earnings": "1.98",
+        "pb_fwd": "3.32",
+        "pb_valuation": "1.68",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 58.96675,
+        "year_ago_eps": 42.4,
+        "eps_growth": "39.07",
+        "pe": "32.86",
+        "peg": "0.84",
+        "roe_earnings": "3.75",
+        "pb_fwd": "3.15",
+        "pb_valuation": "0.84",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 73.95414,
+        "year_ago_eps": 58.96675,
+        "eps_growth": "25.42",
+        "pe": "26.20",
+        "peg": "1.03",
+        "roe_earnings": "2.73",
+        "pb_fwd": "2.82",
+        "pb_valuation": "1.03",
+        "analystCount": 12
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "9.68",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "18.71",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "14.72",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "revenue_growth": "13.69",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760718803778
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AJANTPHARM.NS",
+    "name": "AJANTA PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 124935624,
+    "lastFiscalReserves": 37902900000,
+    "price": 2438.5,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "74.48",
+    "TTM_PE": "32.74",
+    "PB": "8.09",
+    "ROE": "21.77",
+    "ROA": 18.543754175016698,
+    "OPM": "25.73",
+    "NPM": "19.35",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 20.65,
+        "year_ago_eps": 17.26,
+        "eps_growth": "19.64",
+        "pe": "31.32",
+        "peg": "1.59",
+        "roe_earnings": "4.72",
+        "pb_fwd": "7.57",
+        "pb_valuation": "1.60",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "31.32",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.57",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 81.805,
+        "year_ago_eps": 73.53,
+        "eps_growth": "11.25",
+        "pe": "29.81",
+        "peg": "2.65",
+        "roe_earnings": "2.39",
+        "pb_fwd": "6.37",
+        "pb_valuation": "2.67",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 97.57154,
+        "year_ago_eps": 81.805,
+        "eps_growth": "19.27",
+        "pe": "24.99",
+        "peg": "1.30",
+        "roe_earnings": "3.90",
+        "pb_fwd": "5.08",
+        "pb_valuation": "1.31",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "12.00",
+        "analystCount": 10
+      },
+      "Next Quarter": {
+        "revenue_growth": "14.32",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "12.42",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "revenue_growth": "12.53",
+        "analystCount": 12
+      }
+    },
+    "timestamp": 1760718924636
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JBCHEPHARM.NS",
+    "name": "JB CHEMICALS AND PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 156596239,
+    "lastFiscalReserves": 34333151000,
+    "price": 1693.4,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "43.12",
+    "TTM_PE": "39.27",
+    "PB": "7.68",
+    "ROE": "18.12",
+    "ROA": 16.031051297076715,
+    "OPM": "23.60",
+    "NPM": "17.10",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 12.9,
+        "year_ago_eps": 11,
+        "eps_growth": "17.27",
+        "pe": "37.61",
+        "peg": "2.18",
+        "roe_earnings": "3.35",
+        "pb_fwd": "7.29",
+        "pb_valuation": "2.18",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "37.61",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.29",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 50.9875,
+        "year_ago_eps": 41.56,
+        "eps_growth": "22.68",
+        "pe": "33.21",
+        "peg": "1.46",
+        "roe_earnings": "4.28",
+        "pb_fwd": "6.27",
+        "pb_valuation": "1.46",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 60.51,
+        "year_ago_eps": 50.9875,
+        "eps_growth": "18.68",
+        "pe": "27.99",
+        "peg": "1.50",
+        "roe_earnings": "3.42",
+        "pb_fwd": "5.12",
+        "pb_valuation": "1.50",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "8.72",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "11.21",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "12.57",
+        "analystCount": 12
+      }
+    },
+    "timestamp": 1760719016588
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PPLPHARMA.NS",
+    "name": "PIRAMAL PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1321678949,
+    "lastFiscalReserves": 81254100000,
+    "price": 192.64,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "0.74",
+    "TTM_PE": "260.32",
+    "PB": "3.14",
+    "ROE": "1.20",
+    "ROA": 0.625542573826717,
+    "OPM": "-4.68",
+    "NPM": "1.07",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": -0.42667,
+        "year_ago_eps": null,
+        "eps_growth": "-Infinity",
+        "pe": "614.82",
+        "peg": "0.00",
+        "roe_earnings": "-Infinity",
+        "pb_fwd": "3.16",
+        "pb_valuation": "0.00",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.22,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "361.20",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "3.15",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 1.30157,
+        "year_ago_eps": 0.68,
+        "eps_growth": "91.41",
+        "pe": "148.01",
+        "peg": "1.62",
+        "roe_earnings": "1.90",
+        "pb_fwd": "3.07",
+        "pb_valuation": "1.62",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "eps_estimate": 4.40539,
+        "year_ago_eps": 1.30157,
+        "eps_growth": "238.47",
+        "pe": "43.73",
+        "peg": "0.18",
+        "roe_earnings": "15.64",
+        "pb_fwd": "2.87",
+        "pb_valuation": "0.18",
+        "analystCount": 9
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-6.32",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.74",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "4.59",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "revenue_growth": "18.13",
+        "analystCount": 9
+      }
+    },
+    "timestamp": 1760719147483
+  },
+  {
+    "country": "INDIA",
+    "ticker": "EMCURE.NS",
+    "name": "EMCURE PHARMACEUTICALS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 189564847,
+    "lastFiscalReserves": 44461860000,
+    "price": 1347.5,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "39.29",
+    "TTM_PE": "34.30",
+    "PB": "5.74",
+    "ROE": "15.37",
+    "ROA": 9.039585080173353,
+    "OPM": "14.49",
+    "NPM": "9.10",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 12,
+        "year_ago_eps": 10.33,
+        "eps_growth": "16.17",
+        "pe": "32.90",
+        "peg": "2.03",
+        "roe_earnings": "2.69",
+        "pb_fwd": "5.47",
+        "pb_valuation": "2.03",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "32.90",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.47",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 49.81087,
+        "year_ago_eps": 36.8342,
+        "eps_growth": "35.23",
+        "pe": "27.05",
+        "peg": "0.77",
+        "roe_earnings": "6.17",
+        "pb_fwd": "4.74",
+        "pb_valuation": "0.77",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 59.72508,
+        "year_ago_eps": 49.75754,
+        "eps_growth": "19.90",
+        "pe": "22.56",
+        "peg": "1.13",
+        "roe_earnings": "3.45",
+        "pb_fwd": "3.92",
+        "pb_valuation": "1.13",
+        "analystCount": 5
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.88",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "13.72",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "11.98",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760719260487
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PFIZER.NS",
+    "name": "PFIZER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 45747732,
+    "lastFiscalReserves": 42174100000,
+    "price": 5354,
+    "industry": "drug-manufacturers-general",
+    "sector": "healthcare",
+    "TTM_EPS": "176.67",
+    "TTM_PE": "30.31",
+    "PB": "5.81",
+    "ROE": "17.06",
+    "ROA": 16.465524087222644,
+    "OPM": "32.44",
+    "NPM": "34.83",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 42.3,
+        "year_ago_eps": 34.61,
+        "eps_growth": "22.22",
+        "pe": "29.04",
+        "peg": "1.31",
+        "roe_earnings": "4.25",
+        "pb_fwd": "5.55",
+        "pb_valuation": "1.31",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "29.04",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.55",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 158.1,
+        "year_ago_eps": 136.46,
+        "eps_growth": "15.86",
+        "pe": "33.86",
+        "peg": "2.14",
+        "roe_earnings": "2.32",
+        "pb_fwd": "4.96",
+        "pb_valuation": "2.14",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 178.9,
+        "year_ago_eps": 158.1,
+        "eps_growth": "13.16",
+        "pe": "29.93",
+        "peg": "2.27",
+        "roe_earnings": "1.87",
+        "pb_fwd": "4.25",
+        "pb_valuation": "2.27",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "6.16",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "7.36",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "7.93",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760719325269
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ASTRAZEN.NS",
+    "name": "ASTRAZENECA.NS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 25000000,
+    "lastFiscalReserves": 7703500000,
+    "price": 9178.5,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "73.72",
+    "TTM_PE": "124.50",
+    "PB": "29.79",
+    "ROE": "20.73",
+    "ROA": 12.078096593154692,
+    "OPM": "12.26",
+    "NPM": "9.88",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "124.50",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.79",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "124.50",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.79",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.79",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.79",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760719360546
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ERIS.NS",
+    "name": "ERIS LIFESCIENCES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 136213554,
+    "lastFiscalReserves": 28543600000,
+    "price": 1596.4,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "28.41",
+    "TTM_PE": "56.19",
+    "PB": "7.62",
+    "ROE": "12.61",
+    "ROA": 5.497663215875629,
+    "OPM": "26.72",
+    "NPM": "13.17",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 9.2,
+        "year_ago_eps": 6.72,
+        "eps_growth": "36.90",
+        "pe": "51.68",
+        "peg": "1.40",
+        "roe_earnings": "5.21",
+        "pb_fwd": "7.30",
+        "pb_valuation": "1.40",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.68",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 39.5873,
+        "year_ago_eps": 25.81,
+        "eps_growth": "53.38",
+        "pe": "40.33",
+        "peg": "0.76",
+        "roe_earnings": "8.48",
+        "pb_fwd": "6.41",
+        "pb_valuation": "0.76",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "eps_estimate": 55.69312,
+        "year_ago_eps": 39.5873,
+        "eps_growth": "40.68",
+        "pe": "28.66",
+        "peg": "0.70",
+        "roe_earnings": "7.43",
+        "pb_fwd": "5.24",
+        "pb_valuation": "0.70",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.94",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "19.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "15.30",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "15.84",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760719406083
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ONESOURCE.NS",
+    "name": "ONE SOURCE SPECIALTY PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 114525216,
+    "price": 1830.5,
+    "industry": "biotechnology",
+    "sector": "healthcare",
+    "TTM_EPS": "-1.11",
+    "TTM_PE": "-1649.10",
+    "PB": "3.56",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "6.32",
+    "NPM": "-0.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "-1649.10",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "-1649.10",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 32.45,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "56.41",
+        "peg": "0.00",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 68.5,
+        "year_ago_eps": 32.45,
+        "eps_growth": "111.09",
+        "pe": "26.72",
+        "peg": "0.24",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "50.63",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760719566846
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NEULANDLAB.NS",
+    "name": "NEULAND LABORATORIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 12829889,
+    "lastFiscalReserves": 15248063000,
+    "price": 16281,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "137.68",
+    "TTM_PE": "118.25",
+    "PB": "13.70",
+    "ROE": "11.24",
+    "ROA": 8.080044347362719,
+    "OPM": "4.88",
+    "NPM": "13.24",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 54.92,
+        "year_ago_eps": 25.6,
+        "eps_growth": "114.53",
+        "pe": "97.49",
+        "peg": "0.85",
+        "roe_earnings": "15.38",
+        "pb_fwd": "13.09",
+        "pb_valuation": "0.85",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 85.08,
+        "year_ago_eps": 44.6126,
+        "eps_growth": "90.71",
+        "pe": "78.47",
+        "peg": "0.87",
+        "roe_earnings": "14.17",
+        "pb_fwd": "12.26",
+        "pb_valuation": "0.87",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 229.29668,
+        "year_ago_eps": 158.014,
+        "eps_growth": "45.11",
+        "pe": "71.00",
+        "peg": "1.57",
+        "roe_earnings": "7.30",
+        "pb_fwd": "11.48",
+        "pb_valuation": "1.57",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 368.80667,
+        "year_ago_eps": 229.29668,
+        "eps_growth": "60.84",
+        "pe": "44.15",
+        "peg": "0.73",
+        "roe_earnings": "12.56",
+        "pb_fwd": "9.11",
+        "pb_valuation": "0.73",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "39.06",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "42.34",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "23.65",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "25.48",
+        "analystCount": 3
+      }
+    },
+    "timestamp": 1760719617281
+  },
+  {
+    "country": "INDIA",
+    "ticker": "APLLTD.NS",
+    "name": "ALEMBIC PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 196563124,
+    "lastFiscalReserves": 51909400000,
+    "price": 938.6,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "30.71",
+    "TTM_PE": "30.56",
+    "PB": "3.55",
+    "ROE": "10.96",
+    "ROA": 7.758968935820938,
+    "OPM": "12.13",
+    "NPM": "8.84",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 8.69667,
+        "year_ago_eps": 7.23529,
+        "eps_growth": "20.20",
+        "pe": "29.17",
+        "peg": "1.44",
+        "roe_earnings": "2.38",
+        "pb_fwd": "3.45",
+        "pb_valuation": "1.45",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 10.1,
+        "year_ago_eps": 7.01,
+        "eps_growth": "44.08",
+        "pe": "26.62",
+        "peg": "0.60",
+        "roe_earnings": "5.49",
+        "pb_fwd": "3.32",
+        "pb_valuation": "0.61",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 35.90814,
+        "year_ago_eps": 29.1412,
+        "eps_growth": "23.22",
+        "pe": "26.14",
+        "peg": "1.13",
+        "roe_earnings": "2.78",
+        "pb_fwd": "3.13",
+        "pb_valuation": "1.13",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 45.64098,
+        "year_ago_eps": 35.90814,
+        "eps_growth": "27.10",
+        "pe": "20.56",
+        "peg": "0.76",
+        "roe_earnings": "3.58",
+        "pb_fwd": "2.72",
+        "pb_valuation": "0.76",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "9.26",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "revenue_growth": "8.19",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "10.27",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "10.61",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760719661410
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SAILIFE.NS",
+    "name": "SAI LIFE SCIENCES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 209828792,
+    "lastFiscalReserves": 21283550000,
+    "price": 871.85,
+    "industry": "diagnostics-research",
+    "sector": "healthcare",
+    "TTM_EPS": "11.71",
+    "TTM_PE": "74.45",
+    "PB": "8.53",
+    "ROE": "10.72",
+    "ROA": 7.7242699704902735,
+    "OPM": "16.76",
+    "NPM": "12.77",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.8,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "60.09",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "8.36",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "60.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "8.36",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 12.725,
+        "year_ago_eps": 8.61,
+        "eps_growth": "47.79",
+        "pe": "68.51",
+        "peg": "1.43",
+        "roe_earnings": "5.33",
+        "pb_fwd": "7.64",
+        "pb_valuation": "1.43",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 16.28667,
+        "year_ago_eps": 12.56,
+        "eps_growth": "27.99",
+        "pe": "53.53",
+        "peg": "1.91",
+        "roe_earnings": "3.49",
+        "pb_fwd": "6.68",
+        "pb_valuation": "1.91",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "23.17",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "17.96",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760719911637
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JUBLPHARMA.NS",
+    "name": "JUBILIANT PHARMOVA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 158396729,
+    "lastFiscalReserves": 62549000000,
+    "price": 1079.8,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "28.94",
+    "TTM_PE": "37.31",
+    "PB": "2.73",
+    "ROE": "7.07",
+    "ROA": 3.607600890533379,
+    "OPM": "10.08",
+    "NPM": "6.22",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 7.1,
+        "year_ago_eps": 7.1443,
+        "eps_growth": "-0.62",
+        "pe": "37.37",
+        "peg": "-60.27",
+        "roe_earnings": "-0.04",
+        "pb_fwd": "2.69",
+        "pb_valuation": "-60.27",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "37.37",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.69",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 35.3,
+        "year_ago_eps": 33.5461,
+        "eps_growth": "5.23",
+        "pe": "30.59",
+        "peg": "5.85",
+        "roe_earnings": "0.43",
+        "pb_fwd": "2.51",
+        "pb_valuation": "5.85",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 47.55,
+        "year_ago_eps": 35.3,
+        "eps_growth": "34.70",
+        "pe": "22.71",
+        "peg": "0.65",
+        "roe_earnings": "3.45",
+        "pb_fwd": "2.26",
+        "pb_valuation": "0.65",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "9.52",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "10.65",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "10.53",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760719948689
+  },
+  {
+    "country": "INDIA",
+    "ticker": "CONCORDBIO.NS",
+    "name": "CONCORD BIOTECH",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 104616204,
+    "lastFiscalReserves": 18127175000,
+    "price": 1530.9,
+    "industry": "biotechnology",
+    "sector": "healthcare",
+    "TTM_EPS": "34.06",
+    "TTM_PE": "44.95",
+    "PB": "8.83",
+    "ROE": "17.83",
+    "ROA": 17.50555425423061,
+    "OPM": "21.38",
+    "NPM": "29.97",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.8,
+        "year_ago_eps": 9.15,
+        "eps_growth": "-47.54",
+        "pe": "51.53",
+        "peg": "-1.08",
+        "roe_earnings": "-7.93",
+        "pb_fwd": "8.60",
+        "pb_valuation": "-1.08",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.53",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "8.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 39.54675,
+        "year_ago_eps": 35.52,
+        "eps_growth": "11.34",
+        "pe": "38.71",
+        "peg": "3.41",
+        "roe_earnings": "2.11",
+        "pb_fwd": "7.19",
+        "pb_valuation": "3.42",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 50.0431,
+        "year_ago_eps": 39.54675,
+        "eps_growth": "26.54",
+        "pe": "30.59",
+        "peg": "1.15",
+        "roe_earnings": "5.05",
+        "pb_fwd": "5.83",
+        "pb_valuation": "1.15",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-5.43",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "16.79",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "21.41",
+        "analystCount": 6
+      }
+    },
+    "timestamp": 1760719985141
+  },
+  {
+    "country": "INDIA",
+    "ticker": "CAPLIPOINT.NS",
+    "name": "CAPLIN POINT LAB",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 76011696,
+    "lastFiscalReserves": 28504900000,
+    "price": 1987.6,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "73.96",
+    "TTM_PE": "26.87",
+    "PB": "5.44",
+    "ROE": "17.96",
+    "ROA": 17.617095562448366,
+    "OPM": "31.65",
+    "NPM": "28.42",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "26.87",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "26.87",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 84.1,
+        "year_ago_eps": 70.25,
+        "eps_growth": "19.72",
+        "pe": "23.63",
+        "peg": "1.20",
+        "roe_earnings": "3.61",
+        "pb_fwd": "4.33",
+        "pb_valuation": "1.20",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 100.1,
+        "year_ago_eps": 84.1,
+        "eps_growth": "19.02",
+        "pe": "19.86",
+        "peg": "1.04",
+        "roe_earnings": "3.41",
+        "pb_fwd": "3.56",
+        "pb_valuation": "1.04",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "15.57",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "18.48",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760720039062
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NATCOPHARM.NS",
+    "name": "NATCO PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 179109870,
+    "lastFiscalReserves": 76070000000,
+    "price": 826.2,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "94.76",
+    "TTM_PE": "8.72",
+    "PB": "1.95",
+    "ROE": "19.99",
+    "ROA": 19.66909208879826,
+    "OPM": "38.63",
+    "NPM": "38.62",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 24.555,
+        "year_ago_eps": 37.81,
+        "eps_growth": "-35.06",
+        "pe": "10.14",
+        "peg": "-0.29",
+        "roe_earnings": "-6.36",
+        "pb_fwd": "1.84",
+        "pb_valuation": "-0.29",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 5.7,
+        "year_ago_eps": 7.43,
+        "eps_growth": "-23.28",
+        "pe": "10.36",
+        "peg": "-0.44",
+        "roe_earnings": "-4.08",
+        "pb_fwd": "1.82",
+        "pb_valuation": "-0.44",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 71.04444,
+        "year_ago_eps": 105.26,
+        "eps_growth": "-32.51",
+        "pe": "11.63",
+        "peg": "-0.36",
+        "roe_earnings": "-4.66",
+        "pb_fwd": "1.67",
+        "pb_valuation": "-0.36",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "eps_estimate": 36.31818,
+        "year_ago_eps": 71.04444,
+        "eps_growth": "-48.88",
+        "pe": "22.75",
+        "peg": "-0.47",
+        "roe_earnings": "-3.34",
+        "pb_fwd": "1.55",
+        "pb_valuation": "-0.47",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-11.36",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "24.54",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "-12.88",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "-25.41",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760720070281
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GRANULES.NS",
+    "name": "GRANULES INDIA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 242668716,
+    "lastFiscalReserves": 37155780000,
+    "price": 569.55,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "19.78",
+    "TTM_PE": "28.79",
+    "PB": "3.72",
+    "ROE": "12.05",
+    "ROA": 7.668921582692276,
+    "OPM": "14.70",
+    "NPM": "10.63",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.15,
+        "year_ago_eps": 4.01,
+        "eps_growth": "28.43",
+        "pe": "27.23",
+        "peg": "0.96",
+        "roe_earnings": "3.76",
+        "pb_fwd": "3.60",
+        "pb_valuation": "0.96",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 6,
+        "year_ago_eps": 4.85,
+        "eps_growth": "23.71",
+        "pe": "25.81",
+        "peg": "1.09",
+        "roe_earnings": "3.19",
+        "pb_fwd": "3.47",
+        "pb_valuation": "1.09",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 22.95,
+        "year_ago_eps": 19.7167,
+        "eps_growth": "16.40",
+        "pe": "24.82",
+        "peg": "1.51",
+        "roe_earnings": "2.14",
+        "pb_fwd": "3.23",
+        "pb_valuation": "1.51",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 28.82,
+        "year_ago_eps": 22.95,
+        "eps_growth": "25.58",
+        "pe": "19.76",
+        "peg": "0.77",
+        "roe_earnings": "3.60",
+        "pb_fwd": "2.78",
+        "pb_valuation": "0.77",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "27.34",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "8.30",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "13.18",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "15.49",
+        "analystCount": 7
+      }
+    },
+    "timestamp": 1760720132590
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ACUTAAS.NS",
+    "name": "ACTUAAS CHEMICALS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 81868922,
+    "lastFiscalReserves": 13096287000,
+    "price": 1646.9,
+    "industry": "specialty-chemicals",
+    "sector": "basic-materials",
+    "TTM_EPS": "23.46",
+    "TTM_PE": "70.20",
+    "PB": "10.07",
+    "ROE": "13.36",
+    "ROA": 12.218515006928142,
+    "OPM": "20.64",
+    "NPM": "18.22",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "70.20",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "70.20",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 28.04687,
+        "year_ago_eps": 19.81,
+        "eps_growth": "41.58",
+        "pe": "58.72",
+        "peg": "1.41",
+        "roe_earnings": "6.20",
+        "pb_fwd": "8.76",
+        "pb_valuation": "1.41",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 36.3652,
+        "year_ago_eps": 28.04687,
+        "eps_growth": "29.66",
+        "pe": "45.29",
+        "peg": "1.53",
+        "roe_earnings": "4.81",
+        "pb_fwd": "7.34",
+        "pb_valuation": "1.53",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "28.31",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "28.07",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760720185510
+  },
+  {
+    "country": "INDIA",
+    "ticker": "BLUEJET.NS",
+    "name": "BLUE JET HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 173465425,
+    "lastFiscalReserves": 11331110000,
+    "price": 653.3,
+    "industry": "biotechnology",
+    "sector": "healthcare",
+    "TTM_EPS": "20.68",
+    "TTM_PE": "31.59",
+    "PB": "10.00",
+    "ROE": "26.87",
+    "ROA": 25.297153995221265,
+    "OPM": "32.50",
+    "NPM": "29.35",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.25,
+        "year_ago_eps": 3.36,
+        "eps_growth": "-3.27",
+        "pe": "31.76",
+        "peg": "-9.70",
+        "roe_earnings": "-0.98",
+        "pb_fwd": "9.53",
+        "pb_valuation": "-9.70",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "31.76",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.53",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 22.09579,
+        "year_ago_eps": 17.59,
+        "eps_growth": "25.62",
+        "pe": "29.57",
+        "peg": "1.15",
+        "roe_earnings": "6.47",
+        "pb_fwd": "7.47",
+        "pb_valuation": "1.15",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "eps_estimate": 26.80883,
+        "year_ago_eps": 22.09579,
+        "eps_growth": "21.33",
+        "pe": "24.37",
+        "peg": "1.14",
+        "roe_earnings": "5.01",
+        "pb_fwd": "5.72",
+        "pb_valuation": "1.14",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "26.18",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "18.22",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "32.27",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "19.55",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760720233267
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ALIVUS.NS",
+    "name": "ALIVUS LIFESCIENCES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 122681348,
+    "lastFiscalReserves": 28173720000,
+    "price": 923.3,
+    "industry": "drug-manufacturers-specialty-generic",
+    "sector": "healthcare",
+    "TTM_EPS": "40.31",
+    "TTM_PE": "22.90",
+    "PB": "4.02",
+    "ROE": "16.09",
+    "ROA": 14.529849890940898,
+    "OPM": "25.80",
+    "NPM": "20.65",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 9.4,
+        "year_ago_eps": 7.75,
+        "eps_growth": "21.29",
+        "pe": "22.00",
+        "peg": "1.03",
+        "roe_earnings": "3.74",
+        "pb_fwd": "3.86",
+        "pb_valuation": "1.03",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.00",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.86",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 42.13333,
+        "year_ago_eps": 39.52,
+        "eps_growth": "6.61",
+        "pe": "21.91",
+        "peg": "3.31",
+        "roe_earnings": "1.03",
+        "pb_fwd": "3.40",
+        "pb_valuation": "3.31",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 50.075,
+        "year_ago_eps": 42.13333,
+        "eps_growth": "18.85",
+        "pe": "18.44",
+        "peg": "0.98",
+        "roe_earnings": "2.93",
+        "pb_fwd": "2.87",
+        "pb_valuation": "0.98",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "20.15",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "8.28",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "12.07",
+        "analystCount": 3
+      }
+    },
+    "timestamp": 1760720268669
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MARKSANS.NS",
+    "name": "MARKSANS PHARMA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 453163746,
+    "lastFiscalReserves": 24669120000,
+    "price": 177.05,
+    "industry": "drug-manufacturers-general",
+    "sector": "healthcare",
+    "TTM_EPS": "7.73",
+    "TTM_PE": "22.90",
+    "PB": "3.25",
+    "ROE": "13.39",
+    "ROA": 10.80801770077589,
+    "OPM": "12.42",
+    "NPM": "13.20",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.90",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.90",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 8.9,
+        "year_ago_eps": 8.4,
+        "eps_growth": "5.95",
+        "pe": "19.89",
+        "peg": "3.34",
+        "roe_earnings": "0.84",
+        "pb_fwd": "2.80",
+        "pb_valuation": "3.34",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 11.93333,
+        "year_ago_eps": 8.9,
+        "eps_growth": "34.08",
+        "pe": "14.84",
+        "peg": "0.44",
+        "roe_earnings": "5.40",
+        "pb_fwd": "2.35",
+        "pb_valuation": "0.44",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.41",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "7.98",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "14.39",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760720317631
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MAXHEALTH.NS",
+    "name": "MAX HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 972236431,
+    "lastFiscalReserves": 93808700000,
+    "price": 1202.7,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "11.75",
+    "TTM_PE": "102.36",
+    "PB": "12.46",
+    "ROE": "11.47",
+    "ROA": 7.542683023014918,
+    "OPM": "20.65",
+    "NPM": "15.27",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.15041,
+        "year_ago_eps": 2.88,
+        "eps_growth": "44.11",
+        "pe": "92.37",
+        "peg": "2.09",
+        "roe_earnings": "5.71",
+        "pb_fwd": "11.95",
+        "pb_valuation": "2.09",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 5.27939,
+        "year_ago_eps": 3.02166,
+        "eps_growth": "74.72",
+        "pe": "78.72",
+        "peg": "1.05",
+        "roe_earnings": "10.78",
+        "pb_fwd": "11.36",
+        "pb_valuation": "1.05",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 17.99023,
+        "year_ago_eps": 11.5864,
+        "eps_growth": "55.27",
+        "pe": "66.85",
+        "peg": "1.21",
+        "roe_earnings": "8.69",
+        "pb_fwd": "10.51",
+        "pb_valuation": "1.21",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "eps_estimate": 23.19515,
+        "year_ago_eps": 17.99023,
+        "eps_growth": "28.93",
+        "pe": "51.85",
+        "peg": "1.79",
+        "roe_earnings": "4.87",
+        "pb_fwd": "8.74",
+        "pb_valuation": "1.79",
+        "analystCount": 24
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "49.92",
+        "analystCount": 12
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "49.90",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "revenue_growth": "20.93",
+        "analystCount": 24
+      }
+    },
+    "timestamp": 1760720549188
+  },
+  {
+    "country": "INDIA",
+    "ticker": "FORTIS.NS",
+    "name": "FORTIS HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 754958148,
+    "lastFiscalReserves": 89165154000,
+    "price": 1084.9,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "11.50",
+    "TTM_PE": "94.34",
+    "PB": "9.19",
+    "ROE": "9.28",
+    "ROA": 6.343596205980587,
+    "OPM": "17.96",
+    "NPM": "10.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.56644,
+        "year_ago_eps": 2.9229,
+        "eps_growth": "22.02",
+        "pe": "89.34",
+        "peg": "4.06",
+        "roe_earnings": "2.20",
+        "pb_fwd": "8.92",
+        "pb_valuation": "4.06",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.52815,
+        "year_ago_eps": 2.9934,
+        "eps_growth": "17.86",
+        "pe": "85.57",
+        "peg": "4.79",
+        "roe_earnings": "1.81",
+        "pb_fwd": "8.67",
+        "pb_valuation": "4.79",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 14.55174,
+        "year_ago_eps": 11.2116,
+        "eps_growth": "29.79",
+        "pe": "74.55",
+        "peg": "2.50",
+        "roe_earnings": "3.27",
+        "pb_fwd": "8.18",
+        "pb_valuation": "2.50",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 19.14939,
+        "year_ago_eps": 14.55174,
+        "eps_growth": "31.60",
+        "pe": "56.65",
+        "peg": "1.79",
+        "roe_earnings": "3.99",
+        "pb_fwd": "7.15",
+        "pb_valuation": "1.79",
+        "analystCount": 15
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.65",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.58",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "18.48",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "16.25",
+        "analystCount": 14
+      }
+    },
+    "timestamp": 1760720594878
+  },
+  {
+    "country": "INDIA",
+    "ticker": "MEDANTA.NS",
+    "name": "GLOBAL HEALTH",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 268637432,
+    "lastFiscalReserves": 33864100000,
+    "price": 1371.7,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "19.82",
+    "TTM_PE": "69.21",
+    "PB": "10.89",
+    "ROE": "14.65",
+    "ROA": 11.20718051793556,
+    "OPM": "17.64",
+    "NPM": "13.83",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 6,
+        "year_ago_eps": 4.87,
+        "eps_growth": "23.20",
+        "pe": "65.47",
+        "peg": "2.82",
+        "roe_earnings": "3.68",
+        "pb_fwd": "10.39",
+        "pb_valuation": "2.82",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "65.47",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.39",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 23.87248,
+        "year_ago_eps": 19.3011,
+        "eps_growth": "23.68",
+        "pe": "57.46",
+        "peg": "2.43",
+        "roe_earnings": "3.77",
+        "pb_fwd": "9.15",
+        "pb_valuation": "2.43",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "eps_estimate": 29.15041,
+        "year_ago_eps": 23.87248,
+        "eps_growth": "22.11",
+        "pe": "47.06",
+        "peg": "2.13",
+        "roe_earnings": "3.60",
+        "pb_fwd": "7.66",
+        "pb_valuation": "2.13",
+        "analystCount": 14
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "14.88",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "revenue_growth": "10.65",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "18.49",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "15.82",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1760720628772
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ASTERDM.NS",
+    "name": "ASTER DM HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 516817460,
+    "lastFiscalReserves": 34280700000,
+    "price": 702.45,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "6.36",
+    "TTM_PE": "110.45",
+    "PB": "10.18",
+    "ROE": "8.86",
+    "ROA": 4.816102010480778,
+    "OPM": "13.37",
+    "NPM": "7.55",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.2,
+        "year_ago_eps": 1.94,
+        "eps_growth": "13.40",
+        "pe": "106.11",
+        "peg": "7.92",
+        "roe_earnings": "1.29",
+        "pb_fwd": "10.25",
+        "pb_valuation": "7.92",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "106.11",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 8.86101,
+        "year_ago_eps": 7.47088,
+        "eps_growth": "18.61",
+        "pe": "79.27",
+        "peg": "4.26",
+        "roe_earnings": "2.19",
+        "pb_fwd": "9.34",
+        "pb_valuation": "4.26",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 13.05184,
+        "year_ago_eps": 8.86101,
+        "eps_growth": "47.30",
+        "pe": "53.82",
+        "peg": "1.14",
+        "roe_earnings": "7.00",
+        "pb_fwd": "7.96",
+        "pb_valuation": "1.14",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.31",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "38.57",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "52.04",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760720653133
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NH.NS",
+    "name": "NARAYANA HRYUDALAYA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 203099835,
+    "lastFiscalReserves": 36263550000,
+    "price": 1755.4,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "38.65",
+    "TTM_PE": "45.42",
+    "PB": "9.83",
+    "ROE": "19.54",
+    "ROA": 10.811119955612014,
+    "OPM": "16.76",
+    "NPM": "13.82",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 11.46667,
+        "year_ago_eps": 9.78,
+        "eps_growth": "17.25",
+        "pe": "43.52",
+        "peg": "2.52",
+        "roe_earnings": "3.66",
+        "pb_fwd": "9.24",
+        "pb_valuation": "2.52",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.52",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 46.36937,
+        "year_ago_eps": 39.2474,
+        "eps_growth": "18.15",
+        "pe": "37.86",
+        "peg": "2.09",
+        "roe_earnings": "3.74",
+        "pb_fwd": "7.80",
+        "pb_valuation": "2.09",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 54.9995,
+        "year_ago_eps": 46.36937,
+        "eps_growth": "18.61",
+        "pe": "31.92",
+        "peg": "1.71",
+        "roe_earnings": "3.66",
+        "pb_fwd": "6.27",
+        "pb_valuation": "1.71",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.79",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "13.54",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "12.62",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760720809284
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KIMS.NS",
+    "name": "KIMS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 400138935,
+    "lastFiscalReserves": 21378000000,
+    "price": 719.9,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "9.39",
+    "TTM_PE": "76.67",
+    "PB": "13.50",
+    "ROE": "16.24",
+    "ROA": 6.5638075313807525,
+    "OPM": "15.97",
+    "NPM": "11.70",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.24,
+        "year_ago_eps": 2.68,
+        "eps_growth": "-16.42",
+        "pe": "80.44",
+        "peg": "-4.90",
+        "roe_earnings": "-2.64",
+        "pb_fwd": "12.93",
+        "pb_valuation": "-4.90",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.2,
+        "year_ago_eps": 2.22,
+        "eps_growth": "-45.95",
+        "pe": "90.78",
+        "peg": "-1.98",
+        "roe_earnings": "-6.41",
+        "pb_fwd": "12.66",
+        "pb_valuation": "-1.98",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 10.23843,
+        "year_ago_eps": 9.409,
+        "eps_growth": "8.82",
+        "pe": "70.31",
+        "peg": "7.98",
+        "roe_earnings": "1.42",
+        "pb_fwd": "11.31",
+        "pb_valuation": "7.98",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "eps_estimate": 15.14789,
+        "year_ago_eps": 10.23843,
+        "eps_growth": "47.95",
+        "pe": "47.52",
+        "peg": "0.99",
+        "roe_earnings": "9.22",
+        "pb_fwd": "9.13",
+        "pb_valuation": "0.99",
+        "analystCount": 15
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "23.17",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.24",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "28.68",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "revenue_growth": "25.99",
+        "analystCount": 13
+      }
+    },
+    "timestamp": 1760720870503
+  },
+  {
+    "country": "INDIA",
+    "ticker": "LALPATHLAB.NS",
+    "name": "DR LAL PATHLABS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 83467103,
+    "lastFiscalReserves": 21727150000,
+    "price": 3108.1,
+    "industry": "diagnostics-research",
+    "sector": "healthcare",
+    "TTM_EPS": "61.56",
+    "TTM_PE": "50.49",
+    "PB": "11.93",
+    "ROE": "20.86",
+    "ROA": 18.88767871754392,
+    "OPM": "23.54",
+    "NPM": "20.29",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 18.07636,
+        "year_ago_eps": 15.48,
+        "eps_growth": "16.77",
+        "pe": "48.45",
+        "peg": "2.89",
+        "roe_earnings": "3.87",
+        "pb_fwd": "11.16",
+        "pb_valuation": "2.89",
+        "analystCount": 10
+      },
+      "Next Quarter": {
+        "eps_estimate": 13.89779,
+        "year_ago_eps": 11.58,
+        "eps_growth": "20.02",
+        "pe": "46.76",
+        "peg": "2.34",
+        "roe_earnings": "4.55",
+        "pb_fwd": "10.63",
+        "pb_valuation": "2.34",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "eps_estimate": 61.51569,
+        "year_ago_eps": 58.4,
+        "eps_growth": "5.34",
+        "pe": "50.53",
+        "peg": "9.47",
+        "roe_earnings": "1.02",
+        "pb_fwd": "9.66",
+        "pb_valuation": "9.47",
+        "analystCount": 24
+      },
+      "Next Year": {
+        "eps_estimate": 71.73988,
+        "year_ago_eps": 61.51569,
+        "eps_growth": "16.62",
+        "pe": "43.32",
+        "peg": "2.61",
+        "roe_earnings": "3.03",
+        "pb_fwd": "7.90",
+        "pb_valuation": "2.61",
+        "analystCount": 25
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.13",
+        "analystCount": 16
+      },
+      "Next Quarter": {
+        "revenue_growth": "12.12",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "11.81",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "revenue_growth": "12.21",
+        "analystCount": 22
+      }
+    },
+    "timestamp": 1760720918342
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AGARWALEYE.NS",
+    "name": "DR AGARWAL HEATHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 316158357,
+    "lastFiscalReserves": 18665900000,
+    "price": 545.7,
+    "industry": "medical-instruments-supplies",
+    "sector": "healthcare",
+    "TTM_EPS": "3.19",
+    "TTM_PE": "171.07",
+    "PB": "9.23",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "13.32",
+    "NPM": "5.66",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.9,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "133.42",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "9.10",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.9,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "109.36",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "8.97",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 4.00799,
+        "year_ago_eps": 2.8494,
+        "eps_growth": "40.66",
+        "pe": "136.15",
+        "peg": "3.35",
+        "roe_earnings": "2.58",
+        "pb_fwd": "8.66",
+        "pb_valuation": "3.35",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "eps_estimate": 5.56158,
+        "year_ago_eps": 4.00799,
+        "eps_growth": "38.76",
+        "pe": "98.12",
+        "peg": "2.53",
+        "roe_earnings": "3.14",
+        "pb_fwd": "7.95",
+        "pb_valuation": "2.53",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "21.41",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "19.24",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760720949805
+  },
+  {
+    "country": "INDIA",
+    "ticker": "RAINBOW.NS",
+    "name": "RAINBOW CHILDRENS MEDICARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 101559156,
+    "lastFiscalReserves": 14681930000,
+    "price": 1348.8,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "25.15",
+    "TTM_PE": "53.63",
+    "PB": "9.33",
+    "ROE": "16.31",
+    "ROA": 10.82841884638782,
+    "OPM": "19.67",
+    "NPM": "16.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 10.05,
+        "year_ago_eps": 7.77,
+        "eps_growth": "29.34",
+        "pe": "49.17",
+        "peg": "1.68",
+        "roe_earnings": "5.21",
+        "pb_fwd": "8.73",
+        "pb_valuation": "1.68",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "49.17",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "8.73",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 29.55737,
+        "year_ago_eps": 23.84,
+        "eps_growth": "23.98",
+        "pe": "45.63",
+        "peg": "1.90",
+        "roe_earnings": "4.07",
+        "pb_fwd": "7.75",
+        "pb_valuation": "1.90",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "eps_estimate": 36.7111,
+        "year_ago_eps": 29.55737,
+        "eps_growth": "24.20",
+        "pe": "36.74",
+        "peg": "1.52",
+        "roe_earnings": "4.21",
+        "pb_fwd": "6.40",
+        "pb_valuation": "1.52",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.47",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "17.04",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "16.23",
+        "analystCount": 9
+      }
+    },
+    "timestamp": 1760720980395
+  },
+  {
+    "country": "INDIA",
+    "ticker": "HCG.NS",
+    "name": "HEALTHCARE GLOBAL",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 141000100,
+    "lastFiscalReserves": 9224440000,
+    "price": 733.55,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "2.62",
+    "TTM_PE": "279.98",
+    "PB": "11.04",
+    "ROE": "3.97",
+    "ROA": 1.0465009951355202,
+    "OPM": "8.13",
+    "NPM": "1.60",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.48,
+        "year_ago_eps": 1.28,
+        "eps_growth": "15.62",
+        "pe": "260.12",
+        "peg": "16.65",
+        "roe_earnings": "0.66",
+        "pb_fwd": "10.96",
+        "pb_valuation": "16.65",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.98,
+        "year_ago_eps": 0.49,
+        "eps_growth": "100.00",
+        "pe": "221.62",
+        "peg": "2.22",
+        "roe_earnings": "4.88",
+        "pb_fwd": "10.81",
+        "pb_valuation": "2.22",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 5.65,
+        "year_ago_eps": 3.14,
+        "eps_growth": "79.94",
+        "pe": "129.83",
+        "peg": "1.62",
+        "roe_earnings": "6.35",
+        "pb_fwd": "10.32",
+        "pb_valuation": "1.62",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 10.58333,
+        "year_ago_eps": 5.65,
+        "eps_growth": "87.32",
+        "pe": "69.31",
+        "peg": "0.79",
+        "roe_earnings": "11.32",
+        "pb_fwd": "8.98",
+        "pb_valuation": "0.79",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "16.45",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.26",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "14.90",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "14.68",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760721044599
+  },
+  {
+    "country": "INDIA",
+    "ticker": "VIJAYA.NS",
+    "name": "VIJAY DIAGNOSTIC CENTRE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 102724936,
+    "lastFiscalReserves": 7957140000,
+    "price": 992.05,
+    "industry": "diagnostics-research",
+    "sector": "healthcare",
+    "TTM_EPS": "14.63",
+    "TTM_PE": "67.81",
+    "PB": "12.78",
+    "ROE": "17.28",
+    "ROA": 11.782888474111985,
+    "OPM": "27.99",
+    "NPM": "21.04",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.235,
+        "year_ago_eps": 4.08,
+        "eps_growth": "3.80",
+        "pe": "67.10",
+        "peg": "17.66",
+        "roe_earnings": "0.69",
+        "pb_fwd": "12.15",
+        "pb_valuation": "17.67",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "67.10",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "12.15",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 16.4875,
+        "year_ago_eps": 14.0146,
+        "eps_growth": "17.65",
+        "pe": "60.17",
+        "peg": "3.41",
+        "roe_earnings": "3.10",
+        "pb_fwd": "10.56",
+        "pb_valuation": "3.41",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "eps_estimate": 21.59,
+        "year_ago_eps": 16.4875,
+        "eps_growth": "30.95",
+        "pe": "45.95",
+        "peg": "1.48",
+        "roe_earnings": "5.78",
+        "pb_fwd": "8.59",
+        "pb_valuation": "1.49",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "13.04",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "17.44",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "18.87",
+        "analystCount": 9
+      }
+    },
+    "timestamp": 1760721081337
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JLHL.NS",
+    "name": "JUPITER LIFE LINE HOSPITALS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 65566022,
+    "lastFiscalReserves": 13562420000,
+    "price": 1544,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "29.38",
+    "TTM_PE": "52.55",
+    "PB": "7.46",
+    "ROE": "13.34",
+    "ROA": 10.117754892804777,
+    "OPM": "16.37",
+    "NPM": "14.60",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "52.55",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.47",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "52.55",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.47",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 32.5,
+        "year_ago_eps": 29.47,
+        "eps_growth": "10.28",
+        "pe": "47.51",
+        "peg": "4.62",
+        "roe_earnings": "1.40",
+        "pb_fwd": "6.45",
+        "pb_valuation": "4.62",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 38.08,
+        "year_ago_eps": 32.5,
+        "eps_growth": "17.17",
+        "pe": "40.55",
+        "peg": "2.36",
+        "roe_earnings": "2.36",
+        "pb_fwd": "5.57",
+        "pb_valuation": "2.36",
+        "analystCount": 5
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "14.59",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "15.97",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "20.22",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760721145514
+  },
+  {
+    "country": "INDIA",
+    "ticker": "METROPOLIS.NS",
+    "name": "METROPOLIS HEALTHCARE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 51821982,
+    "lastFiscalReserves": 13309720000,
+    "price": 1938.2,
+    "industry": "diagnostics-research",
+    "sector": "healthcare",
+    "TTM_EPS": "29.45",
+    "TTM_PE": "65.81",
+    "PB": "7.54",
+    "ROE": "10.82",
+    "ROA": 8.14429529230935,
+    "OPM": "15.26",
+    "NPM": "10.83",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 10.95,
+        "year_ago_eps": 9.03,
+        "eps_growth": "21.26",
+        "pe": "61.79",
+        "peg": "2.91",
+        "roe_earnings": "2.49",
+        "pb_fwd": "7.24",
+        "pb_valuation": "2.91",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "eps_estimate": 8.5,
+        "year_ago_eps": 6.09,
+        "eps_growth": "39.57",
+        "pe": "57.38",
+        "peg": "1.45",
+        "roe_earnings": "4.84",
+        "pb_fwd": "7.02",
+        "pb_valuation": "1.45",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 39.74471,
+        "year_ago_eps": 28.15,
+        "eps_growth": "41.19",
+        "pe": "48.77",
+        "peg": "1.18",
+        "roe_earnings": "5.52",
+        "pb_fwd": "6.54",
+        "pb_valuation": "1.18",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "eps_estimate": 49.82941,
+        "year_ago_eps": 39.74471,
+        "eps_growth": "25.37",
+        "pe": "38.90",
+        "peg": "1.53",
+        "roe_earnings": "3.65",
+        "pb_fwd": "5.60",
+        "pb_valuation": "1.53",
+        "analystCount": 17
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "23.35",
+        "analystCount": 13
+      },
+      "Next Quarter": {
+        "revenue_growth": "22.46",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "24.07",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "revenue_growth": "12.90",
+        "analystCount": 16
+      }
+    },
+    "timestamp": 1760721172133
+  },
+  {
+    "country": "INDIA",
+    "ticker": "YATHARTH.NS",
+    "name": "YATHARTH HOSPITAL",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 96354357,
+    "lastFiscalReserves": 16054600000,
+    "price": 810.7,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "15.50",
+    "TTM_PE": "52.30",
+    "PB": "4.47",
+    "ROE": "8.43",
+    "ROA": 8.213953982726194,
+    "OPM": "19.23",
+    "NPM": "15.35",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "52.30",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.87",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "52.30",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.87",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 18.63333,
+        "year_ago_eps": 14.72,
+        "eps_growth": "26.59",
+        "pe": "43.51",
+        "peg": "1.64",
+        "roe_earnings": "2.67",
+        "pb_fwd": "4.38",
+        "pb_valuation": "1.64",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 25.86667,
+        "year_ago_eps": 18.63333,
+        "eps_growth": "38.82",
+        "pe": "31.34",
+        "peg": "0.81",
+        "roe_earnings": "4.76",
+        "pb_fwd": "3.84",
+        "pb_valuation": "0.81",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "25.36",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "36.59",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "33.36",
+        "analystCount": 3
+      }
+    },
+    "timestamp": 1760721209013
+  },
+  {
+    "country": "INDIA",
+    "ticker": "THYROCARE.NS",
+    "name": "THYROCARE TECHNOLOGIES",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 53053897,
+    "lastFiscalReserves": 5467600000,
+    "price": 1243.9,
+    "industry": "diagnostics-research",
+    "sector": "healthcare",
+    "TTM_EPS": "24.11",
+    "TTM_PE": "51.59",
+    "PB": "12.34",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "27.64",
+    "NPM": "16.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.59",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "12.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "51.59",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "12.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 30.9,
+        "year_ago_eps": 17.08,
+        "eps_growth": "80.91",
+        "pe": "40.26",
+        "peg": "0.50",
+        "roe_earnings": "18.66",
+        "pb_fwd": "9.29",
+        "pb_valuation": "0.50",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 37.5,
+        "year_ago_eps": 30.9,
+        "eps_growth": "21.36",
+        "pe": "33.17",
+        "peg": "1.55",
+        "roe_earnings": "4.67",
+        "pb_fwd": "7.25",
+        "pb_valuation": "1.55",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "20.86",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "16.64",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760721247142
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INDRAMEDCO.NS",
+    "name": "INDRAPRASTHA MEDICAL CORPORATION",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 91673000,
+    "lastFiscalReserves": 5966800000,
+    "price": 556.25,
+    "industry": "medical-care-facilities",
+    "sector": "healthcare",
+    "TTM_EPS": "18.29",
+    "TTM_PE": "30.41",
+    "PB": "8.55",
+    "ROE": "24.33",
+    "ROA": 19.689532890256217,
+    "OPM": "17.25",
+    "NPM": "12.21",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "30.41",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "8.55",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "30.41",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "8.55",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 20.2,
+        "year_ago_eps": 17.56,
+        "eps_growth": "15.03",
+        "pe": "27.54",
+        "peg": "1.83",
+        "roe_earnings": "3.56",
+        "pb_fwd": "6.52",
+        "pb_valuation": "1.83",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 20.4,
+        "year_ago_eps": 20.2,
+        "eps_growth": "0.99",
+        "pe": "27.27",
+        "peg": "27.54",
+        "roe_earnings": "0.19",
+        "pb_fwd": "5.26",
+        "pb_valuation": "27.54",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "10.90",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "8.12",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760721298513
   }
 ]

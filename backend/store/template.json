@@ -24,6 +24,9 @@
       "name",
       "price",
       "country",
+      "ROE",
+      "OPM",
+      "NPM",
       "TTM_PE",
       "current_year_eps_growth",
       "next_year_eps_growth",
@@ -33,9 +36,9 @@
       "next_year_peg",
       "current_year_revenue_growth",
       "next_year_revenue_growth",
+      "TTM_EPS",
       "current_year_eps",
-      "next_year_eps",
-      "TTM_EPS"
+      "next_year_eps"
     ]
   }
 ]

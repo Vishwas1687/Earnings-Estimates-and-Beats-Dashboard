@@ -110,6 +110,70 @@
           {
             "ticker": "APOLLOHOSP.NS",
             "name": "APOLLO HOSPITALS"
+          },
+          {
+            "ticker": "MAXHEALTH.NS",
+            "name": "MAX HEALTHCARE"
+          },
+          {
+            "ticker": "FORTIS.NS",
+            "name": "FORTIS HEALTHCARE"
+          },
+          {
+            "ticker": "MEDANTA.NS",
+            "name": "GLOBAL HEALTH"
+          },
+          {
+            "ticker": "ASTERDM.NS",
+            "name": "ASTER DM HEALTHCARE"
+          },
+          {
+            "ticker": "NH.NS",
+            "name": "NARAYANA HRYUDALAYA"
+          },
+          {
+            "ticker": "KIMS.NS",
+            "name": "KIMS"
+          },
+          {
+            "ticker": "LALPATHLAB.NS",
+            "name": "DR LAL PATHLABS"
+          },
+          {
+            "ticker": "AGARWALEYE.NS",
+            "name": "DR AGARWAL HEATHCARE"
+          },
+          {
+            "ticker": "RAINBOW.NS",
+            "name": "RAINBOW CHILDRENS MEDICARE"
+          },
+          {
+            "ticker": "HCG.NS",
+            "name": "HEALTHCARE GLOBAL"
+          },
+          {
+            "ticker": "VIJAYA.NS",
+            "name": "VIJAY DIAGNOSTIC CENTRE"
+          },
+          {
+            "ticker": "JLHL.NS",
+            "name": "JUPITER LIFE LINE HOSPITALS"
+          },
+          {
+            "ticker": "METROPOLIS.NS",
+            "name": "METROPOLIS HEALTHCARE"
+          },
+          {
+            "ticker": "YATHARTH.NS",
+            "name": "YATHARTH HOSPITAL"
+          },
+          {
+            "ticker": "THYROCARE.NS",
+            "name": "THYROCARE TECHNOLOGIES"
+          },
+          {
+            "ticker": "INDRAMEDCO.NS",
+            "name": "INDRAPRASTHA MEDICAL CORPORATION"
           }
         ],
         "fields": [
@@ -128,13 +192,173 @@
           "current_year_revenue_growth",
           "next_year_revenue_growth"
         ],
-        "templateName": null
+        "templateName": "IT"
       },
       {
         "name": "CDMO",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "DIVISLAB.NS",
+            "name": "DIVIS LABORATORIES"
+          },
+          {
+            "ticker": "LAURUSLABS.NS",
+            "name": "LAURUS LABS"
+          },
+          {
+            "ticker": "BIOCON.NS",
+            "name": "BIOCON"
+          },
+          {
+            "ticker": "ANTHEM.NS",
+            "name": "ANTHEM BIOSCIENCES"
+          },
+          {
+            "ticker": "COHANCE.NS",
+            "name": "COHANCE LIFESCIENCES"
+          },
+          {
+            "ticker": "PPLPHARMA.NS",
+            "name": "PIRAMAL PHARMA"
+          },
+          {
+            "ticker": "ONESOURCE.NS",
+            "name": "ONE SOURCE SPECIALTY PHARMA"
+          },
+          {
+            "ticker": "NEULANDLAB.NS",
+            "name": "NEULAND LABORATORIES"
+          },
+          {
+            "ticker": "SAILIFE.NS",
+            "name": "SAI LIFE SCIENCES"
+          },
+          {
+            "ticker": "JUBLPHARMA.NS",
+            "name": "JUBILIANT PHARMOVA"
+          },
+          {
+            "ticker": "CONCORDBIO.NS",
+            "name": "CONCORD BIOTECH"
+          },
+          {
+            "ticker": "ALIVUS.NS",
+            "name": "ALIVUS LIFESCIENCES"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "IT"
+      },
+      {
+        "name": "Pharma",
+        "companies": [
+          {
+            "ticker": "SUNPHARMA.NS",
+            "name": "SUN PHARMACEUTICALS"
+          },
+          {
+            "ticker": "CIPLA.NS",
+            "name": "CIPLA"
+          },
+          {
+            "ticker": "TORNTPHARM.NS",
+            "name": "TORRENT PHARMA"
+          },
+          {
+            "ticker": "DRREDDY.NS",
+            "name": "DR REDDY LABORATORIES"
+          },
+          {
+            "ticker": "MANKIND.NS",
+            "name": "MANDKIND PHARMA"
+          },
+          {
+            "ticker": "ZYDUSLIFE.NS",
+            "name": "ZYDUS LIFESCIENCES"
+          },
+          {
+            "ticker": "LUPIN.NS",
+            "name": "LUPIN"
+          },
+          {
+            "ticker": "ALKEM.NS",
+            "name": "ALKEM LABORATORIES"
+          },
+          {
+            "ticker": "AUROPHARMA.NS",
+            "name": "AUROBINDO PHARMA"
+          },
+          {
+            "ticker": "ABBOTINDIA.NS",
+            "name": "ABBOTT INDIA"
+          },
+          {
+            "ticker": "GLENMARK.NS",
+            "name": "GLENMARK PHARMA"
+          },
+          {
+            "ticker": "GLAXO.NS",
+            "name": "GLAXOXSMITH PHARMA"
+          },
+          {
+            "ticker": "IPCALAB.NS",
+            "name": "IPCA LABORATORIES"
+          },
+          {
+            "ticker": "GLAND.NS",
+            "name": "GLAND PHARMA"
+          },
+          {
+            "ticker": "AJANTPHARM.NS",
+            "name": "AJANTA PHARMA"
+          },
+          {
+            "ticker": "JBCHEPHARM.NS",
+            "name": "JB CHEMICALS AND PHARMA"
+          },
+          {
+            "ticker": "EMCURE.NS",
+            "name": "EMCURE PHARMACEUTICALS"
+          },
+          {
+            "ticker": "PFIZER.NS",
+            "name": "PFIZER"
+          },
+          {
+            "ticker": "ERIS.NS",
+            "name": "ERIS LIFESCIENCES"
+          },
+          {
+            "ticker": "APLLTD.NS",
+            "name": "ALEMBIC PHARMA"
+          },
+          {
+            "ticker": "CAPLIPOINT.NS",
+            "name": "CAPLIN POINT LAB"
+          },
+          {
+            "ticker": "NATCOPHARM.NS",
+            "name": "NATCO PHARMA"
+          },
+          {
+            "ticker": "GRANULES.NS",
+            "name": "GRANULES INDIA"
+          },
+          {
+            "ticker": "ACUTAAS.NS",
+            "name": "ACTUAAS CHEMICALS"
+          },
+          {
+            "ticker": "BLUEJET.NS",
+            "name": "BLUE JET HEALTHCARE"
+          },
+          {
+            "ticker": "MARKSANS.NS",
+            "name": "MARKSANS PHARMA"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
       }
     ]
   },
@@ -882,6 +1106,18 @@
           {
             "ticker": "PAGEIND.NS",
             "name": "PAGE INDUSTRIES"
+          },
+          {
+            "ticker": "MANYAVAR.NS",
+            "name": "VEDANT FASHIONS"
+          },
+          {
+            "ticker": "RAYMONDLSL.NS",
+            "name": "RAYMOND LIFESTYLE"
+          },
+          {
+            "ticker": "KALAMANDIR.NS",
+            "name": "KALAMANDIR"
           }
         ],
         "fields": [],
@@ -889,9 +1125,42 @@
       },
       {
         "name": "Manufacturing",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "KPRMILL.NS",
+            "name": "KPR MILL"
+          },
+          {
+            "ticker": "VTL.NS",
+            "name": "VARDHMAN TEXTILES"
+          },
+          {
+            "ticker": "WELSPUNLIV.NS",
+            "name": "WELSPUN LIVING"
+          },
+          {
+            "ticker": "ARVIND.NS",
+            "name": "ARVIND"
+          },
+          {
+            "ticker": "GARFIBRES.NS",
+            "name": "GARWARE TECHNICAL FIBRES"
+          },
+          {
+            "ticker": "PGIL.NS",
+            "name": "PEARL GLOBAL INDUSTRIES"
+          },
+          {
+            "ticker": "GOKEX.NS",
+            "name": "GOKALDAS EXPORTS"
+          },
+          {
+            "ticker": "ICIL.NS",
+            "name": "INDO COUNT INDUSTRIES"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "IT"
       }
     ]
   }
