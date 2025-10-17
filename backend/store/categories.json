@@ -564,6 +564,141 @@
         ],
         "fields": [],
         "templateName": "IT"
+      },
+      {
+        "name": "Electric Equipment",
+        "companies": [
+          {
+            "ticker": "CGPOWER.NS",
+            "name": "CG POWER"
+          },
+          {
+            "ticker": "TRANSRAILL.NS",
+            "name": "TRANSRAIL LIGHTING"
+          },
+          {
+            "ticker": "SIEMENS.NS",
+            "name": "SIEMENS"
+          },
+          {
+            "ticker": "ABB.NS",
+            "name": "ABB"
+          },
+          {
+            "ticker": "HAVELLS.NS",
+            "name": "HAVELLS"
+          },
+          {
+            "ticker": "POWERINDIA.NS",
+            "name": "HITACHI ENERGY"
+          },
+          {
+            "ticker": "APARINDS.NS",
+            "name": "APAR INDUSTRIES"
+          },
+          {
+            "ticker": "SCHNEIDER.NS",
+            "name": "SCHNEIDER ELECTRIC INFRASTRUCTURE"
+          },
+          {
+            "ticker": "VGUARD.NS",
+            "name": "VGUARD INDUSTRIES"
+          },
+          {
+            "ticker": "TARIL.NS",
+            "name": "TRANSFORMERS AND RECTIFIERS"
+          },
+          {
+            "ticker": "GENUSPOWER.NS",
+            "name": "GENUS POWER INFRASTRUCTURES"
+          },
+          {
+            "ticker": "QPOWER.NS",
+            "name": "QUALITY POWER ELECTRICAL EQUIPMENTS"
+          },
+          {
+            "ticker": "VOLTAMP.NS",
+            "name": "VOLTAMP"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Solar",
+        "companies": [
+          {
+            "ticker": "WAAREEENER.NS",
+            "name": "WAAREE ENERGIES"
+          },
+          {
+            "ticker": "PREMIERENE.NS",
+            "name": "PREMIER ENERGIES"
+          },
+          {
+            "ticker": "SWSOLAR.NS",
+            "name": "SW SOLAR"
+          },
+          {
+            "ticker": "VIKRAMSOLR.NS",
+            "name": "VIKRAM SOLAR"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Wind",
+        "companies": [
+          {
+            "ticker": "SUZLON.NS",
+            "name": "SUZLON ENERGY"
+          },
+          {
+            "ticker": "INOXWIND.NS",
+            "name": "INOX WIND"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Electrodes",
+        "companies": [
+          {
+            "ticker": "GRAPHITE.NS",
+            "name": "GRAPHITE INDIA"
+          },
+          {
+            "ticker": "HEG.NS",
+            "name": "HEG"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Electronics",
+        "companies": [
+          {
+            "ticker": "KAYNES.NS",
+            "name": "KAYNES TECHNOLOGY"
+          },
+          {
+            "ticker": "DIXON.NS",
+            "name": "DIXON TECHNOLOGIES"
+          },
+          {
+            "ticker": "SYRMA.NS",
+            "name": "SYRMA SGS TECHNOLOGY"
+          },
+          {
+            "ticker": "AVALON.NS",
+            "name": "AVALON TECHNOLOGIES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
       }
     ]
   },
@@ -584,6 +719,179 @@
         ],
         "fields": [],
         "templateName": "IT"
+      },
+      {
+        "name": "Travel Services",
+        "companies": [
+          {
+            "ticker": "IRCTC.NS",
+            "name": "IRCTC"
+          },
+          {
+            "ticker": "TBOTEK.NS",
+            "name": "TBO TEK"
+          },
+          {
+            "ticker": "IXIGO.NS",
+            "name": "LE TRAVENUES"
+          },
+          {
+            "ticker": "THOMASCOOK.NS",
+            "name": "THOMAS COOK"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "US stocks",
+    "watchlists": [
+      {
+        "name": "Semiconductors",
+        "companies": [
+          {
+            "ticker": "NVDA",
+            "name": "NVIDIA"
+          },
+          {
+            "ticker": "AVGO",
+            "name": "BROA"
+          },
+          {
+            "ticker": "ASML",
+            "name": "ASML"
+          },
+          {
+            "ticker": "AMD",
+            "name": "AMD"
+          },
+          {
+            "ticker": "ARM",
+            "name": "ARM"
+          },
+          {
+            "ticker": "AMAT",
+            "name": "APPLIED MATERIALS"
+          },
+          {
+            "ticker": "QCOM",
+            "name": "QUALCOMM"
+          },
+          {
+            "ticker": "INTC",
+            "name": "INTEL"
+          },
+          {
+            "ticker": "TXN",
+            "name": "TEXAS INSTRUMENTS"
+          },
+          {
+            "ticker": "ADI",
+            "name": "ANALOG DEVICES"
+          },
+          {
+            "ticker": "ANET",
+            "name": "ARISTA NETWORKS"
+          },
+          {
+            "ticker": "NXPI",
+            "name": "NXP SEMICONDUCTORS"
+          },
+          {
+            "ticker": "MCHP",
+            "name": "MICROCHIP TECHNOLOGY"
+          },
+          {
+            "ticker": "GFS",
+            "name": "GLOBAL FOUNDRIES"
+          },
+          {
+            "ticker": "ON",
+            "name": "ON SEMICONDUCTOR CORPORATION"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Cloud",
+        "companies": [
+          {
+            "ticker": "AMZN",
+            "name": "AMAZON"
+          },
+          {
+            "ticker": "GOOG",
+            "name": "GOOGLE"
+          },
+          {
+            "ticker": "ORCL",
+            "name": "ORACLE"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Consumer discretionary",
+        "companies": [
+          {
+            "ticker": "AAPL",
+            "name": "APPLE"
+          },
+          {
+            "ticker": "META",
+            "name": "META"
+          }
+        ],
+        "fields": [],
+        "templateName": null
+      }
+    ]
+  },
+  {
+    "name": "Defense",
+    "watchlists": [
+      {
+        "name": "PSU",
+        "companies": [],
+        "fields": [],
+        "templateName": null
+      },
+      {
+        "name": "Private",
+        "companies": [
+          {
+            "ticker": "APOLLO.NS",
+            "name": "APOLLO MICROSYSTEMS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Textile",
+    "watchlists": [
+      {
+        "name": "B2C",
+        "companies": [
+          {
+            "ticker": "PAGEIND.NS",
+            "name": "PAGE INDUSTRIES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Manufacturing",
+        "companies": [],
+        "fields": [],
+        "templateName": null
       }
     ]
   }

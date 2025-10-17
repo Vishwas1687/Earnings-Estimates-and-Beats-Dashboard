@@ -7726,5 +7726,4707 @@
       }
     },
     "timestamp": 1760534930520
+  },
+  {
+    "country": "INDIA",
+    "ticker": "IRCTC.NS",
+    "name": "IRCTC",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 800000000,
+    "lastFiscalReserves": 36633649000,
+    "price": 716.15,
+    "industry": "railroads",
+    "sector": "industrials",
+    "TTM_EPS": "16.69",
+    "TTM_PE": "42.91",
+    "PB": "15.64",
+    "ROE": "30.74",
+    "ROA": 19.67636848888695,
+    "OPM": "33.23",
+    "NPM": "28.36",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.3,
+        "year_ago_eps": 3.85,
+        "eps_growth": "11.69",
+        "pe": "41.78",
+        "peg": "3.57",
+        "roe_earnings": "4.00",
+        "pb_fwd": "14.30",
+        "pb_valuation": "3.57",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "41.78",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "14.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 18.43333,
+        "year_ago_eps": 15.99,
+        "eps_growth": "15.28",
+        "pe": "38.85",
+        "peg": "2.54",
+        "roe_earnings": "4.39",
+        "pb_fwd": "11.15",
+        "pb_valuation": "2.54",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 21.32632,
+        "year_ago_eps": 18.43333,
+        "eps_growth": "15.69",
+        "pe": "33.58",
+        "peg": "2.14",
+        "roe_earnings": "3.91",
+        "pb_fwd": "8.37",
+        "pb_valuation": "2.14",
+        "analystCount": 8
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.63",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "12.36",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "12.78",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760538372522
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TBOTEK.NS",
+    "name": "TBO TEK",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 106386697,
+    "lastFiscalReserves": 11950570000,
+    "price": 1550.2,
+    "industry": "travel-services",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "21.57",
+    "TTM_PE": "71.87",
+    "PB": "13.79",
+    "ROE": "17.61",
+    "ROA": 3.732343019606146,
+    "OPM": "12.51",
+    "NPM": "12.67",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.92,
+        "year_ago_eps": 5.64,
+        "eps_growth": "4.96",
+        "pe": "70.95",
+        "peg": "14.29",
+        "roe_earnings": "0.92",
+        "pb_fwd": "13.11",
+        "pb_valuation": "14.29",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 5.14,
+        "year_ago_eps": 4.64,
+        "eps_growth": "10.78",
+        "pe": "69.36",
+        "peg": "6.44",
+        "roe_earnings": "1.95",
+        "pb_fwd": "12.56",
+        "pb_valuation": "6.44",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 24.53,
+        "year_ago_eps": 20.486,
+        "eps_growth": "19.74",
+        "pe": "63.20",
+        "peg": "3.20",
+        "roe_earnings": "3.54",
+        "pb_fwd": "11.33",
+        "pb_valuation": "3.20",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 36.86167,
+        "year_ago_eps": 24.53,
+        "eps_growth": "50.27",
+        "pe": "42.05",
+        "peg": "0.84",
+        "roe_earnings": "10.67",
+        "pb_fwd": "8.92",
+        "pb_valuation": "0.84",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "20.07",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "18.34",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "42.38",
+        "analystCount": 8
+      },
+      "Next Year": {
+        "revenue_growth": "32.99",
+        "analystCount": 8
+      }
+    },
+    "timestamp": 1760538409812
+  },
+  {
+    "country": "INDIA",
+    "ticker": "IXIGO.NS",
+    "name": "LE TRAVENUES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 436673699,
+    "lastFiscalReserves": 6336220000,
+    "price": 327.15,
+    "industry": "travel-services",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "1.64",
+    "TTM_PE": "199.48",
+    "PB": "20.07",
+    "ROE": "9.62",
+    "ROA": 7.113378266597901,
+    "OPM": "7.11",
+    "NPM": "6.05",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.43,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "158.04",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "21.90",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.7,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "118.10",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "20.92",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 2.3,
+        "year_ago_eps": 1.46,
+        "eps_growth": "57.53",
+        "pe": "142.24",
+        "peg": "2.47",
+        "roe_earnings": "7.87",
+        "pb_fwd": "19.46",
+        "pb_valuation": "2.47",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 3.8,
+        "year_ago_eps": 2.3,
+        "eps_growth": "65.22",
+        "pe": "86.09",
+        "peg": "1.32",
+        "roe_earnings": "12.02",
+        "pb_fwd": "15.87",
+        "pb_valuation": "1.32",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "41.71",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "45.20",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "28.64",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760538449510
+  },
+  {
+    "country": "INDIA",
+    "ticker": "THOMASCOOK.NS",
+    "name": "THOMAS COOK",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 465762954,
+    "lastFiscalReserves": 22596100000,
+    "price": 163.82,
+    "industry": "travel-services",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "5.40",
+    "TTM_PE": "30.34",
+    "PB": "3.37",
+    "ROE": "10.48",
+    "ROA": 3.528680985259335,
+    "OPM": "3.79",
+    "NPM": "2.97",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.8,
+        "year_ago_eps": 1.39,
+        "eps_growth": "-42.45",
+        "pe": "34.06",
+        "peg": "-0.80",
+        "roe_earnings": "-4.14",
+        "pb_fwd": "3.32",
+        "pb_valuation": "-0.80",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "34.06",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.32",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 6.55,
+        "year_ago_eps": 5.61,
+        "eps_growth": "16.76",
+        "pe": "25.01",
+        "peg": "1.49",
+        "roe_earnings": "1.99",
+        "pb_fwd": "2.98",
+        "pb_valuation": "1.49",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 8.05,
+        "year_ago_eps": 6.55,
+        "eps_growth": "22.90",
+        "pe": "20.35",
+        "peg": "0.89",
+        "roe_earnings": "2.92",
+        "pb_fwd": "2.60",
+        "pb_valuation": "0.89",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "6.73",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "13.00",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "12.83",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760538488560
+  },
+  {
+    "country": "US",
+    "ticker": "NVDA",
+    "name": "NVIDIA",
+    "mostRecentQuarter": "Jul 2025",
+    "lastFiscalYear": "Jan 2025",
+    "shares": 24347000000,
+    "lastFiscalReserves": 79327000000,
+    "price": 181.96,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "3.51",
+    "TTM_PE": "51.84",
+    "PB": "44.24",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "60.84",
+    "NPM": "52.41",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.24357,
+        "year_ago_eps": 0.81,
+        "eps_growth": "53.53",
+        "pe": "46.14",
+        "peg": "0.86",
+        "roe_earnings": "46.89",
+        "pb_fwd": "40.42",
+        "pb_valuation": "0.86",
+        "analystCount": 39
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.4143,
+        "year_ago_eps": 0.89,
+        "eps_growth": "58.91",
+        "pe": "40.73",
+        "peg": "0.69",
+        "roe_earnings": "44.49",
+        "pb_fwd": "30.76",
+        "pb_valuation": "0.69",
+        "analystCount": 38
+      },
+      "Current Year": {
+        "eps_estimate": 4.5082,
+        "year_ago_eps": 2.99,
+        "eps_growth": "50.78",
+        "pe": "40.36",
+        "peg": "0.79",
+        "roe_earnings": "29.47",
+        "pb_fwd": "23.43",
+        "pb_valuation": "0.79",
+        "analystCount": 50
+      },
+      "Next Year": {
+        "eps_estimate": 6.3823,
+        "year_ago_eps": 4.5082,
+        "eps_growth": "41.57",
+        "pe": "28.51",
+        "peg": "0.69",
+        "roe_earnings": "18.75",
+        "pb_fwd": "12.86",
+        "pb_valuation": "0.69",
+        "analystCount": 52
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "55.74",
+        "analystCount": 40
+      },
+      "Next Quarter": {
+        "revenue_growth": "55.34",
+        "analystCount": 39
+      },
+      "Current Year": {
+        "revenue_growth": "58.35",
+        "analystCount": 56
+      },
+      "Next Year": {
+        "revenue_growth": "33.34",
+        "analystCount": 60
+      }
+    },
+    "timestamp": 1760538857694
+  },
+  {
+    "country": "US",
+    "ticker": "ANET",
+    "name": "ARISTA NETWORKS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 1256865381,
+    "lastFiscalReserves": 9994807000,
+    "price": 143.94,
+    "industry": "computer-hardware",
+    "sector": "technology",
+    "TTM_EPS": "2.55",
+    "TTM_PE": "56.45",
+    "PB": "16.59",
+    "ROE": "26.02",
+    "ROA": 23.15260816405903,
+    "OPM": "44.73",
+    "NPM": "40.89",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.71429,
+        "year_ago_eps": 0.6,
+        "eps_growth": "19.05",
+        "pe": "54.03",
+        "peg": "2.84",
+        "roe_earnings": "5.86",
+        "pb_fwd": "16.61",
+        "pb_valuation": "2.84",
+        "analystCount": 22
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.72856,
+        "year_ago_eps": 0.65,
+        "eps_growth": "12.09",
+        "pe": "52.48",
+        "peg": "4.34",
+        "roe_earnings": "3.53",
+        "pb_fwd": "15.32",
+        "pb_valuation": "4.34",
+        "analystCount": 21
+      },
+      "Current Year": {
+        "eps_estimate": 2.80793,
+        "year_ago_eps": 2.27,
+        "eps_growth": "23.70",
+        "pe": "51.26",
+        "peg": "2.16",
+        "roe_earnings": "6.18",
+        "pb_fwd": "13.38",
+        "pb_valuation": "2.16",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "eps_estimate": 3.28218,
+        "year_ago_eps": 2.80793,
+        "eps_growth": "16.89",
+        "pe": "43.85",
+        "peg": "2.60",
+        "roe_earnings": "3.95",
+        "pb_fwd": "10.25",
+        "pb_valuation": "2.60",
+        "analystCount": 25
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "25.05",
+        "analystCount": 21
+      },
+      "Next Quarter": {
+        "revenue_growth": "20.81",
+        "analystCount": 20
+      },
+      "Current Year": {
+        "revenue_growth": "25.75",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "revenue_growth": "20.89",
+        "analystCount": 25
+      }
+    },
+    "timestamp": 1760538870717
+  },
+  {
+    "country": "US",
+    "ticker": "AMD",
+    "name": "AMD",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 1622843689,
+    "lastFiscalReserves": 57568000000,
+    "price": 234.25,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "1.68",
+    "TTM_PE": "139.43",
+    "PB": "6.37",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "-1.27",
+    "NPM": "9.57",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.16884,
+        "year_ago_eps": 0.92,
+        "eps_growth": "27.05",
+        "pe": "121.45",
+        "peg": "4.49",
+        "roe_earnings": "1.42",
+        "pb_fwd": "6.39",
+        "pb_valuation": "4.49",
+        "analystCount": 38
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.32309,
+        "year_ago_eps": 1.09,
+        "eps_growth": "21.38",
+        "pe": "108.35",
+        "peg": "5.07",
+        "roe_earnings": "1.22",
+        "pb_fwd": "6.17",
+        "pb_valuation": "5.07",
+        "analystCount": 37
+      },
+      "Current Year": {
+        "eps_estimate": 3.92232,
+        "year_ago_eps": 3.31,
+        "eps_growth": "18.50",
+        "pe": "59.72",
+        "peg": "3.23",
+        "roe_earnings": "1.84",
+        "pb_fwd": "5.95",
+        "pb_valuation": "3.23",
+        "analystCount": 47
+      },
+      "Next Year": {
+        "eps_estimate": 6.26288,
+        "year_ago_eps": 3.92232,
+        "eps_growth": "59.67",
+        "pe": "37.40",
+        "peg": "0.63",
+        "roe_earnings": "8.19",
+        "pb_fwd": "5.13",
+        "pb_valuation": "0.63",
+        "analystCount": 47
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "28.08",
+        "analystCount": 35
+      },
+      "Next Quarter": {
+        "revenue_growth": "19.66",
+        "analystCount": 34
+      },
+      "Current Year": {
+        "revenue_growth": "28.21",
+        "analystCount": 46
+      },
+      "Next Year": {
+        "revenue_growth": "26.62",
+        "analystCount": 49
+      }
+    },
+    "timestamp": 1760538877114
+  },
+  {
+    "country": "US",
+    "ticker": "ORCL",
+    "name": "ORACLE",
+    "mostRecentQuarter": "Aug 2025",
+    "lastFiscalYear": "May 2025",
+    "shares": 2850792605,
+    "lastFiscalReserves": 20451000000,
+    "price": 308.325,
+    "industry": "software-infrastructure",
+    "sector": "technology",
+    "TTM_EPS": "4.31",
+    "TTM_PE": "71.54",
+    "PB": "36.27",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "31.38",
+    "NPM": "21.08",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.63273,
+        "year_ago_eps": 1.47,
+        "eps_growth": "11.07",
+        "pe": "68.93",
+        "peg": "6.23",
+        "roe_earnings": "5.62",
+        "pb_fwd": "35.01",
+        "pb_valuation": "6.23",
+        "analystCount": 32
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.70911,
+        "year_ago_eps": 1.47,
+        "eps_growth": "16.27",
+        "pe": "65.44",
+        "peg": "4.02",
+        "roe_earnings": "7.29",
+        "pb_fwd": "29.32",
+        "pb_valuation": "4.02",
+        "analystCount": 31
+      },
+      "Current Year": {
+        "eps_estimate": 6.79151,
+        "year_ago_eps": 6.03,
+        "eps_growth": "12.63",
+        "pe": "45.40",
+        "peg": "3.59",
+        "roe_earnings": "6.14",
+        "pb_fwd": "22.08",
+        "pb_valuation": "3.59",
+        "analystCount": 40
+      },
+      "Next Year": {
+        "eps_estimate": 7.99908,
+        "year_ago_eps": 6.79151,
+        "eps_growth": "17.78",
+        "pe": "38.55",
+        "peg": "2.17",
+        "roe_earnings": "6.48",
+        "pb_fwd": "14.04",
+        "pb_valuation": "2.17",
+        "analystCount": 42
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.13",
+        "analystCount": 30
+      },
+      "Next Quarter": {
+        "revenue_growth": "19.42",
+        "analystCount": 29
+      },
+      "Current Year": {
+        "revenue_growth": "16.73",
+        "analystCount": 39
+      },
+      "Next Year": {
+        "revenue_growth": "22.23",
+        "analystCount": 41
+      }
+    },
+    "timestamp": 1760538884998
+  },
+  {
+    "country": "US",
+    "ticker": "AVGO",
+    "name": "BROADCOM",
+    "mostRecentQuarter": "Aug 2021",
+    "lastFiscalYear": "Nov 2024",
+    "shares": 4722365022,
+    "price": 359.0151,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "3.89",
+    "TTM_PE": "92.29",
+    "PB": "6.06",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "31.77",
+    "NPM": "31.59",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.86785,
+        "year_ago_eps": 1.42,
+        "eps_growth": "31.54",
+        "pe": "82.76",
+        "peg": "2.62",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 34
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.95884,
+        "year_ago_eps": 1.6,
+        "eps_growth": "22.43",
+        "pe": "76.44",
+        "peg": "3.41",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 30
+      },
+      "Current Year": {
+        "eps_estimate": 6.74031,
+        "year_ago_eps": 4.87,
+        "eps_growth": "38.40",
+        "pe": "53.26",
+        "peg": "1.39",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 40
+      },
+      "Next Year": {
+        "eps_estimate": 9.21169,
+        "year_ago_eps": 6.74031,
+        "eps_growth": "36.67",
+        "pe": "38.97",
+        "peg": "1.06",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 45
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "24.16",
+        "analystCount": 33
+      },
+      "Next Quarter": {
+        "revenue_growth": "22.06",
+        "analystCount": 28
+      },
+      "Current Year": {
+        "revenue_growth": "22.78",
+        "analystCount": 39
+      },
+      "Next Year": {
+        "revenue_growth": "33.70",
+        "analystCount": 47
+      }
+    },
+    "timestamp": 1760538894299
+  },
+  {
+    "country": "US",
+    "ticker": "ASML",
+    "name": "ASML",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 388147674,
+    "lastFiscalReserves": 18476800000,
+    "price": 1010.36,
+    "industry": "semiconductor-equipment-materials",
+    "sector": "technology",
+    "TTM_EPS": "27.92",
+    "TTM_PE": "36.19",
+    "PB": "22.22",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "34.64",
+    "NPM": "29.27",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 7.08403,
+        "year_ago_eps": 6.84,
+        "eps_growth": "3.57",
+        "pe": "35.87",
+        "peg": "10.06",
+        "roe_earnings": "1.84",
+        "pb_fwd": "18.48",
+        "pb_valuation": "10.06",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "eps_estimate": 5.45748,
+        "year_ago_eps": 6,
+        "eps_growth": "-9.04",
+        "pe": "36.58",
+        "peg": "-4.05",
+        "roe_earnings": "-4.15",
+        "pb_fwd": "16.80",
+        "pb_valuation": "-4.05",
+        "analystCount": 9
+      },
+      "Current Year": {
+        "eps_estimate": 24.07587,
+        "year_ago_eps": 19.24,
+        "eps_growth": "25.13",
+        "pe": "41.97",
+        "peg": "1.67",
+        "roe_earnings": "8.44",
+        "pb_fwd": "14.10",
+        "pb_valuation": "1.67",
+        "analystCount": 28
+      },
+      "Next Year": {
+        "eps_estimate": 25.47186,
+        "year_ago_eps": 24.07587,
+        "eps_growth": "5.80",
+        "pe": "39.67",
+        "peg": "6.84",
+        "roe_earnings": "1.52",
+        "pb_fwd": "10.40",
+        "pb_valuation": "6.84",
+        "analystCount": 31
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "0.89",
+        "analystCount": 16
+      },
+      "Next Quarter": {
+        "revenue_growth": "0.24",
+        "analystCount": 10
+      },
+      "Current Year": {
+        "revenue_growth": "14.43",
+        "analystCount": 34
+      },
+      "Next Year": {
+        "revenue_growth": "4.45",
+        "analystCount": 32
+      }
+    },
+    "timestamp": 1760546559162
+  },
+  {
+    "country": "US",
+    "ticker": "ARM",
+    "name": "ARM",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1059263999,
+    "lastFiscalReserves": 6839000000,
+    "price": 170.03,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "0.66",
+    "TTM_PE": "257.62",
+    "PB": "25.70",
+    "ROE": "9.74",
+    "ROA": 7.825794894760412,
+    "OPM": "10.83",
+    "NPM": "16.96",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.33337,
+        "year_ago_eps": 0.3,
+        "eps_growth": "11.12",
+        "pe": "245.22",
+        "peg": "22.05",
+        "roe_earnings": "1.14",
+        "pb_fwd": "25.04",
+        "pb_valuation": "22.05",
+        "analystCount": 26
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.35349,
+        "year_ago_eps": 0.39,
+        "eps_growth": "-9.36",
+        "pe": "258.85",
+        "peg": "-27.65",
+        "roe_earnings": "-0.86",
+        "pb_fwd": "23.80",
+        "pb_valuation": "-27.65",
+        "analystCount": 24
+      },
+      "Current Year": {
+        "eps_estimate": 1.6904,
+        "year_ago_eps": 1.63,
+        "eps_growth": "3.71",
+        "pe": "100.59",
+        "peg": "27.14",
+        "roe_earnings": "0.77",
+        "pb_fwd": "20.87",
+        "pb_valuation": "27.14",
+        "analystCount": 33
+      },
+      "Next Year": {
+        "eps_estimate": 2.24288,
+        "year_ago_eps": 1.6904,
+        "eps_growth": "32.68",
+        "pe": "75.81",
+        "peg": "2.32",
+        "roe_earnings": "7.06",
+        "pb_fwd": "16.37",
+        "pb_valuation": "2.32",
+        "analystCount": 34
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "25.83",
+        "analystCount": 25
+      },
+      "Next Quarter": {
+        "revenue_growth": "12.97",
+        "analystCount": 23
+      },
+      "Current Year": {
+        "revenue_growth": "18.35",
+        "analystCount": 37
+      },
+      "Next Year": {
+        "revenue_growth": "21.76",
+        "analystCount": 37
+      }
+    },
+    "timestamp": 1760546584586
+  },
+  {
+    "country": "US",
+    "ticker": "AMAT",
+    "name": "APPLIED MATERIALS",
+    "mostRecentQuarter": "Jul 2025",
+    "lastFiscalYear": "Oct 2024",
+    "shares": 796642427,
+    "lastFiscalReserves": 19001000000,
+    "price": 224.7975,
+    "industry": "semiconductor-equipment-materials",
+    "sector": "technology",
+    "TTM_EPS": "8.38",
+    "TTM_PE": "26.83",
+    "PB": "9.18",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "30.58",
+    "NPM": "23.88",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.10706,
+        "year_ago_eps": 2.32,
+        "eps_growth": "-9.18",
+        "pe": "27.52",
+        "peg": "-3.00",
+        "roe_earnings": "-2.89",
+        "pb_fwd": "8.66",
+        "pb_valuation": "-3.00",
+        "analystCount": 27
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.15738,
+        "year_ago_eps": 2.38,
+        "eps_growth": "-9.35",
+        "pe": "28.30",
+        "peg": "-3.03",
+        "roe_earnings": "-2.64",
+        "pb_fwd": "8.00",
+        "pb_valuation": "-3.03",
+        "analystCount": 26
+      },
+      "Current Year": {
+        "eps_estimate": 9.38003,
+        "year_ago_eps": 8.65,
+        "eps_growth": "8.44",
+        "pe": "23.97",
+        "peg": "2.84",
+        "roe_earnings": "2.38",
+        "pb_fwd": "6.76",
+        "pb_valuation": "2.84",
+        "analystCount": 30
+      },
+      "Next Year": {
+        "eps_estimate": 9.51984,
+        "year_ago_eps": 9.38003,
+        "eps_growth": "1.49",
+        "pe": "23.61",
+        "peg": "15.84",
+        "roe_earnings": "0.33",
+        "pb_fwd": "5.26",
+        "pb_valuation": "15.84",
+        "analystCount": 32
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-5.19",
+        "analystCount": 26
+      },
+      "Next Quarter": {
+        "revenue_growth": "-4.99",
+        "analystCount": 24
+      },
+      "Current Year": {
+        "revenue_growth": "4.09",
+        "analystCount": 32
+      },
+      "Next Year": {
+        "revenue_growth": "2.72",
+        "analystCount": 32
+      }
+    },
+    "timestamp": 1760546662883
+  },
+  {
+    "country": "US",
+    "ticker": "QCOM",
+    "name": "QUALCOMM",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Sep 2024",
+    "shares": 1079000000,
+    "lastFiscalReserves": 26274000000,
+    "price": 161.85,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "10.37",
+    "TTM_PE": "15.61",
+    "PB": "6.45",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "26.65",
+    "NPM": "26.77",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.86422,
+        "year_ago_eps": 2.69,
+        "eps_growth": "6.48",
+        "pe": "15.35",
+        "peg": "2.37",
+        "roe_earnings": "2.51",
+        "pb_fwd": "5.95",
+        "pb_valuation": "2.37",
+        "analystCount": 26
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.29122,
+        "year_ago_eps": 3.41,
+        "eps_growth": "-3.48",
+        "pe": "15.52",
+        "peg": "-4.46",
+        "roe_earnings": "-1.19",
+        "pb_fwd": "5.31",
+        "pb_valuation": "-4.46",
+        "analystCount": 23
+      },
+      "Current Year": {
+        "eps_estimate": 11.8922,
+        "year_ago_eps": 10.22,
+        "eps_growth": "16.36",
+        "pe": "13.61",
+        "peg": "0.83",
+        "roe_earnings": "5.37",
+        "pb_fwd": "4.47",
+        "pb_valuation": "0.83",
+        "analystCount": 30
+      },
+      "Next Year": {
+        "eps_estimate": 12.08872,
+        "year_ago_eps": 11.8922,
+        "eps_growth": "1.65",
+        "pe": "13.39",
+        "peg": "8.10",
+        "roe_earnings": "0.41",
+        "pb_fwd": "3.35",
+        "pb_valuation": "8.10",
+        "analystCount": 30
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "4.84",
+        "analystCount": 26
+      },
+      "Next Quarter": {
+        "revenue_growth": "-1.09",
+        "analystCount": 22
+      },
+      "Current Year": {
+        "revenue_growth": "11.85",
+        "analystCount": 32
+      },
+      "Next Year": {
+        "revenue_growth": "1.97",
+        "analystCount": 32
+      }
+    },
+    "timestamp": 1760546679899
+  },
+  {
+    "country": "US",
+    "ticker": "INTC",
+    "name": "INTEL",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 4757218036,
+    "lastFiscalReserves": 99270000000,
+    "price": 36.3201,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "-4.77",
+    "TTM_PE": "-7.61",
+    "PB": "1.62",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "-3.80",
+    "NPM": "-38.64",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.00507,
+        "year_ago_eps": -0.46,
+        "eps_growth": "101.10",
+        "pe": "-8.44",
+        "peg": "-0.08",
+        "roe_earnings": "-20.85",
+        "pb_fwd": "1.74",
+        "pb_valuation": "-0.08",
+        "analystCount": 30
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.07813,
+        "year_ago_eps": 0.13,
+        "eps_growth": "-39.90",
+        "pe": "-8.34",
+        "peg": "0.21",
+        "roe_earnings": "8.30",
+        "pb_fwd": "1.73",
+        "pb_valuation": "0.21",
+        "analystCount": 30
+      },
+      "Current Year": {
+        "eps_estimate": 0.11902,
+        "year_ago_eps": -0.13,
+        "eps_growth": "191.55",
+        "pe": "305.16",
+        "peg": "1.59",
+        "roe_earnings": "1.09",
+        "pb_fwd": "1.73",
+        "pb_valuation": "1.59",
+        "analystCount": 32
+      },
+      "Next Year": {
+        "eps_estimate": 0.63558,
+        "year_ago_eps": 0.11902,
+        "eps_growth": "434.01",
+        "pe": "57.14",
+        "peg": "0.13",
+        "roe_earnings": "12.76",
+        "pb_fwd": "1.68",
+        "pb_valuation": "0.13",
+        "analystCount": 35
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-1.38",
+        "analystCount": 35
+      },
+      "Next Quarter": {
+        "revenue_growth": "-6.61",
+        "analystCount": 35
+      },
+      "Current Year": {
+        "revenue_growth": "-2.11",
+        "analystCount": 41
+      },
+      "Next Year": {
+        "revenue_growth": "3.24",
+        "analystCount": 41
+      }
+    },
+    "timestamp": 1760546690389
+  },
+  {
+    "country": "US",
+    "ticker": "TXN",
+    "name": "TEXAS INSTRUMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 909137169,
+    "lastFiscalReserves": 16903000000,
+    "price": 175.07,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "5.46",
+    "TTM_PE": "32.06",
+    "PB": "9.70",
+    "ROE": "24.49",
+    "ROA": 14.196400912444732,
+    "OPM": "35.03",
+    "NPM": "30.23",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.4868,
+        "year_ago_eps": 1.47,
+        "eps_growth": "1.14",
+        "pe": "31.97",
+        "peg": "27.97",
+        "roe_earnings": "0.31",
+        "pb_fwd": "8.72",
+        "pb_valuation": "27.97",
+        "analystCount": 29
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.4051,
+        "year_ago_eps": 1.3,
+        "eps_growth": "8.08",
+        "pe": "31.36",
+        "peg": "3.88",
+        "roe_earnings": "2.10",
+        "pb_fwd": "8.15",
+        "pb_valuation": "3.88",
+        "analystCount": 29
+      },
+      "Current Year": {
+        "eps_estimate": 5.57749,
+        "year_ago_eps": 5.2,
+        "eps_growth": "7.26",
+        "pe": "31.39",
+        "peg": "4.32",
+        "roe_earnings": "1.68",
+        "pb_fwd": "7.24",
+        "pb_valuation": "4.32",
+        "analystCount": 33
+      },
+      "Next Year": {
+        "eps_estimate": 6.64883,
+        "year_ago_eps": 5.57749,
+        "eps_growth": "19.21",
+        "pe": "26.33",
+        "peg": "1.37",
+        "roe_earnings": "4.14",
+        "pb_fwd": "5.68",
+        "pb_valuation": "1.37",
+        "analystCount": 33
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.94",
+        "analystCount": 31
+      },
+      "Next Quarter": {
+        "revenue_growth": "12.51",
+        "analystCount": 29
+      },
+      "Current Year": {
+        "revenue_growth": "12.87",
+        "analystCount": 36
+      },
+      "Next Year": {
+        "revenue_growth": "10.80",
+        "analystCount": 32
+      }
+    },
+    "timestamp": 1760546701424
+  },
+  {
+    "country": "US",
+    "ticker": "ADI",
+    "name": "ANALOG DEVICES",
+    "mostRecentQuarter": "Aug 2025",
+    "lastFiscalYear": "Nov 2024",
+    "shares": 491955436,
+    "lastFiscalReserves": 35070535000,
+    "price": 238.03,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "3.93",
+    "TTM_PE": "60.57",
+    "PB": "3.44",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "28.55",
+    "NPM": "18.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.22658,
+        "year_ago_eps": 1.67,
+        "eps_growth": "33.33",
+        "pe": "53.05",
+        "peg": "1.59",
+        "roe_earnings": "2.03",
+        "pb_fwd": "3.24",
+        "pb_valuation": "1.59",
+        "analystCount": 28
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.15369,
+        "year_ago_eps": 1.63,
+        "eps_growth": "32.13",
+        "pe": "47.51",
+        "peg": "1.48",
+        "roe_earnings": "2.13",
+        "pb_fwd": "3.15",
+        "pb_valuation": "1.48",
+        "analystCount": 26
+      },
+      "Current Year": {
+        "eps_estimate": 7.78811,
+        "year_ago_eps": 6.38,
+        "eps_growth": "22.07",
+        "pe": "30.56",
+        "peg": "1.38",
+        "roe_earnings": "2.17",
+        "pb_fwd": "3.01",
+        "pb_valuation": "1.38",
+        "analystCount": 30
+      },
+      "Next Year": {
+        "eps_estimate": 9.35664,
+        "year_ago_eps": 7.78811,
+        "eps_growth": "20.14",
+        "pe": "25.44",
+        "peg": "1.26",
+        "roe_earnings": "2.13",
+        "pb_fwd": "2.69",
+        "pb_valuation": "1.26",
+        "analystCount": 30
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "22.82",
+        "analystCount": 27
+      },
+      "Next Quarter": {
+        "revenue_growth": "22.54",
+        "analystCount": 24
+      },
+      "Current Year": {
+        "revenue_growth": "15.97",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "revenue_growth": "13.36",
+        "analystCount": 29
+      }
+    },
+    "timestamp": 1760546741561
+  },
+  {
+    "country": "US",
+    "ticker": "NXPI",
+    "name": "NXP SEMICONDUCTORS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 252114595,
+    "lastFiscalReserves": 9183000000,
+    "price": 217.135,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "8.39",
+    "TTM_PE": "25.88",
+    "PB": "5.72",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "25.77",
+    "NPM": "17.72",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.12106,
+        "year_ago_eps": 3.45,
+        "eps_growth": "-9.53",
+        "pe": "26.94",
+        "peg": "-2.83",
+        "roe_earnings": "-1.94",
+        "pb_fwd": "5.49",
+        "pb_valuation": "-2.83",
+        "analystCount": 26
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.28464,
+        "year_ago_eps": 3.18,
+        "eps_growth": "3.29",
+        "pe": "26.59",
+        "peg": "8.08",
+        "roe_earnings": "0.63",
+        "pb_fwd": "5.07",
+        "pb_valuation": "8.08",
+        "analystCount": 25
+      },
+      "Current Year": {
+        "eps_estimate": 11.79806,
+        "year_ago_eps": 13.09,
+        "eps_growth": "-9.87",
+        "pe": "18.40",
+        "peg": "-1.86",
+        "roe_earnings": "-2.41",
+        "pb_fwd": "4.50",
+        "pb_valuation": "-1.86",
+        "analystCount": 28
+      },
+      "Next Year": {
+        "eps_estimate": 14.09509,
+        "year_ago_eps": 11.79806,
+        "eps_growth": "19.47",
+        "pe": "15.41",
+        "peg": "0.79",
+        "roe_earnings": "4.40",
+        "pb_fwd": "3.48",
+        "pb_valuation": "0.79",
+        "analystCount": 29
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-2.93",
+        "analystCount": 27
+      },
+      "Next Quarter": {
+        "revenue_growth": "3.79",
+        "analystCount": 26
+      },
+      "Current Year": {
+        "revenue_growth": "-3.73",
+        "analystCount": 30
+      },
+      "Next Year": {
+        "revenue_growth": "9.67",
+        "analystCount": 31
+      }
+    },
+    "timestamp": 1760546770969
+  },
+  {
+    "country": "US",
+    "ticker": "MCHP",
+    "name": "MICROCHIP TECHNOLOGY",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 539679667,
+    "lastFiscalReserves": 7078300000,
+    "price": 64.325,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "-0.34",
+    "TTM_PE": "-189.19",
+    "PB": "5.06",
+    "ROE": "-2.15",
+    "ROA": -0.9652283636647458,
+    "OPM": "5.05",
+    "NPM": "-3.50",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.33431,
+        "year_ago_eps": 0.46,
+        "eps_growth": "-27.32",
+        "pe": "-138.13",
+        "peg": "5.06",
+        "roe_earnings": "0.95",
+        "pb_fwd": "4.78",
+        "pb_valuation": "5.06",
+        "analystCount": 23
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.40423,
+        "year_ago_eps": 0.2,
+        "eps_growth": "102.11",
+        "pe": "-246.02",
+        "peg": "-2.41",
+        "roe_earnings": "-1.93",
+        "pb_fwd": "4.64",
+        "pb_valuation": "-2.41",
+        "analystCount": 23
+      },
+      "Current Year": {
+        "eps_estimate": 1.45795,
+        "year_ago_eps": 1.31,
+        "eps_growth": "11.29",
+        "pe": "44.12",
+        "peg": "3.91",
+        "roe_earnings": "1.13",
+        "pb_fwd": "4.41",
+        "pb_valuation": "3.91",
+        "analystCount": 26
+      },
+      "Next Year": {
+        "eps_estimate": 2.58535,
+        "year_ago_eps": 1.45795,
+        "eps_growth": "77.33",
+        "pe": "24.88",
+        "peg": "0.32",
+        "roe_earnings": "11.65",
+        "pb_fwd": "3.75",
+        "pb_valuation": "0.32",
+        "analystCount": 26
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-2.33",
+        "analystCount": 22
+      },
+      "Next Quarter": {
+        "revenue_growth": "15.47",
+        "analystCount": 22
+      },
+      "Current Year": {
+        "revenue_growth": "5.23",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "revenue_growth": "20.98",
+        "analystCount": 25
+      }
+    },
+    "timestamp": 1760546790651
+  },
+  {
+    "country": "US",
+    "ticker": "GFS",
+    "name": "GLOBAL FOUNDRIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 554971650,
+    "lastFiscalReserves": 10776000000,
+    "price": 34.83,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "-0.21",
+    "TTM_PE": "-165.86",
+    "PB": "1.69",
+    "ROE": "-1.10",
+    "ROA": -0.6845645574141318,
+    "OPM": "11.61",
+    "NPM": "-1.68",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.38333,
+        "year_ago_eps": 0.41,
+        "eps_growth": "-6.50",
+        "pe": "-147.17",
+        "peg": "22.62",
+        "roe_earnings": "0.08",
+        "pb_fwd": "1.76",
+        "pb_valuation": "22.62",
+        "analystCount": 16
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.47102,
+        "year_ago_eps": 0.46,
+        "eps_growth": "2.40",
+        "pe": "-154.35",
+        "peg": "-64.43",
+        "roe_earnings": "-0.03",
+        "pb_fwd": "1.72",
+        "pb_valuation": "-64.43",
+        "analystCount": 15
+      },
+      "Current Year": {
+        "eps_estimate": 1.61714,
+        "year_ago_eps": 1.56,
+        "eps_growth": "3.66",
+        "pe": "21.54",
+        "peg": "5.88",
+        "roe_earnings": "0.28",
+        "pb_fwd": "1.66",
+        "pb_valuation": "5.88",
+        "analystCount": 19
+      },
+      "Next Year": {
+        "eps_estimate": 1.99831,
+        "year_ago_eps": 1.61714,
+        "eps_growth": "23.57",
+        "pe": "17.43",
+        "peg": "0.74",
+        "roe_earnings": "2.04",
+        "pb_fwd": "1.51",
+        "pb_valuation": "0.74",
+        "analystCount": 19
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-3.64",
+        "analystCount": 18
+      },
+      "Next Quarter": {
+        "revenue_growth": "-2.15",
+        "analystCount": 16
+      },
+      "Current Year": {
+        "revenue_growth": "-0.02",
+        "analystCount": 20
+      },
+      "Next Year": {
+        "revenue_growth": "8.08",
+        "analystCount": 20
+      }
+    },
+    "timestamp": 1760546805266
+  },
+  {
+    "country": "US",
+    "ticker": "ON",
+    "name": "ON SEMICONDUCTOR CORPORATION",
+    "mostRecentQuarter": "Jul 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 408973992,
+    "lastFiscalReserves": 8796400000,
+    "price": 50.175,
+    "industry": "semiconductors",
+    "sector": "technology",
+    "TTM_EPS": "1.05",
+    "TTM_PE": "47.79",
+    "PB": "2.60",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "16.52",
+    "NPM": "7.28",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.59051,
+        "year_ago_eps": 0.99,
+        "eps_growth": "-40.35",
+        "pe": "77.13",
+        "peg": "-1.91",
+        "roe_earnings": "-1.19",
+        "pb_fwd": "2.27",
+        "pb_valuation": "-1.91",
+        "analystCount": 30
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.62053,
+        "year_ago_eps": 0.95,
+        "eps_growth": "-34.68",
+        "pe": "156.29",
+        "peg": "-4.51",
+        "roe_earnings": "-0.49",
+        "pb_fwd": "2.21",
+        "pb_valuation": "-4.51",
+        "analystCount": 29
+      },
+      "Current Year": {
+        "eps_estimate": 2.29243,
+        "year_ago_eps": 3.98,
+        "eps_growth": "-42.40",
+        "pe": "21.89",
+        "peg": "-0.52",
+        "roe_earnings": "-4.08",
+        "pb_fwd": "2.11",
+        "pb_valuation": "-0.52",
+        "analystCount": 31
+      },
+      "Next Year": {
+        "eps_estimate": 2.93414,
+        "year_ago_eps": 2.29243,
+        "eps_growth": "27.99",
+        "pe": "17.10",
+        "peg": "0.61",
+        "roe_earnings": "3.07",
+        "pb_fwd": "1.88",
+        "pb_valuation": "0.61",
+        "analystCount": 31
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-13.93",
+        "analystCount": 30
+      },
+      "Next Quarter": {
+        "revenue_growth": "-11.38",
+        "analystCount": 29
+      },
+      "Current Year": {
+        "revenue_growth": "-15.88",
+        "analystCount": 33
+      },
+      "Next Year": {
+        "revenue_growth": "6.16",
+        "analystCount": 33
+      }
+    },
+    "timestamp": 1760546818740
+  },
+  {
+    "country": "US",
+    "ticker": "AMZN",
+    "name": "AMAZON",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 10664912097,
+    "lastFiscalReserves": 285970000000,
+    "price": 214.88,
+    "industry": "internet-retail",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "6.56",
+    "TTM_PE": "32.76",
+    "PB": "6.86",
+    "ROE": "20.69",
+    "ROA": 11.301596750808937,
+    "OPM": "11.43",
+    "NPM": "10.54",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.54822,
+        "year_ago_eps": 1.43,
+        "eps_growth": "8.27",
+        "pe": "32.18",
+        "peg": "3.89",
+        "roe_earnings": "1.95",
+        "pb_fwd": "7.58",
+        "pb_valuation": "3.89",
+        "analystCount": 43
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.84431,
+        "year_ago_eps": 1.86,
+        "eps_growth": "-0.84",
+        "pe": "32.25",
+        "peg": "-38.23",
+        "roe_earnings": "-0.19",
+        "pb_fwd": "7.11",
+        "pb_valuation": "-38.23",
+        "analystCount": 41
+      },
+      "Current Year": {
+        "eps_estimate": 6.61866,
+        "year_ago_eps": 5.53,
+        "eps_growth": "19.69",
+        "pe": "32.47",
+        "peg": "1.65",
+        "roe_earnings": "3.90",
+        "pb_fwd": "6.43",
+        "pb_valuation": "1.65",
+        "analystCount": 61
+      },
+      "Next Year": {
+        "eps_estimate": 7.57887,
+        "year_ago_eps": 6.61866,
+        "eps_growth": "14.51",
+        "pe": "28.35",
+        "peg": "1.95",
+        "roe_earnings": "2.68",
+        "pb_fwd": "5.24",
+        "pb_valuation": "1.95",
+        "analystCount": 60
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.76",
+        "analystCount": 47
+      },
+      "Next Quarter": {
+        "revenue_growth": "10.72",
+        "analystCount": 47
+      },
+      "Current Year": {
+        "revenue_growth": "11.04",
+        "analystCount": 60
+      },
+      "Next Year": {
+        "revenue_growth": "10.18",
+        "analystCount": 61
+      }
+    },
+    "timestamp": 1760546984670
+  },
+  {
+    "country": "US",
+    "ticker": "GOOG",
+    "name": "GOOGLE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 5430000000,
+    "lastFiscalReserves": 325084000000,
+    "price": 249.44,
+    "industry": "internet-content-information",
+    "sector": "communication-services",
+    "TTM_EPS": "9.38",
+    "TTM_PE": "26.59",
+    "PB": "8.32",
+    "ROE": "27.89",
+    "ROA": 25.668286485910237,
+    "OPM": "32.43",
+    "NPM": "31.12",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.3024,
+        "year_ago_eps": 2.12,
+        "eps_growth": "8.60",
+        "pe": "26.09",
+        "peg": "3.03",
+        "roe_earnings": "1.32",
+        "pb_fwd": "8.92",
+        "pb_valuation": "6.74",
+        "analystCount": 41
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.56407,
+        "year_ago_eps": 2.15,
+        "eps_growth": "19.26",
+        "pe": "25.00",
+        "peg": "1.30",
+        "roe_earnings": "2.97",
+        "pb_fwd": "8.57",
+        "pb_valuation": "2.89",
+        "analystCount": 39
+      },
+      "Current Year": {
+        "eps_estimate": 9.94309,
+        "year_ago_eps": 8.04,
+        "eps_growth": "23.67",
+        "pe": "25.09",
+        "peg": "1.06",
+        "roe_earnings": "3.37",
+        "pb_fwd": "7.94",
+        "pb_valuation": "2.36",
+        "analystCount": 58
+      },
+      "Next Year": {
+        "eps_estimate": 10.67608,
+        "year_ago_eps": 9.94309,
+        "eps_growth": "7.37",
+        "pe": "23.36",
+        "peg": "3.17",
+        "roe_earnings": "0.98",
+        "pb_fwd": "6.89",
+        "pb_valuation": "7.05",
+        "analystCount": 57
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "13.21",
+        "analystCount": 43
+      },
+      "Next Quarter": {
+        "revenue_growth": "12.75",
+        "analystCount": 42
+      },
+      "Current Year": {
+        "revenue_growth": "12.54",
+        "analystCount": 61
+      },
+      "Next Year": {
+        "revenue_growth": "11.69",
+        "analystCount": 61
+      }
+    },
+    "timestamp": 1760546994508
+  },
+  {
+    "country": "US",
+    "ticker": "AAPL",
+    "name": "APPLE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Sep 2024",
+    "shares": 14840390000,
+    "lastFiscalReserves": 56950000000,
+    "price": 248.89,
+    "industry": "consumer-electronics",
+    "sector": "technology",
+    "TTM_EPS": "6.59",
+    "TTM_PE": "37.77",
+    "PB": "56.17",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "29.99",
+    "NPM": "24.30",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.75661,
+        "year_ago_eps": 0.97,
+        "eps_growth": "81.09",
+        "pe": "33.74",
+        "peg": "0.42",
+        "roe_earnings": "106.93",
+        "pb_fwd": "44.49",
+        "pb_valuation": "0.42",
+        "analystCount": 31
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.48839,
+        "year_ago_eps": 2.4,
+        "eps_growth": "3.68",
+        "pe": "33.34",
+        "peg": "9.05",
+        "roe_earnings": "3.40",
+        "pb_fwd": "30.79",
+        "pb_valuation": "9.05",
+        "analystCount": 26
+      },
+      "Current Year": {
+        "eps_estimate": 7.37083,
+        "year_ago_eps": 6.08,
+        "eps_growth": "21.23",
+        "pe": "33.77",
+        "peg": "1.59",
+        "roe_earnings": "13.96",
+        "pb_fwd": "22.21",
+        "pb_valuation": "1.59",
+        "analystCount": 41
+      },
+      "Next Year": {
+        "eps_estimate": 7.99057,
+        "year_ago_eps": 7.37083,
+        "eps_growth": "8.41",
+        "pe": "31.15",
+        "peg": "3.70",
+        "roe_earnings": "3.50",
+        "pb_fwd": "12.96",
+        "pb_valuation": "3.70",
+        "analystCount": 41
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.14",
+        "analystCount": 29
+      },
+      "Next Quarter": {
+        "revenue_growth": "4.71",
+        "analystCount": 23
+      },
+      "Current Year": {
+        "revenue_growth": "6.19",
+        "analystCount": 42
+      },
+      "Next Year": {
+        "revenue_growth": "5.58",
+        "analystCount": 43
+      }
+    },
+    "timestamp": 1760547219012
+  },
+  {
+    "country": "US",
+    "ticker": "META",
+    "name": "META",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 2168962480,
+    "lastFiscalReserves": 182637000000,
+    "price": 715.64,
+    "industry": "internet-content-information",
+    "sector": "communication-services",
+    "TTM_EPS": "27.57",
+    "TTM_PE": "25.96",
+    "PB": "9.23",
+    "ROE": "29.99",
+    "ROA": 25.903265303165323,
+    "OPM": "43.02",
+    "NPM": "39.99",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 6.70505,
+        "year_ago_eps": 6.03,
+        "eps_growth": "11.19",
+        "pe": "25.34",
+        "peg": "2.26",
+        "roe_earnings": "3.48",
+        "pb_fwd": "9.12",
+        "pb_valuation": "2.62",
+        "analystCount": 48
+      },
+      "Next Quarter": {
+        "eps_estimate": 8.10105,
+        "year_ago_eps": 8.02,
+        "eps_growth": "1.01",
+        "pe": "25.26",
+        "peg": "25.00",
+        "roe_earnings": "0.29",
+        "pb_fwd": "8.37",
+        "pb_valuation": "28.95",
+        "analystCount": 47
+      },
+      "Current Year": {
+        "eps_estimate": 28.18869,
+        "year_ago_eps": 23.86,
+        "eps_growth": "18.14",
+        "pe": "25.39",
+        "peg": "1.40",
+        "roe_earnings": "4.55",
+        "pb_fwd": "7.37",
+        "pb_valuation": "1.62",
+        "analystCount": 64
+      },
+      "Next Year": {
+        "eps_estimate": 30.12157,
+        "year_ago_eps": 28.18869,
+        "eps_growth": "6.86",
+        "pe": "23.76",
+        "peg": "3.46",
+        "roe_earnings": "1.45",
+        "pb_fwd": "5.82",
+        "pb_valuation": "4.01",
+        "analystCount": 63
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "21.65",
+        "analystCount": 48
+      },
+      "Next Quarter": {
+        "revenue_growth": "18.17",
+        "analystCount": 48
+      },
+      "Current Year": {
+        "revenue_growth": "19.33",
+        "analystCount": 63
+      },
+      "Next Year": {
+        "revenue_growth": "16.41",
+        "analystCount": 65
+      }
+    },
+    "timestamp": 1760547230513
+  },
+  {
+    "country": "INDIA",
+    "ticker": "CGPOWER.NS",
+    "name": "CG POWER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1574759809,
+    "lastFiscalReserves": 38439500000,
+    "price": 757.7,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "6.54",
+    "TTM_PE": "115.86",
+    "PB": "30.14",
+    "ROE": "22.87",
+    "ROA": 13.518680557147228,
+    "OPM": "11.73",
+    "NPM": "9.50",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.08221,
+        "year_ago_eps": 1.44,
+        "eps_growth": "44.60",
+        "pe": "105.50",
+        "peg": "2.37",
+        "roe_earnings": "12.09",
+        "pb_fwd": "28.60",
+        "pb_valuation": "2.37",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.04726,
+        "year_ago_eps": 1.57,
+        "eps_growth": "30.40",
+        "pe": "98.92",
+        "peg": "3.25",
+        "roe_earnings": "8.16",
+        "pb_fwd": "26.55",
+        "pb_valuation": "3.25",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "eps_estimate": 8.53979,
+        "year_ago_eps": 6.37,
+        "eps_growth": "34.06",
+        "pe": "88.73",
+        "peg": "2.60",
+        "roe_earnings": "8.83",
+        "pb_fwd": "23.00",
+        "pb_valuation": "2.60",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "eps_estimate": 11.07171,
+        "year_ago_eps": 8.53979,
+        "eps_growth": "29.65",
+        "pe": "68.44",
+        "peg": "2.31",
+        "roe_earnings": "7.46",
+        "pb_fwd": "17.21",
+        "pb_valuation": "2.31",
+        "analystCount": 16
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "27.57",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "revenue_growth": "27.22",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "29.62",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "revenue_growth": "24.09",
+        "analystCount": 16
+      }
+    },
+    "timestamp": 1760701198149
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TRANSRAILL.NS",
+    "name": "TRANSRAIL LIGHTING",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 134256025,
+    "lastFiscalReserves": 18810700000,
+    "price": 730,
+    "industry": "engineering-construction",
+    "sector": "industrials",
+    "TTM_EPS": "28.35",
+    "TTM_PE": "25.75",
+    "PB": "4.93",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "11.25",
+    "NPM": "6.40",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "25.75",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.21",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "25.75",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.21",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 30.5,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "23.93",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "4.28",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 38.1,
+        "year_ago_eps": 30.5,
+        "eps_growth": "24.92",
+        "pe": "19.16",
+        "peg": "0.77",
+        "roe_earnings": "4.55",
+        "pb_fwd": "3.50",
+        "pb_valuation": "0.77",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "23.45",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760701233412
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SIEMENS.NS",
+    "name": "SIEMENS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Sep 2024",
+    "shares": 356120505,
+    "lastFiscalReserves": 153567000000,
+    "price": 3121.2,
+    "industry": "specialty-industrial-machinery",
+    "sector": "industrials",
+    "TTM_EPS": "67.99",
+    "TTM_PE": "45.91",
+    "PB": "9.01",
+    "ROE": "13.76",
+    "ROA": 9.642518389660072,
+    "OPM": "10.36",
+    "NPM": "10.74",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 14.42068,
+        "year_ago_eps": 23.35,
+        "eps_growth": "-38.24",
+        "pe": "52.85",
+        "peg": "-1.38",
+        "roe_earnings": "-5.07",
+        "pb_fwd": "7.00",
+        "pb_valuation": "-1.38",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "52.85",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 81.52034,
+        "year_ago_eps": 76.33,
+        "eps_growth": "6.80",
+        "pe": "38.29",
+        "peg": "5.63",
+        "roe_earnings": "1.08",
+        "pb_fwd": "6.09",
+        "pb_valuation": "5.63",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "eps_estimate": 101.05398,
+        "year_ago_eps": 81.52034,
+        "eps_growth": "23.96",
+        "pe": "30.89",
+        "peg": "1.29",
+        "roe_earnings": "3.94",
+        "pb_fwd": "5.09",
+        "pb_valuation": "1.29",
+        "analystCount": 14
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-24.69",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "revenue_growth": "7.88",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "-23.18",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "27.23",
+        "analystCount": 13
+      }
+    },
+    "timestamp": 1760701428766
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ABB.NS",
+    "name": "ABB",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Dec 2024",
+    "shares": 211908375,
+    "lastFiscalReserves": 70754000000,
+    "price": 5202,
+    "industry": "specialty-industrial-machinery",
+    "sector": "industrials",
+    "TTM_EPS": "84.96",
+    "TTM_PE": "61.23",
+    "PB": "15.32",
+    "ROE": "21.30",
+    "ROA": 14.487791060362365,
+    "OPM": "13.70",
+    "NPM": "14.23",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 19.8241,
+        "year_ago_eps": 20.79,
+        "eps_growth": "-4.65",
+        "pe": "61.93",
+        "peg": "-13.33",
+        "roe_earnings": "-1.10",
+        "pb_fwd": "14.71",
+        "pb_valuation": "-13.33",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "eps_estimate": 23.9109,
+        "year_ago_eps": 25.1,
+        "eps_growth": "-4.74",
+        "pe": "62.82",
+        "peg": "-13.26",
+        "roe_earnings": "-1.04",
+        "pb_fwd": "13.78",
+        "pb_valuation": "-13.26",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 84.88088,
+        "year_ago_eps": 88.46,
+        "eps_growth": "-4.05",
+        "pe": "61.29",
+        "peg": "-15.15",
+        "roe_earnings": "-0.82",
+        "pb_fwd": "12.42",
+        "pb_valuation": "-15.15",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "eps_estimate": 95.32121,
+        "year_ago_eps": 84.88088,
+        "eps_growth": "12.30",
+        "pe": "54.57",
+        "peg": "4.44",
+        "roe_earnings": "2.28",
+        "pb_fwd": "10.12",
+        "pb_valuation": "4.44",
+        "analystCount": 23
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.00",
+        "analystCount": 15
+      },
+      "Next Quarter": {
+        "revenue_growth": "7.37",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "revenue_growth": "8.15",
+        "analystCount": 26
+      },
+      "Next Year": {
+        "revenue_growth": "11.34",
+        "analystCount": 24
+      }
+    },
+    "timestamp": 1760701857955
+  },
+  {
+    "country": "INDIA",
+    "ticker": "WAAREEENER.NS",
+    "name": "WAAREE ENERGIES",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 287640905,
+    "lastFiscalReserves": 94792000000,
+    "price": 3535.3,
+    "industry": "solar",
+    "sector": "technology",
+    "TTM_EPS": "93.95",
+    "TTM_PE": "37.63",
+    "PB": "8.84",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "21.32",
+    "NPM": "14.91",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "37.63",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.73",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "37.63",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.73",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 127.37335,
+        "year_ago_eps": 67.85,
+        "eps_growth": "87.73",
+        "pe": "27.76",
+        "peg": "0.32",
+        "roe_earnings": "24.46",
+        "pb_fwd": "7.74",
+        "pb_valuation": "0.32",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 150.87198,
+        "year_ago_eps": 127.37335,
+        "eps_growth": "18.45",
+        "pe": "23.43",
+        "peg": "1.27",
+        "roe_earnings": "4.58",
+        "pb_fwd": "5.82",
+        "pb_valuation": "1.27",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "52.32",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "23.30",
+        "analystCount": 7
+      }
+    },
+    "timestamp": 1760701893809
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PREMIERENE.NS",
+    "name": "PREMIER ENERGIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 449112472,
+    "lastFiscalReserves": 28221060000,
+    "price": 1065.7,
+    "industry": "solar",
+    "sector": "technology",
+    "TTM_EPS": "23.38",
+    "TTM_PE": "45.58",
+    "PB": "17.03",
+    "ROE": "30.72",
+    "ROA": 15.300445727352377,
+    "OPM": "21.46",
+    "NPM": "15.67",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 8.23333,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "33.71",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "14.99",
+        "pb_valuation": "0.00",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "33.71",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "14.99",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 28.61227,
+        "year_ago_eps": 21.35,
+        "eps_growth": "34.02",
+        "pe": "37.25",
+        "peg": "1.09",
+        "roe_earnings": "10.64",
+        "pb_fwd": "11.65",
+        "pb_valuation": "1.09",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "eps_estimate": 37.75476,
+        "year_ago_eps": 28.61227,
+        "eps_growth": "31.95",
+        "pe": "28.23",
+        "peg": "0.88",
+        "roe_earnings": "9.34",
+        "pb_fwd": "8.25",
+        "pb_valuation": "0.88",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "28.94",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "51.02",
+        "analystCount": 7
+      }
+    },
+    "timestamp": 1760702020626
+  },
+  {
+    "country": "INDIA",
+    "ticker": "HAVELLS.NS",
+    "name": "HAVELLS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 627206421,
+    "lastFiscalReserves": 83237900000,
+    "price": 1491.5,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "22.58",
+    "TTM_PE": "66.05",
+    "PB": "11.23",
+    "ROE": "15.37",
+    "ROA": 10.22549116870308,
+    "OPM": "7.51",
+    "NPM": "6.59",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 6.37,
+        "year_ago_eps": 4.43,
+        "eps_growth": "43.79",
+        "pe": "60.83",
+        "peg": "1.39",
+        "roe_earnings": "7.72",
+        "pb_fwd": "10.72",
+        "pb_valuation": "1.39",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 9.79,
+        "year_ago_eps": 8.25,
+        "eps_growth": "18.67",
+        "pe": "57.23",
+        "peg": "3.07",
+        "roe_earnings": "3.27",
+        "pb_fwd": "10.02",
+        "pb_valuation": "3.07",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 26.60923,
+        "year_ago_eps": 23.74,
+        "eps_growth": "12.09",
+        "pe": "56.05",
+        "peg": "4.64",
+        "roe_earnings": "2.02",
+        "pb_fwd": "9.36",
+        "pb_valuation": "4.64",
+        "analystCount": 21
+      },
+      "Next Year": {
+        "eps_estimate": 33.13801,
+        "year_ago_eps": 26.60923,
+        "eps_growth": "24.54",
+        "pe": "45.01",
+        "peg": "1.83",
+        "roe_earnings": "4.22",
+        "pb_fwd": "7.75",
+        "pb_valuation": "1.83",
+        "analystCount": 22
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "17.72",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "13.59",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "9.73",
+        "analystCount": 24
+      },
+      "Next Year": {
+        "revenue_growth": "16.62",
+        "analystCount": 24
+      }
+    },
+    "timestamp": 1760702174718
+  },
+  {
+    "country": "INDIA",
+    "ticker": "POWERINDIA.NS",
+    "name": "HITACHI ENERGY",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 44572363,
+    "lastFiscalReserves": 42141100000,
+    "price": 17439,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "116.82",
+    "TTM_PE": "149.28",
+    "PB": "18.45",
+    "ROE": "11.15",
+    "ROA": 5.8648697598603095,
+    "OPM": "9.42",
+    "NPM": "7.73",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 47.5,
+        "year_ago_eps": 12.34,
+        "eps_growth": "284.93",
+        "pe": "114.75",
+        "peg": "0.40",
+        "roe_earnings": "43.61",
+        "pb_fwd": "17.56",
+        "pb_valuation": "0.40",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 52.7,
+        "year_ago_eps": 32.41,
+        "eps_growth": "62.60",
+        "pe": "101.23",
+        "peg": "1.62",
+        "roe_earnings": "10.31",
+        "pb_fwd": "16.68",
+        "pb_valuation": "1.62",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 166.83636,
+        "year_ago_eps": 90.36,
+        "eps_growth": "84.64",
+        "pe": "104.53",
+        "peg": "1.24",
+        "roe_earnings": "12.69",
+        "pb_fwd": "15.68",
+        "pb_valuation": "1.24",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "eps_estimate": 281.0091,
+        "year_ago_eps": 166.83636,
+        "eps_growth": "68.43",
+        "pe": "62.06",
+        "peg": "0.91",
+        "roe_earnings": "13.80",
+        "pb_fwd": "12.52",
+        "pb_valuation": "0.91",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "27.06",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "39.81",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "33.36",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "revenue_growth": "45.05",
+        "analystCount": 11
+      }
+    },
+    "timestamp": 1760702283664
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SUZLON.NS",
+    "name": "SUZLON ENERGY",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 13709814759,
+    "lastFiscalReserves": 61057200000,
+    "price": 52.92,
+    "industry": "specialty-industrial-machinery",
+    "sector": "industrials",
+    "TTM_EPS": "1.53",
+    "TTM_PE": "34.59",
+    "PB": "11.78",
+    "ROE": "27.50",
+    "ROA": 16.155295036339883,
+    "OPM": "17.09",
+    "NPM": "17.52",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.25,
+        "year_ago_eps": 0.15,
+        "eps_growth": "66.67",
+        "pe": "32.47",
+        "peg": "0.49",
+        "roe_earnings": "23.10",
+        "pb_fwd": "11.25",
+        "pb_valuation": "0.49",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 0.36,
+        "year_ago_eps": 0.28,
+        "eps_growth": "28.57",
+        "pe": "30.95",
+        "peg": "1.08",
+        "roe_earnings": "9.65",
+        "pb_fwd": "10.45",
+        "pb_valuation": "1.08",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 1.461,
+        "year_ago_eps": 1.51,
+        "eps_growth": "-3.25",
+        "pe": "36.22",
+        "peg": "-11.16",
+        "roe_earnings": "-0.80",
+        "pb_fwd": "8.95",
+        "pb_valuation": "-11.16",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "eps_estimate": 2.15264,
+        "year_ago_eps": 1.461,
+        "eps_growth": "47.34",
+        "pe": "24.58",
+        "peg": "0.52",
+        "roe_earnings": "12.63",
+        "pb_fwd": "6.56",
+        "pb_valuation": "0.52",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "44.47",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "46.98",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "59.05",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "revenue_growth": "30.51",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760702363681
+  },
+  {
+    "country": "INDIA",
+    "ticker": "APARINDS.NS",
+    "name": "APAR INDUSTRIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 40168315,
+    "lastFiscalReserves": 45035400000,
+    "price": 8690,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "219.61",
+    "TTM_PE": "39.57",
+    "PB": "7.75",
+    "ROE": "17.57",
+    "ROA": 7.823199612910672,
+    "OPM": "8.11",
+    "NPM": "4.48",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 51,
+        "year_ago_eps": 48.27,
+        "eps_growth": "5.66",
+        "pe": "39.08",
+        "peg": "6.91",
+        "roe_earnings": "1.07",
+        "pb_fwd": "7.42",
+        "pb_valuation": "6.92",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "39.08",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.42",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 240.865,
+        "year_ago_eps": 204.47,
+        "eps_growth": "17.80",
+        "pe": "36.08",
+        "peg": "2.03",
+        "roe_earnings": "3.15",
+        "pb_fwd": "6.38",
+        "pb_valuation": "2.03",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 292.56668,
+        "year_ago_eps": 240.865,
+        "eps_growth": "21.47",
+        "pe": "29.70",
+        "peg": "1.38",
+        "roe_earnings": "3.80",
+        "pb_fwd": "5.26",
+        "pb_valuation": "1.38",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "13.95",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "16.16",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "15.92",
+        "analystCount": 6
+      }
+    },
+    "timestamp": 1760702525303
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INOXWIND.NS",
+    "name": "INOX WIND",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1728237822,
+    "lastFiscalReserves": 50467440000,
+    "price": 146.28,
+    "industry": "specialty-industrial-machinery",
+    "sector": "industrials",
+    "TTM_EPS": "3.25",
+    "TTM_PE": "45.01",
+    "PB": "4.71",
+    "ROE": "9.41",
+    "ROA": 5.710760404449154,
+    "OPM": "16.34",
+    "NPM": "14.52",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 0.8,
+        "year_ago_eps": 0.71,
+        "eps_growth": "12.68",
+        "pe": "43.80",
+        "peg": "3.46",
+        "roe_earnings": "1.41",
+        "pb_fwd": "4.88",
+        "pb_valuation": "3.46",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "43.80",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.88",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 5.3,
+        "year_ago_eps": 2.8168,
+        "eps_growth": "88.16",
+        "pe": "27.60",
+        "peg": "0.31",
+        "roe_earnings": "13.54",
+        "pb_fwd": "4.24",
+        "pb_valuation": "0.31",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 7.88333,
+        "year_ago_eps": 5.3,
+        "eps_growth": "48.74",
+        "pe": "18.56",
+        "peg": "0.38",
+        "roe_earnings": "9.07",
+        "pb_fwd": "3.45",
+        "pb_valuation": "0.38",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "57.93",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "86.62",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "43.96",
+        "analystCount": 6
+      }
+    },
+    "timestamp": 1760702650298
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KPIGREEN.NS",
+    "name": "KPI GREEN",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 197341073,
+    "lastFiscalReserves": 24233711000,
+    "price": 478.45,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "18.07",
+    "TTM_PE": "26.48",
+    "PB": "3.61",
+    "ROE": "13.61",
+    "ROA": 7.458471890441273,
+    "OPM": "29.28",
+    "NPM": "18.33",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "26.48",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.90",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "26.48",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.90",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.90",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.90",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760702859256
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SCHNEIDER.NS",
+    "name": "SCHNEIDER ELECTRIC INFRASTRUCTURE",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 239104035,
+    "lastFiscalReserves": 5618800000,
+    "price": 822.85,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "10.92",
+    "TTM_PE": "75.35",
+    "PB": "35.08",
+    "ROE": "39.63",
+    "ROA": 13.486733173275933,
+    "OPM": "10.03",
+    "NPM": "9.78",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.16,
+        "year_ago_eps": 2.27,
+        "eps_growth": "83.26",
+        "pe": "64.23",
+        "peg": "0.77",
+        "roe_earnings": "38.56",
+        "pb_fwd": "29.75",
+        "pb_valuation": "0.77",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.09,
+        "year_ago_eps": 4.0668,
+        "eps_growth": "0.57",
+        "pe": "64.12",
+        "peg": "112.40",
+        "roe_earnings": "0.23",
+        "pb_fwd": "25.92",
+        "pb_valuation": "112.40",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 15.61,
+        "year_ago_eps": 10.4663,
+        "eps_growth": "49.15",
+        "pe": "52.71",
+        "peg": "1.07",
+        "roe_earnings": "19.62",
+        "pb_fwd": "21.04",
+        "pb_valuation": "1.07",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "-100.00",
+        "pe": "Infinity",
+        "peg": "-Infinity",
+        "roe_earnings": "0.00",
+        "pb_fwd": "21.04",
+        "pb_valuation": "-Infinity",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "42.82",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "4.97",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "25.84",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "30.06",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760702933794
+  },
+  {
+    "country": "INDIA",
+    "ticker": "VGUARD.NS",
+    "name": "VGUARD INDUSTRIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 435994286,
+    "lastFiscalReserves": 20978300000,
+    "price": 363.55,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "6.59",
+    "TTM_PE": "55.17",
+    "PB": "7.55",
+    "ROE": "12.75",
+    "ROA": 8.645351850243093,
+    "OPM": "6.64",
+    "NPM": "5.18",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.44,
+        "year_ago_eps": 1.44,
+        "eps_growth": "0.00",
+        "pe": "55.17",
+        "peg": "Infinity",
+        "roe_earnings": "0.00",
+        "pb_fwd": "7.34",
+        "pb_valuation": "Infinity",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.6,
+        "year_ago_eps": 1.37,
+        "eps_growth": "16.79",
+        "pe": "53.31",
+        "peg": "3.18",
+        "roe_earnings": "2.24",
+        "pb_fwd": "7.11",
+        "pb_valuation": "3.18",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 7.9,
+        "year_ago_eps": 7.14,
+        "eps_growth": "10.64",
+        "pe": "46.02",
+        "peg": "4.32",
+        "roe_earnings": "1.50",
+        "pb_fwd": "6.49",
+        "pb_valuation": "4.32",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "eps_estimate": 10.25118,
+        "year_ago_eps": 7.9,
+        "eps_growth": "29.76",
+        "pe": "35.46",
+        "peg": "1.19",
+        "roe_earnings": "4.60",
+        "pb_fwd": "5.49",
+        "pb_valuation": "1.19",
+        "analystCount": 17
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "5.33",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "revenue_growth": "21.39",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "9.27",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "16.96",
+        "analystCount": 17
+      }
+    },
+    "timestamp": 1760703073524
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TARIL.NS",
+    "name": "TRANSFORMERS AND RECTIFIERS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 300165834,
+    "lastFiscalReserves": 12519183000,
+    "price": 484.15,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "8.04",
+    "TTM_PE": "60.22",
+    "PB": "11.61",
+    "ROE": "18.50",
+    "ROA": 11.969583952828454,
+    "OPM": "15.23",
+    "NPM": "11.74",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "60.22",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "11.61",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "60.22",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "11.61",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 11.45,
+        "year_ago_eps": 7.1272,
+        "eps_growth": "60.65",
+        "pe": "42.28",
+        "peg": "0.70",
+        "roe_earnings": "13.06",
+        "pb_fwd": "9.11",
+        "pb_valuation": "0.70",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 16.3,
+        "year_ago_eps": 11.45,
+        "eps_growth": "42.36",
+        "pe": "29.70",
+        "peg": "0.70",
+        "roe_earnings": "9.94",
+        "pb_fwd": "6.97",
+        "pb_valuation": "0.70",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "44.57",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "64.09",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "38.48",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760703130291
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TDPOWERSYS.NS",
+    "name": "TD POWER SYSTEMS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 156192304,
+    "lastFiscalReserves": 8603044000,
+    "price": 657.6,
+    "industry": "specialty-industrial-machinery",
+    "sector": "industrials",
+    "TTM_EPS": "12.11",
+    "TTM_PE": "54.30",
+    "PB": "11.94",
+    "ROE": "19.65",
+    "ROA": 13.880303179952037,
+    "OPM": "17.17",
+    "NPM": "13.75",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "54.30",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "11.94",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "54.30",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "11.94",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "11.94",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "11.94",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760703187688
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GENUSPOWER.NS",
+    "name": "GENUS POWER INFRASTRUCTURES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 276384245,
+    "lastFiscalReserves": 18675488000,
+    "price": 304.05,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "14.25",
+    "TTM_PE": "21.34",
+    "PB": "4.50",
+    "ROE": "18.81",
+    "ROA": 9.212592219745453,
+    "OPM": "19.97",
+    "NPM": "13.48",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "21.34",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.50",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "21.34",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.50",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 16.15,
+        "year_ago_eps": 9.76,
+        "eps_growth": "65.47",
+        "pe": "18.83",
+        "peg": "0.29",
+        "roe_earnings": "12.63",
+        "pb_fwd": "3.63",
+        "pb_valuation": "0.29",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 20.85,
+        "year_ago_eps": 16.15,
+        "eps_growth": "29.10",
+        "pe": "14.58",
+        "peg": "0.50",
+        "roe_earnings": "5.80",
+        "pb_fwd": "2.91",
+        "pb_valuation": "0.50",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "66.95",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "24.56",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760703230013
+  },
+  {
+    "country": "INDIA",
+    "ticker": "QPOWER.NS",
+    "name": "QUALITY POWER ELECTRICAL EQUIPMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 77444100,
+    "lastFiscalReserves": 4243840000,
+    "price": 986.2,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "7.84",
+    "TTM_PE": "125.79",
+    "PB": "16.89",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "15.93",
+    "NPM": "13.06",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "125.79",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "18.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "125.79",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "18.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 18.1,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "54.49",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "13.53",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 36.6,
+        "year_ago_eps": 18.1,
+        "eps_growth": "102.21",
+        "pe": "26.95",
+        "peg": "0.26",
+        "roe_earnings": "34.16",
+        "pb_fwd": "9.01",
+        "pb_valuation": "0.26",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "90.84",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760703328822
+  },
+  {
+    "country": "INDIA",
+    "ticker": "VOLTAMP.NS",
+    "name": "VOLTAMP",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 10117120,
+    "lastFiscalReserves": 15876201000,
+    "price": 7103,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "321.75",
+    "TTM_PE": "22.08",
+    "PB": "4.53",
+    "ROE": "18.45",
+    "ROA": 18.332271756827456,
+    "OPM": "16.35",
+    "NPM": "16.84",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 84.6,
+        "year_ago_eps": 74.87,
+        "eps_growth": "13.00",
+        "pe": "21.43",
+        "peg": "1.65",
+        "roe_earnings": "2.60",
+        "pb_fwd": "4.30",
+        "pb_valuation": "1.65",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "21.43",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.30",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 325.05,
+        "year_ago_eps": 321.65,
+        "eps_growth": "1.06",
+        "pe": "21.85",
+        "peg": "20.67",
+        "roe_earnings": "0.18",
+        "pb_fwd": "3.75",
+        "pb_valuation": "20.68",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 378.65,
+        "year_ago_eps": 325.05,
+        "eps_growth": "16.49",
+        "pe": "18.76",
+        "peg": "1.14",
+        "roe_earnings": "2.75",
+        "pb_fwd": "3.13",
+        "pb_valuation": "1.14",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.58",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "2.64",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "20.61",
+        "analystCount": 6
+      }
+    },
+    "timestamp": 1760703360378
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GRAPHITE.NS",
+    "name": "GRAPHITE INDIA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 195375594,
+    "lastFiscalReserves": 58659000000,
+    "price": 551.35,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "18.41",
+    "TTM_PE": "29.95",
+    "PB": "1.84",
+    "ROE": "5.94",
+    "ROA": 4.966057231835537,
+    "OPM": "2.86",
+    "NPM": "14.38",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "29.95",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.84",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "29.95",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.84",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 39.12,
+        "year_ago_eps": 23.65,
+        "eps_growth": "65.41",
+        "pe": "14.09",
+        "peg": "0.22",
+        "roe_earnings": "7.54",
+        "pb_fwd": "1.63",
+        "pb_valuation": "0.22",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "eps_estimate": 51.42,
+        "year_ago_eps": 39.12,
+        "eps_growth": "31.44",
+        "pe": "10.72",
+        "peg": "0.34",
+        "roe_earnings": "4.14",
+        "pb_fwd": "1.41",
+        "pb_valuation": "0.34",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "8.86",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "16.56",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "13.94",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760703425064
+  },
+  {
+    "country": "INDIA",
+    "ticker": "HEG.NS",
+    "name": "HEG",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 192977530,
+    "lastFiscalReserves": 44537683000,
+    "price": 512.25,
+    "industry": "electrical-equipment-parts",
+    "sector": "industrials",
+    "TTM_EPS": "10.22",
+    "TTM_PE": "50.12",
+    "PB": "2.22",
+    "ROE": "4.39",
+    "ROA": 3.4849460762633933,
+    "OPM": "8.49",
+    "NPM": "8.93",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "50.12",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.22",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "50.12",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.22",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 25.05,
+        "year_ago_eps": 5.25,
+        "eps_growth": "377.14",
+        "pe": "20.45",
+        "peg": "0.05",
+        "roe_earnings": "36.93",
+        "pb_fwd": "2.00",
+        "pb_valuation": "0.05",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 42.86,
+        "year_ago_eps": 25.05,
+        "eps_growth": "71.10",
+        "pe": "11.95",
+        "peg": "0.17",
+        "roe_earnings": "10.20",
+        "pb_fwd": "1.72",
+        "pb_valuation": "0.17",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.99",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "40.92",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "26.74",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760703443335
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ESABINDIA.NS",
+    "name": "ESAB INDIA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 15393020,
+    "lastFiscalReserves": 3612500000,
+    "price": 4987.6,
+    "industry": "tools-accessories",
+    "sector": "industrials",
+    "TTM_EPS": "111.51",
+    "TTM_PE": "44.73",
+    "PB": "21.25",
+    "ROE": "38.23",
+    "ROA": 26.56621851336733,
+    "OPM": "15.59",
+    "NPM": "12.32",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "44.73",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "21.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "44.73",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "21.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "21.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "21.25",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760703472956
+  },
+  {
+    "country": "INDIA",
+    "ticker": "VIKRAMSOLR.NS",
+    "name": "VIKRAM SOLAR",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 361717031,
+    "price": 334.75,
+    "industry": "solar",
+    "sector": "technology",
+    "TTM_EPS": "3.86",
+    "TTM_PE": "86.72",
+    "PB": "8.53",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "18.41",
+    "NPM": "6.38",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.43918,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "45.86",
+        "peg": "0.00",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.43918,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "31.17",
+        "peg": "0.00",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 11.46397,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "29.20",
+        "peg": "0.00",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 16.11878,
+        "year_ago_eps": 11.46397,
+        "eps_growth": "40.60",
+        "pe": "20.77",
+        "peg": "0.51",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "87.30",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760703517257
+  },
+  {
+    "country": "INDIA",
+    "ticker": "KAYNES.NS",
+    "name": "KAYNES TECHNOLOGY",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 67034654,
+    "lastFiscalReserves": 28402600000,
+    "price": 7019,
+    "industry": "electronic-components",
+    "sector": "technology",
+    "TTM_EPS": "48.94",
+    "TTM_PE": "143.42",
+    "PB": "15.84",
+    "ROE": "10.47",
+    "ROA": 6.83587946868246,
+    "OPM": "14.46",
+    "NPM": "10.97",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 14.62,
+        "year_ago_eps": 9.29,
+        "eps_growth": "57.37",
+        "pe": "129.33",
+        "peg": "2.25",
+        "roe_earnings": "7.10",
+        "pb_fwd": "16.01",
+        "pb_valuation": "2.25",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 17.6,
+        "year_ago_eps": 10.28,
+        "eps_growth": "71.21",
+        "pe": "113.96",
+        "peg": "1.60",
+        "roe_earnings": "9.62",
+        "pb_fwd": "15.40",
+        "pb_valuation": "1.60",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 69.64299,
+        "year_ago_eps": 45.4,
+        "eps_growth": "53.40",
+        "pe": "100.79",
+        "peg": "1.89",
+        "roe_earnings": "7.54",
+        "pb_fwd": "14.23",
+        "pb_valuation": "1.89",
+        "analystCount": 24
+      },
+      "Next Year": {
+        "eps_estimate": 102.26354,
+        "year_ago_eps": 69.64299,
+        "eps_growth": "46.84",
+        "pe": "68.64",
+        "peg": "1.47",
+        "roe_earnings": "8.04",
+        "pb_fwd": "11.79",
+        "pb_valuation": "1.47",
+        "analystCount": 24
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "61.38",
+        "analystCount": 16
+      },
+      "Next Quarter": {
+        "revenue_growth": "63.97",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "56.06",
+        "analystCount": 21
+      },
+      "Next Year": {
+        "revenue_growth": "49.74",
+        "analystCount": 22
+      }
+    },
+    "timestamp": 1760710861759
+  },
+  {
+    "country": "INDIA",
+    "ticker": "DIXON.NS",
+    "name": "DIXON TECHNOLOGIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 60477676,
+    "lastFiscalReserves": 30102000000,
+    "price": 16700,
+    "industry": "consumer-electronics",
+    "sector": "technology",
+    "TTM_EPS": "203.81",
+    "TTM_PE": "81.94",
+    "PB": "28.66",
+    "ROE": "32.64",
+    "ROA": 7.078423104610461,
+    "OPM": "3.04",
+    "NPM": "2.63",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 42.5157,
+        "year_ago_eps": 35.64,
+        "eps_growth": "19.29",
+        "pe": "79.26",
+        "peg": "4.11",
+        "roe_earnings": "7.52",
+        "pb_fwd": "30.91",
+        "pb_valuation": "4.11",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 49.06244,
+        "year_ago_eps": 37.8898,
+        "eps_growth": "29.49",
+        "pe": "75.27",
+        "peg": "2.55",
+        "roe_earnings": "11.10",
+        "pb_fwd": "28.34",
+        "pb_valuation": "2.55",
+        "analystCount": 4
+      },
+      "Current Year": {
+        "eps_estimate": 189.35606,
+        "year_ago_eps": 135.7951,
+        "eps_growth": "39.44",
+        "pe": "88.19",
+        "peg": "2.24",
+        "roe_earnings": "10.87",
+        "pb_fwd": "24.31",
+        "pb_valuation": "2.24",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "eps_estimate": 271.5193,
+        "year_ago_eps": 189.35606,
+        "eps_growth": "43.39",
+        "pe": "61.51",
+        "peg": "1.42",
+        "roe_earnings": "12.29",
+        "pb_fwd": "17.42",
+        "pb_valuation": "1.42",
+        "analystCount": 29
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "46.04",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "54.46",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "revenue_growth": "46.97",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "revenue_growth": "40.10",
+        "analystCount": 29
+      }
+    },
+    "timestamp": 1760710924760
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SYRMA.NS",
+    "name": "SYRMA SGS TECHNOLOGY",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 192353263,
+    "lastFiscalReserves": 17499640000,
+    "price": 787,
+    "industry": "electronic-components",
+    "sector": "technology",
+    "TTM_EPS": "11.22",
+    "TTM_PE": "70.14",
+    "PB": "8.02",
+    "ROE": "10.74",
+    "ROA": 4.764082611933252,
+    "OPM": "7.00",
+    "NPM": "5.61",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.88,
+        "year_ago_eps": 2.03,
+        "eps_growth": "41.87",
+        "pe": "65.20",
+        "peg": "1.56",
+        "roe_earnings": "5.38",
+        "pb_fwd": "8.39",
+        "pb_valuation": "1.56",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.6,
+        "year_ago_eps": 2.84017,
+        "eps_growth": "26.75",
+        "pe": "61.34",
+        "peg": "2.29",
+        "roe_earnings": "3.52",
+        "pb_fwd": "8.08",
+        "pb_valuation": "2.29",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 13.27781,
+        "year_ago_eps": 9.6342,
+        "eps_growth": "37.82",
+        "pe": "59.27",
+        "peg": "1.57",
+        "roe_earnings": "4.82",
+        "pb_fwd": "7.55",
+        "pb_valuation": "1.57",
+        "analystCount": 21
+      },
+      "Next Year": {
+        "eps_estimate": 18.61076,
+        "year_ago_eps": 13.27781,
+        "eps_growth": "40.16",
+        "pe": "42.29",
+        "peg": "1.05",
+        "roe_earnings": "6.08",
+        "pb_fwd": "6.41",
+        "pb_valuation": "1.05",
+        "analystCount": 22
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "26.63",
+        "analystCount": 15
+      },
+      "Next Quarter": {
+        "revenue_growth": "51.40",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "27.52",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "revenue_growth": "29.56",
+        "analystCount": 21
+      }
+    },
+    "timestamp": 1760711125447
+  },
+  {
+    "country": "INDIA",
+    "ticker": "APOLLO.NS",
+    "name": "APOLLO MICROSYSTEMS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 335639648,
+    "lastFiscalReserves": 6069037000,
+    "price": 293.65,
+    "industry": "aerospace-defense",
+    "sector": "industrials",
+    "TTM_EPS": "2.11",
+    "TTM_PE": "139.17",
+    "PB": "14.83",
+    "ROE": "10.40",
+    "ROA": 5.115658575227209,
+    "OPM": "27.28",
+    "NPM": "11.00",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "139.17",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "16.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "139.17",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "16.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 2.7,
+        "year_ago_eps": 1.86,
+        "eps_growth": "45.16",
+        "pe": "108.76",
+        "peg": "2.41",
+        "roe_earnings": "5.87",
+        "pb_fwd": "14.13",
+        "pb_valuation": "2.41",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 4.2,
+        "year_ago_eps": 2.7,
+        "eps_growth": "55.56",
+        "pe": "69.92",
+        "peg": "1.26",
+        "roe_earnings": "9.34",
+        "pb_fwd": "11.75",
+        "pb_valuation": "1.26",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "44.91",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "50.01",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760711235629
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AVALON.NS",
+    "name": "AVALON TECHNOLOGIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 66713941,
+    "lastFiscalReserves": 6115470000,
+    "price": 1175,
+    "industry": "electronic-components",
+    "sector": "technology",
+    "TTM_EPS": "11.96",
+    "TTM_PE": "98.24",
+    "PB": "12.71",
+    "ROE": "12.30",
+    "ROA": 7.689378348956991,
+    "OPM": "6.63",
+    "NPM": "6.54",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.325,
+        "year_ago_eps": 2.61,
+        "eps_growth": "27.39",
+        "pe": "92.70",
+        "peg": "3.38",
+        "roe_earnings": "3.66",
+        "pb_fwd": "12.38",
+        "pb_valuation": "3.39",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.9,
+        "year_ago_eps": 3.58,
+        "eps_growth": "8.94",
+        "pe": "90.42",
+        "peg": "10.12",
+        "roe_earnings": "1.17",
+        "pb_fwd": "11.90",
+        "pb_valuation": "10.13",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 14.35313,
+        "year_ago_eps": 9.48,
+        "eps_growth": "51.40",
+        "pe": "81.86",
+        "peg": "1.59",
+        "roe_earnings": "6.96",
+        "pb_fwd": "11.10",
+        "pb_valuation": "1.59",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 20.97575,
+        "year_ago_eps": 14.35313,
+        "eps_growth": "46.14",
+        "pe": "56.02",
+        "peg": "1.21",
+        "roe_earnings": "7.62",
+        "pb_fwd": "9.26",
+        "pb_valuation": "1.22",
+        "analystCount": 15
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "29.21",
+        "analystCount": 11
+      },
+      "Next Quarter": {
+        "revenue_growth": "26.70",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "31.00",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "27.57",
+        "analystCount": 13
+      }
+    },
+    "timestamp": 1760711334027
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SAATVIKGL.NS",
+    "name": "SAATVIK GREEN ENERGY",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 127105004,
+    "lastFiscalReserves": 3376590000,
+    "price": 511.15,
+    "industry": "solar",
+    "sector": "technology",
+    "TTM_EPS": "16.84",
+    "TTM_PE": "30.35",
+    "PB": "16.96",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "18.41",
+    "NPM": "11.02",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "30.35",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "19.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "30.35",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "19.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "19.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "19.24",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760711378668
+  },
+  {
+    "country": "INDIA",
+    "ticker": "WEBELSOLAR.NS",
+    "name": "WEBSOL ENERGY SYSTEM",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 42206347,
+    "lastFiscalReserves": 2780500000,
+    "price": 1224.7,
+    "industry": "solar",
+    "sector": "technology",
+    "TTM_EPS": "46.41",
+    "TTM_PE": "26.39",
+    "PB": "18.58",
+    "ROE": "50.57",
+    "ROA": 38.67613901415021,
+    "OPM": "42.46",
+    "NPM": "29.16",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "26.39",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "18.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "26.39",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "18.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "18.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "18.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760711420921
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ADANIENT.NS",
+    "name": "ADANI ENTERPRISES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1154180729,
+    "lastFiscalReserves": 503139700000,
+    "price": 2549.4,
+    "industry": "thermal-coal",
+    "sector": "energy",
+    "TTM_EPS": "54.48",
+    "TTM_PE": "46.80",
+    "PB": "6.17",
+    "ROE": "11.62",
+    "ROA": 3.219467845092304,
+    "OPM": "9.23",
+    "NPM": "6.76",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.34,
+        "year_ago_eps": 14.8671,
+        "eps_growth": "-64.08",
+        "pe": "56.71",
+        "peg": "-0.89",
+        "roe_earnings": "-6.53",
+        "pb_fwd": "5.78",
+        "pb_valuation": "-0.89",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.83,
+        "year_ago_eps": 0.0425,
+        "eps_growth": "8911.76",
+        "pe": "52.31",
+        "peg": "0.01",
+        "roe_earnings": "975.88",
+        "pb_fwd": "5.73",
+        "pb_valuation": "0.01",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 40.66,
+        "year_ago_eps": 36.4294,
+        "eps_growth": "11.61",
+        "pe": "62.70",
+        "peg": "5.40",
+        "roe_earnings": "0.99",
+        "pb_fwd": "5.35",
+        "pb_valuation": "5.40",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 65.735,
+        "year_ago_eps": 40.66,
+        "eps_growth": "61.67",
+        "pe": "38.78",
+        "peg": "0.63",
+        "roe_earnings": "7.48",
+        "pb_fwd": "4.70",
+        "pb_valuation": "0.63",
+        "analystCount": 2
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-6.04",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "-5.32",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "7.01",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "43.32",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760711497738
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PAGEIND.NS",
+    "name": "PAGE INDUSTRIES",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 11153874,
+    "lastFiscalReserves": 14071960000,
+    "price": 41040,
+    "industry": "apparel-manufacturing",
+    "sector": "consumer-cyclical",
+    "TTM_EPS": "685.03",
+    "TTM_PE": "59.91",
+    "PB": "32.53",
+    "ROE": "43.16",
+    "ROA": 28.93350424950937,
+    "OPM": "20.36",
+    "NPM": "15.37",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 192.3,
+        "year_ago_eps": 175.06,
+        "eps_growth": "9.85",
+        "pe": "58.44",
+        "peg": "5.93",
+        "roe_earnings": "4.76",
+        "pb_fwd": "28.23",
+        "pb_valuation": "5.93",
+        "analystCount": 8
+      },
+      "Next Quarter": {
+        "eps_estimate": 177.96,
+        "year_ago_eps": 183.48,
+        "eps_growth": "-3.01",
+        "pe": "58.90",
+        "peg": "-19.58",
+        "roe_earnings": "-1.28",
+        "pb_fwd": "25.15",
+        "pb_valuation": "-19.58",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 723.3668,
+        "year_ago_eps": 654,
+        "eps_growth": "10.61",
+        "pe": "56.73",
+        "peg": "5.35",
+        "roe_earnings": "3.87",
+        "pb_fwd": "20.68",
+        "pb_valuation": "5.35",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "eps_estimate": 827.2595,
+        "year_ago_eps": 723.3668,
+        "eps_growth": "14.36",
+        "pe": "49.61",
+        "peg": "3.45",
+        "roe_earnings": "4.22",
+        "pb_fwd": "14.59",
+        "pb_valuation": "3.45",
+        "analystCount": 23
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "6.50",
+        "analystCount": 14
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.18",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "8.78",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "revenue_growth": "14.11",
+        "analystCount": 22
+      }
+    },
+    "timestamp": 1760711731870
   }
 ]

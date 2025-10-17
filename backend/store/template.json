@@ -8,6 +8,8 @@
       "ROE",
       "ROA",
       "PB",
+      "current_year_eps_growth",
+      "next_year_eps_growth",
       "current_year_pb_fwd",
       "current_year_roe_earnings",
       "current_year_pb_valuation",
@@ -30,7 +32,10 @@
       "current_year_peg",
       "next_year_peg",
       "current_year_revenue_growth",
-      "next_year_revenue_growth"
+      "next_year_revenue_growth",
+      "current_year_eps",
+      "next_year_eps",
+      "TTM_EPS"
     ]
   }
 ]
