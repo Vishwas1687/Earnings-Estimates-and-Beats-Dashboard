@@ -1355,6 +1355,69 @@
         ],
         "fields": [],
         "templateName": "IT"
+      },
+      {
+        "name": "Power Distribution",
+        "companies": [
+          {
+            "ticker": "NTPC.NS",
+            "name": "NTPC"
+          },
+          {
+            "ticker": "ADANIPOWER.NS",
+            "name": "ADANI POWER"
+          },
+          {
+            "ticker": "POWERGRID.NS",
+            "name": "POWER GRID"
+          },
+          {
+            "ticker": "ADANIGREEN.NS",
+            "name": "ADANI GREEN"
+          },
+          {
+            "ticker": "TATAPOWER.NS",
+            "name": "TATA POWER"
+          },
+          {
+            "ticker": "ADANIENSOL.NS",
+            "name": "ADANI ENERGY SOLUTIONS"
+          },
+          {
+            "ticker": "JSWENERGY.NS",
+            "name": "JSW ENERGY"
+          },
+          {
+            "ticker": "NHPC.NS",
+            "name": "NHPC"
+          },
+          {
+            "ticker": "NTPCGREEN.NS",
+            "name": "NTPC GREEN"
+          },
+          {
+            "ticker": "TORNTPOWER.NS",
+            "name": "TORRENT POWER"
+          },
+          {
+            "ticker": "SJVN.NS",
+            "name": "SJVN"
+          },
+          {
+            "ticker": "CESC.NS",
+            "name": "CESC"
+          },
+          {
+            "ticker": "ACMESOLAR.NS",
+            "name": "ACME SOLAR HOLDINGS"
+          },
+          {
+            "ticker": "IEX.NS",
+            "name": "IEX"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
       }
     ]
   },

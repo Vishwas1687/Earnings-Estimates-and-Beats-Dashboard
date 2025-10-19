@@ -35940,5 +35940,1600 @@
       }
     },
     "timestamp": 1760891337351
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NTPC.NS",
+    "name": "NTPC",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 9696666134,
+    "lastFiscalReserves": 1840711600000,
+    "price": 341,
+    "industry": "utilities-regulated-electric",
+    "sector": "utilities",
+    "TTM_EPS": "18.21",
+    "TTM_PE": "18.73",
+    "PB": "1.80",
+    "ROE": "12.12",
+    "ROA": 4.570877250597947,
+    "OPM": "16.98",
+    "NPM": "12.83",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.8,
+        "year_ago_eps": 4.79,
+        "eps_growth": "21.09",
+        "pe": "17.74",
+        "peg": "0.84",
+        "roe_earnings": "2.07",
+        "pb_fwd": "1.74",
+        "pb_valuation": "0.84",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "17.74",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.74",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 24.97127,
+        "year_ago_eps": 24.16,
+        "eps_growth": "3.36",
+        "pe": "13.66",
+        "peg": "4.07",
+        "roe_earnings": "0.39",
+        "pb_fwd": "1.59",
+        "pb_valuation": "4.07",
+        "analystCount": 18
+      },
+      "Next Year": {
+        "eps_estimate": 27.15459,
+        "year_ago_eps": 24.97127,
+        "eps_growth": "8.74",
+        "pe": "12.56",
+        "peg": "1.44",
+        "roe_earnings": "0.98",
+        "pb_fwd": "1.41",
+        "pb_valuation": "1.44",
+        "analystCount": 18
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-0.81",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.95",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "7.43",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "revenue_growth": "7.64",
+        "analystCount": 17
+      }
+    },
+    "timestamp": 1760892144165
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ADANIPOWER.NS",
+    "name": "ADANI POWER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 19284694705,
+    "lastFiscalReserves": 563470900000,
+    "price": 165.98,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "6.24",
+    "TTM_PE": "26.60",
+    "PB": "5.68",
+    "ROE": "19.90",
+    "ROA": 10.99106188700306,
+    "OPM": "32.58",
+    "NPM": "22.42",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.34,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "21.90",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "5.43",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.48,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "18.32",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "5.18",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 6.82,
+        "year_ago_eps": 6.464,
+        "eps_growth": "5.51",
+        "pe": "24.34",
+        "peg": "4.42",
+        "roe_earnings": "1.04",
+        "pb_fwd": "4.61",
+        "pb_valuation": "4.42",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 7.25333,
+        "year_ago_eps": 6.82,
+        "eps_growth": "6.35",
+        "pe": "22.88",
+        "peg": "3.60",
+        "roe_earnings": "1.06",
+        "pb_fwd": "3.83",
+        "pb_valuation": "3.60",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "4.12",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "8.94",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760892160470
+  },
+  {
+    "country": "INDIA",
+    "ticker": "POWERGRID.NS",
+    "name": "POWER GRID",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 9300603819,
+    "lastFiscalReserves": 926628100000,
+    "price": 289.75,
+    "industry": "utilities-regulated-electric",
+    "sector": "utilities",
+    "TTM_EPS": "15.99",
+    "TTM_PE": "18.12",
+    "PB": "2.90",
+    "ROE": "15.36",
+    "ROA": 5.7977012947301425,
+    "OPM": "53.73",
+    "NPM": "33.55",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 4.24,
+        "year_ago_eps": 3.81,
+        "eps_growth": "11.29",
+        "pe": "17.65",
+        "peg": "1.56",
+        "roe_earnings": "1.78",
+        "pb_fwd": "2.79",
+        "pb_valuation": "1.56",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.68,
+        "year_ago_eps": 4.11,
+        "eps_growth": "13.87",
+        "pe": "17.05",
+        "peg": "1.23",
+        "roe_earnings": "2.17",
+        "pb_fwd": "2.67",
+        "pb_valuation": "1.23",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 17.76987,
+        "year_ago_eps": 16.39,
+        "eps_growth": "8.42",
+        "pe": "16.31",
+        "peg": "1.94",
+        "roe_earnings": "1.27",
+        "pb_fwd": "2.47",
+        "pb_valuation": "1.94",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 18.87529,
+        "year_ago_eps": 17.76987,
+        "eps_growth": "6.22",
+        "pe": "15.35",
+        "peg": "2.47",
+        "roe_earnings": "0.86",
+        "pb_fwd": "2.13",
+        "pb_valuation": "2.47",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "3.78",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "-8.78",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "2.63",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "6.96",
+        "analystCount": 13
+      }
+    },
+    "timestamp": 1760892243066
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ADANIGREEN.NS",
+    "name": "ADANI GREEN",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1647176155,
+    "lastFiscalReserves": 121370000000,
+    "price": 1036.7,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "9.95",
+    "TTM_PE": "104.19",
+    "PB": "15.33",
+    "ROE": "13.08",
+    "ROA": 1.5359342178495126,
+    "OPM": "59.87",
+    "NPM": "13.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 8.08,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "57.50",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "12.68",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 7.39,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "40.78",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "11.63",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 20.41386,
+        "year_ago_eps": 10.0313,
+        "eps_growth": "103.50",
+        "pe": "50.78",
+        "peg": "0.49",
+        "roe_earnings": "22.45",
+        "pb_fwd": "11.02",
+        "pb_valuation": "0.49",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "eps_estimate": 26.43513,
+        "year_ago_eps": 20.41386,
+        "eps_growth": "29.50",
+        "pe": "39.22",
+        "peg": "1.33",
+        "roe_earnings": "6.47",
+        "pb_fwd": "8.60",
+        "pb_valuation": "1.33",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "33.90",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "26.38",
+        "analystCount": 7
+      }
+    },
+    "timestamp": 1760892262869
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TATAPOWER.NS",
+    "name": "TATA POWER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 3195339547,
+    "lastFiscalReserves": 358406700000,
+    "price": 397.8,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "12.69",
+    "TTM_PE": "31.35",
+    "PB": "3.53",
+    "ROE": "10.70",
+    "ROA": 2.5907180782465877,
+    "OPM": "16.51",
+    "NPM": "6.13",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.13333,
+        "year_ago_eps": 3.1702,
+        "eps_growth": "-1.16",
+        "pe": "31.44",
+        "peg": "-27.03",
+        "roe_earnings": "-0.13",
+        "pb_fwd": "3.45",
+        "pb_valuation": "-27.03",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "31.44",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.45",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 15.04108,
+        "year_ago_eps": 12.69822,
+        "eps_growth": "18.45",
+        "pe": "26.45",
+        "peg": "1.43",
+        "roe_earnings": "2.18",
+        "pb_fwd": "3.13",
+        "pb_valuation": "1.43",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "eps_estimate": 17.22243,
+        "year_ago_eps": 15.04108,
+        "eps_growth": "14.50",
+        "pe": "23.10",
+        "peg": "1.59",
+        "roe_earnings": "1.73",
+        "pb_fwd": "2.75",
+        "pb_valuation": "1.59",
+        "analystCount": 19
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "2.44",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "19.73",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "225.10",
+        "analystCount": 18
+      },
+      "Next Year": {
+        "revenue_growth": "255.61",
+        "analystCount": 19
+      }
+    },
+    "timestamp": 1760892300273
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ADANIENSOL.NS",
+    "name": "ADANI ENERGY SOLUTIONS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1201282642,
+    "lastFiscalReserves": 220682000000,
+    "price": 929.7,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "20.45",
+    "TTM_PE": "45.46",
+    "PB": "5.06",
+    "ROE": "10.32",
+    "ROA": 3.2400848565645535,
+    "OPM": "27.13",
+    "NPM": "9.51",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 6.31,
+        "year_ago_eps": 6.39,
+        "eps_growth": "-1.25",
+        "pe": "45.64",
+        "peg": "-36.46",
+        "roe_earnings": "-0.13",
+        "pb_fwd": "4.89",
+        "pb_valuation": "-36.46",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 6.39,
+        "year_ago_eps": 7.26,
+        "eps_growth": "-11.98",
+        "pe": "47.68",
+        "peg": "-3.98",
+        "roe_earnings": "-1.19",
+        "pb_fwd": "4.73",
+        "pb_valuation": "-3.98",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 25.17667,
+        "year_ago_eps": 9.05,
+        "eps_growth": "178.20",
+        "pe": "36.93",
+        "peg": "0.21",
+        "roe_earnings": "21.48",
+        "pb_fwd": "4.45",
+        "pb_valuation": "0.21",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 29.39667,
+        "year_ago_eps": 25.17667,
+        "eps_growth": "16.76",
+        "pe": "31.63",
+        "peg": "1.89",
+        "roe_earnings": "2.07",
+        "pb_fwd": "3.90",
+        "pb_valuation": "1.89",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.49",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "25.52",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "15.03",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "17.52",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760892321641
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JSWENERGY.NS",
+    "name": "JSW ENERGY",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1745283768,
+    "lastFiscalReserves": 273614300000,
+    "price": 540.8,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "11.57",
+    "TTM_PE": "46.74",
+    "PB": "3.24",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "44.23",
+    "NPM": "12.64",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.21667,
+        "year_ago_eps": 4.88,
+        "eps_growth": "6.90",
+        "pe": "45.42",
+        "peg": "6.58",
+        "roe_earnings": "0.51",
+        "pb_fwd": "3.34",
+        "pb_valuation": "6.58",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 1,
+        "year_ago_eps": 0.96,
+        "eps_growth": "4.17",
+        "pe": "45.27",
+        "peg": "10.86",
+        "roe_earnings": "0.31",
+        "pb_fwd": "3.32",
+        "pb_valuation": "10.86",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 16.90434,
+        "year_ago_eps": 11.18,
+        "eps_growth": "51.20",
+        "pe": "31.99",
+        "peg": "0.62",
+        "roe_earnings": "4.98",
+        "pb_fwd": "3.11",
+        "pb_valuation": "0.62",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "eps_estimate": 19.76054,
+        "year_ago_eps": 16.90434,
+        "eps_growth": "16.90",
+        "pe": "27.37",
+        "peg": "1.62",
+        "roe_earnings": "1.73",
+        "pb_fwd": "2.80",
+        "pb_valuation": "1.62",
+        "analystCount": 16
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "66.45",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "94.76",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "87.02",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "12.65",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1760892355064
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NHPC.NS",
+    "name": "NHPC",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 10045034805,
+    "lastFiscalReserves": 396681600000,
+    "price": 86.74,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "2.66",
+    "TTM_PE": "32.61",
+    "PB": "2.20",
+    "ROE": "7.36",
+    "ROA": 2.979088645432392,
+    "OPM": "42.50",
+    "NPM": "27.94",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.2,
+        "year_ago_eps": 0.9,
+        "eps_growth": "33.33",
+        "pe": "29.30",
+        "peg": "0.88",
+        "roe_earnings": "2.42",
+        "pb_fwd": "2.13",
+        "pb_valuation": "0.88",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "29.30",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.13",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 4.45888,
+        "year_ago_eps": 2.93,
+        "eps_growth": "52.18",
+        "pe": "19.45",
+        "peg": "0.37",
+        "roe_earnings": "5.29",
+        "pb_fwd": "1.97",
+        "pb_valuation": "0.37",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 6.07592,
+        "year_ago_eps": 4.45888,
+        "eps_growth": "36.27",
+        "pe": "14.28",
+        "peg": "0.39",
+        "roe_earnings": "4.40",
+        "pb_fwd": "1.73",
+        "pb_valuation": "0.39",
+        "analystCount": 5
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.28",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "32.41",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "71.42",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760892368007
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NTPCGREEN.NS",
+    "name": "NTPC GREEN",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 8426329669,
+    "lastFiscalReserves": 184403400000,
+    "price": 100.01,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "0.66",
+    "TTM_PE": "151.53",
+    "PB": "4.52",
+    "ROE": "2.95",
+    "ROA": 1.2270614934268926,
+    "OPM": "55.90",
+    "NPM": "24.11",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "151.53",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.57",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "151.53",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.57",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 0.96667,
+        "year_ago_eps": 0.67,
+        "eps_growth": "44.28",
+        "pe": "103.46",
+        "peg": "2.34",
+        "roe_earnings": "1.87",
+        "pb_fwd": "4.38",
+        "pb_valuation": "2.34",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 2.2,
+        "year_ago_eps": 0.96667,
+        "eps_growth": "127.59",
+        "pe": "45.46",
+        "peg": "0.36",
+        "roe_earnings": "11.20",
+        "pb_fwd": "3.99",
+        "pb_valuation": "0.36",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "71.58",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "112.88",
+        "analystCount": 3
+      }
+    },
+    "timestamp": 1760892385625
+  },
+  {
+    "country": "INDIA",
+    "ticker": "TORNTPOWER.NS",
+    "name": "TORRENT POWER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 503903543,
+    "lastFiscalReserves": 176153100000,
+    "price": 1311.8,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "55.49",
+    "TTM_PE": "23.64",
+    "PB": "3.75",
+    "ROE": "14.16",
+    "ROA": 7.512841306983385,
+    "OPM": "13.82",
+    "NPM": "9.80",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 13.52,
+        "year_ago_eps": 10.01,
+        "eps_growth": "35.06",
+        "pe": "22.23",
+        "peg": "0.63",
+        "roe_earnings": "5.70",
+        "pb_fwd": "3.61",
+        "pb_valuation": "0.63",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.23",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.61",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 53.02268,
+        "year_ago_eps": 61.23,
+        "eps_growth": "-13.40",
+        "pe": "24.74",
+        "peg": "-1.85",
+        "roe_earnings": "-1.77",
+        "pb_fwd": "3.26",
+        "pb_valuation": "-1.85",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "eps_estimate": 60.28946,
+        "year_ago_eps": 53.02268,
+        "eps_growth": "13.71",
+        "pe": "21.76",
+        "peg": "1.59",
+        "roe_earnings": "1.79",
+        "pb_fwd": "2.83",
+        "pb_valuation": "1.59",
+        "analystCount": 10
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "4.22",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "8.31",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "revenue_growth": "9.52",
+        "analystCount": 10
+      }
+    },
+    "timestamp": 1760892401610
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SJVN.NS",
+    "name": "SJVN",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 3929795175,
+    "lastFiscalReserves": 141786500000,
+    "price": 90.06,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "1.79",
+    "TTM_PE": "50.31",
+    "PB": "2.50",
+    "ROE": "4.82",
+    "ROA": 1.495579540056809,
+    "OPM": "63.43",
+    "NPM": "22.13",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "32.28",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "2.43",
+        "pb_valuation": "0.00",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "32.28",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.43",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 3.02928,
+        "year_ago_eps": 2.08,
+        "eps_growth": "45.64",
+        "pe": "29.73",
+        "peg": "0.65",
+        "roe_earnings": "3.54",
+        "pb_fwd": "2.30",
+        "pb_valuation": "0.65",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 4.63705,
+        "year_ago_eps": 3.02928,
+        "eps_growth": "53.07",
+        "pe": "19.42",
+        "peg": "0.37",
+        "roe_earnings": "5.63",
+        "pb_fwd": "2.06",
+        "pb_valuation": "0.37",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "-4.76",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "64.56",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "57.25",
+        "analystCount": 3
+      }
+    },
+    "timestamp": 1760892440469
+  },
+  {
+    "country": "INDIA",
+    "ticker": "CESC.NS",
+    "name": "CESC",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1325570430,
+    "lastFiscalReserves": 120097200000,
+    "price": 170.41,
+    "industry": "utilities-regulated-electric",
+    "sector": "utilities",
+    "TTM_EPS": "10.92",
+    "TTM_PE": "15.61",
+    "PB": "1.78",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "15.02",
+    "NPM": "8.10",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.45,
+        "year_ago_eps": 1.65,
+        "eps_growth": "48.48",
+        "pe": "14.54",
+        "peg": "0.30",
+        "roe_earnings": "6.11",
+        "pb_fwd": "1.83",
+        "pb_valuation": "0.30",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "14.54",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.83",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 11.69,
+        "year_ago_eps": 10.32,
+        "eps_growth": "13.28",
+        "pe": "14.58",
+        "peg": "1.10",
+        "roe_earnings": "1.52",
+        "pb_fwd": "1.67",
+        "pb_valuation": "1.10",
+        "analystCount": 10
+      },
+      "Next Year": {
+        "eps_estimate": 12.64545,
+        "year_ago_eps": 11.69,
+        "eps_growth": "8.17",
+        "pe": "13.48",
+        "peg": "1.65",
+        "roe_earnings": "0.90",
+        "pb_fwd": "1.48",
+        "pb_valuation": "1.65",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "6.87",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "95.09",
+        "analystCount": 5
+      },
+      "Next Year": {
+        "revenue_growth": "88.20",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760892482868
+  },
+  {
+    "country": "INDIA",
+    "ticker": "RPOWER.NS",
+    "name": "RELIANCE POWER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 4122470966,
+    "lastFiscalReserves": 163371800000,
+    "price": 44.64,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "7.55",
+    "TTM_PE": "5.91",
+    "PB": "1.10",
+    "ROE": "18.72",
+    "ROA": 7.485856136145408,
+    "OPM": "19.01",
+    "NPM": "41.34",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "5.91",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.13",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "5.91",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.13",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.13",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.13",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760892502977
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NAVA.NS",
+    "name": "NAVA",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 283001276,
+    "lastFiscalReserves": 76112438000,
+    "price": 613.25,
+    "industry": "conglomerates",
+    "sector": "industrials",
+    "TTM_EPS": "36.30",
+    "TTM_PE": "16.89",
+    "PB": "2.28",
+    "ROE": "12.80",
+    "ROA": 9.260820336819254,
+    "OPM": "41.72",
+    "NPM": "26.40",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "16.89",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.28",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "16.89",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.28",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.28",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "2.28",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760892515990
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ACMESOLAR.NS",
+    "name": "ACME SOLAR HOLDINGS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 605087781,
+    "lastFiscalReserves": 45105800000,
+    "price": 276.9,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "6.31",
+    "TTM_PE": "43.88",
+    "PB": "3.52",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "72.48",
+    "NPM": "20.97",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.6,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "35.01",
+        "peg": "0.00",
+        "roe_earnings": "Infinity",
+        "pb_fwd": "3.64",
+        "pb_valuation": "0.00",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "35.01",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.64",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 8.03333,
+        "year_ago_eps": 4.8098,
+        "eps_growth": "67.02",
+        "pe": "34.47",
+        "peg": "0.51",
+        "roe_earnings": "6.52",
+        "pb_fwd": "3.35",
+        "pb_valuation": "0.51",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "eps_estimate": 11.26667,
+        "year_ago_eps": 8.03333,
+        "eps_growth": "40.25",
+        "pe": "24.58",
+        "peg": "0.61",
+        "roe_earnings": "4.83",
+        "pb_fwd": "2.95",
+        "pb_valuation": "0.61",
+        "analystCount": 6
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "56.99",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "revenue_growth": "74.14",
+        "analystCount": 7
+      }
+    },
+    "timestamp": 1760892531424
+  },
+  {
+    "country": "INDIA",
+    "ticker": "WAAREERTL.NS",
+    "name": "WAAREE RENEWABLE TECH",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 104246569,
+    "lastFiscalReserves": 4554156000,
+    "price": 1269.8,
+    "industry": "utilities-renewable",
+    "sector": "utilities",
+    "TTM_EPS": "33.52",
+    "TTM_PE": "37.88",
+    "PB": "20.11",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "20.10",
+    "NPM": "15.80",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "37.88",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "37.88",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "29.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760892550343
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JPPOWER.NS",
+    "name": "JP POWER",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 6853458827,
+    "lastFiscalReserves": 122812000000,
+    "price": 17.91,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "0.80",
+    "TTM_PE": "22.39",
+    "PB": "1.45",
+    "ROE": "5.84",
+    "ROA": 4.1783240374235335,
+    "OPM": "30.57",
+    "NPM": "14.05",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.39",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "22.39",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.00",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760892573859
+  },
+  {
+    "country": "INDIA",
+    "ticker": "IEX.NS",
+    "name": "IEX",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 889300290,
+    "lastFiscalReserves": 11363031000,
+    "price": 134.18,
+    "industry": "capital-markets",
+    "sector": "financial-services",
+    "TTM_EPS": "5.11",
+    "TTM_PE": "26.26",
+    "PB": "10.48",
+    "ROE": "33.00",
+    "ROA": 20.641600692615437,
+    "OPM": "82.69",
+    "NPM": "65.99",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.43398,
+        "year_ago_eps": 1.19,
+        "eps_growth": "20.50",
+        "pe": "25.06",
+        "peg": "1.22",
+        "roe_earnings": "7.72",
+        "pb_fwd": "9.44",
+        "pb_valuation": "1.22",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 1.43466,
+        "year_ago_eps": 1.16,
+        "eps_growth": "23.68",
+        "pe": "23.84",
+        "peg": "1.01",
+        "roe_earnings": "8.52",
+        "pb_fwd": "8.58",
+        "pb_valuation": "1.01",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 5.5325,
+        "year_ago_eps": 4.83,
+        "eps_growth": "14.54",
+        "pe": "24.25",
+        "peg": "1.67",
+        "roe_earnings": "4.39",
+        "pb_fwd": "7.33",
+        "pb_valuation": "1.67",
+        "analystCount": 7
+      },
+      "Next Year": {
+        "eps_estimate": 5.65043,
+        "year_ago_eps": 5.5325,
+        "eps_growth": "2.13",
+        "pe": "23.75",
+        "peg": "11.14",
+        "roe_earnings": "0.50",
+        "pb_fwd": "5.60",
+        "pb_valuation": "11.14",
+        "analystCount": 7
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.81",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "revenue_growth": "20.06",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "17.25",
+        "analystCount": 6
+      },
+      "Next Year": {
+        "revenue_growth": "9.09",
+        "analystCount": 5
+      }
+    },
+    "timestamp": 1760892584205
+  },
+  {
+    "country": "INDIA",
+    "ticker": "RELINFRA.NS",
+    "name": "RELIANCE INFRA",
+    "mostRecentQuarter": "Sep 2021",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 408181194,
+    "price": 223.72,
+    "industry": "utilities-independent-power-producers",
+    "sector": "utilities",
+    "TTM_EPS": "128.71",
+    "TTM_PE": "1.74",
+    "PB": "0.61",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "16.03",
+    "NPM": "23.45",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "1.74",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "1.74",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760892609839
   }
 ]
