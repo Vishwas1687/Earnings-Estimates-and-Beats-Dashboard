@@ -12,9 +12,9 @@
       "next_year_eps_growth",
       "current_year_pb_fwd",
       "current_year_roe_earnings",
-      "current_year_pb_valuation",
       "next_year_pb_fwd",
       "next_year_roe_earnings",
+      "current_year_pb_valuation",
       "next_year_pb_valuation"
     ]
   },

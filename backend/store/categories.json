@@ -64,6 +64,18 @@
           {
             "ticker": "UJJIVANSFB.NS",
             "name": "UJJIVAN SMALL"
+          },
+          {
+            "ticker": "AUBANK.NS",
+            "name": "AU SMALL FINANCE BANK"
+          },
+          {
+            "ticker": "KARURVYSYA.NS",
+            "name": "KARUR VYSYA BANK"
+          },
+          {
+            "ticker": "EQUITASBNK.NS",
+            "name": "EQUITAS SMALL FINANCE BANK"
           }
         ],
         "fields": [],
@@ -83,21 +95,112 @@
       },
       {
         "name": "NBFC",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "BANDHANBNK.NS",
+            "name": "BANDHAN BANK"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "Private Bank",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "HDFCBANK.NS",
+            "name": "HDFC BANK"
+          },
+          {
+            "ticker": "ICICIBANK.NS",
+            "name": "ICICI BANK"
+          },
+          {
+            "ticker": "KOTAKBANK.NS",
+            "name": "KOTAK MAHINDRA BANK"
+          },
+          {
+            "ticker": "AXISBANK.NS",
+            "name": "AXIS BANK"
+          },
+          {
+            "ticker": "YESBANK.NS",
+            "name": "YES BANK"
+          },
+          {
+            "ticker": "IDFCFIRSTB.NS",
+            "name": "IDFC FIRST BANK"
+          },
+          {
+            "ticker": "INDUSINDBK.NS",
+            "name": "INDUSIND BANK"
+          },
+          {
+            "ticker": "FEDERALBNK.NS",
+            "name": "FEDERAL BANK"
+          },
+          {
+            "ticker": "RBLBANK.NS",
+            "name": "RBL BANK"
+          },
+          {
+            "ticker": "CUB.NS",
+            "name": "CITY UNION BANK"
+          },
+          {
+            "ticker": "SOUTHBANK.NS",
+            "name": "SOUTH INDIAN BANK"
+          },
+          {
+            "ticker": "CSBBANK.NS",
+            "name": "CSB BANK"
+          },
+          {
+            "ticker": "KTKBANK.NS",
+            "name": "KARNATAKA BANK"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "PSU Bank",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "SBIN.NS",
+            "name": "SBI"
+          },
+          {
+            "ticker": "BANKBARODA.NS",
+            "name": "BANK OF BARODA"
+          },
+          {
+            "ticker": "PNB.NS",
+            "name": "PNB"
+          },
+          {
+            "ticker": "CANBK.NS",
+            "name": "CANARA BANK"
+          },
+          {
+            "ticker": "INDIANB.NS",
+            "name": "INDIAN BANK"
+          },
+          {
+            "ticker": "UNIONBANK.NS",
+            "name": "UNION BANK"
+          },
+          {
+            "ticker": "BANKINDIA.NS",
+            "name": "BANK OF INDIA"
+          },
+          {
+            "ticker": "MAHABANK.NS",
+            "name": "BANK OF MAHARASHTRA"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "Financial Services"
       }
     ]
   },
@@ -375,6 +478,22 @@
           {
             "ticker": "TCS.NS",
             "name": "TCS"
+          },
+          {
+            "ticker": "HCLTECH.NS",
+            "name": "HCL TECHNOLOGIES"
+          },
+          {
+            "ticker": "TECHM.NS",
+            "name": "TECH MAHINDRA"
+          },
+          {
+            "ticker": "WIPRO.NS",
+            "name": "WIPRO"
+          },
+          {
+            "ticker": "LTIM.NS",
+            "name": "LTI MINDTREE"
           }
         ],
         "fields": [
@@ -399,16 +518,81 @@
           {
             "ticker": "PERSISTENT.NS",
             "name": "PERSISTENT SYSTEMS"
+          },
+          {
+            "ticker": "COFORGE.NS",
+            "name": "COFORGE"
+          },
+          {
+            "ticker": "OFSS.NS",
+            "name": "ORACLE FINANCIAL SERVICES"
+          },
+          {
+            "ticker": "MPHASIS.NS",
+            "name": "MPHASIS"
+          },
+          {
+            "ticker": "LTTS.NS",
+            "name": "LT TECHNOLOGY SERVICES"
+          },
+          {
+            "ticker": "HEXT.NS",
+            "name": "HEXAWARE TECHNOLOGIES"
           }
         ],
         "fields": [],
-        "templateName": null
+        "templateName": "IT"
       },
       {
         "name": "Small",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "ZENSARTECH.NS",
+            "name": "ZENSAR TECHNOLOGIES"
+          },
+          {
+            "ticker": "INTELLECT.NS",
+            "name": "INTELLECT DESIGN"
+          },
+          {
+            "ticker": "CYIENT.NS",
+            "name": "CYIENT"
+          },
+          {
+            "ticker": "NEWGEN.NS",
+            "name": "NEWGEN SOFTWARE"
+          },
+          {
+            "ticker": "NAZARA.NS",
+            "name": "NAZARA TECHNOLOGIES"
+          },
+          {
+            "ticker": "TANLA.NS",
+            "name": "TANLA PLATFORMS"
+          },
+          {
+            "ticker": "RATEGAIN.NS",
+            "name": "RATEGAIN TRAVEL"
+          },
+          {
+            "ticker": "HAPPSTMNDS.NS",
+            "name": "HAPPIEST MINDS TECHNOLOGIES"
+          },
+          {
+            "ticker": "AURIONPRO.NS",
+            "name": "AURIONPRO SOLUTIONS"
+          },
+          {
+            "ticker": "MASTEK.NS",
+            "name": "MASTEK"
+          },
+          {
+            "ticker": "NETWEB.NS",
+            "name": "NETWEB TECHNOLOGIES"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "IT"
       },
       {
         "name": "BPO",
@@ -432,6 +616,83 @@
           {
             "ticker": "ECLERX.NS",
             "name": "ECLERX SERVICES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Business support",
+        "companies": [
+          {
+            "ticker": "SYNGENE.NS",
+            "name": "SYNEGENE INTERNATIONAL"
+          },
+          {
+            "ticker": "SAGILITY.NS",
+            "name": "SAGILITY"
+          },
+          {
+            "ticker": "IGIL.NS",
+            "name": "IGIL"
+          },
+          {
+            "ticker": "INDGN.NS",
+            "name": "INDEGENE"
+          },
+          {
+            "ticker": "LATENTVIEW.NS",
+            "name": "LATENT VIEW ANALYTICS"
+          },
+          {
+            "ticker": "JUSTDIAL.NS",
+            "name": "JUST DIAL"
+          },
+          {
+            "ticker": "CMSINFO.NS",
+            "name": "CMS INFO SYSTEMS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "ERD",
+        "companies": [
+          {
+            "ticker": "TATAELXSI.NS",
+            "name": "TATA ELXSI"
+          },
+          {
+            "ticker": "KPITTECH.NS",
+            "name": "KPIT TECHNOLOGIES"
+          },
+          {
+            "ticker": "TATATECH.NS",
+            "name": "TATA TECHNOLOGIES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "E-Commerce",
+        "companies": [
+          {
+            "ticker": "ETERNAL.NS",
+            "name": "ETERNAL"
+          },
+          {
+            "ticker": "NYKAA.NS",
+            "name": "NYKAA"
+          },
+          {
+            "ticker": "INDIAMART.NS",
+            "name": "INDIAMART INTERMESH"
+          },
+          {
+            "ticker": "POLICYBZR.NS",
+            "name": "PB FINTECH"
           }
         ],
         "fields": [],
@@ -772,6 +1033,146 @@
         ],
         "fields": [],
         "templateName": "IT"
+      },
+      {
+        "name": "Alcohol",
+        "companies": [
+          {
+            "ticker": "UNITDSPR.NS",
+            "name": "UNITED SPIRITS"
+          },
+          {
+            "ticker": "UBL.NS",
+            "name": "UNITED BREWERIES"
+          },
+          {
+            "ticker": "RADICO.NS",
+            "name": "RADICO KHAITAN"
+          },
+          {
+            "ticker": "TI.NS",
+            "name": "TILAKNAGAR INDUSTRIES"
+          },
+          {
+            "ticker": "ABDL.NS",
+            "name": "ALLIED BLENDERS AND DISTILLERS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Retailing",
+        "companies": [
+          {
+            "ticker": "DMART.NS",
+            "name": "DMART"
+          },
+          {
+            "ticker": "TRENT.NS",
+            "name": "TRENT"
+          },
+          {
+            "ticker": "VMM.NS",
+            "name": "VISHAL MEGA MART"
+          },
+          {
+            "ticker": "METROBRAND.NS",
+            "name": "METRO BRANDS"
+          },
+          {
+            "ticker": "MEDPLUS.NS",
+            "name": "MEDPLUS"
+          },
+          {
+            "ticker": "PNGJL.NS",
+            "name": "PN GADGIL JEWELLERS"
+          },
+          {
+            "ticker": "V2RETAIL.NS",
+            "name": "V2 RETAIL"
+          },
+          {
+            "ticker": "ETHOSLTD.NS",
+            "name": "ETHOS"
+          },
+          {
+            "ticker": "AVL.NS",
+            "name": "ADITYA VISION"
+          },
+          {
+            "ticker": "VMART.NS",
+            "name": "VMART RETAIL"
+          },
+          {
+            "ticker": "EMIL.NS",
+            "name": "ELECTRONICS MART"
+          },
+          {
+            "ticker": "SHOPERSTOP.NS",
+            "name": "SHOPPERS STOP"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Jewellers",
+        "companies": [
+          {
+            "ticker": "TITAN.NS",
+            "name": "TITAN COMPANY"
+          },
+          {
+            "ticker": "KALYANKJIL.NS",
+            "name": "KALYAN JEWELLERS"
+          },
+          {
+            "ticker": "THANGAMAYL.NS",
+            "name": "THANGAMAYIL JEWELLERY"
+          },
+          {
+            "ticker": "SENCO.NS",
+            "name": "SENCO"
+          }
+        ],
+        "fields": [],
+        "templateName": null
+      },
+      {
+        "name": "Consumer Durables",
+        "companies": [
+          {
+            "ticker": "CROMPTON.NS",
+            "name": "CROMPTON GREAVES"
+          },
+          {
+            "ticker": "WHIRLPOOL.NS",
+            "name": "WHIRLPOOL"
+          },
+          {
+            "ticker": "PGEL.NS",
+            "name": "PG ELECTROPLAST"
+          },
+          {
+            "ticker": "EUREKAFORB.NS",
+            "name": "EUREKA FORBES"
+          },
+          {
+            "ticker": "TTKPRESTIG.NS",
+            "name": "TTK PRESTIGE"
+          },
+          {
+            "ticker": "BAJAJELEC.NS",
+            "name": "BAJAJ ELECTRICALS"
+          },
+          {
+            "ticker": "SYMPHONY.NS",
+            "name": "SYMPHONY"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
       }
     ]
   },
@@ -919,6 +1320,37 @@
           {
             "ticker": "AVALON.NS",
             "name": "AVALON TECHNOLOGIES"
+          },
+          {
+            "ticker": "HONAUT.NS",
+            "name": "HONEYWELL AUTOMATION"
+          },
+          {
+            "ticker": "IFBIND.NS",
+            "name": "IFB INDUSTRIES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Cables",
+        "companies": [
+          {
+            "ticker": "POLYCAB.NS",
+            "name": "POLYCAB INDIA"
+          },
+          {
+            "ticker": "KEI.NS",
+            "name": "KEI INDUSTRIES"
+          },
+          {
+            "ticker": "RRKABEL.NS",
+            "name": "RR KABEL"
+          },
+          {
+            "ticker": "FINCABLES.NS",
+            "name": "FINOLEX CABLES"
           }
         ],
         "fields": [],
@@ -962,6 +1394,45 @@
           {
             "ticker": "THOMASCOOK.NS",
             "name": "THOMAS COOK"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Hotels",
+        "companies": [
+          {
+            "ticker": "INDHOTEL.NS",
+            "name": "INDIAN HOTELS"
+          },
+          {
+            "ticker": "ITCHOTELS.NS",
+            "name": "ITC HOTELS"
+          },
+          {
+            "ticker": "CHALET.NS",
+            "name": "CHALET HOTELS"
+          },
+          {
+            "ticker": "VENTIVE.NS",
+            "name": "VENTIVE HOSPITALITY"
+          },
+          {
+            "ticker": "LEMONTREE.NS",
+            "name": "LEMON TREE HOTELS"
+          },
+          {
+            "ticker": "MHRIL.NS",
+            "name": "MAHINDRA HOLIDAYS"
+          },
+          {
+            "ticker": "JUNIPER.NS",
+            "name": "JUNIPER HOTELS"
+          },
+          {
+            "ticker": "SAMHI.NS",
+            "name": "SAMHI HOTELS"
           }
         ],
         "fields": [],
@@ -1080,9 +1551,22 @@
     "watchlists": [
       {
         "name": "PSU",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "HAL.NS",
+            "name": "HINDUSTAN AERONAUTICS"
+          },
+          {
+            "ticker": "BEL.NS",
+            "name": "BHARAT ELECTRONICS"
+          },
+          {
+            "ticker": "BDL.NS",
+            "name": "BHARAT DYNAMICS"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "IT"
       },
       {
         "name": "Private",
@@ -1090,6 +1574,45 @@
           {
             "ticker": "APOLLO.NS",
             "name": "APOLLO MICROSYSTEMS"
+          },
+          {
+            "ticker": "SOLARINDS.NS",
+            "name": "SOLAR INDUSTRIES"
+          },
+          {
+            "ticker": "DATAPATTNS.NS",
+            "name": "DATA PATTERNS"
+          },
+          {
+            "ticker": "ZENTEC.NS",
+            "name": "ZEN TECHNOLOGIES"
+          },
+          {
+            "ticker": "ASTRAMICRO.NS",
+            "name": "ASTRA MICROWAVE"
+          },
+          {
+            "ticker": "PARAS.NS",
+            "name": "PARAS DEFENCE"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Ship building",
+        "companies": [
+          {
+            "ticker": "MAZDOCK.NS",
+            "name": "MAZAGON DOCK SHIPBUILDERS"
+          },
+          {
+            "ticker": "COCHINSHIP.NS",
+            "name": "COCHIN SHIPYARD"
+          },
+          {
+            "ticker": "GRSE.NS",
+            "name": "GARDEN REACH SHIPBUILDERS"
           }
         ],
         "fields": [],
@@ -1157,6 +1680,408 @@
           {
             "ticker": "ICIL.NS",
             "name": "INDO COUNT INDUSTRIES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Chemicals",
+    "watchlists": [
+      {
+        "name": "Agrochemicals",
+        "companies": [
+          {
+            "ticker": "BASF.NS",
+            "name": "BASF INDIA"
+          },
+          {
+            "ticker": "UPL.NS",
+            "name": "UPL"
+          },
+          {
+            "ticker": "PIIND.NS",
+            "name": "PI INDUSTRIES"
+          },
+          {
+            "ticker": "SUMICHEM.NS",
+            "name": "SUMITOMO CHEMICAL INDIA"
+          },
+          {
+            "ticker": "BAYERCROP.NS",
+            "name": "BAYER CROPSCIENCE"
+          },
+          {
+            "ticker": "SHARDACROP.NS",
+            "name": "SHARDA CROPCHEM"
+          },
+          {
+            "ticker": "DHANUKA.NS",
+            "name": "DHANUKA AGRITECH"
+          },
+          {
+            "ticker": "RALLIS.NS",
+            "name": "RALLIS INDIA"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Speciality chemicals",
+        "companies": [
+          {
+            "ticker": "PIDILITIND.NS",
+            "name": "PIDILITE INDUSTRIES"
+          },
+          {
+            "ticker": "SRF.NS",
+            "name": "SRF"
+          },
+          {
+            "ticker": "FLUOROCHEM.NS",
+            "name": "GUJARAT FLUOROCHEMICALS"
+          },
+          {
+            "ticker": "NAVINFLUOR.NS",
+            "name": "NAVIN FLUORINE INTERNATIONAL"
+          },
+          {
+            "ticker": "DEEPAKNTR.NS",
+            "name": "DEEPAK NITRITE"
+          },
+          {
+            "ticker": "TATACHEM.NS",
+            "name": "TATA CHEMICALS"
+          },
+          {
+            "ticker": "DEEPAKFERT.NS",
+            "name": "DEEPAK FERTILISERS AND PETROCHEMICALS"
+          },
+          {
+            "ticker": "VINATIORGA.NS",
+            "name": "VINATI ORGANICS"
+          },
+          {
+            "ticker": "ATUL.NS",
+            "name": "ATUL.NS"
+          },
+          {
+            "ticker": "FINEORG.NS",
+            "name": "FINE ORGANICS"
+          },
+          {
+            "ticker": "AARTIIND.NS",
+            "name": "AARTI INDUSTRIES"
+          },
+          {
+            "ticker": "ANURAS.NS",
+            "name": "ANUPAM RASAYAN"
+          },
+          {
+            "ticker": "CLEAN.NS",
+            "name": "CLEAN SCIENCE"
+          },
+          {
+            "ticker": "JUBLINGREA.NS",
+            "name": "JUBILIANT INGREVIA"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Industrials",
+    "watchlists": [
+      {
+        "name": "Plastic",
+        "companies": [
+          {
+            "ticker": "SUPREMEIND.NS",
+            "name": "SUPREME INDUSTRIES"
+          },
+          {
+            "ticker": "ASTRAL.NS",
+            "name": "ASTRAL"
+          },
+          {
+            "ticker": "FINPIPE.NS",
+            "name": "FINOLEX INDUSTRIES"
+          },
+          {
+            "ticker": "SHAILY.NS",
+            "name": "SHAILY ENGINEERING PLASTICS"
+          },
+          {
+            "ticker": "TIMETECHNO.NS",
+            "name": "TIME TECHNOPLAST"
+          },
+          {
+            "ticker": "GRWRHITECH.NS",
+            "name": "GARWARE HITECH FILMS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Telecom",
+        "companies": [
+          {
+            "ticker": "BHARTIARTL.NS",
+            "name": "BHARATI AIRTEL"
+          },
+          {
+            "ticker": "BHARTIHEXA.NS",
+            "name": "BHARATI HEXACOM"
+          },
+          {
+            "ticker": "INDUSTOWER.NS",
+            "name": "INDUS TOWERS"
+          },
+          {
+            "ticker": "TATACOMM.NS",
+            "name": "TATA COMMUNICATIONS"
+          },
+          {
+            "ticker": "RAILTEL.NS",
+            "name": "RAILTEL CORPORATION"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Capital markets",
+    "watchlists": [
+      {
+        "name": "AMC",
+        "companies": [
+          {
+            "ticker": "HDFCAMC.NS",
+            "name": "HDFC AMC"
+          },
+          {
+            "ticker": "NAM-INDIA.NS",
+            "name": "NIPPON AMC"
+          },
+          {
+            "ticker": "ABCAPITAL.NS",
+            "name": "ADITYA BIRLA CAPITAL"
+          },
+          {
+            "ticker": "UTIAMC.NS",
+            "name": "UTI AMC"
+          },
+          {
+            "ticker": "MOTILALOFS.NS",
+            "name": "MOTILAL"
+          },
+          {
+            "ticker": "MCX.NS",
+            "name": "MCX"
+          },
+          {
+            "ticker": "360ONE.NS",
+            "name": "360 ONE WAM"
+          },
+          {
+            "ticker": "CHOICEIN.NS",
+            "name": "CHOICE INTERNATIONAL"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Others",
+        "companies": [
+          {
+            "ticker": "CAMS.NS",
+            "name": "CAMS"
+          },
+          {
+            "ticker": "NUVAMA.NS",
+            "name": "NUVAMA"
+          },
+          {
+            "ticker": "BSE.NS",
+            "name": "BSE"
+          },
+          {
+            "ticker": "CDSL.NS",
+            "name": "CDSL"
+          },
+          {
+            "ticker": "MFSL.NS",
+            "name": "MAX FINANCIAL"
+          },
+          {
+            "ticker": "ANANDRATHI.NS",
+            "name": "ANAND RATHI WEALTH"
+          },
+          {
+            "ticker": "PRUDENT.NS",
+            "name": "PRUDENT CORP ADVISORY"
+          },
+          {
+            "ticker": "KFINTECH.NS",
+            "name": "KFIN TECHNOLOGIES"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Ratings",
+        "companies": [
+          {
+            "ticker": "CRISIL.NS",
+            "name": "CRISIL"
+          },
+          {
+            "ticker": "ICRA.NS",
+            "name": "ICRA"
+          },
+          {
+            "ticker": "CARERATING.NS",
+            "name": "CARE RATINGS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Construction",
+    "watchlists": [
+      {
+        "name": "Real estate",
+        "companies": [
+          {
+            "ticker": "DLF.NS",
+            "name": "DLF"
+          },
+          {
+            "ticker": "LODHA.NS",
+            "name": "LODHA"
+          },
+          {
+            "ticker": "PRESTIGE.NS",
+            "name": "PRESTIGE"
+          },
+          {
+            "ticker": "GODREJPROP.NS",
+            "name": "GODREJ PROPERTIES"
+          },
+          {
+            "ticker": "OBEROIRLTY.NS",
+            "name": "OBEROI REALTY"
+          },
+          {
+            "ticker": "PHOENIXLTD.NS",
+            "name": "PHOENIX MILLS"
+          },
+          {
+            "ticker": "NBCC.NS",
+            "name": "NBCC"
+          },
+          {
+            "ticker": "BRIGADE.NS",
+            "name": "BRIGADE"
+          },
+          {
+            "ticker": "ANANTRAJ.NS",
+            "name": "ANANT RAJ"
+          },
+          {
+            "ticker": "ABREL.NS",
+            "name": "ADITYA BIRLA REAL ESTATE"
+          },
+          {
+            "ticker": "SOBHA.NS",
+            "name": "SOBHA"
+          },
+          {
+            "ticker": "SIGNATURE.NS",
+            "name": "SIGNATURE GLOBAL"
+          },
+          {
+            "ticker": "MAHLIFE.NS",
+            "name": "MAHINDRA LIFE DEVELOPERS"
+          },
+          {
+            "ticker": "DBL.NS",
+            "name": "DILIP BUILDCON"
+          },
+          {
+            "ticker": "MAXESTATES.NS",
+            "name": "MAX ESTATES"
+          },
+          {
+            "ticker": "WELENT.NS",
+            "name": "WELSPUN ENTERPRISES"
+          },
+          {
+            "ticker": "RUSTOMJEE.NS",
+            "name": "KEYSTONE REALTORS"
+          },
+          {
+            "ticker": "PURVA.NS",
+            "name": "PURVANKARA"
+          },
+          {
+            "ticker": "SUNTECK.NS",
+            "name": "SUNTECK REALTY"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "House materials",
+        "companies": [
+          {
+            "ticker": "KAJARIACER.NS",
+            "name": "KAJARIA CERAMICS"
+          },
+          {
+            "ticker": "CERA.NS",
+            "name": "CERA SANITARYWARE"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Paints",
+        "companies": [
+          {
+            "ticker": "ASIANPAINT.NS",
+            "name": "ASIAN PAINTS"
+          },
+          {
+            "ticker": "BERGEPAINT.NS",
+            "name": "BERGER PAINTS"
+          },
+          {
+            "ticker": "KANSAINER.NS",
+            "name": "KANSAI NEROLAC"
+          },
+          {
+            "ticker": "AKZOINDIA.NS",
+            "name": "AKZO NOBEL"
+          },
+          {
+            "ticker": "INDIGOPNTS.NS",
+            "name": "INDIGO PAINTS"
           }
         ],
         "fields": [],
