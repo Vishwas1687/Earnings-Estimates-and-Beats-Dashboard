@@ -693,6 +693,10 @@
           {
             "ticker": "POLICYBZR.NS",
             "name": "PB FINTECH"
+          },
+          {
+            "ticker": "PAYTM.NS",
+            "name": "PAYTM"
           }
         ],
         "fields": [],
@@ -1056,6 +1060,10 @@
           {
             "ticker": "ABDL.NS",
             "name": "ALLIED BLENDERS AND DISTILLERS"
+          },
+          {
+            "ticker": "PICCADIL.NS",
+            "name": "PICCADLY AGRO"
           }
         ],
         "fields": [],
@@ -1587,6 +1595,10 @@
           {
             "ticker": "ORCL",
             "name": "ORACLE"
+          },
+          {
+            "ticker": "CRM",
+            "name": "SALESFORCE"
           }
         ],
         "fields": [],
@@ -2145,6 +2157,181 @@
           {
             "ticker": "INDIGOPNTS.NS",
             "name": "INDIGO PAINTS"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Testing",
+    "watchlists": [
+      {
+        "name": "Testing",
+        "companies": [
+          {
+            "ticker": "IGIL.NS",
+            "name": "IGIL"
+          },
+          {
+            "ticker": "ICICIGI.NS",
+            "name": "ICICI LOMBARD"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Rethink Suhas",
+        "companies": [
+          {
+            "ticker": "APTUS.NS",
+            "name": "APTUS VALUE HOUSING"
+          },
+          {
+            "ticker": "INDIGO.NS",
+            "name": "INDIGO"
+          },
+          {
+            "ticker": "ICICIBANK.NS",
+            "name": "ICICI BANK"
+          },
+          {
+            "ticker": "JIOFIN.NS",
+            "name": "JIO FINANCIAL SERVICES"
+          },
+          {
+            "ticker": "ICICIGI.NS",
+            "name": "ICICI LOMBARD"
+          },
+          {
+            "ticker": "SWSOLAR.NS",
+            "name": "SW SOLAR"
+          },
+          {
+            "ticker": "WABAG.NS",
+            "name": "WABAG"
+          },
+          {
+            "ticker": "RAINBOW.NS",
+            "name": "RAINBOW"
+          },
+          {
+            "ticker": "TI.NS",
+            "name": "TILAKNAGAR"
+          },
+          {
+            "ticker": "RADICO.NS",
+            "name": "RADICO KHAITAN"
+          },
+          {
+            "ticker": "PAYTM.NS",
+            "name": "PAYTM"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      }
+    ]
+  },
+  {
+    "name": "Mutual fund additions",
+    "watchlists": [
+      {
+        "name": "Paragh parikh flexicap",
+        "companies": [
+          {
+            "ticker": "BHARTIARTL.NS",
+            "name": "BHARATI AIRTEL"
+          },
+          {
+            "ticker": "ZYDUSWELL.NS",
+            "name": "ZYDUS WELLNESS"
+          },
+          {
+            "ticker": "EIDPARRY.NS",
+            "name": "EID PARRY"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "Motilal oswal flexicap",
+        "companies": [],
+        "fields": [],
+        "templateName": null
+      },
+      {
+        "name": "Hdfc flexicap",
+        "companies": [
+          {
+            "ticker": "SBIN.NS",
+            "name": "SBI"
+          },
+          {
+            "ticker": "HYUNDAI.NS",
+            "name": "HYUNDAI"
+          },
+          {
+            "ticker": "POWERGRID.NS",
+            "name": "POWER GRID"
+          },
+          {
+            "ticker": "BAJAJ-AUTO.NS",
+            "name": "BAJAJ AUTO"
+          },
+          {
+            "ticker": "JSWSTEEL.NS",
+            "name": "JSW STEEL"
+          },
+          {
+            "ticker": "BANKBARODA.NS",
+            "name": "BANK OF BARODA"
+          },
+          {
+            "ticker": "INDIGO.NS",
+            "name": "INDIGO"
+          },
+          {
+            "ticker": "ONGC.NS",
+            "name": "ONGC"
+          },
+          {
+            "ticker": "NYKAA.NS",
+            "name": "NYKAA"
+          },
+          {
+            "ticker": "LUPIN.NS",
+            "name": "LUPIN"
+          },
+          {
+            "ticker": "HAVELLS.NS",
+            "name": "HAVELLS"
+          },
+          {
+            "ticker": "HINDALCO.NS",
+            "name": "HINDALCO"
+          }
+        ],
+        "fields": [],
+        "templateName": "IT"
+      },
+      {
+        "name": "JM financial flexicap",
+        "companies": [
+          {
+            "ticker": "GODFRYPHLP.NS",
+            "name": "GODFREY PHILIPS"
+          },
+          {
+            "ticker": "PAYTM.NS",
+            "name": "PAYTM"
+          },
+          {
+            "ticker": "MARUTI.NS",
+            "name": "MARUTI SUZUKI"
           }
         ],
         "fields": [],

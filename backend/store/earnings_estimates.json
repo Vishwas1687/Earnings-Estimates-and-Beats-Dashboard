@@ -37535,5 +37535,2104 @@
       }
     },
     "timestamp": 1760892609839
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PAYTM.NS",
+    "name": "PAYTM",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 639107732,
+    "lastFiscalReserves": 150267000000,
+    "price": 1291.3,
+    "industry": "software-infrastructure",
+    "sector": "technology",
+    "TTM_EPS": "4.76",
+    "TTM_PE": "271.28",
+    "PB": "5.48",
+    "ROE": "2.07",
+    "ROA": 1.411340143698392,
+    "OPM": "-3.66",
+    "NPM": "4.14",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.68115,
+        "year_ago_eps": -6.3551,
+        "eps_growth": "126.45",
+        "pe": "100.91",
+        "peg": "0.80",
+        "roe_earnings": "6.83",
+        "pb_fwd": "5.45",
+        "pb_valuation": "0.80",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 2.68998,
+        "year_ago_eps": -3.27,
+        "eps_growth": "182.26",
+        "pe": "68.85",
+        "peg": "0.38",
+        "roe_earnings": "14.27",
+        "pb_fwd": "5.39",
+        "pb_valuation": "0.38",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 10.32726,
+        "year_ago_eps": -23.2863,
+        "eps_growth": "144.35",
+        "pe": "125.04",
+        "peg": "0.87",
+        "roe_earnings": "6.07",
+        "pb_fwd": "5.26",
+        "pb_valuation": "0.87",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 20.70877,
+        "year_ago_eps": 10.32726,
+        "eps_growth": "100.53",
+        "pe": "62.36",
+        "peg": "0.62",
+        "roe_earnings": "7.82",
+        "pb_fwd": "4.85",
+        "pb_valuation": "0.62",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "23.82",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "revenue_growth": "19.88",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "revenue_growth": "23.91",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "revenue_growth": "24.86",
+        "analystCount": 15
+      }
+    },
+    "timestamp": 1760939017686
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ULTRACEMCO.NS",
+    "name": "ULTRA TECH CEMENT",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 294088757,
+    "lastFiscalReserves": 707067700000,
+    "price": 12278,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "230.08",
+    "TTM_PE": "53.36",
+    "PB": "5.11",
+    "ROE": "8.76",
+    "ROA": 4.912909144816539,
+    "OPM": "15.53",
+    "NPM": "8.63",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 68.03,
+        "year_ago_eps": 50.94,
+        "eps_growth": "33.55",
+        "pe": "49.67",
+        "peg": "1.48",
+        "roe_earnings": "3.35",
+        "pb_fwd": "4.97",
+        "pb_valuation": "1.48",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "49.67",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.97",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 310.1,
+        "year_ago_eps": 212.5524,
+        "eps_growth": "45.89",
+        "pe": "39.59",
+        "peg": "0.86",
+        "roe_earnings": "5.24",
+        "pb_fwd": "4.52",
+        "pb_valuation": "0.86",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "eps_estimate": 411.7595,
+        "year_ago_eps": 310.1,
+        "eps_growth": "32.78",
+        "pe": "29.82",
+        "peg": "0.91",
+        "roe_earnings": "4.32",
+        "pb_fwd": "3.93",
+        "pb_valuation": "0.91",
+        "analystCount": 34
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "18.20",
+        "analystCount": 23
+      },
+      "Next Quarter": {
+        "revenue_growth": "-5.96",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "15.55",
+        "analystCount": 36
+      },
+      "Next Year": {
+        "revenue_growth": "11.91",
+        "analystCount": 37
+      }
+    },
+    "timestamp": 1760939203004
+  },
+  {
+    "country": "INDIA",
+    "ticker": "AMBUJACEM.NS",
+    "name": "AMBUJA CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 2471823478,
+    "lastFiscalReserves": 534432500000,
+    "price": 565.25,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "17.53",
+    "TTM_PE": "32.24",
+    "PB": "2.61",
+    "ROE": "7.82",
+    "ROA": 5.331309088433798,
+    "OPM": "10.69",
+    "NPM": "11.68",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.815,
+        "year_ago_eps": 2.2705,
+        "eps_growth": "68.02",
+        "pe": "29.63",
+        "peg": "0.44",
+        "roe_earnings": "5.90",
+        "pb_fwd": "2.57",
+        "pb_valuation": "0.44",
+        "analystCount": 6
+      },
+      "Next Quarter": {
+        "eps_estimate": 5.38,
+        "year_ago_eps": 8.59,
+        "eps_growth": "-37.37",
+        "pe": "35.63",
+        "peg": "-0.95",
+        "roe_earnings": "-2.63",
+        "pb_fwd": "2.51",
+        "pb_valuation": "-0.95",
+        "analystCount": 3
+      },
+      "Current Year": {
+        "eps_estimate": 14.9948,
+        "year_ago_eps": 17.0361,
+        "eps_growth": "-11.98",
+        "pe": "37.70",
+        "peg": "-3.15",
+        "roe_earnings": "-0.78",
+        "pb_fwd": "2.44",
+        "pb_valuation": "-3.15",
+        "analystCount": 35
+      },
+      "Next Year": {
+        "eps_estimate": 19.51654,
+        "year_ago_eps": 14.9948,
+        "eps_growth": "30.16",
+        "pe": "28.96",
+        "peg": "0.96",
+        "roe_earnings": "2.35",
+        "pb_fwd": "2.25",
+        "pb_valuation": "0.96",
+        "analystCount": 36
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "113.94",
+        "analystCount": 19
+      },
+      "Next Quarter": {
+        "revenue_growth": "113.80",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "22.66",
+        "analystCount": 32
+      },
+      "Next Year": {
+        "revenue_growth": "103.86",
+        "analystCount": 35
+      }
+    },
+    "timestamp": 1760939229434
+  },
+  {
+    "country": "INDIA",
+    "ticker": "SHREECEM.NS",
+    "name": "SHREE CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 36080748,
+    "lastFiscalReserves": 215377500000,
+    "price": 28850,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "412.69",
+    "TTM_PE": "69.91",
+    "PB": "4.83",
+    "ROE": "6.53",
+    "ROA": 5.218421045242554,
+    "OPM": "12.85",
+    "NPM": "7.65",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 98.52714,
+        "year_ago_eps": 21.18,
+        "eps_growth": "365.19",
+        "pe": "58.87",
+        "peg": "0.16",
+        "roe_earnings": "29.49",
+        "pb_fwd": "4.76",
+        "pb_valuation": "0.16",
+        "analystCount": 7
+      },
+      "Next Quarter": {
+        "eps_estimate": 117.17,
+        "year_ago_eps": 53.61,
+        "eps_growth": "118.56",
+        "pe": "52.11",
+        "peg": "0.44",
+        "roe_earnings": "10.61",
+        "pb_fwd": "4.67",
+        "pb_valuation": "0.44",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 543.69147,
+        "year_ago_eps": 331.54,
+        "eps_growth": "63.99",
+        "pe": "53.06",
+        "peg": "0.83",
+        "roe_earnings": "5.34",
+        "pb_fwd": "4.43",
+        "pb_valuation": "0.83",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "eps_estimate": 695.1828,
+        "year_ago_eps": 543.69147,
+        "eps_growth": "27.86",
+        "pe": "41.50",
+        "peg": "1.49",
+        "roe_earnings": "2.69",
+        "pb_fwd": "4.00",
+        "pb_valuation": "1.49",
+        "analystCount": 29
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "16.54",
+        "analystCount": 22
+      },
+      "Next Quarter": {
+        "revenue_growth": "17.17",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "11.68",
+        "analystCount": 29
+      },
+      "Next Year": {
+        "revenue_growth": "9.60",
+        "analystCount": 28
+      }
+    },
+    "timestamp": 1760939248955
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JKCEMENT.NS",
+    "name": "JK CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 77268251,
+    "lastFiscalReserves": 60889800000,
+    "price": 6408.5,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "129.15",
+    "TTM_PE": "49.62",
+    "PB": "8.13",
+    "ROE": "14.77",
+    "ROA": 5.996025549184578,
+    "OPM": "17.50",
+    "NPM": "8.02",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 27.6,
+        "year_ago_eps": 4.6483,
+        "eps_growth": "493.77",
+        "pe": "42.13",
+        "peg": "0.09",
+        "roe_earnings": "92.08",
+        "pb_fwd": "7.86",
+        "pb_valuation": "0.09",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "42.13",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "7.86",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 148.06667,
+        "year_ago_eps": 107.6658,
+        "eps_growth": "37.52",
+        "pe": "43.28",
+        "peg": "1.15",
+        "roe_earnings": "5.94",
+        "pb_fwd": "6.85",
+        "pb_valuation": "1.15",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "eps_estimate": 194.33333,
+        "year_ago_eps": 148.06667,
+        "eps_growth": "31.25",
+        "pe": "32.98",
+        "peg": "1.06",
+        "roe_earnings": "5.37",
+        "pb_fwd": "5.67",
+        "pb_valuation": "1.06",
+        "analystCount": 23
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "9.04",
+        "analystCount": 14
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.89",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "21.45",
+        "analystCount": 23
+      },
+      "Next Year": {
+        "revenue_growth": "17.34",
+        "analystCount": 22
+      }
+    },
+    "timestamp": 1760939270425
+  },
+  {
+    "country": "INDIA",
+    "ticker": "DALBHARAT.NS",
+    "name": "DALMIA BHARAT",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 187565161,
+    "lastFiscalReserves": 173740000000,
+    "price": 2170.8,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "59.94",
+    "TTM_PE": "36.22",
+    "PB": "2.30",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "10.95",
+    "NPM": "7.85",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 15.32,
+        "year_ago_eps": 3.25,
+        "eps_growth": "371.38",
+        "pe": "30.15",
+        "peg": "0.08",
+        "roe_earnings": "28.40",
+        "pb_fwd": "2.31",
+        "pb_valuation": "0.08",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 24.76,
+        "year_ago_eps": 23.2,
+        "eps_growth": "6.72",
+        "pe": "29.51",
+        "peg": "4.39",
+        "roe_earnings": "0.51",
+        "pb_fwd": "2.25",
+        "pb_valuation": "4.39",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 71.39056,
+        "year_ago_eps": 41.5754,
+        "eps_growth": "71.71",
+        "pe": "30.41",
+        "peg": "0.42",
+        "roe_earnings": "5.13",
+        "pb_fwd": "2.18",
+        "pb_valuation": "0.42",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "eps_estimate": 80.66943,
+        "year_ago_eps": 71.39056,
+        "eps_growth": "13.00",
+        "pe": "26.91",
+        "peg": "2.07",
+        "roe_earnings": "0.97",
+        "pb_fwd": "2.01",
+        "pb_valuation": "2.07",
+        "analystCount": 30
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.14",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "18.77",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "9.93",
+        "analystCount": 37
+      },
+      "Next Year": {
+        "revenue_growth": "9.68",
+        "analystCount": 35
+      }
+    },
+    "timestamp": 1760939300780
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ACC.NS",
+    "name": "ACC",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 187787263,
+    "lastFiscalReserves": 185548400000,
+    "price": 1825,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "128.29",
+    "TTM_PE": "14.23",
+    "PB": "1.85",
+    "ROE": "12.28",
+    "ROA": 9.51417426230521,
+    "OPM": "8.60",
+    "NPM": "10.67",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 17.1,
+        "year_ago_eps": 12.42,
+        "eps_growth": "37.68",
+        "pe": "13.72",
+        "peg": "0.36",
+        "roe_earnings": "4.98",
+        "pb_fwd": "1.82",
+        "pb_valuation": "0.36",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 31.59,
+        "year_ago_eps": 57.84,
+        "eps_growth": "-45.38",
+        "pe": "17.10",
+        "peg": "-0.38",
+        "roe_earnings": "-4.67",
+        "pb_fwd": "1.76",
+        "pb_valuation": "-0.38",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 102.80932,
+        "year_ago_eps": 123.5008,
+        "eps_growth": "-16.75",
+        "pe": "17.75",
+        "peg": "-1.06",
+        "roe_earnings": "-1.58",
+        "pb_fwd": "1.67",
+        "pb_valuation": "-1.06",
+        "analystCount": 19
+      },
+      "Next Year": {
+        "eps_estimate": 120.80381,
+        "year_ago_eps": 102.80932,
+        "eps_growth": "17.50",
+        "pe": "15.11",
+        "peg": "0.86",
+        "roe_earnings": "1.75",
+        "pb_fwd": "1.51",
+        "pb_valuation": "0.86",
+        "analystCount": 19
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "14.62",
+        "analystCount": 11
+      },
+      "Next Quarter": {
+        "revenue_growth": "2.86",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "9.92",
+        "analystCount": 18
+      },
+      "Next Year": {
+        "revenue_growth": "7.05",
+        "analystCount": 18
+      }
+    },
+    "timestamp": 1760939333852
+  },
+  {
+    "country": "INDIA",
+    "ticker": "RAMCOCEM.NS",
+    "name": "RAMCO CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 236292380,
+    "lastFiscalReserves": 74416500000,
+    "price": 1010.85,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "13.51",
+    "TTM_PE": "74.82",
+    "PB": "3.21",
+    "ROE": "4.24",
+    "ROA": 1.962828010655562,
+    "OPM": "10.30",
+    "NPM": "3.77",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.075,
+        "year_ago_eps": 1.08,
+        "eps_growth": "369.91",
+        "pe": "57.75",
+        "peg": "0.16",
+        "roe_earnings": "20.23",
+        "pb_fwd": "3.16",
+        "pb_valuation": "0.16",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 4.2,
+        "year_ago_eps": 0.1796,
+        "eps_growth": "2238.53",
+        "pe": "46.96",
+        "peg": "0.02",
+        "roe_earnings": "148.62",
+        "pb_fwd": "3.12",
+        "pb_valuation": "0.02",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 21.5462,
+        "year_ago_eps": 4.7716,
+        "eps_growth": "351.55",
+        "pe": "46.92",
+        "peg": "0.13",
+        "roe_earnings": "22.51",
+        "pb_fwd": "3.00",
+        "pb_valuation": "0.13",
+        "analystCount": 21
+      },
+      "Next Year": {
+        "eps_estimate": 32.29697,
+        "year_ago_eps": 21.5462,
+        "eps_growth": "49.90",
+        "pe": "31.30",
+        "peg": "0.63",
+        "roe_earnings": "4.37",
+        "pb_fwd": "2.74",
+        "pb_valuation": "0.63",
+        "analystCount": 23
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "7.80",
+        "analystCount": 13
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.53",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "10.72",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "revenue_growth": "13.60",
+        "analystCount": 22
+      }
+    },
+    "timestamp": 1760939353718
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JSWCEMENT.NS",
+    "name": "JSW CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 1363364936,
+    "price": 135,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "-0.86",
+    "TTM_PE": "-156.98",
+    "PB": "5.66",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "16.86",
+    "NPM": "-24.17",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "964.29",
+        "peg": "0.00",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "964.29",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 3.90667,
+        "year_ago_eps": null,
+        "eps_growth": "Infinity",
+        "pe": "34.56",
+        "peg": "0.00",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 4.23,
+        "year_ago_eps": 3.90667,
+        "eps_growth": "8.28",
+        "pe": "31.91",
+        "peg": "3.86",
+        "roe_earnings": "NaN",
+        "pb_fwd": "NaN",
+        "pb_valuation": "NaN",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "Infinity",
+        "analystCount": 4
+      },
+      "Next Year": {
+        "revenue_growth": "22.24",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760939367885
+  },
+  {
+    "country": "INDIA",
+    "ticker": "NUVOCO.NS",
+    "name": "NUVOCO VISTAS",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 357156153,
+    "lastFiscalReserves": 90023200000,
+    "price": 413,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "7.64",
+    "TTM_PE": "54.06",
+    "PB": "1.61",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "6.06",
+    "NPM": "2.54",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 3.1,
+        "year_ago_eps": -1.72,
+        "eps_growth": "280.23",
+        "pe": "33.15",
+        "peg": "0.12",
+        "roe_earnings": "13.68",
+        "pb_fwd": "1.62",
+        "pb_valuation": "0.12",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 14.5,
+        "year_ago_eps": 4.63,
+        "eps_growth": "213.17",
+        "pe": "18.50",
+        "peg": "0.09",
+        "roe_earnings": "17.65",
+        "pb_fwd": "1.53",
+        "pb_valuation": "0.09",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 13.92033,
+        "year_ago_eps": 0.61,
+        "eps_growth": "2182.02",
+        "pe": "29.67",
+        "peg": "0.01",
+        "roe_earnings": "114.20",
+        "pb_fwd": "1.55",
+        "pb_valuation": "0.01",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "eps_estimate": 14.67076,
+        "year_ago_eps": 13.92033,
+        "eps_growth": "5.39",
+        "pe": "28.15",
+        "peg": "5.22",
+        "roe_earnings": "0.28",
+        "pb_fwd": "1.47",
+        "pb_valuation": "5.23",
+        "analystCount": 16
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "15.52",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "18.10",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "10.75",
+        "analystCount": 16
+      },
+      "Next Year": {
+        "revenue_growth": "8.36",
+        "analystCount": 16
+      }
+    },
+    "timestamp": 1760939392241
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INDIACEM.NS",
+    "name": "INDIA CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 309897201,
+    "lastFiscalReserves": 101941312000,
+    "price": 392.3,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "1.06",
+    "TTM_PE": "370.09",
+    "PB": "1.19",
+    "ROE": "-3.33",
+    "ROA": -2.422577690201435,
+    "OPM": "0.89",
+    "NPM": "-8.08",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "370.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.19",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "370.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.19",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 8.6,
+        "year_ago_eps": -13.8651,
+        "eps_growth": "162.03",
+        "pe": "45.62",
+        "peg": "0.28",
+        "roe_earnings": "4.13",
+        "pb_fwd": "1.16",
+        "pb_valuation": "0.28",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 14.2,
+        "year_ago_eps": 8.6,
+        "eps_growth": "65.12",
+        "pe": "27.63",
+        "peg": "0.42",
+        "roe_earnings": "2.63",
+        "pb_fwd": "1.12",
+        "pb_valuation": "0.42",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.72",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "13.61",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "29.70",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "8.20",
+        "analystCount": 2
+      }
+    },
+    "timestamp": 1760939429793
+  },
+  {
+    "country": "INDIA",
+    "ticker": "STARCEMENT.NS",
+    "name": "STAR CEMENTS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 404180417,
+    "lastFiscalReserves": 28791948000,
+    "price": 257.7,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "5.85",
+    "TTM_PE": "44.05",
+    "PB": "3.61",
+    "ROE": "7.63",
+    "ROA": 5.759656472403624,
+    "OPM": "15.68",
+    "NPM": "7.11",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 1.55,
+        "year_ago_eps": 0.14,
+        "eps_growth": "1007.14",
+        "pe": "35.50",
+        "peg": "0.04",
+        "roe_earnings": "100.46",
+        "pb_fwd": "3.54",
+        "pb_valuation": "0.04",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "35.50",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "3.54",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 9,
+        "year_ago_eps": 4.18,
+        "eps_growth": "115.31",
+        "pe": "28.63",
+        "peg": "0.25",
+        "roe_earnings": "12.93",
+        "pb_fwd": "3.22",
+        "pb_valuation": "0.25",
+        "analystCount": 9
+      },
+      "Next Year": {
+        "eps_estimate": 10.87273,
+        "year_ago_eps": 9,
+        "eps_growth": "20.81",
+        "pe": "23.70",
+        "peg": "1.14",
+        "roe_earnings": "2.48",
+        "pb_fwd": "2.83",
+        "pb_valuation": "1.14",
+        "analystCount": 11
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "21.86",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "16.85",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "revenue_growth": "13.81",
+        "analystCount": 11
+      }
+    },
+    "timestamp": 1760939455218
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JKLAKSHMI.NS",
+    "name": "JK LAKSHMI CEMENT",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 124144426,
+    "lastFiscalReserves": 35535800000,
+    "price": 825.25,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "29.86",
+    "TTM_PE": "27.64",
+    "PB": "2.80",
+    "ROE": "9.23",
+    "ROA": 4.224036151212678,
+    "OPM": "13.44",
+    "NPM": "6.16",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 5.8,
+        "year_ago_eps": -1.19,
+        "eps_growth": "587.39",
+        "pe": "22.39",
+        "peg": "0.04",
+        "roe_earnings": "74.12",
+        "pb_fwd": "2.83",
+        "pb_valuation": "0.04",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 9.9,
+        "year_ago_eps": 5.05,
+        "eps_growth": "96.04",
+        "pe": "19.79",
+        "peg": "0.21",
+        "roe_earnings": "13.26",
+        "pb_fwd": "2.73",
+        "pb_valuation": "0.21",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 43.83333,
+        "year_ago_eps": 30.72,
+        "eps_growth": "42.69",
+        "pe": "18.83",
+        "peg": "0.44",
+        "roe_earnings": "5.67",
+        "pb_fwd": "2.50",
+        "pb_valuation": "0.44",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 50.56667,
+        "year_ago_eps": 43.83333,
+        "eps_growth": "15.36",
+        "pe": "16.32",
+        "peg": "1.06",
+        "roe_earnings": "2.04",
+        "pb_fwd": "2.17",
+        "pb_valuation": "1.06",
+        "analystCount": 12
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "23.59",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "revenue_growth": "12.35",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "21.44",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "13.59",
+        "analystCount": 11
+      }
+    },
+    "timestamp": 1760939488431
+  },
+  {
+    "country": "INDIA",
+    "ticker": "BIRLACORPN.NS",
+    "name": "BIRLA CORPORATION",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 77005347,
+    "lastFiscalReserves": 70151200000,
+    "price": 1177,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "49.66",
+    "TTM_PE": "23.70",
+    "PB": "1.29",
+    "ROE": "5.17",
+    "ROA": 2.6668192503905885,
+    "OPM": "8.81",
+    "NPM": "4.03",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 7.43333,
+        "year_ago_eps": -3.27,
+        "eps_growth": "327.32",
+        "pe": "19.50",
+        "peg": "0.06",
+        "roe_earnings": "21.51",
+        "pb_fwd": "1.28",
+        "pb_valuation": "0.06",
+        "analystCount": 3
+      },
+      "Next Quarter": {
+        "eps_estimate": 9.6,
+        "year_ago_eps": 4.06,
+        "eps_growth": "136.45",
+        "pe": "17.86",
+        "peg": "0.13",
+        "roe_earnings": "9.69",
+        "pb_fwd": "1.27",
+        "pb_valuation": "0.13",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 67.87308,
+        "year_ago_eps": 42.235,
+        "eps_growth": "60.70",
+        "pe": "17.34",
+        "peg": "0.29",
+        "roe_earnings": "4.21",
+        "pb_fwd": "1.20",
+        "pb_valuation": "0.29",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "eps_estimate": 86.61769,
+        "year_ago_eps": 67.87308,
+        "eps_growth": "27.62",
+        "pe": "13.59",
+        "peg": "0.49",
+        "roe_earnings": "2.25",
+        "pb_fwd": "1.10",
+        "pb_valuation": "0.49",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "8.12",
+        "analystCount": 9
+      },
+      "Next Quarter": {
+        "revenue_growth": "7.55",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "revenue_growth": "7.76",
+        "analystCount": 14
+      },
+      "Next Year": {
+        "revenue_growth": "7.20",
+        "analystCount": 13
+      }
+    },
+    "timestamp": 1760939506338
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PRSMJOHNSN.NS",
+    "name": "PRISM JOHNSON",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 503356580,
+    "lastFiscalReserves": 14780100000,
+    "price": 147.85,
+    "industry": "building-materials",
+    "sector": "basic-materials",
+    "TTM_EPS": "1.78",
+    "TTM_PE": "83.06",
+    "PB": "5.04",
+    "ROE": "5.60",
+    "ROA": 1.232190831745893,
+    "OPM": "1.70",
+    "NPM": "1.21",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "83.06",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.04",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "83.06",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "5.04",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 1.6,
+        "year_ago_eps": -1.3098,
+        "eps_growth": "222.16",
+        "pe": "92.41",
+        "peg": "0.42",
+        "roe_earnings": "11.48",
+        "pb_fwd": "4.78",
+        "pb_valuation": "0.42",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 2.9,
+        "year_ago_eps": 1.6,
+        "eps_growth": "81.25",
+        "pe": "50.98",
+        "peg": "0.63",
+        "roe_earnings": "6.96",
+        "pb_fwd": "4.37",
+        "pb_valuation": "0.63",
+        "analystCount": 3
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "5.07",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "3.70",
+        "analystCount": 2
+      },
+      "Next Year": {
+        "revenue_growth": "5.59",
+        "analystCount": 3
+      }
+    },
+    "timestamp": 1760939539537
+  },
+  {
+    "country": "INDIA",
+    "ticker": "GODFRYPHLP.NS",
+    "name": "GODFREY PHILIPS",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 155981760,
+    "lastFiscalReserves": 52458160000,
+    "price": 3386.7,
+    "industry": "tobacco",
+    "sector": "consumer-defensive",
+    "TTM_EPS": "85.29",
+    "TTM_PE": "39.71",
+    "PB": "10.04",
+    "ROE": "20.40",
+    "ROA": 17.215903176762794,
+    "OPM": "20.82",
+    "NPM": "19.97",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "39.71",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "39.71",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "10.07",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 93.06667,
+        "year_ago_eps": 74.11667,
+        "eps_growth": "25.57",
+        "pe": "36.39",
+        "peg": "1.42",
+        "roe_earnings": "5.54",
+        "pb_fwd": "7.89",
+        "pb_valuation": "1.42",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 112.1,
+        "year_ago_eps": 93.06667,
+        "eps_growth": "20.45",
+        "pe": "30.21",
+        "peg": "1.48",
+        "roe_earnings": "4.23",
+        "pb_fwd": "6.25",
+        "pb_valuation": "1.48",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "3.98",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "12.31",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760939653910
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ICICIGI.NS",
+    "name": "ICICI LOMBARD",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 496792527,
+    "lastFiscalReserves": 144851700000,
+    "price": 2011.4,
+    "industry": "insurance-diversified",
+    "sector": "financial-services",
+    "TTM_EPS": "56.03",
+    "TTM_PE": "35.90",
+    "PB": "6.02",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "15.54",
+    "NPM": "10.93",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 14.61,
+        "year_ago_eps": 14.48,
+        "eps_growth": "0.90",
+        "pe": "35.82",
+        "peg": "39.89",
+        "roe_earnings": "0.16",
+        "pb_fwd": "6.57",
+        "pb_valuation": "39.91",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": 11.345,
+        "year_ago_eps": 10.2,
+        "eps_growth": "11.23",
+        "pe": "35.10",
+        "peg": "3.13",
+        "roe_earnings": "2.03",
+        "pb_fwd": "6.34",
+        "pb_valuation": "3.13",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 58.59922,
+        "year_ago_eps": 50.25,
+        "eps_growth": "16.62",
+        "pe": "34.32",
+        "peg": "2.07",
+        "roe_earnings": "2.78",
+        "pb_fwd": "5.75",
+        "pb_valuation": "2.07",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "eps_estimate": 65.77315,
+        "year_ago_eps": 58.59922,
+        "eps_growth": "12.24",
+        "pe": "30.58",
+        "peg": "2.50",
+        "roe_earnings": "1.94",
+        "pb_fwd": "4.84",
+        "pb_valuation": "2.50",
+        "analystCount": 25
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.17",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "Infinity",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "11.69",
+        "analystCount": 11
+      },
+      "Next Year": {
+        "revenue_growth": "12.64",
+        "analystCount": 11
+      }
+    },
+    "timestamp": 1760943846039
+  },
+  {
+    "country": "INDIA",
+    "ticker": "INDIGO.NS",
+    "name": "INDIGO",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 386588898,
+    "lastFiscalReserves": 93682000000,
+    "price": 5920.5,
+    "industry": "airlines",
+    "sector": "industrials",
+    "TTM_EPS": "173.10",
+    "TTM_PE": "34.20",
+    "PB": "24.42",
+    "ROE": "45.89",
+    "ROA": 5.788758109000505,
+    "OPM": "13.70",
+    "NPM": "8.20",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": -26.125,
+        "year_ago_eps": -25.55,
+        "eps_growth": "-2.25",
+        "pe": "34.32",
+        "peg": "-15.25",
+        "roe_earnings": "-1.80",
+        "pb_fwd": "27.38",
+        "pb_valuation": "-15.25",
+        "analystCount": 4
+      },
+      "Next Quarter": {
+        "eps_estimate": 90.9,
+        "year_ago_eps": 63.3,
+        "eps_growth": "43.60",
+        "pe": "29.58",
+        "peg": "0.68",
+        "roe_earnings": "28.41",
+        "pb_fwd": "19.28",
+        "pb_valuation": "0.68",
+        "analystCount": 2
+      },
+      "Current Year": {
+        "eps_estimate": 227.38123,
+        "year_ago_eps": 187.67,
+        "eps_growth": "21.16",
+        "pe": "26.04",
+        "peg": "1.23",
+        "roe_earnings": "10.24",
+        "pb_fwd": "12.60",
+        "pb_valuation": "1.23",
+        "analystCount": 12
+      },
+      "Next Year": {
+        "eps_estimate": 255.50182,
+        "year_ago_eps": 227.38123,
+        "eps_growth": "12.37",
+        "pe": "23.17",
+        "peg": "1.87",
+        "roe_earnings": "4.36",
+        "pb_fwd": "8.16",
+        "pb_valuation": "1.87",
+        "analystCount": 13
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "10.77",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "revenue_growth": "6.44",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "9.27",
+        "analystCount": 13
+      },
+      "Next Year": {
+        "revenue_growth": "14.86",
+        "analystCount": 12
+      }
+    },
+    "timestamp": 1760944125744
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JIOFIN.NS",
+    "name": "JIO FINANCIAL SERVICES",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 6353141623,
+    "lastFiscalReserves": 1234964700000,
+    "price": 311.95,
+    "industry": "asset-management",
+    "sector": "financial-services",
+    "TTM_EPS": "2.51",
+    "TTM_PE": "124.28",
+    "PB": "1.46",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "65.47",
+    "NPM": "72.08",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "124.28",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "124.28",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.60",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 3.4,
+        "year_ago_eps": 2.54,
+        "eps_growth": "33.86",
+        "pe": "91.75",
+        "peg": "2.71",
+        "roe_earnings": "0.58",
+        "pb_fwd": "1.58",
+        "pb_valuation": "2.71",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "eps_estimate": 3.9,
+        "year_ago_eps": 3.4,
+        "eps_growth": "14.71",
+        "pe": "79.99",
+        "peg": "5.44",
+        "roe_earnings": "0.28",
+        "pb_fwd": "1.55",
+        "pb_valuation": "5.44",
+        "analystCount": 1
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "35.74",
+        "analystCount": 1
+      },
+      "Next Year": {
+        "revenue_growth": "14.25",
+        "analystCount": 1
+      }
+    },
+    "timestamp": 1760944152556
+  },
+  {
+    "country": "INDIA",
+    "ticker": "WABAG.NS",
+    "name": "WABAG",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 62288243,
+    "lastFiscalReserves": 21399000000,
+    "price": 1403.9,
+    "industry": "engineering-construction",
+    "sector": "industrials",
+    "TTM_EPS": "48.46",
+    "TTM_PE": "28.97",
+    "PB": "4.08",
+    "ROE": "13.28",
+    "ROA": 5.811326486055474,
+    "OPM": "12.83",
+    "NPM": "9.00",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "28.97",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.09",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "28.97",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "4.09",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 60.23333,
+        "year_ago_eps": 46.8,
+        "eps_growth": "28.70",
+        "pe": "23.31",
+        "peg": "0.81",
+        "roe_earnings": "4.28",
+        "pb_fwd": "3.48",
+        "pb_valuation": "0.81",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "eps_estimate": 73.1,
+        "year_ago_eps": 60.23333,
+        "eps_growth": "21.36",
+        "pe": "19.21",
+        "peg": "0.90",
+        "roe_earnings": "3.27",
+        "pb_fwd": "2.94",
+        "pb_valuation": "0.90",
+        "analystCount": 4
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "16.82",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "16.25",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "16.30",
+        "analystCount": 3
+      },
+      "Next Year": {
+        "revenue_growth": "16.14",
+        "analystCount": 4
+      }
+    },
+    "timestamp": 1760944237417
+  },
+  {
+    "country": "INDIA",
+    "ticker": "JSWSTEEL.NS",
+    "name": "JSW STEEL",
+    "mostRecentQuarter": "Sep 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 2439620903,
+    "lastFiscalReserves": 794960000000,
+    "price": 1159,
+    "industry": "steel",
+    "sector": "basic-materials",
+    "TTM_EPS": "24.66",
+    "TTM_PE": "47.00",
+    "PB": "3.41",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "10.10",
+    "NPM": "3.45",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 12.69,
+        "year_ago_eps": 3.351,
+        "eps_growth": "278.69",
+        "pe": "34.09",
+        "peg": "0.12",
+        "roe_earnings": "27.99",
+        "pb_fwd": "3.42",
+        "pb_valuation": "0.12",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "eps_estimate": 12.66,
+        "year_ago_eps": 5.98,
+        "eps_growth": "111.71",
+        "pe": "28.49",
+        "peg": "0.26",
+        "roe_earnings": "12.94",
+        "pb_fwd": "3.30",
+        "pb_valuation": "0.26",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 50.5,
+        "year_ago_eps": 28.6272,
+        "eps_growth": "76.41",
+        "pe": "22.95",
+        "peg": "0.30",
+        "roe_earnings": "10.25",
+        "pb_fwd": "3.08",
+        "pb_valuation": "0.30",
+        "analystCount": 18
+      },
+      "Next Year": {
+        "eps_estimate": 65.39481,
+        "year_ago_eps": 50.5,
+        "eps_growth": "29.49",
+        "pe": "17.72",
+        "peg": "0.60",
+        "roe_earnings": "4.37",
+        "pb_fwd": "2.62",
+        "pb_valuation": "0.60",
+        "analystCount": 27
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "16.37",
+        "analystCount": 1
+      },
+      "Next Quarter": {
+        "revenue_growth": "17.49",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "45.49",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "revenue_growth": "13.38",
+        "analystCount": 31
+      }
+    },
+    "timestamp": 1760948876005
+  },
+  {
+    "country": "INDIA",
+    "ticker": "ONGC.NS",
+    "name": "ONGC",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 12580279206,
+    "lastFiscalReserves": 3434404760000,
+    "price": 247.26,
+    "industry": "oil-gas-integrated",
+    "sector": "energy",
+    "TTM_EPS": "28.66",
+    "TTM_PE": "8.63",
+    "PB": "0.91",
+    "ROE": "9.99",
+    "ROA": 4.747594070227745,
+    "OPM": "10.13",
+    "NPM": "5.49",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 8.265,
+        "year_ago_eps": 8.17,
+        "eps_growth": "1.16",
+        "pe": "8.60",
+        "peg": "7.40",
+        "roe_earnings": "0.12",
+        "pb_fwd": "0.88",
+        "pb_valuation": "7.40",
+        "analystCount": 5
+      },
+      "Next Quarter": {
+        "eps_estimate": 7.2,
+        "year_ago_eps": 6.85,
+        "eps_growth": "5.11",
+        "pe": "8.50",
+        "peg": "1.66",
+        "roe_earnings": "0.52",
+        "pb_fwd": "0.86",
+        "pb_valuation": "1.66",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "eps_estimate": 35.56509,
+        "year_ago_eps": 28.8879,
+        "eps_growth": "23.11",
+        "pe": "6.95",
+        "peg": "0.30",
+        "roe_earnings": "2.66",
+        "pb_fwd": "0.80",
+        "pb_valuation": "0.30",
+        "analystCount": 17
+      },
+      "Next Year": {
+        "eps_estimate": 38.76296,
+        "year_ago_eps": 35.56509,
+        "eps_growth": "8.99",
+        "pe": "6.38",
+        "peg": "0.71",
+        "roe_earnings": "1.00",
+        "pb_fwd": "0.71",
+        "pb_valuation": "0.71",
+        "analystCount": 16
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "115.52",
+        "analystCount": 10
+      },
+      "Next Quarter": {
+        "revenue_growth": "395.73",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "350.35",
+        "analystCount": 15
+      },
+      "Next Year": {
+        "revenue_growth": "5.56",
+        "analystCount": 14
+      }
+    },
+    "timestamp": 1760948931202
+  },
+  {
+    "country": "INDIA",
+    "ticker": "HINDALCO.NS",
+    "name": "HINDALCO",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 2220742227,
+    "lastFiscalReserves": 1237090000000,
+    "price": 788.5,
+    "industry": "aluminum",
+    "sector": "basic-materials",
+    "TTM_EPS": "76.12",
+    "TTM_PE": "10.36",
+    "PB": "1.42",
+    "ROE": "12.73",
+    "ROA": 6.365252959686606,
+    "OPM": "9.33",
+    "NPM": "6.89",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 21.25,
+        "year_ago_eps": 19.212,
+        "eps_growth": "10.61",
+        "pe": "10.09",
+        "peg": "0.95",
+        "roe_earnings": "1.43",
+        "pb_fwd": "1.36",
+        "pb_valuation": "0.95",
+        "analystCount": 2
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "10.09",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "1.36",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": 67.18989,
+        "year_ago_eps": 74.7398,
+        "eps_growth": "-10.10",
+        "pe": "11.74",
+        "peg": "-1.16",
+        "roe_earnings": "-1.09",
+        "pb_fwd": "1.26",
+        "pb_valuation": "-1.16",
+        "analystCount": 22
+      },
+      "Next Year": {
+        "eps_estimate": 70.65905,
+        "year_ago_eps": 67.18989,
+        "eps_growth": "5.16",
+        "pe": "11.16",
+        "peg": "2.16",
+        "roe_earnings": "0.53",
+        "pb_fwd": "1.13",
+        "pb_valuation": "2.16",
+        "analystCount": 22
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "11.47",
+        "analystCount": 15
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.33",
+        "analystCount": 1
+      },
+      "Current Year": {
+        "revenue_growth": "3.02",
+        "analystCount": 25
+      },
+      "Next Year": {
+        "revenue_growth": "5.66",
+        "analystCount": 23
+      }
+    },
+    "timestamp": 1760948983681
+  },
+  {
+    "country": "INDIA",
+    "ticker": "PICCADIL.NS",
+    "name": "PICCADLY AGRO",
+    "mostRecentQuarter": "Jun 2025",
+    "lastFiscalYear": "Mar 2025",
+    "shares": 98497711,
+    "lastFiscalReserves": 6800883000,
+    "price": 654.75,
+    "industry": "beverages-wineries-distilleries",
+    "sector": "consumer-defensive",
+    "TTM_EPS": "11.35",
+    "TTM_PE": "57.69",
+    "PB": "8.97",
+    "ROE": "14.59",
+    "ROA": 9.411347627425243,
+    "OPM": "15.33",
+    "NPM": "12.88",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "57.69",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.49",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Quarter": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "57.69",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.49",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Current Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.49",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      },
+      "Next Year": {
+        "eps_estimate": null,
+        "year_ago_eps": null,
+        "eps_growth": "NaN",
+        "pe": "Infinity",
+        "peg": "NaN",
+        "roe_earnings": "NaN",
+        "pb_fwd": "9.49",
+        "pb_valuation": "NaN",
+        "analystCount": null
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Quarter": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Current Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      },
+      "Next Year": {
+        "revenue_growth": "NaN",
+        "analystCount": 0
+      }
+    },
+    "timestamp": 1760974218682
+  },
+  {
+    "country": "US",
+    "ticker": "CRM",
+    "name": "SALESFORCE",
+    "mostRecentQuarter": "Jul 2025",
+    "lastFiscalYear": "Jan 2025",
+    "shares": 952000000,
+    "lastFiscalReserves": 61173000000,
+    "price": 266.8878,
+    "industry": "software-application",
+    "sector": "technology",
+    "TTM_EPS": "6.89",
+    "TTM_PE": "38.74",
+    "PB": "4.16",
+    "ROE": "NaN",
+    "ROA": null,
+    "OPM": "22.82",
+    "NPM": "16.87",
+    "earningsTrend": {
+      "Current Quarter": {
+        "eps_estimate": 2.86112,
+        "year_ago_eps": 2.41,
+        "eps_growth": "18.72",
+        "pe": "36.36",
+        "peg": "1.94",
+        "roe_earnings": "2.05",
+        "pb_fwd": "3.98",
+        "pb_valuation": "1.94",
+        "analystCount": 45
+      },
+      "Next Quarter": {
+        "eps_estimate": 3.03807,
+        "year_ago_eps": 2.78,
+        "eps_growth": "9.28",
+        "pe": "35.12",
+        "peg": "3.78",
+        "roe_earnings": "1.01",
+        "pb_fwd": "3.80",
+        "pb_valuation": "3.78",
+        "analystCount": 44
+      },
+      "Current Year": {
+        "eps_estimate": 11.34987,
+        "year_ago_eps": 10.2,
+        "eps_growth": "11.27",
+        "pe": "23.51",
+        "peg": "2.09",
+        "roe_earnings": "1.69",
+        "pb_fwd": "3.53",
+        "pb_valuation": "2.09",
+        "analystCount": 54
+      },
+      "Next Year": {
+        "eps_estimate": 12.70281,
+        "year_ago_eps": 11.34987,
+        "eps_growth": "11.92",
+        "pe": "21.01",
+        "peg": "1.76",
+        "roe_earnings": "1.71",
+        "pb_fwd": "3.02",
+        "pb_valuation": "1.76",
+        "analystCount": 54
+      }
+    },
+    "revenueTrend": {
+      "Current Quarter": {
+        "revenue_growth": "8.77",
+        "analystCount": 43
+      },
+      "Next Quarter": {
+        "revenue_growth": "9.13",
+        "analystCount": 42
+      },
+      "Current Year": {
+        "revenue_growth": "8.84",
+        "analystCount": 52
+      },
+      "Next Year": {
+        "revenue_growth": "9.08",
+        "analystCount": 52
+      }
+    },
+    "timestamp": 1761059291803
   }
 ]
