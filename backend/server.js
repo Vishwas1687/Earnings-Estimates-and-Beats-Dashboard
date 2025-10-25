@@ -32,8 +32,14 @@ import {
 } from "./controllers/templateController.js";
 const app = express();
 app.use(express.json());
-app.use(cors());
-
+// ✅ Enable CORS before routes
+app.use(
+  cors({
+    origin: "*", // or your frontend URL
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
+  })
+);
 app.get("/api/earnings-beats", earningsBeatsController);
 app.get("/api/fetch-earnings-estimates", earningsEstimatesController);
 
