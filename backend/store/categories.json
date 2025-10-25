@@ -83,9 +83,14 @@
       },
       {
         "name": "Vehicle Finance",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "CHOLAFIN.NS",
+            "name": "CHOLAMANDALAM FINANCE"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "Gold Finance",
@@ -104,6 +109,14 @@
           {
             "ticker": "BANDHANBNK.NS",
             "name": "BANDHAN BANK"
+          },
+          {
+            "ticker": "BAJFINANCE.NS",
+            "name": "BAJAJ FINANCE"
+          },
+          {
+            "ticker": "BAJAJFINSV.NS",
+            "name": "BAJAJ FINSERV"
           }
         ],
         "fields": [],
