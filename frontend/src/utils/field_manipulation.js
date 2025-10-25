@@ -43,7 +43,7 @@ const handlePriceTargetFields = (company, field) => {
   if (!config) return null;
 
   const metricObj =
-    company.filtered_data?.priceTarget?.[config.period]?.[config.metric];
+    company.priceTarget?.[config.period]?.[config.metric];
 
   return {
     value: metricObj?.[config.target],
@@ -63,7 +63,7 @@ const handleRevenueFields = (company, field) => {
   const periodKey = fieldMap[field];
   if (!periodKey) return null;
 
-  const revenueTrendPeriod = company.filtered_data?.revenueTrend?.[periodKey];
+  const revenueTrendPeriod = company.revenueTrend?.[periodKey];
 
   return revenueTrendPeriod
     ? {
@@ -77,7 +77,7 @@ const handleEarningsFields = (company, field) => {
   if (field === "year_ago_eps") {
     return {
       value:
-        company.filtered_data.earningsTrend["Current Year"]?.year_ago_eps ?? 0,
+        company.earningsTrend["Current Year"]?.year_ago_eps ?? 0,
       analystCount: 0,
     };
   }
@@ -117,7 +117,7 @@ const handleEarningsFields = (company, field) => {
   if (!metric) return { value: 0, analystCount: 0 };
 
   // Get period data
-  const periodData = company.filtered_data?.earningsTrend?.[periodMap[period]];
+  const periodData = company.earningsTrend?.[periodMap[period]];
   if (!periodData) return { value: 0, analystCount: 0 };
 
   // Return formatted result

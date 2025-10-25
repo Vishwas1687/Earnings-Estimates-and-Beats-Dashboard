@@ -237,13 +237,13 @@ const EarningsTable = ({
     var value = 0;
     var analystCount = 0;
     if (plainColumns.includes(columnKey)) {
-      value = company.filtered_data[columnKey] ?? 0;
+      value = company[columnKey] ?? 0;
     } else {
       const result = handleFetchComplexFields(company, columnKey);
       value = result?.value ?? 0;
       analystCount = result?.analystCount ?? 0;
     }
-    const country = company.filtered_data["country"];
+    const country = company["country"];
     const formattedValue = formatValue(
       value,
       columnDef?.type,
@@ -521,13 +521,13 @@ const EarningsTable = ({
             </Table.Thead>
             <Table.Tbody>
               {filteredCompanies.map((company, index) => (
-                <Table.Tr key={company.id}>
+                <Table.Tr key={company.ticker}>
                   <Table.Td>
                     <Tooltip label="Delete company">
                       <ActionIcon
                         color="red"
                         variant="subtle"
-                        onClick={() => onDeleteCompany(company.id)}
+                        onClick={() => onDeleteCompany(company.ticker)}
                       >
                         <IconTrash size={16} />
                       </ActionIcon>

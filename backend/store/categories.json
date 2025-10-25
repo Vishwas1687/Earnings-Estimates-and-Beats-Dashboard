@@ -1518,64 +1518,28 @@
         "name": "Semiconductors",
         "companies": [
           {
+            "ticker": "AMD",
+            "name": "AMD"
+          },
+          {
             "ticker": "NVDA",
             "name": "NVIDIA"
           },
           {
             "ticker": "AVGO",
-            "name": "BROA"
-          },
-          {
-            "ticker": "ASML",
-            "name": "ASML"
-          },
-          {
-            "ticker": "AMD",
-            "name": "AMD"
+            "name": "BROADCOM"
           },
           {
             "ticker": "ARM",
             "name": "ARM"
           },
           {
-            "ticker": "AMAT",
-            "name": "APPLIED MATERIALS"
-          },
-          {
-            "ticker": "QCOM",
-            "name": "QUALCOMM"
-          },
-          {
-            "ticker": "INTC",
-            "name": "INTEL"
-          },
-          {
-            "ticker": "TXN",
-            "name": "TEXAS INSTRUMENTS"
-          },
-          {
-            "ticker": "ADI",
-            "name": "ANALOG DEVICES"
-          },
-          {
             "ticker": "ANET",
             "name": "ARISTA NETWORKS"
           },
           {
-            "ticker": "NXPI",
-            "name": "NXP SEMICONDUCTORS"
-          },
-          {
-            "ticker": "MCHP",
-            "name": "MICROCHIP TECHNOLOGY"
-          },
-          {
-            "ticker": "GFS",
-            "name": "GLOBAL FOUNDRIES"
-          },
-          {
-            "ticker": "ON",
-            "name": "ON SEMICONDUCTOR CORPORATION"
+            "ticker": "QCOM",
+            "name": "QUALCOMM"
           }
         ],
         "fields": [],

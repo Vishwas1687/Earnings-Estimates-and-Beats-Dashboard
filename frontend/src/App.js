@@ -2,7 +2,7 @@
 import { useState, useEffect, use } from "react";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
-import { Toaster } from "react-hot-toast";
+import { Toaster, toast } from "react-hot-toast";
 import EarningsTable from "./components/EarningsTable/EarningsTable";
 import AddCompanyForm from "./components/AddCompanyForm/AddCompanyForm";
 import {
@@ -10,6 +10,7 @@ import {
   deleteStock,
   fetchCategories,
   fetchTemplates,
+  addCompanyToWatchlist,
 } from "./utils/api";
 import "./App.css";
 
@@ -43,36 +44,42 @@ function App() {
 
       if (existingCompany) {
         setError("Company already exists in the table");
+        toast.error("Company already exists in the table");
         setLoading(false);
         return;
       }
 
-      const data = await fetchEarningsData(
+      const data = await addCompanyToWatchlist(
         ticker,
         name,
         currentCategory,
         currentWatchlist
       );
       if (data) {
-        const newCompany = {
-          ...data,
-          id: ticker,
+        const companyData = await fetchEarningsData(
+          currentCategory,
+          currentWatchlist,
           ticker,
           name,
-        };
-        setCompanies((prev) => [...prev, newCompany]);
+          false
+        );
+        if (companyData) {
+          setCompanies((prev) => [...prev, companyData.filtered_data]);
+        }
       }
     } catch (err) {
       setError(`Failed to fetch data for ${ticker}: ${err.message}`);
+      toast.error(`Failed to add ${ticker}: ${err.message}`);
     } finally {
       setLoading(false);
     }
   };
 
-  const deleteCompany = async (id) => {
+  const deleteCompany = async (ticker) => {
     try {
-      const result = await deleteStock(id, currentCategory, currentWatchlist);
-      setCompanies((prev) => prev.filter((company) => company.id !== id));
+      console.log("Deleting company with ticker:", ticker);
+      const result = await deleteStock(ticker, currentCategory, currentWatchlist);
+      setCompanies((prev) => prev.filter((company) => company.ticker !== ticker));
     } catch (error) {
       console.log(error);
     }
@@ -114,13 +121,21 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const fetchCompanies = async (companyList) => {
-      for (const company of companyList) {
-        try {
-          await addCompany(company.ticker, company.name);
-        } catch (err) {
-          console.log(err);
-        }
+    const fetchCompanies = async (category, watchlist) => {
+      setLoading(true);
+      try {
+        const data = await fetchEarningsData(
+          category,
+          watchlist,
+          null,
+          null,
+          true
+        );
+        setCompanies(data.filtered_data);
+      } catch (err) {
+        setError(`Failed to fetch companies: ${err.message}`);
+      } finally {
+        setLoading(false);
       }
     };
     if (!currentCategory || !currentWatchlist) return;
@@ -139,13 +154,11 @@ function App() {
       watchlist.templateName !== undefined
     ) {
       const template = templates.find((t) => t.name === watchlist.templateName);
-      console.log("Template found:", template);
-      console.log("Current Watchlist:", currentWatchlist);
       setFields(template.fields);
     } else {
       setFields(initialFields);
     }
-    fetchCompanies(watchlist.companies);
+    fetchCompanies(currentCategory, currentWatchlist);
   }, [currentCategory, currentWatchlist]);
 
   return (

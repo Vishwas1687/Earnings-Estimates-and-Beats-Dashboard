@@ -35,7 +35,8 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/api/earnings-beats", earningsBeatsController);
-app.get("/api/earnings-estimates", earningsEstimatesController);
+app.get("/api/fetch-earnings-estimates", earningsEstimatesController);
+
 app.get("/api/fetch-tickers", tickersController);
 app.get("/api/delete-company", deleteCompanyController);
 app.post("/api/price-targets", priceTargetsController);

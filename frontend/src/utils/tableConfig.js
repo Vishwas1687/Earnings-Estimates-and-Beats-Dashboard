@@ -412,10 +412,10 @@ export const formatValue = (value, type, country, columnKey, company) => {
 
   // Price target formatting
   if (columnKey.includes("target") && columnKey.includes("price")) {
-    const price = company.filtered_data?.price;
+    const price = company.price;
     const priceTarget = Number(price) * (1 + Number(value) / 100);
     const currency = country === "US" ? "$" : "\u20B9";
-    if(value == 0){
+    if (value == 0) {
       return 0;
     }
     return `${currency}${priceTarget.toFixed(2)} ( ${value}% )`;

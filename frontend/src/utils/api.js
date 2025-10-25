@@ -1,21 +1,64 @@
 // utils/api.js
 const API_BASE_URL = "http://localhost:5000";
-
-export const fetchEarningsData = async (ticker, name, category, watchlist) => {
+export const fetchEarningsData = async (currentCategory, currentWatchlist, ticker, name, all) => {
   try {
     const response = await fetch(
-      `${API_BASE_URL}/api/earnings-estimates?ticker=${encodeURIComponent(
-        ticker
-      )}&name=${encodeURIComponent(name)}&category=${encodeURIComponent(
-        category
-      )}&watchlist=${encodeURIComponent(watchlist)}`
+      `${API_BASE_URL}/api/fetch-earnings-estimates?category=${encodeURIComponent(
+        currentCategory
+      )}&watchlist=${encodeURIComponent(currentWatchlist)}&ticker=${encodeURIComponent(ticker)}&name=${encodeURIComponent(name)}&all=${all}`
     );
-
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    console.log(data);
+    return data;
+  } catch (error) {
+    console.error("API Error:", error);
+    throw new Error(`Failed to fetch data: ${error.message}`);
+  }
+};
+
+export const addCompanyToWatchlist = async (
+  ticker,
+  name,
+  category,
+  watchlist
+) => {
+  try {
+    const requestBody = {
+      company: { ticker, name },
+      category: category,
+      watchlistName: watchlist,
+    };
+
+    console.log(
+      "Sending request to add company:",
+      JSON.stringify(requestBody, null, 2)
+    );
+
+    const response = await fetch(
+      `${API_BASE_URL}/api/add-company-to-watchlist`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(requestBody),
+      }
+    );
+
+    console.log("Response status:", response.status);
+    console.log("Response ok:", response.ok);
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.log("Error response:", errorText);
+      throw new Error(
+        `HTTP error! status: ${response.status}, message: ${errorText}`
+      );
+    }
+    const data = await response.json();
+    console.log("Success response:", data);
     return data;
   } catch (error) {
     console.error("API Error:", error);
@@ -45,7 +88,6 @@ export const deleteStock = async (
   currentWatchlist
 ) => {
   try {
-    console.log(currentCategory, currentWatchlist);
     const response = await fetch(
       `${API_BASE_URL}/api/delete-company?ticker=${encodeURIComponent(
         ticker
@@ -279,7 +321,11 @@ export const deleteTemplate = async (templateName) => {
   }
 };
 
-export const applyTemplate = async (templateName, categoryName, watchlistName) => {
+export const applyTemplate = async (
+  templateName,
+  categoryName,
+  watchlistName
+) => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/apply-template`, {
       method: "POST",
