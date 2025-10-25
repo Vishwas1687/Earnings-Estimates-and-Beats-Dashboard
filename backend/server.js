@@ -67,6 +67,7 @@ app.post("/api/create-template", createTemplateController);
 app.post("/api/apply-template", applyTemplateController);
 
 const PORT = 5000;
-app.listen(PORT, () => {
-  console.log(`Backend server running at http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`Backend server running at http://localhost:${PORT}`);
+// });
+export default app;
