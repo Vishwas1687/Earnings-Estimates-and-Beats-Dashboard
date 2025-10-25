@@ -6,6 +6,11 @@ import {
   getQuarterDifference,
 } from "./dateUtils.js";
 import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 export const getEPSEstimatesData = async (ticker) => {
   const result = await YahooFinance.quoteSummary(ticker, {
@@ -70,7 +75,10 @@ export const getRealTimePrice = async (ticker) => {
 
 export const loadEarningsEstimates = () => {
   try {
-    const data = fs.readFileSync("./store/earnings_estimates.json", "utf-8");
+    const data = fs.readFileSync(
+      path.join(__dirname, "../store/earnings_estimates.json"),
+      "utf-8"
+    );
     return data ? JSON.parse(data) : [];
   } catch (err) {
     console.error(
@@ -83,7 +91,7 @@ export const loadEarningsEstimates = () => {
 export const saveEarningsEstimates = (data) => {
   try {
     fs.writeFileSync(
-      "./store/earnings_estimates.json",
+      path.join(__dirname, "../store/earnings_estimates.json"),
       JSON.stringify(data, null, 2)
     );
   } catch (err) {
