@@ -6,7 +6,7 @@ export const sortFields = (result, sortOrder, sortColumn, plainColumns, columnDe
     const getValueForSorting = (company, columnKey) => {
       let value = 0;
       if (plainColumns.includes(columnKey)) {
-        value = company.filtered_data[columnKey] ?? 0;
+        value = company[columnKey] ?? 0;
       } else {
         const result = handleFetchComplexFields(company, columnKey);
         value = result?.value ?? 0;

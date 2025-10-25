@@ -1,15 +1,23 @@
 // App.js
-import { useState, useEffect } from "react";
+import { useState, useEffect, use } from "react";
 import { MantineProvider } from "@mantine/core";
 import "@mantine/core/styles.css";
-import { Toaster } from "react-hot-toast";
+import { Toaster, toast } from "react-hot-toast";
 import EarningsTable from "./components/EarningsTable/EarningsTable";
 import AddCompanyForm from "./components/AddCompanyForm/AddCompanyForm";
-import { fetchEarningsData, deleteStock, fetchCategories } from "./utils/api";
+import {
+  fetchEarningsData,
+  deleteStock,
+  fetchCategories,
+  fetchTemplates,
+  addCompanyToWatchlist,
+} from "./utils/api";
 import "./App.css";
 
 function App() {
   const [categories, setCategories] = useState([]);
+  const [templates, setTemplates] = useState([]);
+  const [currentTemplate, setCurrentTemplate] = useState(null);
   const [categoryList, setCategoryList] = useState([]);
   const [watchlistList, setWatchlistList] = useState([]);
   const [currentCategory, setCurrentCategory] = useState(null);
@@ -18,6 +26,13 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [countries, setCountries] = useState(["IND", "US"]);
+  const [currentCountry, setCurrentCountry] = useState("IND");
+  const [initialFields, setInitialFields] = useState([
+    "name",
+    "price",
+    "country",
+  ]);
 
   const addCompany = async (ticker, name) => {
     setLoading(true);
@@ -31,36 +46,50 @@ function App() {
 
       if (existingCompany) {
         setError("Company already exists in the table");
+        toast.error("Company already exists in the table");
         setLoading(false);
         return;
       }
 
-      const data = await fetchEarningsData(
+      const data = await addCompanyToWatchlist(
         ticker,
         name,
         currentCategory,
-        currentWatchlist
+        currentWatchlist,
+        currentCountry
       );
       if (data) {
-        const newCompany = {
-          ...data,
-          id: ticker,
+        const companyData = await fetchEarningsData(
+          currentCategory,
+          currentWatchlist,
+          currentCountry,
           ticker,
           name,
-        };
-        setCompanies((prev) => [...prev, newCompany]);
+          "false"
+        );
+        if (companyData) {
+          setCompanies((prev) => [...prev, companyData.filtered_data]);
+        }
       }
     } catch (err) {
       setError(`Failed to fetch data for ${ticker}: ${err.message}`);
+      toast.error(`Failed to add ${ticker}: ${err.message}`);
     } finally {
       setLoading(false);
     }
   };
 
-  const deleteCompany = async (id) => {
+  const deleteCompany = async (ticker) => {
     try {
-      const result = await deleteStock(id, currentCategory, currentWatchlist);
-      setCompanies((prev) => prev.filter((company) => company.id !== id));
+      console.log("Deleting company with ticker:", ticker);
+      const result = await deleteStock(
+        ticker,
+        currentCategory,
+        currentWatchlist
+      );
+      setCompanies((prev) =>
+        prev.filter((company) => company.ticker !== ticker)
+      );
     } catch (error) {
       console.log(error);
     }
@@ -76,6 +105,7 @@ function App() {
         setCurrentCategory(response[0].name);
         setCurrentWatchlist(response[0].watchlists[0].name);
         setFields(response[0].watchlists[0].fields);
+        setCurrentTemplate(response[0].watchlists[0].templateName || null);
         for (const category of response) {
           setCategoryList((prev) => [...prev, category.name]);
         }
@@ -87,28 +117,59 @@ function App() {
       }
     };
 
+    const fetchTemplatesData = async () => {
+      try {
+        const templates = await fetchTemplates();
+        setTemplates(templates);
+      } catch (err) {
+        console.log(err);
+      }
+    };
+
     fetchCategoriesData();
+    fetchTemplatesData();
   }, []);
 
   useEffect(() => {
-    const fetchCompanies = async (companyList) => {
-      for (const company of companyList) {
-        try {
-          await addCompany(company.ticker, company.name);
-        } catch (err) {
-          console.log(err);
-        }
+    const fetchCompanies = async (category, watchlist) => {
+      setLoading(true);
+      try {
+        const data = await fetchEarningsData(
+          category,
+          watchlist,
+          currentCountry,
+          null,
+          null,
+          "true"
+        );
+        setCompanies(data.filtered_data);
+      } catch (err) {
+        setError(`Failed to fetch companies: ${err.message}`);
+      } finally {
+        setLoading(false);
       }
     };
     if (!currentCategory || !currentWatchlist) return;
     const category = categories.find((cat) => cat.name === currentCategory);
-    if (!category) return;
+    if (!category) {
+      setFields(initialFields);
+      setCurrentTemplate(null);
+    }
     const watchlist = category.watchlists.find(
       (wl) => wl.name === currentWatchlist
     );
     if (!watchlist) return;
-    setFields(watchlist.fields);
-    fetchCompanies(watchlist.companies);
+    setCurrentTemplate(watchlist.templateName || null);
+    if (
+      watchlist.templateName !== null &&
+      watchlist.templateName !== undefined
+    ) {
+      const template = templates.find((t) => t.name === watchlist.templateName);
+      setFields(template.fields);
+    } else {
+      setFields(initialFields);
+    }
+    fetchCompanies(currentCategory, currentWatchlist);
   }, [currentCategory, currentWatchlist]);
 
   return (
@@ -118,6 +179,9 @@ function App() {
 
         <AddCompanyForm
           onAddCompany={addCompany}
+          currentCountry={currentCountry}
+          setCurrentCountry={setCurrentCountry}
+          countries={countries}
           loading={loading}
           error={error}
         />
@@ -138,6 +202,10 @@ function App() {
           setCompanies={setCompanies}
           currentCategory={currentCategory}
           currentWatchlist={currentWatchlist}
+          templates={templates}
+          setTemplates={setTemplates}
+          currentTemplate={currentTemplate}
+          setCurrentTemplate={setCurrentTemplate}
           fields={fields}
         />
       </div>

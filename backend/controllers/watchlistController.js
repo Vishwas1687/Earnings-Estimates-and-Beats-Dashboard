@@ -32,7 +32,12 @@ export const addWatchlistController = (req, res) => {
           .status(400)
           .json({ error: "Watchlist already exists in this category" });
       } else {
-        const newWatchlist = { name: watchlistName, companies: [], fields: [] };
+        const newWatchlist = {
+          name: watchlistName,
+          companies: [],
+          fields: [],
+          templateName: null,
+        };
         categoryObj.watchlists.push(newWatchlist);
         saveCategories(categories);
         return res.json(newWatchlist);
@@ -92,14 +97,12 @@ export const addCompanyToWatchlistController = (req, res) => {
         const existingCompany = watchlist.companies.find(
           (comp) => comp.ticker === company.ticker
         );
-        if (existingCompany) {
-          return res
-            .status(400)
-            .json({ error: "Company already exists in this watchlist" });
-        } else {
+        if (!existingCompany) {
           watchlist.companies.push(company);
           saveCategories(categories);
-          return res.json(company);
+          return res.json({ message: "Company added successfully" });
+        } else {
+          return res.json({ message: "Company already exists in this watchlist" });
         }
       }
     }

@@ -112,7 +112,7 @@ const calculateEpsGrowthFields = (
   const current_year_eps = earningsTrend[2].earningsEstimate?.avg;
   const next_year_eps = earningsTrend[3].earningsEstimate?.avg;
 
-  var eps, eps_growth, pe, peg, roe_earnings, pb_fwd, pb_valuation, roe;
+  var eps, eps_growth, pe, peg, roe_earnings, pb_fwd, pb_valuation, roe_fwd;
   var TTM_profit, reserves_estimates;
   const safeValue = (val) =>
     isNaN(val) || val === undefined || val == null ? 0 : val;
@@ -160,14 +160,16 @@ const calculateEpsGrowthFields = (
   }
   peg = pe / eps_growth;
   TTM_profit = eps * shares;
-  roe = (TTM_profit / reserves_estimates) * 100;
+  roe_fwd = (TTM_profit / reserves_estimates) * 100;
+  console.log(roe_fwd);
   pb_fwd = market_cap / reserves_estimates;
-  roe_earnings = (roe * eps_growth) / 100;
+  roe_earnings = (roe_fwd * eps_growth) / 100;
   pb_valuation = pb_fwd / roe_earnings;
   return {
     eps_growth: eps_growth,
     pe: pe?.toFixed(2),
     peg: peg?.toFixed(2),
+    roe_fwd: roe_fwd?.toFixed(2),
     roe_earnings: roe_earnings?.toFixed(2),
     pb_fwd: pb_fwd?.toFixed(2),
     pb_valuation: pb_valuation?.toFixed(2),
@@ -197,7 +199,7 @@ const handleEarningsTrend = (
     const eps_estimates_year_ago =
       earningsTrend[i].earningsEstimate?.yearAgoEps;
     const analystCount = earningsTrend[i].earningsEstimate?.numberOfAnalysts;
-    const { eps_growth, pe, peg, roe_earnings, pb_fwd, pb_valuation } =
+    const { eps_growth, pe, peg, roe_earnings, roe_fwd, pb_fwd, pb_valuation } =
       calculateEpsGrowthFields(
         period_name,
         earningsTrend,
@@ -214,6 +216,7 @@ const handleEarningsTrend = (
       pe: pe,
       peg: peg,
       roe_earnings: roe_earnings,
+      roe_fwd: roe_fwd,
       pb_fwd: pb_fwd,
       pb_valuation: pb_valuation,
       analystCount: analystCount,

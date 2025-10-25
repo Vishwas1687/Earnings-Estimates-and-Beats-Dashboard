@@ -8,6 +8,7 @@ export const fieldGroups = {
   valuations: ["TTM_PE", "PB", "TTM_EPS"],
   yearAgo: ["year_ago_eps"],
   quarters: [
+    "mostRecentQuarter",
     "current_quarter_eps",
     "next_quarter_eps",
     "current_quarter_eps_growth",
@@ -22,6 +23,8 @@ export const fieldGroups = {
     "next_quarter_pb_fwd",
     "current_quarter_roe_earnings",
     "next_quarter_roe_earnings",
+    "current_quarter_roe_fwd",
+    "next_quarter_roe_fwd",
     "current_quarter_pb_valuation",
     "next_quarter_pb_valuation",
   ],
@@ -38,6 +41,8 @@ export const fieldGroups = {
     "next_year_revenue_growth",
     "current_year_pb_fwd",
     "next_year_pb_fwd",
+    "current_year_roe_fwd",
+    "next_year_roe_fwd",
     "current_year_roe_earnings",
     "next_year_roe_earnings",
     "current_year_pb_valuation",
@@ -79,6 +84,13 @@ export const fieldCategories = {
     "next_quarter_pb_fwd",
     "current_year_pb_fwd",
     "next_year_pb_fwd",
+  ],
+  roe_fwd: [
+    "ROE",
+    "current_quarter_roe_fwd",
+    "next_quarter_roe_fwd",
+    "current_year_roe_fwd",
+    "next_year_roe_fwd",
   ],
   roe_earnings: [
     "PB",
@@ -216,6 +228,18 @@ export const columnDefinitions = {
     sortable: true,
     type: "number",
   },
+  current_quarter_roe_fwd: {
+    header: "Current Q ROE_Fwd",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
+  next_quarter_roe_fwd: {
+    header: "Next Q ROE_Fwd",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
   current_quarter_roe_earnings: {
     header: "Current Q ROE_Earnings",
     width: 180,
@@ -313,6 +337,18 @@ export const columnDefinitions = {
     width: 180,
     sortable: true,
     type: "number",
+  },
+  current_year_roe_fwd: {
+    header: "Current Y ROE_Fwd",
+    width: 180,
+    sortable: true,
+    type: "percentage",
+  },
+  next_year_roe_fwd: {
+    header: "Next Y ROE_Fwd",
+    width: 180,
+    sortable: true,
+    type: "percentage",
   },
   current_year_pb_valuation: {
     header: "Current Y PB Valuation",
@@ -412,10 +448,10 @@ export const formatValue = (value, type, country, columnKey, company) => {
 
   // Price target formatting
   if (columnKey.includes("target") && columnKey.includes("price")) {
-    const price = company.filtered_data?.price;
+    const price = company.price;
     const priceTarget = Number(price) * (1 + Number(value) / 100);
     const currency = country === "US" ? "$" : "\u20B9";
-    if(value == 0){
+    if (value == 0) {
       return 0;
     }
     return `${currency}${priceTarget.toFixed(2)} ( ${value}% )`;

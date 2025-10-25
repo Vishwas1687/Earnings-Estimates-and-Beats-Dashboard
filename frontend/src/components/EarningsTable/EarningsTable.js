@@ -31,6 +31,9 @@ import {
 import { handleFetchComplexFields } from "../../utils/field_manipulation.js";
 import { sortFields } from "../../utils/earnings_table_util_functions.js";
 import Dropdown from "../Dropdown.js";
+import { CreateTemplate } from "../Template/CreateTemplate.js";
+import { fieldCategories, fieldGroups } from "../../utils/tableConfig";
+import { TemplateDropdown } from "../Template/TemplateDropdown.js";
 import { handleSaveFields } from "../../utils/api.js";
 
 const EarningsTable = ({
@@ -49,6 +52,10 @@ const EarningsTable = ({
   currentWatchlist,
   setCompanies,
   fields,
+  templates,
+  setTemplates,
+  currentTemplate,
+  setCurrentTemplate,
   loading,
 }) => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -230,13 +237,13 @@ const EarningsTable = ({
     var value = 0;
     var analystCount = 0;
     if (plainColumns.includes(columnKey)) {
-      value = company.filtered_data[columnKey] ?? 0;
+      value = company[columnKey] ?? 0;
     } else {
       const result = handleFetchComplexFields(company, columnKey);
       value = result?.value ?? 0;
       analystCount = result?.analystCount ?? 0;
     }
-    const country = company.filtered_data["country"];
+    const country = company["country"];
     const formattedValue = formatValue(
       value,
       columnDef?.type,
@@ -283,14 +290,14 @@ const EarningsTable = ({
 
   return (
     <div>
-      <TableControls
+      {/* <TableControls
         visibleColumns={visibleColumns}
         onToggleColumn={toggleColumn}
         showAnalysts={showAnalysts}
         onToggleAnalysts={setShowAnalysts}
         columnOrder={columnOrder}
         onResetOrder={resetColumnOrder}
-      />
+      /> */}
 
       <Paper shadow="xs">
         <Group
@@ -375,7 +382,7 @@ const EarningsTable = ({
             setCurrentWatchlist={setCurrentWatchlist}
             currentCategory={currentCategory}
           />
-          <Button
+          {/* <Button
             variant="outline"
             onClick={async () => {
               try {
@@ -406,8 +413,28 @@ const EarningsTable = ({
             }}
             style={{ marginTop: "2.2rem" }}
           >
-            Save Column Configuration
-          </Button>
+            Save Columns
+          </Button> */}
+          <TemplateDropdown
+            currentCategory={currentCategory}
+            currentWatchlist={currentWatchlist}
+            currentTemplate={currentTemplate}
+            setCurrentTemplate={setCurrentTemplate}
+            templateList={templates}
+            columnOrder={columnOrder}
+            setColumnOrder={setColumnOrder}
+            fieldGroups={fieldGroups}
+            fieldCategories={fieldCategories}
+            fields={fields}
+            setFields={setFields}
+            categories={categories}
+          />
+          <CreateTemplate
+            templates={templates}
+            setTemplates={setTemplates}
+            fieldGroups={fieldGroups}
+            fieldCategories={fieldCategories}
+          />
         </Group>
         <Group p="md" justify="space-between">
           <TextInput
@@ -494,13 +521,13 @@ const EarningsTable = ({
             </Table.Thead>
             <Table.Tbody>
               {filteredCompanies.map((company, index) => (
-                <Table.Tr key={company.id}>
+                <Table.Tr key={company.ticker}>
                   <Table.Td>
                     <Tooltip label="Delete company">
                       <ActionIcon
                         color="red"
                         variant="subtle"
-                        onClick={() => onDeleteCompany(company.id)}
+                        onClick={() => onDeleteCompany(company.ticker)}
                       >
                         <IconTrash size={16} />
                       </ActionIcon>
@@ -511,20 +538,19 @@ const EarningsTable = ({
                     <Tooltip label="Toggle analyst numbers for this row">
                       <Switch
                         size="sm"
-                        checked={shouldShowAnalysts(company.id)}
-                        onChange={() => toggleRowAnalysts(company.id)}
+                        checked={shouldShowAnalysts(company.ticker)}
+                        onChange={() => toggleRowAnalysts(company.ticker)}
                         thumbIcon={
-                          shouldShowAnalysts(company.id) ? (
+                          shouldShowAnalysts(company.ticker) ? (
                             <IconAnalyze size={12} />
                           ) : null
                         }
                       />
                     </Tooltip>
                   </Table.Td>
-
                   {displayColumns.map((columnKey) => (
                     <Table.Td key={columnKey}>
-                      {renderCellValue(company, columnKey, company.id)}
+                      {renderCellValue(company, columnKey, company.ticker)}
                     </Table.Td>
                   ))}
                 </Table.Tr>

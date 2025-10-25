@@ -5,58 +5,89 @@ import {
   getRealTimePrice,
   cleanEarningsEstimatesData,
 } from "../util/earningsEstimatesUtil.js";
-import { loadCategories, saveCategories } from "../util/categoryUtil.js";
+import { loadCategories } from "../util/categoryUtil.js";
 
 export const earningsEstimatesController = async (req, res) => {
   try {
     let earningsEstimates = loadEarningsEstimates();
     const categories = loadCategories();
-    const ticker = req.query.ticker;
-    const name = req.query.name;
-    var filtered_data = {};
-    var result;
-    // Deduplication check
-    if (!earningsEstimates.some((item) => item.ticker === ticker)) {
-      result = await getEPSEstimatesData(ticker);
+    const category = req.query.category;
+    const watchlistName = req.query.watchlist;
+    const singleTicker = req.query.ticker;
+    const singleName = req.query.name;
+    const all = req.query.all;
+
+    if (all === "false") {
+      console.log("Fetching data for single ticker:", singleTicker);
+      var ticker = singleTicker;
+      var name = singleName;
+      var filtered_data = [];
+      var result = await getEPSEstimatesData(ticker);
       filtered_data = cleanEarningsEstimatesData(ticker, name, result);
       filtered_data.timestamp = Date.now();
-      earningsEstimates.push(filtered_data);
-      saveEarningsEstimates(earningsEstimates);
-    } else if (
-      earningsEstimates.some((item) => item.ticker === ticker).timestamp <
-      Date.now() - 86400000
-    ) {
       earningsEstimates = earningsEstimates.filter(
         (item) => item.ticker !== ticker
       );
-      result = await getEPSEstimatesData(ticker);
-      filtered_data = cleanEarningsEstimatesData(ticker, name, result);
-      filtered_data.timestamp = Date.now();
       earningsEstimates.push(filtered_data);
       saveEarningsEstimates(earningsEstimates);
-    } else {
+      return res.json({ filtered_data });
+    }
+
+    const watchlist = categories
+      .find((cat) => cat.name === category)
+      .watchlists.find((wl) => wl.name === watchlistName);
+    var filtered_data = [];
+    var result;
+
+    console.log("Processing watchlist companies:", watchlist.companies);
+
+    for (let i = 0; i < watchlist.companies.length; i++) {
+      const company = watchlist.companies[i];
+      var ticker = company.ticker;
+      var name = company.name;
+
+      if (!earningsEstimates.some((item) => item.ticker === ticker)) {
+        console.log("No existing data found for ", ticker);
+        result = await getEPSEstimatesData(ticker);
+        const newCompanyData = cleanEarningsEstimatesData(ticker, name, result);
+        newCompanyData.timestamp = Date.now();
+        filtered_data.push(newCompanyData);
+        earningsEstimates.push(newCompanyData);
+      } else if (
+        earningsEstimates.some(
+          (item) =>
+            item.ticker === ticker && item.timestamp < Date.now() - 86400000
+        )
+      ) {
+        console.log(
+          "Data is stale or not present, fetching new data for ",
+          ticker
+        );
+        earningsEstimates = earningsEstimates.filter(
+          (item) => item.ticker !== ticker
+        );
+        result = await getEPSEstimatesData(ticker);
+        const updatedCompanyData = cleanEarningsEstimatesData(
+          ticker,
+          name,
+          result
+        );
+        updatedCompanyData.timestamp = Date.now();
+        filtered_data.push(updatedCompanyData);
+        earningsEstimates.push(updatedCompanyData);
+      } else {
+        const existingData = earningsEstimates.find(
+          (item) => item.ticker === ticker
+        );
+        filtered_data.push(existingData);
+      }
+
+      // Update price for the current company data
       const price = await getRealTimePrice(ticker);
-      filtered_data = earningsEstimates.find((item) => item.ticker === ticker);
-      filtered_data.price = price;
+      filtered_data[i].price = price;
     }
-    const category = categories.find((cat) => cat.name === req.query.category);
-    if (!category) {
-      return res.status(400).json({ error: "Invalid category" });
-    }
-    const watchlist = category.watchlists.find(
-      (wl) => wl.name === req.query.watchlist
-    );
-    if (!watchlist) {
-      return res.status(400).json({ error: "Invalid watchlist" });
-    }
-    if (!watchlist.companies) {
-      watchlist.companies = [];
-    }
-    if (!watchlist.companies.some((item) => item.ticker === ticker)) {
-      watchlist.companies.push({ ticker: ticker, name: name });
-    }
-    saveCategories(categories);
-    res.json({ filtered_data });
+    saveEarningsEstimates(earningsEstimates);
+    res.json({ filtered_data: filtered_data });
   } catch (error) {
     console.error(error);
     res.status(500).json({ error: error.message });
