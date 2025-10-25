@@ -6,12 +6,12 @@
         "name": "Affordable Housing",
         "companies": [
           {
-            "ticker": "AAVAS.NS",
-            "name": "Aavas Financiers"
+            "ticker": "APTUS.NS",
+            "name": "APTUS VALUE HOUSING"
           },
           {
-            "ticker": "APTUS.NS",
-            "name": "Aptus Value Housing"
+            "ticker": "AAVAS.NS",
+            "name": "AAVAS"
           },
           {
             "ticker": "INDIASHLTR.NS",
@@ -89,9 +89,14 @@
       },
       {
         "name": "Gold Finance",
-        "companies": [],
+        "companies": [
+          {
+            "ticker": "MUTHOOTFIN.NS",
+            "name": "MUTHOOT FINANCE"
+          }
+        ],
         "fields": [],
-        "templateName": null
+        "templateName": "Financial Services"
       },
       {
         "name": "NBFC",
@@ -295,7 +300,7 @@
           "current_year_revenue_growth",
           "next_year_revenue_growth"
         ],
-        "templateName": "IT"
+        "templateName": "Financial Services"
       },
       {
         "name": "CDMO",
@@ -472,10 +477,6 @@
         "name": "Large",
         "companies": [
           {
-            "ticker": "INFY.NS",
-            "name": "INFOSYS"
-          },
-          {
             "ticker": "TCS.NS",
             "name": "TCS"
           },
@@ -494,6 +495,10 @@
           {
             "ticker": "LTIM.NS",
             "name": "LTI MINDTREE"
+          },
+          {
+            "ticker": "INFY.NS",
+            "name": "INFOSYS"
           }
         ],
         "fields": [
@@ -721,6 +726,10 @@
           {
             "ticker": "TATAMOTORS.NS",
             "name": "TATA MOTORS"
+          },
+          {
+            "ticker": "M&M.NS",
+            "name": "M&M"
           }
         ],
         "fields": [],
@@ -1522,10 +1531,6 @@
             "name": "AMD"
           },
           {
-            "ticker": "NVDA",
-            "name": "NVIDIA"
-          },
-          {
             "ticker": "AVGO",
             "name": "BROADCOM"
           },
@@ -1540,6 +1545,10 @@
           {
             "ticker": "QCOM",
             "name": "QUALCOMM"
+          },
+          {
+            "ticker": "NVDA",
+            "name": "NVIDIA"
           }
         ],
         "fields": [],

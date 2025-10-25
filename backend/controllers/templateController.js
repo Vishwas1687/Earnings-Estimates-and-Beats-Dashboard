@@ -8,8 +8,6 @@ export const fetchTemplatesController = (req, res) => {
 
 export const editTemplateController = (req, res) => {
   try {
-    console.log("Edit template controller reached with body:", req.body);
-
     const { templateName, fields } = req.body;
     if (!templateName || !fields) {
       return res
@@ -23,7 +21,6 @@ export const editTemplateController = (req, res) => {
     const index = templates.findIndex((t) => t.name === templateName);
 
     if (index === -1) {
-      console.log("Template not found:", templateName);
       return res.status(404).json({ error: "Template not found" });
     }
 

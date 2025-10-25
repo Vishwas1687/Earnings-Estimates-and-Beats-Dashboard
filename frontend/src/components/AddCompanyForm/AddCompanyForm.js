@@ -1,18 +1,26 @@
 // components/AddCompanyForm/AddCompanyForm.js
-import { useState } from 'react';
-import { TextInput, Button, Group, Alert, Paper } from '@mantine/core';
-import { IconAlertCircle, IconPlus } from '@tabler/icons-react';
+import { useState } from "react";
+import { TextInput, Button, Group, Alert, Paper } from "@mantine/core";
+import { IconAlertCircle, IconPlus } from "@tabler/icons-react";
+import SelectionDropdown from "../SelectionDropdown";
 
-const AddCompanyForm = ({ onAddCompany, loading, error }) => {
-  const [ticker, setTicker] = useState('');
-  const [name, setName] = useState('');
+const AddCompanyForm = ({
+  onAddCompany,
+  currentCountry,
+  setCurrentCountry,
+  countries,
+  loading,
+  error,
+}) => {
+  const [ticker, setTicker] = useState("");
+  const [name, setName] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (ticker.trim() && name.trim()) {
       onAddCompany(ticker.trim().toUpperCase(), name.trim());
-      setTicker('');
-      setName('');
+      setTicker("");
+      setName("");
     }
   };
 
@@ -26,7 +34,15 @@ const AddCompanyForm = ({ onAddCompany, loading, error }) => {
             value={ticker}
             onChange={(e) => setTicker(e.target.value)}
             required
-            style={{ flex: 1 }}
+            style={{ flex: 4 }}
+            disabled={loading}
+          />
+          <SelectionDropdown
+            label="Country"
+            placeholder="Select a country"
+            value={currentCountry}
+            setCurrentCountry={setCurrentCountry}
+            data={countries}
             disabled={loading}
           />
           <TextInput
@@ -35,11 +51,11 @@ const AddCompanyForm = ({ onAddCompany, loading, error }) => {
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
-            style={{ flex: 2 }}
+            style={{ flex: 8 }}
             disabled={loading}
           />
-          <Button 
-            type="submit" 
+          <Button
+            type="submit"
             loading={loading}
             leftSection={<IconPlus size={16} />}
           >
@@ -47,11 +63,11 @@ const AddCompanyForm = ({ onAddCompany, loading, error }) => {
           </Button>
         </Group>
       </form>
-      
+
       {error && (
-        <Alert 
-          icon={<IconAlertCircle size="1rem" />} 
-          title="Error" 
+        <Alert
+          icon={<IconAlertCircle size="1rem" />}
+          title="Error"
           color="red"
           mt="md"
         >

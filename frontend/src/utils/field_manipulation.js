@@ -96,6 +96,7 @@ const handleEarningsFields = (company, field) => {
     peg: "peg",
     pe: "pe",
     pb_fwd: "pb_fwd",
+    roe_fwd: "roe_fwd",
     roe_earnings: "roe_earnings",
     pb_valuation: "pb_valuation",
   };
@@ -111,6 +112,7 @@ const handleEarningsFields = (company, field) => {
     "pe",
     "eps",
     "pb_fwd",
+    "roe_fwd",
     "roe_earnings",
     "pb_valuation",
   ].find((m) => field.includes(m));

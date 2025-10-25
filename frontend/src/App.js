@@ -26,6 +26,8 @@ function App() {
   const [companies, setCompanies] = useState([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+  const [countries, setCountries] = useState(["IND", "US"]);
+  const [currentCountry, setCurrentCountry] = useState("IND");
   const [initialFields, setInitialFields] = useState([
     "name",
     "price",
@@ -53,15 +55,17 @@ function App() {
         ticker,
         name,
         currentCategory,
-        currentWatchlist
+        currentWatchlist,
+        currentCountry
       );
       if (data) {
         const companyData = await fetchEarningsData(
           currentCategory,
           currentWatchlist,
+          currentCountry,
           ticker,
           name,
-          false
+          "false"
         );
         if (companyData) {
           setCompanies((prev) => [...prev, companyData.filtered_data]);
@@ -78,8 +82,14 @@ function App() {
   const deleteCompany = async (ticker) => {
     try {
       console.log("Deleting company with ticker:", ticker);
-      const result = await deleteStock(ticker, currentCategory, currentWatchlist);
-      setCompanies((prev) => prev.filter((company) => company.ticker !== ticker));
+      const result = await deleteStock(
+        ticker,
+        currentCategory,
+        currentWatchlist
+      );
+      setCompanies((prev) =>
+        prev.filter((company) => company.ticker !== ticker)
+      );
     } catch (error) {
       console.log(error);
     }
@@ -127,9 +137,10 @@ function App() {
         const data = await fetchEarningsData(
           category,
           watchlist,
+          currentCountry,
           null,
           null,
-          true
+          "true"
         );
         setCompanies(data.filtered_data);
       } catch (err) {
@@ -168,6 +179,9 @@ function App() {
 
         <AddCompanyForm
           onAddCompany={addCompany}
+          currentCountry={currentCountry}
+          setCurrentCountry={setCurrentCountry}
+          countries={countries}
           loading={loading}
           error={error}
         />

@@ -1,16 +1,37 @@
 // utils/api.js
 const API_BASE_URL = "http://localhost:5000";
-export const fetchEarningsData = async (currentCategory, currentWatchlist, ticker, name, all) => {
+export const fetchEarningsData = async (
+  currentCategory,
+  currentWatchlist,
+  currentCountry,
+  ticker,
+  name,
+  all
+) => {
   try {
+    var modifiedTicker = ticker;
+    if (
+      currentCountry === "IND" &&
+      ticker &&
+      !ticker.endsWith(".NS") &&
+      all === "false"
+    ) {
+      modifiedTicker = `${ticker}.NS`;
+    }
     const response = await fetch(
       `${API_BASE_URL}/api/fetch-earnings-estimates?category=${encodeURIComponent(
         currentCategory
-      )}&watchlist=${encodeURIComponent(currentWatchlist)}&ticker=${encodeURIComponent(ticker)}&name=${encodeURIComponent(name)}&all=${all}`
+      )}&watchlist=${encodeURIComponent(
+        currentWatchlist
+      )}&ticker=${encodeURIComponent(modifiedTicker)}&name=${encodeURIComponent(
+        name
+      )}&all=${all}`
     );
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
+    console.log(data);
     return data;
   } catch (error) {
     console.error("API Error:", error);
@@ -22,11 +43,16 @@ export const addCompanyToWatchlist = async (
   ticker,
   name,
   category,
-  watchlist
+  watchlist,
+  currentCountry
 ) => {
   try {
+    var modifiedTicker = ticker;
+    if (currentCountry === "IND" && !ticker.endsWith(".NS")) {
+      modifiedTicker = `${ticker}.NS`;
+    }
     const requestBody = {
-      company: { ticker, name },
+      company: { ticker: modifiedTicker, name },
       category: category,
       watchlistName: watchlist,
     };

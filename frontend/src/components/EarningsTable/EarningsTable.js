@@ -538,20 +538,19 @@ const EarningsTable = ({
                     <Tooltip label="Toggle analyst numbers for this row">
                       <Switch
                         size="sm"
-                        checked={shouldShowAnalysts(company.id)}
-                        onChange={() => toggleRowAnalysts(company.id)}
+                        checked={shouldShowAnalysts(company.ticker)}
+                        onChange={() => toggleRowAnalysts(company.ticker)}
                         thumbIcon={
-                          shouldShowAnalysts(company.id) ? (
+                          shouldShowAnalysts(company.ticker) ? (
                             <IconAnalyze size={12} />
                           ) : null
                         }
                       />
                     </Tooltip>
                   </Table.Td>
-
                   {displayColumns.map((columnKey) => (
                     <Table.Td key={columnKey}>
-                      {renderCellValue(company, columnKey, company.id)}
+                      {renderCellValue(company, columnKey, company.ticker)}
                     </Table.Td>
                   ))}
                 </Table.Tr>
